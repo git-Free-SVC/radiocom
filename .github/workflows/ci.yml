@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          pip install -e ".[dev]"
+      - name: Lint
+        run: |
+          ruff check .
+          black --check .
+      - name: Unit + contract tests (fakes)
+        run: pytest tests/ -q --cov=libraries --cov-report=term-missing
+      - name: Validate schemas
+        run: |
+          python -c "import json; json.load(open('libraries/protocols/scenario.schema.json'))"
+          openapi-spec-validator libraries/protocols/openapi.yaml

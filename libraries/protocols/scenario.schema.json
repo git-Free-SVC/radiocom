@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RadiocomScenario",
+  "type": "object",
+  "required": ["scenario"],
+  "properties": {
+    "scenario": {
+      "type": "object",
+      "required": ["name", "nodes"],
+      "properties": {
+        "name": { "type": "string" },
+        "seed": { "type": "integer", "default": 0 },
+        "environment": {
+          "type": "object",
+          "properties": {
+            "terrain": {
+              "type": "object",
+              "properties": {
+                "layer_name": { "type": "string" },
+                "source": { "type": "string" },
+                "srs": { "type": "string", "default": "EPSG:4326" },
+                "style": { "type": ["string", "null"] }
+              },
+              "required": ["layer_name", "source"]
+            },
+            "vector_layers": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["layer_name", "source"],
+                "properties": {
+                  "layer_name": { "type": "string" },
+                  "source": { "type": "string" },
+                  "style": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "type", "position", "radio"],
+            "properties": {
+              "id": { "type": "string" },
+              "type": { "enum": ["fixed_radio", "mobile_radio"] },
+              "position": {
+                "type": "array",
+                "items": { "type": "number" },
+                "minItems": 2,
+                "maxItems": 3
+              },
+              "route": { "type": "string" },
+              "radio": { "type": "string" }
+            }
+          }
+        },
+        "interference": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "frequency", "bandwidth", "power"],
+            "properties": {
+              "id": { "type": "string" },
+              "frequency": { "type": "number" },
+              "bandwidth": { "type": "number" },
+              "power": { "type": "number" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LinkStateChangedEvent",
+  "type": "object",
+  "required": ["tx_id", "rx_id", "snr_db", "margin_db", "quality", "time_s"],
+  "properties": {
+    "tx_id": { "type": "string" },
+    "rx_id": { "type": "string" },
+    "snr_db": { "type": "number" },
+    "margin_db": { "type": "number" },
+    "quality": { "enum": ["up", "marginal", "down"] },
+    "time_s": { "type": "number" }
+  }
+}

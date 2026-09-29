@@ -1,0 +1,93 @@
+openapi: 3.0.3
+info:
+  title: RADIOCOM Simulation API
+  version: 0.0.1
+paths:
+  /scenarios:
+    get:
+      summary: List scenarios
+      responses:
+        "200":
+          description: OK
+    post:
+      summary: Create a scenario
+      responses:
+        "201":
+          description: Created
+  /scenarios/{id}:
+    get:
+      summary: Get a scenario
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        "200":
+          description: OK
+  /simulations:
+    post:
+      summary: Start a simulation run from a scenario
+      responses:
+        "201":
+          description: Created
+  /simulations/{id}/start:
+    post:
+      summary: Start
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { "200": { description: OK } }
+  /simulations/{id}/pause:
+    post:
+      summary: Pause
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { "200": { description: OK } }
+  /simulations/{id}/resume:
+    post:
+      summary: Resume
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { "200": { description: OK } }
+  /simulations/{id}/reset:
+    post:
+      summary: Reset
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { "200": { description: OK } }
+  /radios:
+    post:
+      summary: Add a radio to a running simulation
+      responses: { "201": { description: Created } }
+  /radios/{id}:
+    patch:
+      summary: Update a radio
+      parameters: [{ name: id, in: path, required: true, schema: { type: string } }]
+      responses: { "200": { description: OK } }
+  /links/{a}/{b}:
+    get:
+      summary: Get link state between two radios
+      parameters:
+        - { name: a, in: path, required: true, schema: { type: string } }
+        - { name: b, in: path, required: true, schema: { type: string } }
+      responses: { "200": { description: OK } }
+  /geodata/layers:
+    get:
+      summary: List published geodata layers
+      responses: { "200": { description: OK } }
+    post:
+      summary: Publish a new layer
+      responses: { "201": { description: Created } }
+  /geodata/elevation:
+    get:
+      summary: Elevation at a point
+      parameters:
+        - { name: lat, in: query, required: true, schema: { type: number } }
+        - { name: lon, in: query, required: true, schema: { type: number } }
+      responses: { "200": { description: OK } }
+  /geodata/elevation/profile:
+    get:
+      summary: Elevation profile between two points
+      parameters:
+        - { name: lat1, in: query, required: true, schema: { type: number } }
+        - { name: lon1, in: query, required: true, schema: { type: number } }
+        - { name: lat2, in: query, required: true, schema: { type: number } }
+        - { name: lon2, in: query, required: true, schema: { type: number } }
+        - { name: samples, in: query, required: true, schema: { type: integer } }
+      responses: { "200": { description: OK } }
