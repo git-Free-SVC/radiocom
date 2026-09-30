@@ -1,88 +1,93 @@
-"""Contract test for any PropagationModel implementation.
+"""Contract for any PropagationModel. Must pass UNMODIFIED.
 
-Run against a concrete implementation with:
-    pytest tests/contract/test_propagation_model_contract.py --impl=services.propagation.free_space:FreeSpaceModel
-
-Any Wave-1 agent implementing PropagationModel must pass this file unmodified.
+    pytest tests/contract/test_propagation_model_contract.py --propagation-impl=pkg.mod:Class
 """
 
 from __future__ import annotations
 
-import importlib
+import math
+from dataclasses import replace
 
 import pytest
 
 from libraries.domain.frequency import Frequency
 from libraries.domain.position import GeoPosition
 from libraries.domain.radio import Antenna, Radio, Receiver, Transmitter
-from libraries.plugin_sdk.propagation import PropagationModel
+from libraries.domain.rf_results import PropagationResult
+from libraries.plugin_sdk.propagation import PropagationModel, ValidityDomain
 
 
-def _load_impl(impl_path: str) -> PropagationModel:
-    module_path, _, cls_name = impl_path.partition(":")
-    module = importlib.import_module(module_path)
-    cls = getattr(module, cls_name)
-    return cls()
-
-
-@pytest.fixture
-def model(request) -> PropagationModel:
-    impl_path = request.config.getoption("--impl")
-    return _load_impl(impl_path)
-
-
-@pytest.fixture
-def sample_radios() -> tuple[Radio, Radio]:
-    antenna = Antenna(antenna_type="dipole", gain_dBi=2.15, height_m=10.0)
-    tx = Radio(
-        id="TX-01",
-        frequency=Frequency(center_hz=145.5e6, bandwidth_hz=12.5e3),
+def _radio(rid: str, lat: float, freq_hz: float = 145.5e6) -> Radio:
+    return Radio(
+        id=rid,
+        frequency=Frequency(center_hz=freq_hz, bandwidth_hz=12.5e3),
         transmitter=Transmitter(power_watt=10.0),
         receiver=Receiver(sensitivity_dBm=-120.0, noise_figure_dB=5.0),
-        antenna=antenna,
-        position=GeoPosition(lat=45.0, lon=6.0, alt_m=0.0),
+        antenna=Antenna(antenna_type="dipole", gain_dBi=2.15, height_m=10.0),
+        position=GeoPosition(lat=lat, lon=6.0),
     )
-    rx = Radio(
-        id="RX-01",
-        frequency=tx.frequency,
-        transmitter=tx.transmitter,
-        receiver=tx.receiver,
-        antenna=antenna,
-        position=GeoPosition(lat=45.09, lon=6.0, alt_m=0.0),  # ~10 km north
-    )
-    return tx, rx
 
 
-def test_conforms_to_protocol(model: PropagationModel) -> None:
+@pytest.fixture
+def sample_radios():
+    return _radio("TX-01", 45.0), _radio("RX-01", 45.09)  # ~10 km
+
+
+def test_conforms_to_protocol(model):
     assert isinstance(model, PropagationModel)
     assert isinstance(model.name, str) and model.name
 
 
-def test_evaluate_returns_result(model, sample_radios) -> None:
+def test_evaluate_returns_well_formed_result(model, sample_radios):
+    r = model.evaluate(*sample_radios)
+    assert isinstance(r, PropagationResult)
+    assert math.isfinite(r.path_loss_db) and r.path_loss_db > 0
+    assert math.isfinite(r.rx_power_dbm) and r.rx_power_dbm < 0
+    assert isinstance(r.los, bool)
+    assert r.delay_s >= 0
+
+
+def test_deterministic_with_seed(model, sample_radios):
     tx, rx = sample_radios
-    result = model.evaluate(tx, rx)
-    assert result.path_loss_db > 0
-    assert result.rx_power_dbm < 0  # sanity: never a positive received dBm here
-    assert isinstance(result.los, bool)
+    assert model.evaluate(tx, rx, seed=42) == model.evaluate(
+        tx, rx, seed=42
+    ), "same seed must give identical PropagationResult (§14)"
 
 
-def test_deterministic_with_seed(model, sample_radios) -> None:
+def test_validity_domain_declared(model):
+    d = model.validity_domain()
+    assert isinstance(d, ValidityDomain)
+    assert 0 < d.min_freq_hz < d.max_freq_hz
+    assert 0 <= d.min_distance_m < d.max_distance_m
+    assert isinstance(d.requires_terrain, bool)
+
+
+def test_path_loss_grows_with_distance(model):
+    d = model.validity_domain()
+    if d.requires_terrain:
+        pytest.skip("terrain-dependent models need not be monotonic")
+    tx = _radio("TX", 45.0)
+    near = model.evaluate(tx, _radio("N", 45.009), seed=1)  # ~1 km
+    far = model.evaluate(tx, _radio("F", 45.09), seed=1)  # ~10 km
+    assert far.path_loss_db > near.path_loss_db
+
+
+def test_path_loss_grows_with_frequency(model):
+    d = model.validity_domain()
+    if d.requires_terrain:
+        pytest.skip("terrain-dependent models need not be monotonic")
+    lo_f, hi_f = 145.5e6, 435.0e6
+    if not (d.min_freq_hz <= lo_f and hi_f <= d.max_freq_hz):
+        pytest.skip("test frequencies outside validity domain")
+    lo = model.evaluate(_radio("A", 45.0, lo_f), _radio("B", 45.09, lo_f), seed=1)
+    hi = model.evaluate(_radio("A", 45.0, hi_f), _radio("B", 45.09, hi_f), seed=1)
+    assert hi.path_loss_db >= lo.path_loss_db
+
+
+def test_more_tx_power_more_rx_power(model, sample_radios):
     tx, rx = sample_radios
-    r1 = model.evaluate(tx, rx, seed=42)
-    r2 = model.evaluate(tx, rx, seed=42)
-    assert r1 == r2, "same seed must produce identical PropagationResult (§14 determinism)"
-
-
-def test_validity_domain_declared(model) -> None:
-    domain = model.validity_domain()
-    assert domain.min_freq_hz < domain.max_freq_hz
-    assert domain.min_distance_m < domain.max_distance_m
-
-
-def pytest_addoption(parser) -> None:
-    parser.addoption(
-        "--impl",
-        action="store",
-        default="tests.contract.fakes.null_propagation_model:NullPropagationModel",
-        help="module:ClassName of the PropagationModel implementation under test",
+    strong = replace(tx, transmitter=Transmitter(power_watt=100.0))
+    assert (
+        model.evaluate(strong, rx, seed=1).rx_power_dbm
+        > model.evaluate(tx, rx, seed=1).rx_power_dbm
     )

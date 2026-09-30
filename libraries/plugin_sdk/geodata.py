@@ -54,7 +54,8 @@ class GeodataProvider(Protocol):
         ...
 
     def elevation_profile(self, a: GeoPosition, b: GeoPosition, samples: int) -> list[float]:
-        """LOS elevation profile between two points, meters, `samples` points."""
+        """LOS elevation profile a->b inclusive, meters, exactly `samples` points.
+        Raises ValueError if samples < 2."""
         ...
 
     def features_in(self, layer: LayerRef, bbox: BBox) -> list[Feature]: ...

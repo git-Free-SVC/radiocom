@@ -22,8 +22,8 @@ class SimulationClock(Protocol):
     def advance_to(self, t_s: float) -> None: ...
 
     @property
-    def real_time_factor(self) -> float:
-        """1.0 = real-time pacing, >1 = accelerated, None-able for unbounded."""
+    def real_time_factor(self) -> float | None:
+        """1.0 = real-time pacing, >1 = accelerated, None = unbounded."""
         ...
 
 
@@ -88,7 +88,13 @@ class SimulationScheduler(ABC):
 
 class SimulationEngine(ABC):
     """Top-level orchestrator. Owns clock + scheduler + state, drives the
-    run loop, and is the only thing the API (§17) talks to for control."""
+    run loop, and is the only thing the API (§17) talks to for control.
+
+    Lifecycle (enforced by contract tests). Illegal transitions raise RuntimeError:
+        (new) --load--> LOADED --start--> RUNNING <--pause/resume--> PAUSED
+        reset(): from any state except new -> LOADED (clock 0, RNG re-seeded)
+    step() is only legal in RUNNING. `state` before load() raises RuntimeError.
+    """
 
     @abstractmethod
     def load(self, scenario: SimulationScenario) -> None: ...
@@ -107,7 +113,10 @@ class SimulationEngine(ABC):
 
     @abstractmethod
     def step(self, max_time_s: float | None = None) -> None:
-        """Run until max_time_s or the event queue is drained."""
+        """Run until max_time_s or the event queue is drained.
+        Events are processed in (time_s, seq) order. If max_time_s is given,
+        afterwards state.clock.now_s == max_time_s. ValueError if
+        max_time_s < now_s."""
         ...
 
     @property

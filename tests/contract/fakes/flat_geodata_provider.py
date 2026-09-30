@@ -29,6 +29,8 @@ class FlatGeodataProvider:
         return 0.0
 
     def elevation_profile(self, a: GeoPosition, b: GeoPosition, samples: int) -> list[float]:
+        if samples < 2:
+            raise ValueError("samples must be >= 2")
         return [0.0] * samples
 
     def features_in(self, layer: LayerRef, bbox: BBox) -> list[Feature]:

@@ -4,6 +4,9 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   lint-and-test:
     runs-on: ubuntu-latest
@@ -25,3 +28,25 @@ jobs:
         run: |
           python -c "import json; json.load(open('libraries/protocols/scenario.schema.json'))"
           openapi-spec-validator libraries/protocols/openapi.yaml
+
+  sdk-freeze:
+    name: sdk-freeze                  # <-- select this as a required status check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0              # REQUIRED: immutability check needs base-branch history
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"      # same version the baseline snapshot was generated on
+      - name: Install
+        run: |
+          pip install -e ".[dev]"
+      - name: SDK freeze gate (pull request)
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: origin/${{ github.base_ref }}
+        run: python -m tools.check_sdk_freeze --base "$BASE_REF"
+      - name: SDK freeze gate (push, no base branch to compare)
+        if: github.event_name != 'pull_request'
+        run: python -m tools.check_sdk_freeze --no-git

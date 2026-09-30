@@ -23,6 +23,7 @@ dev = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]    # makes `libraries` and `tests.contract.fakes` importable
 addopts = "-ra"
 
 [tool.ruff]

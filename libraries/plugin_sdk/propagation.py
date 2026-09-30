@@ -40,6 +40,7 @@ class PropagationModel(Protocol):
         ...
 
 
+@runtime_checkable
 class ValidityDomain(Protocol):
     min_freq_hz: float
     max_freq_hz: float
