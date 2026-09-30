@@ -1,0 +1,11 @@
+The freeze gate snapshots every public signature in plugin_sdk and domain. Any change fails the test until you write an ADR, bump SDK_VERSION, and regenerate the snapshot.
+
+Contract tightenings
+
+Before these interfaces freeze, these are rules I wrote into the contracts that you should confirm:
+
+Propagation: path loss must increase with distance. The old constant-loss NullPropagationModel passed the original tests and now fails this one. The old file is still in fakes/.
+EventBus: handlers run synchronously in subscription order. A handler that raises must not break the publisher or the other handlers. Subscribing the same handler twice does nothing extra, and unsubscribing an unknown one is silent.
+Engine: the lifecycle is load, start, pause/resume, reset. Illegal transitions raise RuntimeError. step(t) leaves the clock at exactly t, and stepping into the past raises ValueError.
+Geodata: elevation_profile needs at least 2 samples, otherwise ValueError.
+Small SDK fixes: real_time_factor is now typed float | None, and ValidityDomain is runtime_checkable.

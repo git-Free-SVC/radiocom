@@ -1,0 +1,662 @@
+{
+  "modules": {
+    "libraries.domain.frequency": {
+      "Frequency": {
+        "annotations": {
+          "bandwidth_hz": "float",
+          "center_hz": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "center_hz",
+            "float"
+          ],
+          [
+            "bandwidth_hz",
+            "float"
+          ]
+        ],
+        "methods": {
+          "lower_hz": "property (self) -> 'float'",
+          "overlaps": "method (self, other: \"'Frequency'\") -> 'bool'",
+          "upper_hz": "property (self) -> 'float'"
+        }
+      }
+    },
+    "libraries.domain.position": {
+      "ENUPosition": {
+        "annotations": {
+          "east_m": "float",
+          "north_m": "float",
+          "up_m": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "east_m",
+            "float"
+          ],
+          [
+            "north_m",
+            "float"
+          ],
+          [
+            "up_m",
+            "float"
+          ]
+        ],
+        "methods": {}
+      },
+      "GeoPosition": {
+        "annotations": {
+          "alt_m": "float",
+          "lat": "float",
+          "lon": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "lat",
+            "float"
+          ],
+          [
+            "lon",
+            "float"
+          ],
+          [
+            "alt_m",
+            "float"
+          ]
+        ],
+        "methods": {}
+      }
+    },
+    "libraries.domain.radio": {
+      "Antenna": {
+        "annotations": {
+          "antenna_type": "str",
+          "gain_dBi": "float",
+          "height_m": "float",
+          "pattern": "Callable[[float, float], float]",
+          "polarization": "str"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "antenna_type",
+            "str"
+          ],
+          [
+            "gain_dBi",
+            "float"
+          ],
+          [
+            "height_m",
+            "float"
+          ],
+          [
+            "pattern",
+            "Callable[[float, float], float]"
+          ],
+          [
+            "polarization",
+            "str"
+          ]
+        ],
+        "methods": {}
+      },
+      "Radio": {
+        "annotations": {
+          "antenna": "Antenna",
+          "frequency": "Frequency",
+          "id": "str",
+          "local_position": "Optional[ENUPosition]",
+          "position": "GeoPosition",
+          "receiver": "Receiver",
+          "transmitter": "Transmitter"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "id",
+            "str"
+          ],
+          [
+            "frequency",
+            "Frequency"
+          ],
+          [
+            "transmitter",
+            "Transmitter"
+          ],
+          [
+            "receiver",
+            "Receiver"
+          ],
+          [
+            "antenna",
+            "Antenna"
+          ],
+          [
+            "position",
+            "GeoPosition"
+          ],
+          [
+            "local_position",
+            "Optional[ENUPosition]"
+          ]
+        ],
+        "methods": {}
+      },
+      "Receiver": {
+        "annotations": {
+          "noise_figure_dB": "float",
+          "sensitivity_dBm": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "sensitivity_dBm",
+            "float"
+          ],
+          [
+            "noise_figure_dB",
+            "float"
+          ]
+        ],
+        "methods": {}
+      },
+      "Transmitter": {
+        "annotations": {
+          "cable_loss_db": "float",
+          "power_watt": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "power_watt",
+            "float"
+          ],
+          [
+            "cable_loss_db",
+            "float"
+          ]
+        ],
+        "methods": {}
+      }
+    },
+    "libraries.domain.rf_results": {
+      "LinkBudgetInput": {
+        "annotations": {
+          "atmospheric_loss_db": "float",
+          "bandwidth_hz": "float",
+          "cable_loss_db": "float",
+          "noise_figure_db": "float",
+          "path_loss_db": "float",
+          "polarization_loss_db": "float",
+          "rx_gain_dbi": "float",
+          "sensitivity_dbm": "float",
+          "shadowing_db": "float",
+          "tx_gain_dbi": "float",
+          "tx_power_dbm": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "tx_power_dbm",
+            "float"
+          ],
+          [
+            "tx_gain_dbi",
+            "float"
+          ],
+          [
+            "rx_gain_dbi",
+            "float"
+          ],
+          [
+            "path_loss_db",
+            "float"
+          ],
+          [
+            "cable_loss_db",
+            "float"
+          ],
+          [
+            "polarization_loss_db",
+            "float"
+          ],
+          [
+            "atmospheric_loss_db",
+            "float"
+          ],
+          [
+            "shadowing_db",
+            "float"
+          ],
+          [
+            "bandwidth_hz",
+            "float"
+          ],
+          [
+            "noise_figure_db",
+            "float"
+          ],
+          [
+            "sensitivity_dbm",
+            "float"
+          ]
+        ],
+        "methods": {}
+      },
+      "LinkQuality": {
+        "bases": [
+          "str",
+          "Enum"
+        ],
+        "members": {
+          "DOWN": "'down'",
+          "MARGINAL": "'marginal'",
+          "UP": "'up'"
+        }
+      },
+      "LinkState": {
+        "annotations": {
+          "margin_db": "float",
+          "quality": "LinkQuality",
+          "snr_db": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "snr_db",
+            "float"
+          ],
+          [
+            "margin_db",
+            "float"
+          ],
+          [
+            "quality",
+            "LinkQuality"
+          ]
+        ],
+        "methods": {}
+      },
+      "PropagationResult": {
+        "annotations": {
+          "delay_s": "float",
+          "doppler_hz": "float",
+          "fading_db": "float",
+          "los": "bool",
+          "multipath": "tuple[float, ...]",
+          "path_loss_db": "float",
+          "rx_power_dbm": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "path_loss_db",
+            "float"
+          ],
+          [
+            "rx_power_dbm",
+            "float"
+          ],
+          [
+            "delay_s",
+            "float"
+          ],
+          [
+            "doppler_hz",
+            "float"
+          ],
+          [
+            "los",
+            "bool"
+          ],
+          [
+            "multipath",
+            "tuple[float, ...]"
+          ],
+          [
+            "fading_db",
+            "float"
+          ]
+        ],
+        "methods": {}
+      }
+    },
+    "libraries.plugin_sdk.event_bus": {
+      "EventBus": {
+        "annotations": {},
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {
+          "publish": "method (self, topic: 'str', payload: 'dict[str, Any]') -> 'None'",
+          "subscribe": "method (self, topic: 'str', handler: 'Handler') -> 'None'",
+          "unsubscribe": "method (self, topic: 'str', handler: 'Handler') -> 'None'"
+        }
+      }
+    },
+    "libraries.plugin_sdk.geodata": {
+      "BBox": {
+        "annotations": {
+          "max_lat": "float",
+          "max_lon": "float",
+          "min_lat": "float",
+          "min_lon": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "min_lat",
+            "float"
+          ],
+          [
+            "min_lon",
+            "float"
+          ],
+          [
+            "max_lat",
+            "float"
+          ],
+          [
+            "max_lon",
+            "float"
+          ]
+        ],
+        "methods": {}
+      },
+      "Feature": {
+        "annotations": {
+          "geometry": "dict",
+          "properties": "dict"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "geometry",
+            "dict"
+          ],
+          [
+            "properties",
+            "dict"
+          ]
+        ],
+        "methods": {}
+      },
+      "GeoJSONFile": {
+        "annotations": {
+          "path": "str"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "path",
+            "str"
+          ]
+        ],
+        "methods": {}
+      },
+      "GeodataProvider": {
+        "annotations": {},
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {
+          "elevation_at": "method (self, pos: 'GeoPosition') -> 'float'",
+          "elevation_profile": "method (self, a: 'GeoPosition', b: 'GeoPosition', samples: 'int') -> 'list[float]'",
+          "features_in": "method (self, layer: 'LayerRef', bbox: 'BBox') -> 'list[Feature]'",
+          "publish_raster": "method (self, name: 'str', path_or_uri: 'str', srs: 'str' = 'EPSG:4326') -> 'LayerRef'",
+          "publish_vector": "method (self, name: 'str', source: 'Union[PostGISTable, GeoJSONFile]') -> 'LayerRef'",
+          "set_style": "method (self, layer: 'LayerRef', sld: 'str') -> 'None'",
+          "tile_url": "method (self, layer: 'LayerRef', style: 'str | None' = None) -> 'str'"
+        }
+      },
+      "LayerRef": {
+        "annotations": {
+          "kind": "str",
+          "name": "str"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "name",
+            "str"
+          ],
+          [
+            "kind",
+            "str"
+          ]
+        ],
+        "methods": {}
+      },
+      "PostGISTable": {
+        "annotations": {
+          "schema": "str",
+          "table": "str"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "table",
+            "str"
+          ],
+          [
+            "schema",
+            "str"
+          ]
+        ],
+        "methods": {}
+      }
+    },
+    "libraries.plugin_sdk.propagation": {
+      "PropagationModel": {
+        "annotations": {
+          "name": "str"
+        },
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {
+          "evaluate": "method (self, tx: 'Radio', rx: 'Radio', *, seed: 'int | None' = None) -> 'PropagationResult'",
+          "validity_domain": "method (self) -> \"'ValidityDomain'\""
+        }
+      },
+      "ValidityDomain": {
+        "annotations": {
+          "max_distance_m": "float",
+          "max_freq_hz": "float",
+          "min_distance_m": "float",
+          "min_freq_hz": "float",
+          "requires_terrain": "bool"
+        },
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {}
+      }
+    },
+    "libraries.plugin_sdk.simulation": {
+      "EventKind": {
+        "bases": [
+          "str",
+          "Enum"
+        ],
+        "members": {
+          "LINK_EVALUATE": "'link_evaluate'",
+          "MOBILITY_TICK": "'mobility_tick'",
+          "RADIO_STATE_CHANGE": "'radio_state_change'",
+          "SCENARIO_CONTROL": "'scenario_control'"
+        }
+      },
+      "SimulationClock": {
+        "annotations": {},
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {
+          "advance_to": "method (self, t_s: 'float') -> 'None'",
+          "now_s": "property (self) -> 'float'",
+          "real_time_factor": "property (self) -> 'float | None'"
+        }
+      },
+      "SimulationEngine": {
+        "abstract": [
+          "load",
+          "pause",
+          "reset",
+          "resume",
+          "start",
+          "state",
+          "step"
+        ],
+        "annotations": {},
+        "bases": [
+          "ABC"
+        ],
+        "methods": {
+          "load": "method (self, scenario: 'SimulationScenario') -> 'None'",
+          "pause": "method (self) -> 'None'",
+          "reset": "method (self) -> 'None'",
+          "resume": "method (self) -> 'None'",
+          "start": "method (self) -> 'None'",
+          "state": "property (self) -> 'SimulationState'",
+          "step": "method (self, max_time_s: 'float | None' = None) -> 'None'"
+        }
+      },
+      "SimulationEntity": {
+        "annotations": {
+          "entity_id": "str"
+        },
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {
+          "on_tick": "method (self, t_s: 'float') -> 'None'"
+        }
+      },
+      "SimulationEvent": {
+        "annotations": {
+          "kind": "EventKind",
+          "payload": "dict[str, Any]",
+          "seq": "int",
+          "time_s": "float"
+        },
+        "bases": [
+          "object"
+        ],
+        "fields": [
+          [
+            "time_s",
+            "float"
+          ],
+          [
+            "seq",
+            "int"
+          ],
+          [
+            "kind",
+            "EventKind"
+          ],
+          [
+            "payload",
+            "dict[str, Any]"
+          ]
+        ],
+        "methods": {}
+      },
+      "SimulationScenario": {
+        "annotations": {
+          "entities": "list[SimulationEntity]",
+          "name": "str",
+          "seed": "int"
+        },
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {}
+      },
+      "SimulationScheduler": {
+        "abstract": [
+          "peek_time",
+          "pop_next",
+          "schedule"
+        ],
+        "annotations": {},
+        "bases": [
+          "ABC"
+        ],
+        "methods": {
+          "peek_time": "method (self) -> 'float | None'",
+          "pop_next": "method (self) -> 'SimulationEvent | None'",
+          "schedule": "method (self, event: 'SimulationEvent') -> 'None'"
+        }
+      },
+      "SimulationState": {
+        "annotations": {
+          "clock": "SimulationClock",
+          "entities": "dict[str, SimulationEntity]",
+          "rng_state": "bytes"
+        },
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {
+          "checkpoint": "method (self) -> 'bytes'",
+          "restore": "classmethod (cls, blob: 'bytes') -> \"'SimulationState'\""
+        }
+      }
+    },
+    "libraries.plugin_sdk.waveform": {
+      "WaveformCodec": {
+        "annotations": {
+          "name": "str"
+        },
+        "bases": [
+          "Protocol"
+        ],
+        "methods": {
+          "ber": "method (self, ebn0_db: 'float') -> 'float'",
+          "demodulate": "method (self, iq: 'np.ndarray', sample_rate_hz: 'float') -> 'np.ndarray'",
+          "modulate": "method (self, bits: 'np.ndarray', sample_rate_hz: 'float') -> 'np.ndarray'",
+          "occupied_bandwidth_hz": "method (self, symbol_rate_hz: 'float') -> 'float'"
+        }
+      }
+    }
+  },
+  "sdk_version": "1.0.0"
+}
