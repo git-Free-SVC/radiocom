@@ -115,7 +115,7 @@ class SimulationEngine(ABC):
     def step(self, max_time_s: float | None = None) -> None:
         """Run until max_time_s or the event queue is drained.
         Events are processed in (time_s, seq) order. If max_time_s is given,
-        afterwards state.clock.now_s == max_time_s. ValueError if
+        after wards state.clock.now_s == max_time_s. ValueError if
         max_time_s < now_s."""
         ...
 

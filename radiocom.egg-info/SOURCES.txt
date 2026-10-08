@@ -1,3 +1,4 @@
+README.md
 pyproject.toml
 libraries/__init__.py
 libraries/domain/__init__.py
@@ -18,3 +19,4 @@ radiocom.egg-info/dependency_links.txt
 radiocom.egg-info/requires.txt
 radiocom.egg-info/top_level.txt
 services/__init__.py
+tests/test_freeze_rules.py
