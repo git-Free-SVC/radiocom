@@ -791,6 +791,7 @@ dependencies = [
     { name = "numpy" },
     { name = "pydantic" },
     { name = "pytest" },
+    { name = "pyyaml" },
     { name = "uvicorn" },
 ]
 
@@ -817,6 +818,7 @@ requires-dist = [
     { name = "pytest", specifier = ">=9.1.1" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
     { name = "pytest-cov", marker = "extra == 'dev'", specifier = ">=5.0" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
     { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.5" },
     { name = "uvicorn", specifier = ">=0.30" },
 ]

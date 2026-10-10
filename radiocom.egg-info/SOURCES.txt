@@ -19,4 +19,16 @@ radiocom.egg-info/dependency_links.txt
 radiocom.egg-info/requires.txt
 radiocom.egg-info/top_level.txt
 services/__init__.py
+services/scenario/__init__.py
+services/scenario/errors.py
+services/scenario/loader.py
+services/scenario/models.py
+services/scenario/stress_scenario.py
+services/scenario/validation.py
+services/simulation/__init__.py
+services/simulation/clock.py
+services/simulation/determinism.py
+services/simulation/engine.py
+services/simulation/scheduler.py
+services/simulation/state.py
 tests/test_freeze_rules.py

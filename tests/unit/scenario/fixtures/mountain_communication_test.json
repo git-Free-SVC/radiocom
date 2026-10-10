@@ -1,0 +1,26 @@
+{
+  "scenario": {
+    "name": "Mountain_Communication_Test",
+    "seed": 42,
+    "environment": {
+      "terrain": {
+        "layer_name": "mountain_dem_01",
+        "source": "datasets/dem/mountain_dem.tif",
+        "srs": "EPSG:4326",
+        "style": null
+      },
+      "vector_layers": [
+        {"layer_name": "restricted_zones", "source": "datasets/vectors/zones.geojson", "style": "zone_style"},
+        {"layer_name": "buildings", "source": "postgis://radiocom_geo.public.buildings"}
+      ]
+    },
+    "nodes": [
+      {"id": "BASE-01", "type": "fixed_radio", "position": [45.0, 6.0, 1200.0], "radio": "radio_vhf_01"},
+      {"id": "VEHICLE-01", "type": "mobile_radio", "position": [45.05, 6.02, 1150.0],
+       "route": "route_01", "radio": "radio_vhf_02"}
+    ],
+    "interference": [
+      {"id": "JAMMER-01", "frequency": 145500000.0, "bandwidth": 25000.0, "power": 50}
+    ]
+  }
+}
