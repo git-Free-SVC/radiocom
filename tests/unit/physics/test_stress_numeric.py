@@ -10,6 +10,7 @@ Two independent things are checked here:
 from __future__ import annotations
 
 import math
+import random
 from decimal import Decimal, localcontext
 
 import pytest
@@ -90,8 +91,6 @@ def test_maximum_error_against_the_decimal_reference_is_negligible() -> None:
 
 
 def test_error_against_decimal_stays_small_on_a_wide_random_grid() -> None:
-    import random
-
     rng = random.Random(20240521)
     maximum_error_db = 0.0
     for _ in range(2_000):
