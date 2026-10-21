@@ -1,50 +1,69 @@
-"""Free-space path-loss calculation."""
+"""Free-space path loss.
+
+Free space is the baseline propagation medium: no terrain, no reflections, no
+fading, no absorption. It is the reference every other propagation model is
+compared against, and the model that the MVP ships
+(:class:`services.propagation.free_space.FreeSpaceModel`).
+
+The engineering form used throughout the project (architecture doc §9) is::
+
+    FSPL(dB) = 20*log10(d_km) + 20*log10(f_MHz) + 32.44
+
+which is the same as ``20*log10(4*pi*d*f/c)`` with the constant rounded.
+"""
 
 from __future__ import annotations
 
 import math
 
-from .distance import MIN_DISTANCE_M
-from .errors import PhysicsInputError
-
-FSPL_CONSTANT_DB = 32.44
+from ._validate import finite_result, non_negative_float, positive_float
+from .constants import FSPL_CONSTANT_DB, MIN_DISTANCE_M
 
 
-def _finite(name: str, value: object) -> float:
-    if isinstance(value, bool):
-        raise PhysicsInputError(f"{name} must be a finite number; got {value!r}")
-    try:
-        number = float(value)
-    except (TypeError, ValueError, OverflowError) as exc:
-        raise PhysicsInputError(f"{name} must be a finite number; got {value!r}") from exc
-    if not math.isfinite(number):
-        raise PhysicsInputError(f"{name} must be finite; got {value!r}")
-    return number
+def free_space_path_loss_db(
+    distance_m: float,
+    frequency_hz: float,
+    *,
+    min_distance_m: float = MIN_DISTANCE_M,
+) -> float:
+    """Return the free-space path loss between two points, in dB.
 
+    Args:
+        distance_m: separation between the two radios, in metres. Must be
+            finite and non-negative.
+        frequency_hz: carrier frequency, in hertz. Must be finite and
+            strictly positive.
+        min_distance_m: smallest distance the formula is evaluated at.
+            Defaults to :data:`libraries.physics.constants.MIN_DISTANCE_M`
+            (1 m). Co-located radios are degenerate but legal input, and
+            ``20*log10(0)`` is undefined, so the distance is clamped rather
+            than crashing the caller. The clamp is a *modeling convention*,
+            not a physical statement: 1 m is a plausible minimum spacing
+            between two antennas.
 
-def free_space_path_loss_db(distance_m: float, frequency_hz: float) -> float:
-    """Return raw free-space path loss in dB using the engineering 32.44 form.
+    Returns:
+        The path loss in dB. It may be negative in the near field (a
+        ``distance_m * frequency_hz`` product below ``c / (4*pi)``); a passive
+        medium cannot actually provide gain, so propagation models are
+        expected to floor the value at 0 dB. This function returns the raw
+        value so that the floor stays a policy decision of the model.
 
-    Distances below ``MIN_DISTANCE_M`` are clamped to that value, including a
-    zero range, to define co-located radio behavior and avoid log10(0). The
-    raw result can be negative in the near field; propagation models should
-    apply the passive-medium 0 dB floor where appropriate.
+    Raises:
+        PhysicsInputError: for a non-finite/negative distance, a non-finite
+            or non-positive frequency, or a non-positive ``min_distance_m``.
     """
-    distance = _finite("distance_m", distance_m)
-    frequency = _finite("frequency_hz", frequency_hz)
-    if distance < 0.0:
-        raise PhysicsInputError(f"distance_m must be >= 0; got {distance!r}")
-    if frequency <= 0.0:
-        raise PhysicsInputError(f"frequency_hz must be > 0; got {frequency!r}")
+    distance = non_negative_float("distance_m", distance_m)
+    frequency = positive_float("frequency_hz", frequency_hz)
+    floor = positive_float("min_distance_m", min_distance_m)
 
-    effective_distance = max(distance, MIN_DISTANCE_M)
-    # Log in the input's original units to avoid underflow from converting
-    # subnormal meters to kilometers or hertz to megahertz.
+    effective_distance = max(distance, floor)
+
+    # The textbook form uses km and MHz. Converting first would underflow for
+    # denormal metres, so the unit change is applied to the logarithm
+    # instead: log10(d_km) == log10(d_m) - 3.
     result = (
         20.0 * (math.log10(effective_distance) - 3.0)
         + 20.0 * (math.log10(frequency) - 6.0)
         + FSPL_CONSTANT_DB
     )
-    if not math.isfinite(result):
-        raise PhysicsInputError("free-space path loss result must be finite")
-    return result
+    return finite_result("free_space_path_loss_db", result)
