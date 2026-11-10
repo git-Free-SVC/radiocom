@@ -1,166 +1,153 @@
-"""Reusable dB arithmetic for RF link budgets."""
+"""Link-budget math (architecture doc §9). Pure functions, no I/O.
+
+    Pr(dBm)    = Pt + Gt + Gr - PL - Lcable - Lpol - Latm - Lshadow
+    N(dBm)     = -174 + 10*log10(bandwidth_hz) + NF
+    SNR(dB)    = Pr - N
+    margin(dB) = Pr - sensitivity
+    Eb/N0(dB)  = SNR + 10*log10(bandwidth_hz / bit_rate_hz)
+
+Loss terms are *subtracted*. They are validated as finite but not sign-checked:
+a negative value acts as a gain (shadowing may legitimately be negative).
+
+Sources: Pozar, *Microwave Engineering*, ch. 14; Rappaport, *Wireless
+Communications*, ch. 3-4; thermal noise ``kTB`` at T0 = 290 K.
+
+Every function validates its inputs and raises ``PhysicsInputError``; no
+function returns NaN or inf.
+"""
 
 from __future__ import annotations
 
 import math
 from dataclasses import dataclass
 
-from libraries.domain.rf_results import LinkBudgetInput, LinkQuality
+from libraries.domain.rf_results import LinkBudgetInput, LinkQuality, LinkState
+from libraries.physics import _validate
+from libraries.physics.constants import THERMAL_NOISE_DBM_PER_HZ
+from libraries.physics.errors import PhysicsInputError
+from libraries.physics.quality import link_quality
 
-from .errors import PhysicsInputError
-
-NOISE_DENSITY_DBM_HZ = -174.0
-MARGINAL_MARGIN_DB = 0.0
-UP_MARGIN_DB = 10.0
-
-
-def _finite(name: str, value: object) -> float:
-    if isinstance(value, bool):
-        raise PhysicsInputError(f"{name} must be a finite number; got {value!r}")
-    try:
-        number = float(value)
-    except (TypeError, ValueError, OverflowError) as exc:
-        raise PhysicsInputError(f"{name} must be a finite number; got {value!r}") from exc
-    if not math.isfinite(number):
-        raise PhysicsInputError(f"{name} must be finite; got {value!r}")
-    return number
-
-
-def _positive(name: str, value: object) -> float:
-    number = _finite(name, value)
-    if number <= 0.0:
-        raise PhysicsInputError(f"{name} must be > 0; got {number!r}")
-    return number
-
-
-def _finite_result(name: str, value: float) -> float:
-    if not math.isfinite(value):
-        raise PhysicsInputError(f"{name} result must be finite; got {value!r}")
-    return value
+_DBM_PER_DBW: float = 30.0
 
 
 @dataclass(frozen=True, slots=True)
 class LinkBudgetResult:
-    """Computed powers and ratios for one link-budget input."""
+    """Outputs of :func:`compute_link_budget`, all in dB / dBm."""
 
-    received_power_dbm: float
+    rx_power_dbm: float
     noise_floor_dbm: float
     snr_db: float
     margin_db: float
-    eb_n0_db: float
+    quality: LinkQuality
+
+    def to_link_state(self) -> LinkState:
+        """Project onto the frozen ``LinkState`` domain type."""
+        return LinkState(snr_db=self.snr_db, margin_db=self.margin_db, quality=self.quality)
 
 
-def dbm_from_watts(power_watt: float) -> float:
-    """Convert strictly positive power in watts to dBm."""
-    power = _positive("power_watt", power_watt)
-    return _finite_result("dbm_from_watts", 10.0 * math.log10(power) + 30.0)
+def watts_to_dbm(power_watt: float) -> float:
+    """``dBm = 10*log10(P_W) + 30``. Requires finite ``power_watt > 0``."""
+    p = _validate.positive("power_watt", power_watt)
+    return 10.0 * math.log10(p) + _DBM_PER_DBW
 
 
-def watts_from_dbm(power_dbm: float) -> float:
-    """Convert dBm to watts, rejecting overflow and underflow to zero."""
-    dbm = _finite("power_dbm", power_dbm)
-    exponent = (dbm - 30.0) / 10.0
+def dbm_to_watts(power_dbm: float) -> float:
+    """``P_W = 10**((dBm - 30) / 10)``.
+
+    Raises ``PhysicsInputError`` if the result overflows or underflows to 0.
+    """
+    dbm = _validate.finite("power_dbm", power_dbm)
     try:
-        watts = 10.0**exponent
+        watts = 10.0 ** ((dbm - _DBM_PER_DBW) / 10.0)
     except OverflowError as exc:
-        raise PhysicsInputError(
-            f"power_dbm is too large to convert to finite watts; got {dbm!r}"
-        ) from exc
-    if not math.isfinite(watts) or watts == 0.0:
-        raise PhysicsInputError(f"power_dbm is outside the representable watt range; got {dbm!r}")
+        raise PhysicsInputError(f"power_dbm={power_dbm!r} overflows linear watts") from exc
+    if watts == 0.0 or not math.isfinite(watts):
+        raise PhysicsInputError(f"power_dbm={power_dbm!r} is outside the representable range")
     return watts
 
 
-def received_power_dbm(budget: LinkBudgetInput) -> float:
-    """Compute Pr = Pt + Gt + Gr - path and other link losses."""
-    if not isinstance(budget, LinkBudgetInput):
-        raise PhysicsInputError(f"budget must be LinkBudgetInput; got {type(budget).__name__}")
-    tx_power = _finite("tx_power_dbm", budget.tx_power_dbm)
-    tx_gain = _finite("tx_gain_dbi", budget.tx_gain_dbi)
-    rx_gain = _finite("rx_gain_dbi", budget.rx_gain_dbi)
-    path_loss = _finite("path_loss_db", budget.path_loss_db)
-    cable_loss = _finite("cable_loss_db", budget.cable_loss_db)
-    polarization_loss = _finite("polarization_loss_db", budget.polarization_loss_db)
-    atmospheric_loss = _finite("atmospheric_loss_db", budget.atmospheric_loss_db)
-    shadowing = _finite("shadowing_db", budget.shadowing_db)
-    try:
-        result = math.fsum(
-            (
-                tx_power,
-                tx_gain,
-                rx_gain,
-                -path_loss,
-                -cable_loss,
-                -polarization_loss,
-                -atmospheric_loss,
-                -shadowing,
-            )
-        )
-    except OverflowError as exc:
-        raise PhysicsInputError("received power result overflowed") from exc
-    return _finite_result("received_power_dbm", result)
+def received_power_dbm(
+    tx_power_dbm: float,
+    tx_gain_dbi: float,
+    rx_gain_dbi: float,
+    path_loss_db: float,
+    cable_loss_db: float = 0.0,
+    polarization_loss_db: float = 0.0,
+    atmospheric_loss_db: float = 0.0,
+    shadowing_db: float = 0.0,
+) -> float:
+    """``Pr = Pt + Gt + Gr - PL - Lcable - Lpol - Latm - Lshadow`` (dBm)."""
+    pr = (
+        _validate.finite("tx_power_dbm", tx_power_dbm)
+        + _validate.finite("tx_gain_dbi", tx_gain_dbi)
+        + _validate.finite("rx_gain_dbi", rx_gain_dbi)
+        - _validate.finite("path_loss_db", path_loss_db)
+        - _validate.finite("cable_loss_db", cable_loss_db)
+        - _validate.finite("polarization_loss_db", polarization_loss_db)
+        - _validate.finite("atmospheric_loss_db", atmospheric_loss_db)
+        - _validate.finite("shadowing_db", shadowing_db)
+    )
+    return _validate.finite_result("received power", pr)
 
 
 def noise_floor_dbm(bandwidth_hz: float, noise_figure_db: float = 0.0) -> float:
-    """Return thermal noise plus receiver noise figure in dBm."""
-    bandwidth = _positive("bandwidth_hz", bandwidth_hz)
-    noise_figure = _finite("noise_figure_db", noise_figure_db)
-    result = NOISE_DENSITY_DBM_HZ + 10.0 * math.log10(bandwidth) + noise_figure
-    return _finite_result("noise_floor_dbm", result)
+    """``N = -174 + 10*log10(bandwidth_hz) + NF`` (dBm)."""
+    bw = _validate.positive("bandwidth_hz", bandwidth_hz)
+    nf = _validate.finite("noise_figure_db", noise_figure_db)
+    return _validate.finite_result(
+        "noise floor", THERMAL_NOISE_DBM_PER_HZ + 10.0 * math.log10(bw) + nf
+    )
 
 
-def snr_db(received_power_dbm_value: float, noise_floor_dbm_value: float) -> float:
-    """Return received power minus noise floor, in dB."""
-    received = _finite("received_power_dbm", received_power_dbm_value)
-    noise = _finite("noise_floor_dbm", noise_floor_dbm_value)
-    return _finite_result("snr_db", received - noise)
+def snr_db(rx_power_dbm: float, noise_floor_dbm_: float) -> float:
+    """``SNR = Pr - N`` (dB)."""
+    return _validate.finite_result(
+        "SNR",
+        _validate.finite("rx_power_dbm", rx_power_dbm)
+        - _validate.finite("noise_floor_dbm", noise_floor_dbm_),
+    )
 
 
-def link_margin_db(received_power_dbm_value: float, sensitivity_dbm: float) -> float:
-    """Return received power minus receiver sensitivity, in dB."""
-    received = _finite("received_power_dbm", received_power_dbm_value)
-    sensitivity = _finite("sensitivity_dbm", sensitivity_dbm)
-    return _finite_result("link_margin_db", received - sensitivity)
+def link_margin_db(rx_power_dbm: float, sensitivity_dbm: float) -> float:
+    """``margin = Pr - sensitivity`` (dB). Positive means the link closes."""
+    return _validate.finite_result(
+        "link margin",
+        _validate.finite("rx_power_dbm", rx_power_dbm)
+        - _validate.finite("sensitivity_dbm", sensitivity_dbm),
+    )
 
 
-def eb_n0_db(snr: float, bandwidth_hz: float, bit_rate_hz: float) -> float:
-    """Return Eb/N0 using SNR + 10 log10(bandwidth / bit rate)."""
-    snr_value = _finite("snr_db", snr)
-    bandwidth = _positive("bandwidth_hz", bandwidth_hz)
-    bit_rate = _positive("bit_rate_hz", bit_rate_hz)
-    result = snr_value + 10.0 * (math.log10(bandwidth) - math.log10(bit_rate))
-    return _finite_result("eb_n0_db", result)
+def eb_n0_db(snr_db_: float, bandwidth_hz: float, bit_rate_hz: float) -> float:
+    """``Eb/N0 = SNR + 10*log10(bandwidth_hz / bit_rate_hz)`` (dB).
 
-
-def calculate_link_budget(
-    budget: LinkBudgetInput, bit_rate_hz: float | None = None
-) -> LinkBudgetResult:
-    """Compute Pr, noise, SNR, margin and Eb/N0 from the frozen input type.
-
-    If no bit rate is supplied, it defaults to the input bandwidth, making
-    Eb/N0 equal to SNR.
+    Computed as a difference of logarithms so extreme ratios cannot overflow.
+    BER curves per modulation are *not* computed here (see ``WaveformCodec``).
     """
-    if not isinstance(budget, LinkBudgetInput):
-        raise PhysicsInputError(f"budget must be LinkBudgetInput; got {type(budget).__name__}")
-    bandwidth = _positive("bandwidth_hz", budget.bandwidth_hz)
-    received = received_power_dbm(budget)
-    noise = noise_floor_dbm(bandwidth, budget.noise_figure_db)
-    snr = snr_db(received, noise)
-    margin = link_margin_db(received, budget.sensitivity_dbm)
-    rate = bandwidth if bit_rate_hz is None else bit_rate_hz
-    ebn0 = eb_n0_db(snr, bandwidth, rate)
-    return LinkBudgetResult(received, noise, snr, margin, ebn0)
+    snr = _validate.finite("snr_db", snr_db_)
+    bw = _validate.positive("bandwidth_hz", bandwidth_hz)
+    rate = _validate.positive("bit_rate_hz", bit_rate_hz)
+    return _validate.finite_result("Eb/N0", snr + 10.0 * math.log10(bw) - 10.0 * math.log10(rate))
 
 
-def link_quality(margin_db: float) -> LinkQuality:
-    """Classify margin: UP at 10 dB, MARGINAL from 0 to under 10 dB, else DOWN.
-
-    These MVP thresholds are explicit engineering conventions; the frozen
-    interfaces do not define them yet.
-    """
-    margin = _finite("margin_db", margin_db)
-    if margin >= UP_MARGIN_DB:
-        return LinkQuality.UP
-    if margin >= MARGINAL_MARGIN_DB:
-        return LinkQuality.MARGINAL
-    return LinkQuality.DOWN
+def compute_link_budget(budget: LinkBudgetInput) -> LinkBudgetResult:
+    """Evaluate the full §9 chain for one :class:`LinkBudgetInput`."""
+    pr = received_power_dbm(
+        budget.tx_power_dbm,
+        budget.tx_gain_dbi,
+        budget.rx_gain_dbi,
+        budget.path_loss_db,
+        budget.cable_loss_db,
+        budget.polarization_loss_db,
+        budget.atmospheric_loss_db,
+        budget.shadowing_db,
+    )
+    noise = noise_floor_dbm(budget.bandwidth_hz, budget.noise_figure_db)
+    snr = snr_db(pr, noise)
+    margin = link_margin_db(pr, budget.sensitivity_dbm)
+    return LinkBudgetResult(
+        rx_power_dbm=pr,
+        noise_floor_dbm=noise,
+        snr_db=snr,
+        margin_db=margin,
+        quality=link_quality(margin),
+    )

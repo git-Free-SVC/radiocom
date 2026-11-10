@@ -1,6 +1,6 @@
 """Contract for SimulationEngine + SimulationScheduler.
 
-    pytest tests/contract/test_simulation_contract.py --engine-impl=pkg:Engine --scheduler-impl=pkg:Sched
+pytest tests/contract/test_simulation_contract.py --engine-impl=pkg:Engine --scheduler-impl=pkg:Sched
 """
 
 from __future__ import annotations

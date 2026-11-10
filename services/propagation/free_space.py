@@ -1,48 +1,60 @@
-"""Deterministic free-space path-loss propagation model."""
+"""Free-space propagation model (Friis).
+
+Implements the frozen ``PropagationModel`` Protocol
+(``libraries.plugin_sdk.propagation``). Radio -> link-budget mapping:
+
+* frequency for path loss      : ``tx.frequency.center_hz``
+* transmit power               : ``tx.transmitter.power_watt``
+* cable loss                   : ``tx.transmitter.cable_loss_db``
+* antenna gains                : ``tx.antenna.gain_dBi`` / ``rx.antenna.gain_dBi``
+
+MVP simplifications (deliberate, do not "fix" here): antenna patterns and
+polarization are ignored, atmospheric loss and shadowing are 0, ``height_m``
+is not added to ``alt_m``, Doppler is 0 (``Radio`` carries no velocity).
+
+A tx/rx centre-frequency mismatch does NOT raise: path loss is computed at the
+transmitter's frequency. Whether the radios can hear each other is a
+spectral-overlap question, not a propagation question.
+
+Pure and deterministic: no randomness, no shared mutable state. ``seed`` is
+accepted for interface compatibility and ignored.
+"""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 
 from libraries.domain.radio import Radio
-from libraries.domain.rf_results import LinkBudgetInput, PropagationResult
-from libraries.physics import (
-    SPEED_OF_LIGHT_M_S,
-    dbm_from_watts,
-    free_space_path_loss_db,
-    received_power_dbm,
-    slant_range_m,
-)
-from libraries.physics.errors import PhysicsInputError
+from libraries.domain.rf_results import PropagationResult
+from libraries.physics.constants import MIN_DISTANCE_M, SPEED_OF_LIGHT_M_S
+from libraries.physics.distance import slant_range_m
+from libraries.physics.link_budget import received_power_dbm, watts_to_dbm
+from libraries.physics.path_loss import free_space_path_loss_db
 
 
 @dataclass(frozen=True, slots=True)
 class FreeSpaceValidityDomain:
-    """Documented operating envelope for the MVP free-space model."""
+    """Concrete ``ValidityDomain`` for free space.
+
+    Corners are chosen so free-space loss is >= 0 dB everywhere inside the
+    domain (at 1 m / 30 MHz it is ~1.98 dB). The upper distance bound covers
+    cislunar links; the frequency range is 30 MHz (VHF) to 100 GHz.
+    """
 
     min_freq_hz: float = 30.0e6
     max_freq_hz: float = 100.0e9
-    min_distance_m: float = 1.0
+    min_distance_m: float = MIN_DISTANCE_M
     max_distance_m: float = 1.0e9
     requires_terrain: bool = False
 
 
 class FreeSpaceModel:
-    """Free-space path loss with no terrain, fading, or multipath effects.
+    """Friis free-space path loss between two radios."""
 
-    Tx center frequency selects path loss when transmitter and receiver
-    frequencies differ. Antenna patterns, polarization, antenna height,
-    atmospheric loss, and shadowing are ignored in this MVP. The geometric
-    range uses 3D slant distance, and path loss is floored at 0 dB because a
-    passive free-space channel cannot provide gain. ``seed`` is accepted for
-    Protocol compatibility and ignored because this model is deterministic.
-    """
-
-    name = "free_space"
-    _VALIDITY_DOMAIN = FreeSpaceValidityDomain()
+    name: str = "free_space"
 
     def validity_domain(self) -> FreeSpaceValidityDomain:
-        return self._VALIDITY_DOMAIN
+        return FreeSpaceValidityDomain()
 
     def evaluate(
         self,
@@ -51,34 +63,38 @@ class FreeSpaceModel:
         *,
         seed: int | None = None,
     ) -> PropagationResult:
-        del seed
-        if not isinstance(tx, Radio):
-            raise PhysicsInputError(f"tx must be Radio; got {type(tx).__name__}")
-        if not isinstance(rx, Radio):
-            raise PhysicsInputError(f"rx must be Radio; got {type(rx).__name__}")
+        """Compute free-space path loss and received power.
 
-        distance = slant_range_m(tx.position, rx.position)
-        raw_path_loss = free_space_path_loss_db(distance, tx.frequency.center_hz)
-        path_loss = max(0.0, raw_path_loss)
-        budget = LinkBudgetInput(
-            tx_power_dbm=dbm_from_watts(tx.transmitter.power_watt),
+        * ``path_loss_db``: FSPL at the slant range, with the distance clamped to
+          at least ``MIN_DISTANCE_M`` and the result floored at 0 dB (a passive
+          medium cannot provide gain; only matters outside the validity domain).
+        * ``rx_power_dbm``: ``Pt + Gt + Gr - PL - Lcable``.
+        * ``delay_s``: ``slant_range / c`` (unclamped).
+        * ``doppler_hz=0.0``, ``los=True``, ``multipath=()``, ``fading_db=0.0``.
+
+        Does not raise or warn outside the validity domain. Never returns
+        NaN/inf.
+
+        Raises:
+            PhysicsInputError: invalid coordinates, frequency, or power.
+        """
+        del seed  # deterministic model: independent of the seed (see tests)
+
+        distance_m = slant_range_m(tx.position, rx.position)
+        effective_m = max(distance_m, MIN_DISTANCE_M)
+
+        path_loss_db = max(0.0, free_space_path_loss_db(effective_m, tx.frequency.center_hz))
+        rx_power_dbm = received_power_dbm(
+            tx_power_dbm=watts_to_dbm(tx.transmitter.power_watt),
             tx_gain_dbi=tx.antenna.gain_dBi,
             rx_gain_dbi=rx.antenna.gain_dBi,
-            path_loss_db=path_loss,
+            path_loss_db=path_loss_db,
             cable_loss_db=tx.transmitter.cable_loss_db,
-            polarization_loss_db=0.0,
-            atmospheric_loss_db=0.0,
-            shadowing_db=0.0,
-            bandwidth_hz=rx.frequency.bandwidth_hz,
-            noise_figure_db=rx.receiver.noise_figure_dB,
-            sensitivity_dbm=rx.receiver.sensitivity_dBm,
         )
-        rx_power = received_power_dbm(budget)
-
         return PropagationResult(
-            path_loss_db=path_loss,
-            rx_power_dbm=rx_power,
-            delay_s=distance / SPEED_OF_LIGHT_M_S,
+            path_loss_db=path_loss_db,
+            rx_power_dbm=rx_power_dbm,
+            delay_s=distance_m / SPEED_OF_LIGHT_M_S,
             doppler_hz=0.0,
             los=True,
             multipath=(),

@@ -1,6 +1,6 @@
 """Contract for any GeodataProvider (fake or GeoServer-backed geodata-api).
 
-    pytest tests/contract/test_geodata_provider_contract.py --geodata-impl=pkg.mod:Class
+pytest tests/contract/test_geodata_provider_contract.py --geodata-impl=pkg.mod:Class
 """
 
 from __future__ import annotations

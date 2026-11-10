@@ -1,6 +1,6 @@
 """Contract for any EventBus (behavioural rules: see plugin_sdk/event_bus.py).
 
-    pytest tests/contract/test_event_bus_contract.py --eventbus-impl=pkg.mod:Class
+pytest tests/contract/test_event_bus_contract.py --eventbus-impl=pkg.mod:Class
 """
 
 from __future__ import annotations

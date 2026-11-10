@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import math
 
-from .distance import MIN_DISTANCE_M
+from libraries.physics.constants import MIN_DISTANCE_M
+
 from .errors import PhysicsInputError
 
 FSPL_CONSTANT_DB = 32.44

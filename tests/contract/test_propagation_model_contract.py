@@ -1,6 +1,6 @@
 """Contract for any PropagationModel. Must pass UNMODIFIED.
 
-    pytest tests/contract/test_propagation_model_contract.py --propagation-impl=pkg.mod:Class
+pytest tests/contract/test_propagation_model_contract.py --propagation-impl=pkg.mod:Class
 """
 
 from __future__ import annotations

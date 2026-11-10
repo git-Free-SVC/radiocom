@@ -9,12 +9,10 @@ from libraries.domain.frequency import Frequency
 from libraries.domain.position import GeoPosition
 from libraries.domain.radio import Antenna, Radio, Receiver, Transmitter
 from libraries.domain.rf_results import PropagationResult
-from libraries.physics import (
-    MIN_DISTANCE_M,
-    PhysicsInputError,
-    free_space_path_loss_db,
-    slant_range_m,
-)
+from libraries.physics.constants import MIN_DISTANCE_M
+from libraries.physics.distance import slant_range_m
+from libraries.physics.errors import PhysicsInputError
+from libraries.physics.propagation import free_space_path_loss_db
 from libraries.plugin_sdk.propagation import PropagationModel, ValidityDomain
 from services.propagation import FreeSpaceModel, FreeSpaceValidityDomain
 
@@ -137,8 +135,3 @@ def test_invalid_transmit_power_and_frequency_raise_physics_input_error() -> Non
     bad_frequency = replace(tx, frequency=Frequency(center_hz=float("nan"), bandwidth_hz=12_500.0))
     with pytest.raises(PhysicsInputError, match="frequency_hz"):
         FreeSpaceModel().evaluate(bad_frequency, rx)
-
-
-def test_invalid_radio_argument_has_clear_error() -> None:
-    with pytest.raises(PhysicsInputError, match="tx must be Radio"):
-        FreeSpaceModel().evaluate(None, _radio("rx", 45.09))  # type: ignore[arg-type]

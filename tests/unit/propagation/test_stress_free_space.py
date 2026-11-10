@@ -8,7 +8,7 @@ from dataclasses import replace
 from libraries.domain.frequency import Frequency
 from libraries.domain.position import GeoPosition
 from libraries.domain.radio import Antenna, Radio, Receiver, Transmitter
-from libraries.physics import PhysicsInputError
+from libraries.physics.errors import PhysicsInputError
 from services.propagation import FreeSpaceModel
 
 

@@ -1,6 +1,6 @@
 """Builds a signature snapshot of the frozen SDK surface.
 
-    python -m tests.contract._snapshot --write     # ONLY with an ADR + SDK_VERSION bump
+python -m tests.contract._snapshot --write     # ONLY with an ADR + SDK_VERSION bump
 """
 
 from __future__ import annotations

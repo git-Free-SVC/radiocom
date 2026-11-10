@@ -1,6 +1,6 @@
 """Contract for any WaveformCodec.
 
-    pytest tests/contract/test_waveform_codec_contract.py --waveform-impl=pkg.mod:Class
+pytest tests/contract/test_waveform_codec_contract.py --waveform-impl=pkg.mod:Class
 """
 
 from __future__ import annotations

@@ -1,98 +1,86 @@
-"""Geographic distance helpers used by radio link-budget calculations."""
+"""Distances between two :class:`~libraries.domain.position.GeoPosition` points.
+
+Two functions:
+
+* :func:`haversine_distance_m` — great-circle **surface** distance on a sphere
+  of radius ``EARTH_MEAN_RADIUS_M``. Altitude is ignored.
+* :func:`slant_range_m` — straight-line distance including the altitude
+  difference. This is the distance free-space path loss uses.
+
+Precision: the spherical model is accurate to roughly 0.3 % against WGS84 — more
+than enough for link-budget path loss. Precision geodesy (ECEF/ENU, ellipsoid)
+is owned by the World Engine, not by this module. The slant range treats the
+altitude difference as perpendicular to the surface (flat-vertical
+approximation): adequate when ``|delta_alt| << EARTH_MEAN_RADIUS_M``, crude for
+satellite-scale altitudes.
+
+Source: haversine formula, R. W. Sinnott, "Virtues of the Haversine",
+Sky & Telescope 68(2), 1984.
+"""
 
 from __future__ import annotations
 
 import math
+from typing import Protocol
 
-from libraries.domain.position import GeoPosition
-
-from .errors import PhysicsInputError
-
-EARTH_MEAN_RADIUS_M = 6_371_000.0
-MIN_DISTANCE_M = 1.0
+from libraries.physics import _validate
+from libraries.physics.constants import EARTH_MEAN_RADIUS_M
 
 
-def _finite_float(name: str, value: object) -> float:
-    if isinstance(value, bool):
-        raise PhysicsInputError(f"{name} must be a finite number; got {value!r}")
-    try:
-        number = float(value)
-    except (TypeError, ValueError, OverflowError) as exc:
-        raise PhysicsInputError(f"{name} must be a finite number; got {value!r}") from exc
-    if not math.isfinite(number):
-        raise PhysicsInputError(f"{name} must be finite; got {value!r}")
-    return number
+class _HasGeoPosition(Protocol):
+    lat: float
+    lon: float
+    alt_m: float
 
 
-def _validated_position(position: GeoPosition, name: str) -> tuple[float, float, float]:
-    try:
-        lat = _finite_float(f"{name}.lat", position.lat)
-        lon = _finite_float(f"{name}.lon", position.lon)
-        alt = _finite_float(f"{name}.alt_m", position.alt_m)
-    except AttributeError as exc:
-        raise PhysicsInputError(f"{name} must be a GeoPosition; got {position!r}") from exc
-
-    if not -90.0 <= lat <= 90.0:
-        raise PhysicsInputError(f"{name}.lat must be in [-90, 90]; got {lat!r}")
-    if not -180.0 <= lon <= 180.0:
-        raise PhysicsInputError(f"{name}.lon must be in [-180, 180]; got {lon!r}")
-    return lat, lon, alt
+def _lat_lon(name: str, p: _HasGeoPosition) -> tuple[float, float]:
+    lat = _validate.in_range(f"{name}.lat", p.lat, -90.0, 90.0)
+    lon = _validate.in_range(f"{name}.lon", p.lon, -180.0, 180.0)
+    return lat, lon
 
 
-def haversine_distance_m(a: GeoPosition, b: GeoPosition) -> float:
-    """Return the great-circle surface distance, ignoring altitude.
+def haversine_distance_m(a: _HasGeoPosition, b: _HasGeoPosition) -> float:
+    """Great-circle surface distance between ``a`` and ``b``, in metres.
 
-    This uses a spherical mean Earth radius and is intentionally simpler than
-    ellipsoidal geodesy. Altitudes are still checked for finite values because
-    they are part of each supplied position.
+    Formula: ``d = 2R * atan2(sqrt(h), sqrt(1-h))`` with
+    ``h = sin^2(dphi/2) + cos(phi1) cos(phi2) sin^2(dlambda/2)``.
+
+    Valid input: ``lat`` in [-90, 90], ``lon`` in [-180, 180] (degrees), finite.
+    Longitudes are *not* wrapped by the caller's convention but the formula is
+    periodic, so the antimeridian (179.5 vs -179.5) is handled correctly.
+    Altitude is ignored. Returns a value in ``[0, pi*R]``.
+
+    Raises:
+        PhysicsInputError: for NaN/inf, out-of-range or non-numeric coordinates.
     """
-    lat1, lon1, _ = _validated_position(a, "a")
-    lat2, lon2, _ = _validated_position(b, "b")
-
-    if lat1 == lat2 and (lon1 == lon2 or abs(lat1) == 90.0):
-        return 0.0
+    lat1, lon1 = _lat_lon("a", a)
+    lat2, lon2 = _lat_lon("b", b)
 
     phi1 = math.radians(lat1)
     phi2 = math.radians(lat2)
-    delta_phi = phi2 - phi1
-    delta_lon_deg = math.remainder(lon2 - lon1, 360.0)
-    delta_lambda = math.radians(delta_lon_deg)
+    dphi = phi2 - phi1
+    dlmb = math.radians(lon2 - lon1)
 
-    sin_delta_phi = math.sin(delta_phi / 2.0)
-    cos_phi1 = math.cos(phi1)
-    cos_phi2 = math.cos(phi2)
-    sin_delta_lambda = math.sin(delta_lambda / 2.0)
-    cos_delta_lambda = math.cos(delta_lambda / 2.0)
-    hav = sin_delta_phi**2 + cos_phi1 * cos_phi2 * sin_delta_lambda**2
-    # Compute the complement separately instead of subtracting a value close
-    # to one. This keeps nearly antipodal ranges accurate to floating-point
-    # precision rather than losing centimeters through cancellation.
-    hav_complement = math.sin((phi1 + phi2) / 2.0) ** 2 + cos_phi1 * cos_phi2 * cos_delta_lambda**2
-    hav = min(1.0, max(0.0, hav))
-    hav_complement = min(1.0, max(0.0, hav_complement))
-    central_angle = 2.0 * math.atan2(math.sqrt(hav), math.sqrt(hav_complement))
-    distance = EARTH_MEAN_RADIUS_M * central_angle
-    if not math.isfinite(distance):
-        raise PhysicsInputError("haversine distance result must be finite")
-    return distance
+    h = math.sin(dphi / 2.0) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlmb / 2.0) ** 2
+    h = min(1.0, max(0.0, h))  # guard tiny floating-point excursions
+    return 2.0 * EARTH_MEAN_RADIUS_M * math.atan2(math.sqrt(h), math.sqrt(1.0 - h))
 
 
-def slant_range_m(a: GeoPosition, b: GeoPosition) -> float:
-    """Return 3D range from spherical surface distance and altitude delta.
+def slant_range_m(a: _HasGeoPosition, b: _HasGeoPosition) -> float:
+    """Straight-line distance between ``a`` and ``b`` including altitude, metres.
 
-    The vertical component is treated as flat. This approximation is intended
-    for terrestrial links where altitude differences are small compared with
-    Earth's radius, not satellite-scale geodesy.
+    ``slant = sqrt(haversine(a, b)**2 + (a.alt_m - b.alt_m)**2)``. For two points
+    at equal altitude this equals :func:`haversine_distance_m`.
+
+    Two radios at identical latitude/longitude but different altitudes are *not*
+    degenerate: the result is ``|delta_alt|``.
+
+    Raises:
+        PhysicsInputError: for invalid coordinates, non-finite ``alt_m``, or an
+            altitude difference so large that the result overflows.
     """
-    _, _, alt_a = _validated_position(a, "a")
-    _, _, alt_b = _validated_position(b, "b")
-    surface_range = haversine_distance_m(a, b)
-    altitude_delta = alt_a - alt_b
-    if not math.isfinite(altitude_delta):
-        raise PhysicsInputError(
-            f"altitude difference must be finite; a.alt_m={alt_a!r}, b.alt_m={alt_b!r}"
-        )
-    distance = math.hypot(surface_range, altitude_delta)
-    if not math.isfinite(distance):
-        raise PhysicsInputError("slant range result must be finite")
-    return distance
+    surface = haversine_distance_m(a, b)
+    alt_a = _validate.finite("a.alt_m", a.alt_m)
+    alt_b = _validate.finite("b.alt_m", b.alt_m)
+    delta_alt = _validate.finite_result("altitude difference", alt_a - alt_b)
+    return _validate.finite_result("slant range", math.hypot(surface, delta_alt))
