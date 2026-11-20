@@ -126,10 +126,10 @@
     "semantic_hash": "3946a3b439c205d805df5ae7208727f0"
   },
   "libraries/plugin_sdk/waveform.py": {
-    "mtime": 1790790498.6458166,
-    "seen": 1794595112.796312,
-    "ast_hash": "3d99d99317b2ba02a3b1434b57aa1e75",
-    "semantic_hash": "3d99d99317b2ba02a3b1434b57aa1e75"
+    "mtime": 1795167236.255,
+    "seen": 1795193444.9542158,
+    "ast_hash": "1cb9f674d3a12f0db0d574ac9cf3dfc9",
+    "semantic_hash": ""
   },
   "libraries/protocols/__init__.py": {
     "mtime": 1790700691.7685003,
@@ -586,10 +586,10 @@
     "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "tests/unit/simulation/conftest.py": {
-    "mtime": 1791475522.1530154,
-    "seen": 1794595112.81042,
-    "ast_hash": "c1f21828e7c09f223a8271cf2081a42e",
-    "semantic_hash": "c1f21828e7c09f223a8271cf2081a42e"
+    "mtime": 1795193287.086,
+    "seen": 1795193444.9544246,
+    "ast_hash": "01b29a6fa42b39e0f8611e69ce8e8800",
+    "semantic_hash": ""
   },
   "tests/unit/simulation/test_checkpoint_restore.py": {
     "mtime": 1791475522.1851976,
@@ -686,5 +686,185 @@
     "seen": 1794595112.8134954,
     "ast_hash": "3f391a6698e5067fb6b55796d75b709a",
     "semantic_hash": "3f391a6698e5067fb6b55796d75b709a"
+  },
+  "integrations/gnu_radio/__init__.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.9541535,
+    "ast_hash": "dadd21696f2592fcbfbf8defc1922243",
+    "semantic_hash": ""
+  },
+  "integrations/gnu_radio/codec_adapter.py": {
+    "mtime": 1795160734.665127,
+    "seen": 1795193444.954157,
+    "ast_hash": "207390891605988e32ccc3e7168b61c1",
+    "semantic_hash": ""
+  },
+  "integrations/gnu_radio/errors.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.9541595,
+    "ast_hash": "c6f52c31c0ed1a6faf85fcb624c3e859",
+    "semantic_hash": ""
+  },
+  "integrations/gnu_radio/protocol.py": {
+    "mtime": 1795193049.235,
+    "seen": 1795193444.9541616,
+    "ast_hash": "6e981592937fd530daccc357831d7d30",
+    "semantic_hash": ""
+  },
+  "integrations/gnu_radio/worker.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.9541638,
+    "ast_hash": "cff03d9a36f2be0214b7e93322114b07",
+    "semantic_hash": ""
+  },
+  "integrations/gnu_radio/zmq_transport.py": {
+    "mtime": 1795160735.0165038,
+    "seen": 1795193444.9541657,
+    "ast_hash": "433f2f148510e92aaff19724222a9851",
+    "semantic_hash": ""
+  },
+  "services/dsp/__init__.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.9542584,
+    "ast_hash": "bbd290526a58a274297b3f1d26249fc9",
+    "semantic_hash": ""
+  },
+  "services/dsp/_analytic.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.9542606,
+    "ast_hash": "bc02751913547a4984f1a48693de6b71",
+    "semantic_hash": ""
+  },
+  "services/dsp/_single_carrier.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.9542625,
+    "ast_hash": "700ccf8419de5843081903d966017ef4",
+    "semantic_hash": ""
+  },
+  "services/dsp/_validation.py": {
+    "mtime": 1795160734.844912,
+    "seen": 1795193444.9542646,
+    "ast_hash": "cfb29728480dd7ed8e7ea3d050b1c649",
+    "semantic_hash": ""
+  },
+  "services/dsp/am.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.9542665,
+    "ast_hash": "71b124ba8681fe3195f37714f6a16295",
+    "semantic_hash": ""
+  },
+  "services/dsp/bpsk.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.9542685,
+    "ast_hash": "b03c3dd701281713b892c316d63b2c6c",
+    "semantic_hash": ""
+  },
+  "services/dsp/fm.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.954271,
+    "ast_hash": "1869db5a40b03e92a2c3bd97b5a691cb",
+    "semantic_hash": ""
+  },
+  "services/dsp/ofdm.py": {
+    "mtime": 1795160735.220318,
+    "seen": 1795193444.954273,
+    "ast_hash": "f87c3ca325bb00b585367c984d57605b",
+    "semantic_hash": ""
+  },
+  "services/dsp/qpsk.py": {
+    "mtime": 1794326604.0,
+    "seen": 1795193444.954275,
+    "ast_hash": "483978a308372f5593c45e447c0f49c0",
+    "semantic_hash": ""
+  },
+  "services/dsp/run_wave2.py": {
+    "mtime": 1795160735.2805758,
+    "seen": 1795193444.9542766,
+    "ast_hash": "d985dbb5faa956769ee4f7612b79342e",
+    "semantic_hash": ""
+  },
+  "tests/unit/dsp/test_gnuradio_adapter.py": {
+    "mtime": 1795193034.357,
+    "seen": 1795193444.9543905,
+    "ast_hash": "5f102dd962e362ebcfcd628279dcc42a",
+    "semantic_hash": ""
+  },
+  "tests/unit/dsp/test_waveforms.py": {
+    "mtime": 1795160735.7063785,
+    "seen": 1795193444.954393,
+    "ast_hash": "8f1538446365df60a7bf0cdd2d3c93b0",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1790710738.0,
+    "seen": 1795193444.9544659,
+    "ast_hash": "90ab1f42e1b778830e48dd79d6c725d3",
+    "semantic_hash": ""
+  },
+  "docs/Agent_D_Propagation_Engine_Report.md": {
+    "mtime": 1792578070.0,
+    "seen": 1795193444.9544678,
+    "ast_hash": "5a5e23621e0ea641115271c6a9217f87",
+    "semantic_hash": ""
+  },
+  "docs/Agent_D_Propagation_Engine_updated.md": {
+    "mtime": 1794299698.514,
+    "seen": 1795193444.95447,
+    "ast_hash": "abb164049f42cc22b677d8c5196dcfbf",
+    "semantic_hash": ""
+  },
+  "docs/adr/ADR-000-foundation-interfaces.md": {
+    "mtime": 1790700691.8156092,
+    "seen": 1795193444.9544716,
+    "ast_hash": "88f94c812eef88e854e08d7f65f2a677",
+    "semantic_hash": ""
+  },
+  "docs/adr/ADR-000-plugin-sdk-freeze.md": {
+    "mtime": 1790783123.5521252,
+    "seen": 1795193444.9544735,
+    "ast_hash": "32bf27210184295936b9159c0bef403e",
+    "semantic_hash": ""
+  },
+  "docs/adr/ADR-TEMPLATE.md": {
+    "mtime": 1790764090.0,
+    "seen": 1795193444.9544754,
+    "ast_hash": "98de5a25eaedc2798ca2a7a48919098e",
+    "semantic_hash": ""
+  },
+  "docs/wave1-briefing.md": {
+    "mtime": 1790700691.8125272,
+    "seen": 1795193444.9544773,
+    "ast_hash": "1bfc5aefeefb513ac18448010a6caa1d",
+    "semantic_hash": ""
+  },
+  "integrations/gnu_radio/README.md": {
+    "mtime": 1795193033.643,
+    "seen": 1795193444.9544797,
+    "ast_hash": "cfcefe48ea6edbb0e81a4df22f3a1294",
+    "semantic_hash": ""
+  },
+  "services/api/REPORT.md": {
+    "mtime": 1794299698.534,
+    "seen": 1795193444.9544818,
+    "ast_hash": "4bbb9271c231243e9ee9270700c8a81c",
+    "semantic_hash": ""
+  },
+  "services/dsp/README.md": {
+    "mtime": 1795193033.961,
+    "seen": 1795193444.9544837,
+    "ast_hash": "b0a2b563ba0916e2fd1521e9c8f2207c",
+    "semantic_hash": ""
+  },
+  "services/dsp/STRESS_REPORT.md": {
+    "mtime": 1795193034.264,
+    "seen": 1795193444.9544854,
+    "ast_hash": "847bccf4c8d56abbd76966301ba95ac4",
+    "semantic_hash": ""
+  },
+  "tests/todo.txt": {
+    "mtime": 1791196168.41,
+    "seen": 1795193444.9544876,
+    "ast_hash": "c21ee9acec4eea29422e22f5e79e3f39",
+    "semantic_hash": ""
   }
 }

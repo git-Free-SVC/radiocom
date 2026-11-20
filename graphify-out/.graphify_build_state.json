@@ -1,0 +1,17 @@
+{
+  "ambiguous_scale": "",
+  "code_only": true,
+  "epoch": "v0.9.108-s45-g460503b3f2a4",
+  "excludes": [],
+  "follow_symlinks": false,
+  "full_clean": false,
+  "gitignore": true,
+  "graph_mtime_ns": 1795193462113901000,
+  "graph_size": 2062770,
+  "html_present": true,
+  "no_cluster": false,
+  "rcfile": "",
+  "scan_digest": "19ccf467a73d358dfe7697145a715168",
+  "scan_root": "C:\\Users\\USER1\\PycharmProjects\\WelcomeScreen\\radiocom",
+  "viz_node_limit": ""
+}

@@ -1,0 +1,456 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_dsp_qpsk_py",
+      "label": "qpsk.py",
+      "file_type": "code",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "label": "_bits_to_symbols()",
+      "file_type": "code",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/dsp/qpsk.py"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_qpsk_qpskcodec",
+      "label": "QPSKCodec",
+      "file_type": "code",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_qpsk_qpskcodec_modulate",
+      "label": ".modulate()",
+      "file_type": "code",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L27",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "label": ".demodulate()",
+      "file_type": "code",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L31",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_qpsk_qpskcodec_ber",
+      "label": ".ber()",
+      "file_type": "code",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L39",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_qpsk_qpskcodec_occupied_bandwidth_hz",
+      "label": ".occupied_bandwidth_hz()",
+      "file_type": "code",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L42",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_qpsk_rationale_1",
+      "label": "Gray-coded QPSK codec with two bits per symbol and eight samples per symbol.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_py",
+      "target": "$graphify-root$_services_dsp_analytic_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_analytic.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_py",
+      "target": "$graphify-root$_services_dsp_single_carrier_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_single_carrier.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_py",
+      "target": "$graphify-root$_services_dsp_validation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_py",
+      "target": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_py",
+      "target": "$graphify-root$_services_dsp_qpsk_qpskcodec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec",
+      "target": "$graphify-root$_services_dsp_qpsk_qpskcodec_modulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec",
+      "target": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec",
+      "target": "$graphify-root$_services_dsp_qpsk_qpskcodec_ber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec",
+      "target": "$graphify-root$_services_dsp_qpsk_qpskcodec_occupied_bandwidth_hz",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_qpskcodec_modulate",
+      "target": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_qpsk_rationale_1",
+      "target": "$graphify-root$_services_dsp_qpsk_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "callee": "DSPInputError",
+      "is_member_call": false,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L16",
+      "receiver": null,
+      "_python_call_site": [
+        491,
+        537
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L17",
+      "receiver": "bits",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        550,
+        569
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "callee": "where",
+      "is_member_call": true,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L18",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        578,
+        615
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_bits_to_symbols",
+      "callee": "where",
+      "is_member_call": true,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L19",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        624,
+        661
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_modulate",
+      "callee": "validate_sample_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L28",
+      "receiver": null,
+      "_python_call_site": [
+        869,
+        905
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_modulate",
+      "callee": "expand_symbols",
+      "is_member_call": false,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L29",
+      "receiver": null,
+      "_python_call_site": [
+        921,
+        974
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_modulate",
+      "callee": "validate_bits",
+      "is_member_call": false,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L29",
+      "receiver": null,
+      "_python_call_site": [
+        953,
+        972
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "callee": "validate_sample_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L32",
+      "receiver": null,
+      "_python_call_site": [
+        1063,
+        1099
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "callee": "collapse_symbols",
+      "is_member_call": false,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L33",
+      "receiver": null,
+      "_python_call_site": [
+        1118,
+        1138
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L34",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1159,
+        1202
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L37",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1308,
+        1351
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_demodulate",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L37",
+      "receiver": "recovered",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        1159,
+        1202
+      ],
+      "_python_call_site": [
+        1329,
+        1350
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_ber",
+      "callee": "check_ber_model",
+      "is_member_call": false,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L40",
+      "receiver": null,
+      "_python_call_site": [
+        1412,
+        1446
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_ber",
+      "callee": "ber_bpsk",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_qpsk_qpskcodec_occupied_bandwidth_hz",
+      "callee": "scaled_bandwidth",
+      "is_member_call": false,
+      "source_file": "services/dsp/qpsk.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_call_site": [
+        1532,
+        1569
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/dsp/_analytic.py",
+    "$graphify-root$/services/dsp/_single_carrier.py",
+    "$graphify-root$/services/dsp/_validation.py"
+  ]
+}

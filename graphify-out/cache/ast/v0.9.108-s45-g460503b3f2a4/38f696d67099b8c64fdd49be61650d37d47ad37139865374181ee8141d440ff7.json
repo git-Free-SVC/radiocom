@@ -1,0 +1,692 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_py",
+      "label": "ofdm.py",
+      "file_type": "code",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_bits_to_qpsk",
+      "label": "_bits_to_qpsk()",
+      "file_type": "code",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/dsp/ofdm.py"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_ofdmcodec",
+      "label": "OFDMCodec",
+      "file_type": "code",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L32",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "label": ".modulate()",
+      "file_type": "code",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L42",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "label": ".demodulate()",
+      "file_type": "code",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_ofdmcodec_ber",
+      "label": ".ber()",
+      "file_type": "code",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L71",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_ofdmcodec_occupied_bandwidth_hz",
+      "label": ".occupied_bandwidth_hz()",
+      "file_type": "code",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L75",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_rationale_1",
+      "label": "Small fixed-frame OFDM codec: 64-point transform, 16 active QPSK bins.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_ofdm_rationale_33",
+      "label": "OFDM with fixed active bins -8..-1,+1..+8 and no pilots or coding.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L33"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_py",
+      "target": "$graphify-root$_services_dsp_analytic_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_analytic.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_py",
+      "target": "$graphify-root$_services_dsp_validation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_py",
+      "target": "$graphify-root$_services_dsp_ofdm_bits_to_qpsk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_bits_to_qpsk",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_bits_to_qpsk",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_py",
+      "target": "$graphify-root$_services_dsp_ofdm_ofdmcodec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec",
+      "target": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec",
+      "target": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec",
+      "target": "$graphify-root$_services_dsp_ofdm_ofdmcodec_ber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec",
+      "target": "$graphify-root$_services_dsp_ofdm_ofdmcodec_occupied_bandwidth_hz",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "target": "$graphify-root$_services_dsp_ofdm_bits_to_qpsk",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_rationale_1",
+      "target": "$graphify-root$_services_dsp_ofdm_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_ofdm_rationale_33",
+      "target": "$graphify-root$_services_dsp_ofdm_ofdmcodec",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L33",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_bits_to_qpsk",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L26",
+      "receiver": "bits",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        728,
+        747
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_bits_to_qpsk",
+      "callee": "where",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L27",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        756,
+        793
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_bits_to_qpsk",
+      "callee": "where",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L28",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        802,
+        839
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "validate_sample_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_call_site": [
+        1275,
+        1311
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "validate_bits",
+      "is_member_call": false,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L44",
+      "receiver": null,
+      "_python_call_site": [
+        1329,
+        1348
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L46",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1397,
+        1429
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "DSPInputError",
+      "is_member_call": false,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L48",
+      "receiver": null,
+      "_python_call_site": [
+        1489,
+        1562
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L49",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1578,
+        1635
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "ACTIVE_BIN_LABELS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "zeros",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L50",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1654,
+        1710
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "FFT_SIZE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "ifft",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L52",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1774,
+        1802
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L52",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1805,
+        1822
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "FFT_SIZE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "concatenate",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L53",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1840,
+        1908
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L54",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1924,
+        1985
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_modulate",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L54",
+      "receiver": "framed",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        1840,
+        1908
+      ],
+      "_python_call_site": [
+        1945,
+        1963
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "validate_sample_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L57",
+      "receiver": null,
+      "_python_call_site": [
+        2074,
+        2110
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "validate_iq",
+      "is_member_call": false,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L58",
+      "receiver": null,
+      "_python_call_site": [
+        2129,
+        2144
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "require_complete_groups",
+      "is_member_call": false,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L59",
+      "receiver": null,
+      "_python_call_site": [
+        2153,
+        2210
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "SAMPLES_PER_FRAME",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L59"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L61",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2260,
+        2287
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L62",
+      "receiver": "samples",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2305,
+        2343
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "SAMPLES_PER_FRAME",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L62"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "fft",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L64",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2413,
+        2439
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L64",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2442,
+        2459
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "FFT_SIZE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L66",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2525,
+        2584
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "BITS_PER_FRAME",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L66"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L69",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2688,
+        2726
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_demodulate",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L69",
+      "receiver": "bits",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        2525,
+        2584
+      ],
+      "_python_call_site": [
+        2709,
+        2725
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_ber",
+      "callee": "check_ber_model",
+      "is_member_call": false,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L73",
+      "receiver": null,
+      "_python_call_site": [
+        2868,
+        2902
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_ber",
+      "callee": "ber_bpsk",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_occupied_bandwidth_hz",
+      "callee": "scaled_bandwidth",
+      "is_member_call": false,
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L77",
+      "receiver": null,
+      "_python_call_site": [
+        3059,
+        3122
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_ofdm_ofdmcodec_occupied_bandwidth_hz",
+      "callee": "ACTIVE_BIN_LABELS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/ofdm.py",
+      "source_location": "L77"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/dsp/_analytic.py",
+    "$graphify-root$/services/dsp/_validation.py"
+  ]
+}

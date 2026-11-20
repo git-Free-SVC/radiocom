@@ -1,0 +1,861 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "label": "codec_adapter.py",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport",
+      "label": "WorkerTransport",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/codec_adapter.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_start",
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L17",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_exchange",
+      "label": ".exchange()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L21",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_close",
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "label": "GnuRadioCodecAdapter",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L30",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L38",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/codec_adapter.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "label": "._call_worker()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L51",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/codec_adapter.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_modulate",
+      "label": ".modulate()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L72",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_demodulate",
+      "label": ".demodulate()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_ber",
+      "label": ".ber()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L80",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_occupied_bandwidth_hz",
+      "label": ".occupied_bandwidth_hz()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_close",
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L86",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_enter",
+      "label": ".__enter__()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L93",
+      "_py_return_type": "GnuRadioCodecAdapter",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_exit",
+      "label": ".__exit__()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L98",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_request_id",
+      "label": "_request_id()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L102",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_1",
+      "label": "WaveformCodec-facing proxy to an optional GNU Radio worker process.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_15",
+      "label": "Minimal request/reply port. Implementations own their socket lifecycle.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_18",
+      "label": "Bring the transport up (idempotent).",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L18"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_22",
+      "label": "Send one multipart request and return the multipart response.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L22"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_26",
+      "label": "Tear the transport down; subsequent calls are no-ops.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L26"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_31",
+      "label": "Implements the frozen codec API while delegating IQ work to a worker.\u2026",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L31"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "target": "threading",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "threading",
+      "_python_import_bindings": [
+        [
+          "RLock",
+          "RLock"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "Protocol",
+          "Protocol"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/integrations/gnu_radio/errors.py"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/integrations/gnu_radio/protocol.py"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_start",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_exchange",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_close",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_init",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_init",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_modulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_demodulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_ber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_occupied_bandwidth_hz",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_close",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_enter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_exit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_exit",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_request_id",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_request_id",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_modulate",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_demodulate",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_exit",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_close",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_1",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_15",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_18",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_start",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_22",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_exchange",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_26",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_workertransport_close",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_codec_adapter_rationale_31",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L31",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_init",
+      "callee": "RLock",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L47",
+      "receiver": null,
+      "_python_call_site": [
+        1750,
+        1757
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "WorkerExecutionError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L56",
+      "receiver": null,
+      "_python_call_site": [
+        2026,
+        2077
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "encode_request",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L58",
+      "receiver": null,
+      "_python_call_site": [
+        2120,
+        2181
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L59",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "WorkerTransport",
+      "_python_call_site": [
+        2198,
+        2221
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "exchange",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L60",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "WorkerTransport",
+      "_python_call_site": [
+        2249,
+        2281
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "decode_response",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L61",
+      "receiver": null,
+      "_python_call_site": [
+        2305,
+        2499
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "WorkerExecutionError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L68",
+      "receiver": null,
+      "_python_call_site": [
+        2567,
+        2597
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L68"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "WorkerProtocolError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L70",
+      "receiver": null,
+      "_python_call_site": [
+        2667,
+        2696
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_call_worker",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_modulate",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L74",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2870,
+        2919
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_demodulate",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L78",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3084,
+        3128
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_ber",
+      "callee": "ber",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L81",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "Any",
+      "_python_call_site": [
+        3189,
+        3223
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_occupied_bandwidth_hz",
+      "callee": "occupied_bandwidth_hz",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L84",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "Any",
+      "_python_call_site": [
+        3309,
+        3368
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_close",
+      "callee": "close",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L91",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "WorkerTransport",
+      "_python_call_site": [
+        3520,
+        3543
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_enter",
+      "callee": "WorkerExecutionError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L95",
+      "receiver": null,
+      "_python_call_site": [
+        3639,
+        3690
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_request_id",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L106",
+      "receiver": "json",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3906,
+        3943
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_request_id",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L106",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3917,
+        3942
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_request_id",
+      "callee": "WorkerProtocolError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L108",
+      "receiver": null,
+      "_python_call_site": [
+        4002,
+        4070
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_codec_adapter_gnuradiocodecadapter_init",
+      "callee": "name",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/codec_adapter.py",
+      "source_location": "L49",
+      "_python_attr_read": true,
+      "receiver": "reference_codec",
+      "receiver_type": "Any"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/integrations/gnu_radio/errors.py",
+    "$graphify-root$/integrations/gnu_radio/protocol.py"
+  ]
+}

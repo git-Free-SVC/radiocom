@@ -1,0 +1,2039 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "label": "test_gnuradio_adapter.py",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport",
+      "label": "FakeTransport",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L26",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L27",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_start",
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L34",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "label": ".exchange()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_close",
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L48",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "label": "test_adapter_uses_worker_for_iq_and_reference_for_analytics()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "label": "test_adapter_maps_remote_and_protocol_errors()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L73",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "label": "test_adapter_propagates_worker_timeout_with_transport_context()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L85",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context_exchange",
+      "label": "exchange()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L87",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "label": "test_v1_request_roundtrip_and_iq_boundary_conversion()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L95",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "label": "test_v1_rejects_wrong_version_shape_length_and_operation()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L107",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "label": "test_v1_rejects_mismatched_response_id_and_structured_remote_error()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L131",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "label": "test_worker_dispatches_to_plugin_and_returns_correlated_response()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L142",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "label": "test_worker_returns_correlated_error_for_malformed_but_identifiable_request()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L151",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_optional_modules_are_not_required_to_import_adapter",
+      "label": "test_optional_modules_are_not_required_to_import_adapter()",
+      "file_type": "code",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L164",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_codec_adapter_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "integrations.gnu_radio.codec_adapter",
+      "_python_import_bindings": [
+        [
+          "GnuRadioCodecAdapter",
+          "GnuRadioCodecAdapter"
+        ]
+      ],
+      "target_file": "$graphify-root$/integrations/gnu_radio/codec_adapter.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "integrations.gnu_radio.errors",
+      "_python_import_bindings": [
+        [
+          "WorkerExecutionError",
+          "WorkerExecutionError"
+        ],
+        [
+          "WorkerProtocolError",
+          "WorkerProtocolError"
+        ],
+        [
+          "WorkerTimeoutError",
+          "WorkerTimeoutError"
+        ]
+      ],
+      "target_file": "$graphify-root$/integrations/gnu_radio/errors.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "integrations.gnu_radio.protocol",
+      "_python_import_bindings": [
+        [
+          "FrameError",
+          "FrameError"
+        ],
+        [
+          "RemoteWorkerError",
+          "RemoteWorkerError"
+        ],
+        [
+          "decode_request",
+          "decode_request"
+        ],
+        [
+          "decode_response",
+          "decode_response"
+        ],
+        [
+          "encode_request",
+          "encode_request"
+        ],
+        [
+          "encode_response",
+          "encode_response"
+        ]
+      ],
+      "target_file": "$graphify-root$/integrations/gnu_radio/protocol.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "integrations.gnu_radio.worker",
+      "_python_import_bindings": [
+        [
+          "_malformed_request_response",
+          "_malformed_request_response"
+        ],
+        [
+          "process_request",
+          "process_request"
+        ]
+      ],
+      "target_file": "$graphify-root$/integrations/gnu_radio/worker.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_services_dsp_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "services.dsp",
+      "_python_import_bindings": [
+        [
+          "BPSKCodec",
+          "BPSKCodec"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/dsp/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_start",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_close",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context_exchange",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_py",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_optional_modules_are_not_required_to_import_adapter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "target": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L75",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_init",
+      "callee": "BPSKCodec",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L28",
+      "receiver": null,
+      "_python_call_site": [
+        654,
+        665
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_call_site": [
+        873,
+        895
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "callee": "encode_response",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L40",
+      "receiver": null,
+      "_python_call_site": [
+        937,
+        1005
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L40",
+      "receiver": null,
+      "_python_call_site": [
+        968,
+        1004
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "callee": "process_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L41",
+      "receiver": null,
+      "_python_call_site": [
+        1023,
+        1059
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L43",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1112,
+        1142
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1123,
+        1141
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L45",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1202,
+        1231
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_faketransport_exchange",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L45",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1202,
+        1222
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "BPSKCodec",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        1398,
+        1409
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "GnuRadioCodecAdapter",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L55",
+      "receiver": null,
+      "_python_call_site": [
+        1465,
+        1507
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "array",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L56",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1519,
+        1557
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L57",
+      "receiver": "adapter",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "GnuRadioCodecAdapter",
+      "_python_call_site": [
+        1567,
+        1602
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "demodulate",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L58",
+      "receiver": "adapter",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "GnuRadioCodecAdapter",
+      "_python_call_site": [
+        1619,
+        1654
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "assert_array_equal",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L59",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1659,
+        1705
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "ber",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L61",
+      "receiver": "adapter",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "GnuRadioCodecAdapter",
+      "_python_call_site": [
+        1754,
+        1770
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L61",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1774,
+        1807
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "ber",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L61",
+      "receiver": "reference",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "BPSKCodec",
+      "_python_call_site": [
+        1788,
+        1806
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "occupied_bandwidth_hz",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L62",
+      "receiver": "adapter",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "GnuRadioCodecAdapter",
+      "_python_call_site": [
+        1819,
+        1858
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L62",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1862,
+        1932
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "occupied_bandwidth_hz",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L63",
+      "receiver": "reference",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "BPSKCodec",
+      "_python_call_site": [
+        1885,
+        1926
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "close",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L66",
+      "receiver": "adapter",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "GnuRadioCodecAdapter",
+      "_python_call_site": [
+        1971,
+        1986
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "close",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L67",
+      "receiver": "adapter",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "GnuRadioCodecAdapter",
+      "_python_call_site": [
+        1991,
+        2006
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L69",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2049,
+        2100
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "WorkerExecutionError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L69"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L70",
+      "receiver": "adapter",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "GnuRadioCodecAdapter",
+      "_python_call_site": [
+        2110,
+        2145
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "BPSKCodec",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L74",
+      "receiver": null,
+      "_python_call_site": [
+        2216,
+        2227
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L77",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2298,
+        2363
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "WorkerExecutionError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L77"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2373,
+        2451
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "GnuRadioCodecAdapter",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2373,
+        2412
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "array",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L78",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2422,
+        2445
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L81",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2535,
+        2586
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "WorkerProtocolError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L82",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2596,
+        2677
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "GnuRadioCodecAdapter",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L82",
+      "receiver": null,
+      "_python_call_site": [
+        2596,
+        2638
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_maps_remote_and_protocol_errors",
+      "callee": "array",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L82",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2648,
+        2671
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "callee": "GnuRadioCodecAdapter",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        2908,
+        2962
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "callee": "BPSKCodec",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        2929,
+        2940
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "callee": "TimedOutTransport",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        2942,
+        2961
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L91",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2972,
+        3019
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "callee": "WorkerTimeoutError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L91"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L92",
+      "receiver": "adapter",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "GnuRadioCodecAdapter",
+      "_python_call_site": [
+        3029,
+        3075
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context",
+      "callee": "array",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L92",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3046,
+        3069
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_propagates_worker_timeout_with_transport_context_exchange",
+      "callee": "WorkerTimeoutError",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L88",
+      "receiver": null,
+      "_python_call_site": [
+        2847,
+        2892
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "callee": "array",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L96",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3149,
+        3187
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L97",
+      "receiver": null,
+      "_python_call_site": [
+        3202,
+        3268
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "callee": "encode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L97",
+      "receiver": null,
+      "_python_call_site": [
+        3217,
+        3267
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "callee": "assert_array_equal",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L100",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3351,
+        3403
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "callee": "array",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L101",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3413,
+        3471
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L102",
+      "receiver": null,
+      "_python_call_site": [
+        3486,
+        3552
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "callee": "encode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L102",
+      "receiver": null,
+      "_python_call_site": [
+        3501,
+        3551
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_request_roundtrip_and_iq_boundary_conversion",
+      "callee": "assert_allclose",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L103",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3557,
+        3623
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "encode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L108",
+      "receiver": null,
+      "_python_call_site": [
+        3753,
+        3820
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "array",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L108",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3793,
+        3819
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L109",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3836,
+        3866
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L109",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3847,
+        3865
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L111",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3904,
+        3946
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L111"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L112",
+      "receiver": null,
+      "_python_call_site": [
+        3956,
+        4014
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L112",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3972,
+        4001
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L112",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3972,
+        3992
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L113",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4030,
+        4060
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L113",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4041,
+        4059
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L115",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4098,
+        4138
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L115"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L116",
+      "receiver": null,
+      "_python_call_site": [
+        4148,
+        4206
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L116",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4164,
+        4193
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L116",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4164,
+        4184
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L117",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4222,
+        4252
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L117",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4233,
+        4251
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L119",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4307,
+        4351
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L119"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L120",
+      "receiver": null,
+      "_python_call_site": [
+        4361,
+        4419
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L120",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4377,
+        4406
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L120",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4377,
+        4397
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L121",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4435,
+        4465
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L121",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4446,
+        4464
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L123",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4506,
+        4548
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L124",
+      "receiver": null,
+      "_python_call_site": [
+        4558,
+        4616
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L124",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4574,
+        4603
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L124",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4574,
+        4594
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L125",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4626,
+        4668
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L125"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L126",
+      "receiver": null,
+      "_python_call_site": [
+        4678,
+        4726
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L127",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4736,
+        4781
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L127"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_wrong_version_shape_length_and_operation",
+      "callee": "encode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L128",
+      "receiver": null,
+      "_python_call_site": [
+        4791,
+        4850
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L132",
+      "receiver": null,
+      "_python_call_site": [
+        4941,
+        5020
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "encode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L132",
+      "receiver": null,
+      "_python_call_site": [
+        4956,
+        5019
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L133",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5034,
+        5095
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "BPSKCodec",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L133",
+      "receiver": null,
+      "_python_call_site": [
+        5034,
+        5045
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "encode_response",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L134",
+      "receiver": null,
+      "_python_call_site": [
+        5111,
+        5143
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L135",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5153,
+        5198
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L135"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "decode_response",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L136",
+      "receiver": null,
+      "_python_call_site": [
+        5208,
+        5278
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "encode_response",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L137",
+      "receiver": null,
+      "_python_call_site": [
+        5292,
+        5361
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L137",
+      "receiver": null,
+      "_python_call_site": [
+        5323,
+        5360
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L138",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5371,
+        5434
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "RemoteWorkerError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L138"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_v1_rejects_mismatched_response_id_and_structured_remote_error",
+      "callee": "decode_response",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L139",
+      "receiver": null,
+      "_python_call_site": [
+        5444,
+        5508
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "BPSKCodec",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L143",
+      "receiver": null,
+      "_python_call_site": [
+        5595,
+        5606
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "encode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L144",
+      "receiver": null,
+      "_python_call_site": [
+        5628,
+        5703
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_call_site": [
+        5718,
+        5748
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "process_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L146",
+      "receiver": null,
+      "_python_call_site": [
+        5764,
+        5795
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "decode_response",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L147",
+      "receiver": null,
+      "_python_call_site": [
+        5805,
+        5872
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "assert_array_equal",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L148",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5877,
+        5963
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L148",
+      "receiver": "codec",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "BPSKCodec",
+      "_python_call_site": [
+        5911,
+        5962
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "array",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L148",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5926,
+        5952
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "encode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L152",
+      "receiver": null,
+      "_python_call_site": [
+        6063,
+        6139
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L153",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6155,
+        6186
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L153",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6166,
+        6185
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L155",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6232,
+        6261
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L155",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6232,
+        6252
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L156",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6284,
+        6324
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L157",
+      "receiver": null,
+      "_python_call_site": [
+        6334,
+        6359
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "_malformed_request_response",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L158",
+      "receiver": null,
+      "_python_call_site": [
+        6375,
+        6443
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "FrameError",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L158",
+      "receiver": null,
+      "_python_call_site": [
+        6414,
+        6442
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L160",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6485,
+        6541
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "RemoteWorkerError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L160"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_returns_correlated_error_for_malformed_but_identifiable_request",
+      "callee": "decode_response",
+      "is_member_call": false,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L161",
+      "receiver": null,
+      "_python_call_site": [
+        6551,
+        6624
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_optional_modules_are_not_required_to_import_adapter",
+      "callee": "run",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L173",
+      "receiver": "subprocess",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6980,
+        7036
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_optional_modules_are_not_required_to_import_adapter",
+      "callee": "executable",
+      "is_member_call": true,
+      "receiver": "sys",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L173"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "closed",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L68",
+      "_python_attr_read": true,
+      "receiver": "transport",
+      "receiver_type": "FakeTransport"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_adapter_uses_worker_for_iq_and_reference_for_analytics",
+      "callee": "started",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L65",
+      "_python_attr_read": true,
+      "receiver": "transport",
+      "receiver_type": "FakeTransport"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_dsp_test_gnuradio_adapter_test_worker_dispatches_to_plugin_and_returns_correlated_response",
+      "callee": "name",
+      "is_member_call": true,
+      "source_file": "tests/unit/dsp/test_gnuradio_adapter.py",
+      "source_location": "L144",
+      "_python_attr_read": true,
+      "receiver": "codec",
+      "receiver_type": "BPSKCodec"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/integrations/gnu_radio/codec_adapter.py",
+    "$graphify-root$/integrations/gnu_radio/errors.py",
+    "$graphify-root$/integrations/gnu_radio/protocol.py",
+    "$graphify-root$/integrations/gnu_radio/worker.py",
+    "$graphify-root$/services/dsp/__init__.py"
+  ]
+}

@@ -1,0 +1,1628 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "label": "protocol.py",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "label": "FrameError",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L35",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "valueerror",
+      "label": "ValueError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/protocol.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_remoteworkererror",
+      "label": "RemoteWorkerError",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L39",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "runtimeerror",
+      "label": "RuntimeError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/protocol.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_workerrequest",
+      "label": "WorkerRequest",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L44",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_positive_rate",
+      "label": "_positive_rate()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/protocol.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "label": "_encode_payload()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L59",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "label": "_metadata_bytes()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L81",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "label": "_make_message()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L90",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_encode_request",
+      "label": "encode_request()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L139",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "label": "_decode_parts()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L165",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/protocol.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_decode_request",
+      "label": "decode_request()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L233",
+      "_py_return_type": "WorkerRequest",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "label": "encode_response()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L247",
+      "_callable": true
+    },
+    {
+      "id": "exception",
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/protocol.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "label": "decode_response()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L276",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_rationale_1",
+      "label": "Versioned ZeroMQ multipart protocol for DSP worker requests and responses. Each\u2026",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_rationale_36",
+      "label": "A local frame failed schema or payload validation.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L36"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_rationale_40",
+      "label": "A well-formed worker response reported a processing error.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L40"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_protocol_rationale_147",
+      "label": "Create a validated v1 request; metadata and payload are separate frames.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L147"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "uuid",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "uuid",
+      "_python_import_bindings": [
+        [
+          "uuid",
+          "uuid"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclass",
+          "dataclass"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "Sequence",
+          "Sequence"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_services_dsp_validation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "services.dsp._validation",
+      "_python_import_bindings": [
+        [
+          "DSPInputError",
+          "DSPInputError"
+        ],
+        [
+          "finite_real",
+          "finite_real"
+        ],
+        [
+          "validate_bits",
+          "validate_bits"
+        ],
+        [
+          "validate_iq",
+          "validate_iq"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "target": "valueerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_remoteworkererror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_remoteworkererror",
+      "target": "runtimeerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_workerrequest",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_positive_rate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_positive_rate",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_encode_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_request",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_decode_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_request",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_workerrequest",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_workerrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "target": "exception",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L276",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L276",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_positive_rate",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_positive_rate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_request",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_request",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_positive_rate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_request",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_request",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L237",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_request",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_workerrequest",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L280",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L287",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_remoteworkererror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_rationale_1",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_rationale_36",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_frameerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_rationale_40",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_remoteworkererror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_protocol_rationale_147",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_encode_request",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L147",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_positive_rate",
+      "callee": "finite_real",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L54",
+      "receiver": null,
+      "_python_call_site": [
+        1190,
+        1241
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_positive_rate",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "validate_bits",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L62",
+      "receiver": null,
+      "_python_call_site": [
+        1456,
+        1478
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "tobytes",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L65",
+      "receiver": "values",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1608,
+        1633
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "validate_iq",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L68",
+      "receiver": null,
+      "_python_call_site": [
+        1689,
+        1709
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "errstate",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L71",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1808,
+        1852
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "asarray",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L72",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1881,
+        1912
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "all",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L73",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1933,
+        1966
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L73",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1940,
+        1965
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "view",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L75",
+      "receiver": "wire_complex",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        1881,
+        1912
+      ],
+      "_python_call_site": [
+        2081,
+        2105
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "tobytes",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L76",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2120,
+        2172
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_payload",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L76",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2120,
+        2153
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L83",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2366,
+        2480
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L83",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2366,
+        2442
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "callee": "TypeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_metadata_bytes",
+      "callee": "UnicodeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L103"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L105"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L109"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L109",
+      "receiver": "error",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3404,
+        3424
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_make_message",
+      "callee": "PROTOCOL_VERSION",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_request",
+      "callee": "uuid4",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L155",
+      "receiver": "uuid",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4920,
+        4932
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "bytes",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L171"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "bytearray",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L171"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "memoryview",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L171"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "bytes",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L173"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "bytearray",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L173"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "memoryview",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L173"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L178",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5745,
+        5794
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L178",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5756,
+        5793
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "UnicodeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L179"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "JSONDecodeError",
+      "is_member_call": true,
+      "receiver": "json",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L179"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L181"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "issubset",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L181",
+      "receiver": "_COMMON_FIELDS",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5972,
+        6005
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L183"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L183"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L189"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L194"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L196"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L200"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L203"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L203"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L206"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L206"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "copy",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L215",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7915,
+        7956
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "frombuffer",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L215",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7915,
+        7949
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "any",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L216",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7989,
+        8007
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "dtype",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L219",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8164,
+        8179
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "frombuffer",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L222",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8321,
+        8352
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "all",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L223",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8390,
+        8418
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L223",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8397,
+        8417
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L225",
+      "receiver": "scalars",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        8321,
+        8352
+      ],
+      "_python_call_site": [
+        8507,
+        8529
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "astype",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L226",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8547,
+        8577
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "astype",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L226",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8585,
+        8615
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_parts",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L227",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8633,
+        8682
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L283",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10590,
+        10633
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L283",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10601,
+        10632
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L286"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L286",
+      "receiver": "preview",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10728,
+        10749
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L292",
+      "receiver": "metadata",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11183,
+        11204
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L293"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L293"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L293",
+      "receiver": "error_data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        11183,
+        11204
+      ],
+      "_python_call_site": [
+        11271,
+        11296
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_decode_response",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L296",
+      "receiver": "error_data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        11183,
+        11204
+      ],
+      "_python_call_site": [
+        11444,
+        11481
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "sample_rate_hz",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L269",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "codec",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L268",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "operation",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L267",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "request_id",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L266",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "operation",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L264",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "operation",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L259",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "sample_rate_hz",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L258",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "codec",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L257",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "operation",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L256",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_protocol_encode_response",
+      "callee": "request_id",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/protocol.py",
+      "source_location": "L255",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/dsp/_validation.py"
+  ]
+}

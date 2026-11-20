@@ -1,0 +1,696 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_dsp_validation_py",
+      "label": "_validation.py",
+      "file_type": "code",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_dspinputerror",
+      "label": "DSPInputError",
+      "file_type": "code",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "valueerror",
+      "label": "ValueError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_finite_real",
+      "label": "finite_real()",
+      "file_type": "code",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L16",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_validate_bits",
+      "label": "validate_bits()",
+      "file_type": "code",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_validate_iq",
+      "label": "validate_iq()",
+      "file_type": "code",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L49",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_validate_sample_rate",
+      "label": "validate_sample_rate()",
+      "file_type": "code",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L70",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_validate_symbol_rate",
+      "label": "validate_symbol_rate()",
+      "file_type": "code",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L74",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_require_complete_groups",
+      "label": "require_complete_groups()",
+      "file_type": "code",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L78",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_rationale_1",
+      "label": "Shared validation for the public DSP API.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_rationale_13",
+      "label": "Raised when a codec input violates its documented numeric contract.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L13"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_rationale_17",
+      "label": "Return a finite Python float, with a parameter-specific error.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_rationale_29",
+      "label": "Return a fresh, contiguous uint8 vector containing only 0 and 1.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L29"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_validation_rationale_50",
+      "label": "Return a fresh contiguous complex128 vector after checking all samples.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L50"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "numbers",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "numbers",
+      "_python_import_bindings": [
+        [
+          "Real",
+          "Real"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "$graphify-root$_services_dsp_validation_dspinputerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_dspinputerror",
+      "target": "valueerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "$graphify-root$_services_dsp_validation_finite_real",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_finite_real",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "$graphify-root$_services_dsp_validation_validate_bits",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_bits",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_bits",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "$graphify-root$_services_dsp_validation_validate_iq",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_iq",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_iq",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "$graphify-root$_services_dsp_validation_validate_sample_rate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_sample_rate",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "$graphify-root$_services_dsp_validation_validate_symbol_rate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_symbol_rate",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_py",
+      "target": "$graphify-root$_services_dsp_validation_require_complete_groups",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_require_complete_groups",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_finite_real",
+      "target": "$graphify-root$_services_dsp_validation_dspinputerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_bits",
+      "target": "$graphify-root$_services_dsp_validation_dspinputerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_iq",
+      "target": "$graphify-root$_services_dsp_validation_dspinputerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_sample_rate",
+      "target": "$graphify-root$_services_dsp_validation_finite_real",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_validate_symbol_rate",
+      "target": "$graphify-root$_services_dsp_validation_finite_real",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_require_complete_groups",
+      "target": "$graphify-root$_services_dsp_validation_dspinputerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_rationale_1",
+      "target": "$graphify-root$_services_dsp_validation_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_rationale_13",
+      "target": "$graphify-root$_services_dsp_validation_dspinputerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_rationale_17",
+      "target": "$graphify-root$_services_dsp_validation_finite_real",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_rationale_29",
+      "target": "$graphify-root$_services_dsp_validation_validate_bits",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_validation_rationale_50",
+      "target": "$graphify-root$_services_dsp_validation_validate_iq",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L50",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_finite_real",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_finite_real",
+      "callee": "bool_",
+      "is_member_call": true,
+      "receiver": "np",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_finite_real",
+      "callee": "Real",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_finite_real",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L21",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        602,
+        623
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_bits",
+      "callee": "asarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L31",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        944,
+        960
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_bits",
+      "callee": "logical_or",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L37",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1211,
+        1250
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_bits",
+      "callee": "all",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L39",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1301,
+        1328
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_bits",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L39",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1308,
+        1327
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_bits",
+      "callee": "logical_or",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L41",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1422,
+        1465
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_bits",
+      "callee": "all",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L44",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1573,
+        1586
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_bits",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L46",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1661,
+        1705
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "asarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L52",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1856,
+        1870
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "all",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L59",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2198,
+        2225
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L59",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2205,
+        2224
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L62",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2321,
+        2370
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "TypeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L63"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L63"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "OverflowError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L63"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "all",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L65",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2532,
+        2559
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_validation_validate_iq",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/dsp/_validation.py",
+      "source_location": "L65",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2539,
+        2558
+      ]
+    }
+  ]
+}

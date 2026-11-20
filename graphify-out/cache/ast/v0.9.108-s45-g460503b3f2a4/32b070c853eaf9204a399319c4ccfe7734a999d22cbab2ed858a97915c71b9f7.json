@@ -1,0 +1,218 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "label": "errors.py",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_workerunavailableerror",
+      "label": "WorkerUnavailableError",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "runtimeerror",
+      "label": "RuntimeError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/errors.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_workerprotocolerror",
+      "label": "WorkerProtocolError",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_workertimeouterror",
+      "label": "WorkerTimeoutError",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "timeouterror",
+      "label": "TimeoutError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/errors.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_workerexecutionerror",
+      "label": "WorkerExecutionError",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_rationale_1",
+      "label": "Errors raised at the optional DSP worker boundary.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_rationale_5",
+      "label": "The optional worker runtime or its endpoint is unavailable.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_rationale_9",
+      "label": "The worker returned a malformed or mismatched message.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_rationale_13",
+      "label": "The worker did not reply before the configured timeout.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L13"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_errors_rationale_17",
+      "label": "The worker reported an error while running a codec operation.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L17"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_workerunavailableerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_workerunavailableerror",
+      "target": "runtimeerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_workerprotocolerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_workerprotocolerror",
+      "target": "runtimeerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_workertimeouterror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_workertimeouterror",
+      "target": "timeouterror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_workerexecutionerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_workerexecutionerror",
+      "target": "runtimeerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_rationale_1",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_rationale_5",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_workerunavailableerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_rationale_9",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_workerprotocolerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_rationale_13",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_workertimeouterror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_errors_rationale_17",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_workerexecutionerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/errors.py",
+      "source_location": "L17",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

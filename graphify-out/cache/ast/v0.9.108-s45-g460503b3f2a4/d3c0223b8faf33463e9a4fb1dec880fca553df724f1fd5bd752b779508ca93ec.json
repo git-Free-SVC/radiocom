@@ -1,0 +1,327 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_dsp_analytic_py",
+      "label": "_analytic.py",
+      "file_type": "code",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_analytic_gamma_from_db",
+      "label": "_gamma_from_db()",
+      "file_type": "code",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L11",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_analytic_ber_bpsk",
+      "label": "ber_bpsk()",
+      "file_type": "code",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_analytic_ber_coherent_orthogonal",
+      "label": "ber_coherent_orthogonal()",
+      "file_type": "code",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L30",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_analytic_scaled_bandwidth",
+      "label": "scaled_bandwidth()",
+      "file_type": "code",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_analytic_check_ber_model",
+      "label": "check_ber_model()",
+      "file_type": "code",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L43",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_analytic_rationale_1",
+      "label": "Numerically stable scalar BER and bandwidth helpers.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_analytic_rationale_44",
+      "label": "Guard the shared BER contract even if a model is changed later.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L44"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_dsp_analytic_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Callable",
+          "Callable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_py",
+      "target": "$graphify-root$_services_dsp_validation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_py",
+      "target": "$graphify-root$_services_dsp_analytic_gamma_from_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_py",
+      "target": "$graphify-root$_services_dsp_analytic_ber_bpsk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_py",
+      "target": "$graphify-root$_services_dsp_analytic_ber_coherent_orthogonal",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_py",
+      "target": "$graphify-root$_services_dsp_analytic_scaled_bandwidth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_py",
+      "target": "$graphify-root$_services_dsp_analytic_check_ber_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_ber_bpsk",
+      "target": "$graphify-root$_services_dsp_analytic_gamma_from_db",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_ber_coherent_orthogonal",
+      "target": "$graphify-root$_services_dsp_analytic_gamma_from_db",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_rationale_1",
+      "target": "$graphify-root$_services_dsp_analytic_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_analytic_rationale_44",
+      "target": "$graphify-root$_services_dsp_analytic_check_ber_model",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L44",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_gamma_from_db",
+      "callee": "finite_real",
+      "is_member_call": false,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L12",
+      "receiver": null,
+      "_python_call_site": [
+        267,
+        298
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_ber_bpsk",
+      "callee": "erfc",
+      "is_member_call": true,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L27",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        673,
+        700
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_ber_bpsk",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L27",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        683,
+        699
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_ber_coherent_orthogonal",
+      "callee": "erfc",
+      "is_member_call": true,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L32",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        810,
+        843
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_ber_coherent_orthogonal",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L32",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        820,
+        842
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_scaled_bandwidth",
+      "callee": "validate_symbol_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L36",
+      "receiver": null,
+      "_python_call_site": [
+        925,
+        961
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_scaled_bandwidth",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L38",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        999,
+        1020
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_scaled_bandwidth",
+      "callee": "DSPInputError",
+      "is_member_call": false,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_call_site": [
+        1053,
+        1116
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_check_ber_model",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L46",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1329,
+        1350
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_analytic_check_ber_model",
+      "callee": "DSPInputError",
+      "is_member_call": false,
+      "source_file": "services/dsp/_analytic.py",
+      "source_location": "L47",
+      "receiver": null,
+      "_python_call_site": [
+        1394,
+        1442
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/dsp/_validation.py"
+  ]
+}

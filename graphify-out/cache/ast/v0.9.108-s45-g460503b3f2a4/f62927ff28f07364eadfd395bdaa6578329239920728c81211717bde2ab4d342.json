@@ -1,0 +1,557 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_dsp_run_wave2_py",
+      "label": "run_wave2.py",
+      "file_type": "code",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_run_wave2_run",
+      "label": "run()",
+      "file_type": "code",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L38",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "label": "content_audit()",
+      "file_type": "code",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L45",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_run_wave2_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_run_wave2_rationale_1",
+      "label": "Cross-platform Agent F acceptance runner; performs no Git operations.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_py",
+      "target": "ast",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "ast",
+      "_python_import_bindings": [
+        [
+          "ast",
+          "ast"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_py",
+      "target": "importlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "importlib",
+      "_python_import_bindings": [
+        [
+          "importlib",
+          "importlib"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_py",
+      "target": "subprocess",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "subprocess",
+      "_python_import_bindings": [
+        [
+          "subprocess",
+          "subprocess"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "sys",
+      "_python_import_bindings": [
+        [
+          "sys",
+          "sys"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [
+        [
+          "Path",
+          "Path"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_py",
+      "target": "$graphify-root$_services_dsp_run_wave2_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_py",
+      "target": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_py",
+      "target": "$graphify-root$_services_dsp_run_wave2_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_main",
+      "target": "$graphify-root$_services_dsp_run_wave2_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_main",
+      "target": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_run_wave2_rationale_1",
+      "target": "$graphify-root$_services_dsp_run_wave2_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_run",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1286,
+        1300
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_run",
+      "callee": "run",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L40",
+      "receiver": "subprocess",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1332,
+        1375
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_run",
+      "callee": "ROOT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_run",
+      "callee": "SystemExit",
+      "is_member_call": false,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L42",
+      "receiver": null,
+      "_python_call_site": [
+        1419,
+        1451
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "ROOT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "insert",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L47",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1525,
+        1554
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "ROOT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L47"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "CONTRACT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "is_file",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L62",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2092,
+        2115
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "SystemExit",
+      "is_member_call": false,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L64",
+      "receiver": null,
+      "_python_call_site": [
+        2147,
+        2230
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L64",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2211,
+        2229
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2244,
+        2312
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "SystemExit",
+      "is_member_call": false,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L76",
+      "receiver": null,
+      "_python_call_site": [
+        2567,
+        2642
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "parse",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L80",
+      "receiver": "ast",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2744,
+        2811
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L80",
+      "receiver": "source",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2754,
+        2788
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "OSError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "SyntaxError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "SystemExit",
+      "is_member_call": false,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L82",
+      "receiver": null,
+      "_python_call_site": [
+        2876,
+        2932
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "walk",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L83",
+      "receiver": "ast",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2989,
+        3003
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L84",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3074,
+        3106
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L85",
+      "receiver": "classes",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3127,
+        3150
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "FunctionDef",
+      "is_member_call": true,
+      "receiver": "ast",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "AsyncFunctionDef",
+      "is_member_call": true,
+      "receiver": "ast",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "SystemExit",
+      "is_member_call": false,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L97",
+      "receiver": null,
+      "_python_call_site": [
+        3522,
+        3600
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L97",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3580,
+        3597
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_content_audit",
+      "callee": "import_module",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L108",
+      "receiver": "importlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3897,
+        3933
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_main",
+      "callee": "is_file",
+      "is_member_call": true,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L113",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4051,
+        4078
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_main",
+      "callee": "SystemExit",
+      "is_member_call": false,
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L114",
+      "receiver": null,
+      "_python_call_site": [
+        4094,
+        4241
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_main",
+      "callee": "executable",
+      "is_member_call": true,
+      "receiver": "sys",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L151"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_main",
+      "callee": "CONTRACT_TARGETS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L152"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_main",
+      "callee": "CONTRACT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_run_wave2_main",
+      "callee": "executable",
+      "is_member_call": true,
+      "receiver": "sys",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/dsp/run_wave2.py",
+      "source_location": "L155"
+    }
+  ]
+}

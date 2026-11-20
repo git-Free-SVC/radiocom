@@ -253,11 +253,11 @@
   },
   "libraries/plugin_sdk/waveform.py": {
     "size": 1466,
-    "mtime_ns": 1790790498645816500,
-    "indexed_at_ns": 1794595103173953300,
+    "mtime_ns": 1795167236255000000,
+    "indexed_at_ns": 1795193434355425700,
     "word_count": 163,
     "hashes": {
-      "libraries/plugin_sdk/waveform.py": "507905f4d764b2da713e49d9de31f7bf139c219e16a47e94678224097fc9ce09"
+      "libraries/plugin_sdk/waveform.py": "2357230ab3481aea0007e4f9f3896567551483a809cd15b0531a214f7099de9e"
     }
   },
   "libraries/protocols/__init__.py": {
@@ -954,13 +954,10 @@
     }
   },
   "tests/unit/simulation/conftest.py": {
-    "size": 1623,
-    "mtime_ns": 1791475522153015400,
-    "indexed_at_ns": 1794595103316269600,
-    "word_count": 186,
-    "hashes": {
-      "tests/unit/simulation/conftest.py": "5c3b232173f957632af76ed5fbabf68318dd687631daf429c6d5def651ba935a"
-    }
+    "size": 1668,
+    "mtime_ns": 1795193287086000000,
+    "indexed_at_ns": 1795193429902318000,
+    "word_count": 186
   },
   "tests/unit/simulation/test_checkpoint_restore.py": {
     "size": 1676,
@@ -1104,6 +1101,186 @@
     "word_count": 1254,
     "hashes": {
       "tools/sdk_freeze.py": "14ac066aea2991b93cc9e01cce26226241efb2285ab63a2b5337be29971b3cd9"
+    }
+  },
+  "integrations/gnu_radio/README.md": {
+    "size": 3342,
+    "mtime_ns": 1795193033643000000,
+    "indexed_at_ns": 1795193429565839000,
+    "word_count": 415
+  },
+  "integrations/gnu_radio/__init__.py": {
+    "size": 445,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434339844900,
+    "word_count": 41,
+    "hashes": {
+      "integrations/gnu_radio/__init__.py": "14cb0286016b38e840a4dc6378631aea399c2b4525cb4d8da8d61f760a29f74e"
+    }
+  },
+  "integrations/gnu_radio/codec_adapter.py": {
+    "size": 4080,
+    "mtime_ns": 1795160734665127000,
+    "indexed_at_ns": 1795193434342696900,
+    "word_count": 353,
+    "hashes": {
+      "integrations/gnu_radio/codec_adapter.py": "eb60460b5e815d6f41c962746314d07660f90ce15432f0fe1d8fee44bc55bad9"
+    }
+  },
+  "integrations/gnu_radio/errors.py": {
+    "size": 505,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434345366400,
+    "word_count": 52,
+    "hashes": {
+      "integrations/gnu_radio/errors.py": "32b070c853eaf9204a399319c4ccfe7734a999d22cbab2ed858a97915c71b9f7"
+    }
+  },
+  "integrations/gnu_radio/protocol.py": {
+    "size": 12150,
+    "mtime_ns": 1795193049235000000,
+    "indexed_at_ns": 1795193434347993300,
+    "word_count": 1155,
+    "hashes": {
+      "integrations/gnu_radio/protocol.py": "84e3c1f88f2ef23e2036682a29e83f96824b53ca7feca1e1df40728d60649365"
+    }
+  },
+  "integrations/gnu_radio/worker.py": {
+    "size": 5635,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434350515800,
+    "word_count": 529,
+    "hashes": {
+      "integrations/gnu_radio/worker.py": "45623596c2b9f579ba516235d96fdb77bf6b2340258ea92391001f537706f98c"
+    }
+  },
+  "integrations/gnu_radio/zmq_transport.py": {
+    "size": 2875,
+    "mtime_ns": 1795160735016503800,
+    "indexed_at_ns": 1795193434353033100,
+    "word_count": 259,
+    "hashes": {
+      "integrations/gnu_radio/zmq_transport.py": "06dfbe064553391f05853c83c047779c4ecfed4657362de84e0fc0a50a09ebfd"
+    }
+  },
+  "services/dsp/README.md": {
+    "size": 4683,
+    "mtime_ns": 1795193033961000000,
+    "indexed_at_ns": 1795193429686056600,
+    "word_count": 517
+  },
+  "services/dsp/STRESS_REPORT.md": {
+    "size": 3013,
+    "mtime_ns": 1795193034264000000,
+    "indexed_at_ns": 1795193429721604800,
+    "word_count": 405
+  },
+  "services/dsp/__init__.py": {
+    "size": 587,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434358051200,
+    "word_count": 75,
+    "hashes": {
+      "services/dsp/__init__.py": "310d3673a8e138a5957b4577515c95dc442b75947ead9d1ba9bf25b0413d050b"
+    }
+  },
+  "services/dsp/_analytic.py": {
+    "size": 1461,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434361131500,
+    "word_count": 167,
+    "hashes": {
+      "services/dsp/_analytic.py": "d3c0223b8faf33463e9a4fb1dec880fca553df724f1fd5bd752b779508ca93ec"
+    }
+  },
+  "services/dsp/_single_carrier.py": {
+    "size": 700,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434363867300,
+    "word_count": 55,
+    "hashes": {
+      "services/dsp/_single_carrier.py": "2bc26684e8cd284f7a8c3e6135d8c809defe0154fe5db0da58373a45cdb02364"
+    }
+  },
+  "services/dsp/_validation.py": {
+    "size": 3129,
+    "mtime_ns": 1795160734844912000,
+    "indexed_at_ns": 1795193434367374600,
+    "word_count": 343,
+    "hashes": {
+      "services/dsp/_validation.py": "932b9c2c907f294e0617db2c8b7aefd3750efa736774466879703e16f8d656e6"
+    }
+  },
+  "services/dsp/am.py": {
+    "size": 1180,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434369789000,
+    "word_count": 99,
+    "hashes": {
+      "services/dsp/am.py": "be492ac8d68c71fc6c211b5b5ffcefd6b5f23e16722d77e3c1bdd7a4e34bbb20"
+    }
+  },
+  "services/dsp/bpsk.py": {
+    "size": 1136,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434372278600,
+    "word_count": 98,
+    "hashes": {
+      "services/dsp/bpsk.py": "aa97a613f370bd65d71874ce6fb9c1fedabd4b72d862eb2eb7b55f3398cf73f7"
+    }
+  },
+  "services/dsp/fm.py": {
+    "size": 2836,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434374564500,
+    "word_count": 264,
+    "hashes": {
+      "services/dsp/fm.py": "cb0555922ea0d75182144f1c0c6231004a57e29522f6bd91ffbacc931a6fc07a"
+    }
+  },
+  "services/dsp/ofdm.py": {
+    "size": 3123,
+    "mtime_ns": 1795160735220318100,
+    "indexed_at_ns": 1795193434376873100,
+    "word_count": 293,
+    "hashes": {
+      "services/dsp/ofdm.py": "38f696d67099b8c64fdd49be61650d37d47ad37139865374181ee8141d440ff7"
+    }
+  },
+  "services/dsp/qpsk.py": {
+    "size": 1570,
+    "mtime_ns": 1794326604000000000,
+    "indexed_at_ns": 1795193434379491700,
+    "word_count": 156,
+    "hashes": {
+      "services/dsp/qpsk.py": "1502d405a112837d6ea8b607169b8bb0c35d055c56f4bcfba83f5f91f5e7dd5a"
+    }
+  },
+  "services/dsp/run_wave2.py": {
+    "size": 6131,
+    "mtime_ns": 1795160735280575700,
+    "indexed_at_ns": 1795193434381998200,
+    "word_count": 504,
+    "hashes": {
+      "services/dsp/run_wave2.py": "f62927ff28f07364eadfd395bdaa6578329239920728c81211717bde2ab4d342"
+    }
+  },
+  "tests/unit/dsp/test_gnuradio_adapter.py": {
+    "size": 7037,
+    "mtime_ns": 1795193034357000000,
+    "indexed_at_ns": 1795193434384356100,
+    "word_count": 490,
+    "hashes": {
+      "tests/unit/dsp/test_gnuradio_adapter.py": "1f47c4eaa9a1ab58e660c1abd1fdddf002fa587f4b9f39e9f17fa1cee2bc955d"
+    }
+  },
+  "tests/unit/dsp/test_waveforms.py": {
+    "size": 13138,
+    "mtime_ns": 1795160735706378400,
+    "indexed_at_ns": 1795193434386838600,
+    "word_count": 1140,
+    "hashes": {
+      "tests/unit/dsp/test_waveforms.py": "d73b11d795d5bb7a4084d0acc6cd9e8e540c11b267bfe1bcb4093cd651a96014"
     }
   }
 }

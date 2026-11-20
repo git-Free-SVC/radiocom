@@ -1,0 +1,370 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_dsp_am_py",
+      "label": "am.py",
+      "file_type": "code",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_am_amcodec",
+      "label": "AMCodec",
+      "file_type": "code",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_am_amcodec_modulate",
+      "label": ".modulate()",
+      "file_type": "code",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L18",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/dsp/am.py"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_am_amcodec_demodulate",
+      "label": ".demodulate()",
+      "file_type": "code",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L22",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_am_amcodec_ber",
+      "label": ".ber()",
+      "file_type": "code",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L27",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_am_amcodec_occupied_bandwidth_hz",
+      "label": ".occupied_bandwidth_hz()",
+      "file_type": "code",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L30",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_am_rationale_1",
+      "label": "Binary AM/ASK implemented as on-off keying (OOK).",
+      "file_type": "rationale",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_am_rationale_13",
+      "label": "Coherent OOK with equal prior bits and a 0.5 noiseless threshold.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L13"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_dsp_am_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_py",
+      "target": "$graphify-root$_services_dsp_analytic_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_analytic.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_py",
+      "target": "$graphify-root$_services_dsp_single_carrier_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_single_carrier.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_py",
+      "target": "$graphify-root$_services_dsp_validation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_py",
+      "target": "$graphify-root$_services_dsp_am_amcodec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_amcodec",
+      "target": "$graphify-root$_services_dsp_am_amcodec_modulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_amcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_amcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_amcodec",
+      "target": "$graphify-root$_services_dsp_am_amcodec_demodulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_amcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_amcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_amcodec",
+      "target": "$graphify-root$_services_dsp_am_amcodec_ber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_amcodec",
+      "target": "$graphify-root$_services_dsp_am_amcodec_occupied_bandwidth_hz",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_rationale_1",
+      "target": "$graphify-root$_services_dsp_am_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_am_rationale_13",
+      "target": "$graphify-root$_services_dsp_am_amcodec",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L13",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_modulate",
+      "callee": "validate_sample_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L19",
+      "receiver": null,
+      "_python_call_site": [
+        580,
+        616
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_modulate",
+      "callee": "expand_symbols",
+      "is_member_call": false,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L20",
+      "receiver": null,
+      "_python_call_site": [
+        632,
+        686
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_modulate",
+      "callee": "astype",
+      "is_member_call": true,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L20",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        647,
+        685
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_modulate",
+      "callee": "validate_bits",
+      "is_member_call": false,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L20",
+      "receiver": null,
+      "_python_call_site": [
+        647,
+        666
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_demodulate",
+      "callee": "validate_sample_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L23",
+      "receiver": null,
+      "_python_call_site": [
+        775,
+        811
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_demodulate",
+      "callee": "collapse_symbols",
+      "is_member_call": false,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L24",
+      "receiver": null,
+      "_python_call_site": [
+        830,
+        850
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_demodulate",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L25",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        866,
+        925
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_demodulate",
+      "callee": "astype",
+      "is_member_call": true,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L25",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        887,
+        924
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_ber",
+      "callee": "check_ber_model",
+      "is_member_call": false,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L28",
+      "receiver": null,
+      "_python_call_site": [
+        986,
+        1035
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_ber",
+      "callee": "ber_coherent_orthogonal",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/am.py",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_am_amcodec_occupied_bandwidth_hz",
+      "callee": "scaled_bandwidth",
+      "is_member_call": false,
+      "source_file": "services/dsp/am.py",
+      "source_location": "L31",
+      "receiver": null,
+      "_python_call_site": [
+        1121,
+        1158
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/dsp/_analytic.py",
+    "$graphify-root$/services/dsp/_single_carrier.py",
+    "$graphify-root$/services/dsp/_validation.py"
+  ]
+}

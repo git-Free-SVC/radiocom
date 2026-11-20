@@ -1,0 +1,626 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_dsp_fm_py",
+      "label": "fm.py",
+      "file_type": "code",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_fm_fmcodec",
+      "label": "FMCodec",
+      "file_type": "code",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L18",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "label": ".modulate()",
+      "file_type": "code",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L24",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/dsp/fm.py"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "label": ".demodulate()",
+      "file_type": "code",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L41",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_fm_fmcodec_ber",
+      "label": ".ber()",
+      "file_type": "code",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L60",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_fm_fmcodec_occupied_bandwidth_hz",
+      "label": ".occupied_bandwidth_hz()",
+      "file_type": "code",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L63",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_dsp_fm_rationale_1",
+      "label": "Coherent orthogonal binary FSK represented by continuous-phase FM tones.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_fm_rationale_19",
+      "label": "Binary CPFSK with tones at +/-Rs/2 and a known initial phase of zero.",
+      "file_type": "rationale",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L19"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_dsp_fm_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_py",
+      "target": "$graphify-root$_services_dsp_analytic_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_analytic.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_py",
+      "target": "$graphify-root$_services_dsp_single_carrier_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_single_carrier.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_py",
+      "target": "$graphify-root$_services_dsp_validation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/_validation.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_py",
+      "target": "$graphify-root$_services_dsp_fm_fmcodec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_fmcodec",
+      "target": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_fmcodec",
+      "target": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_fmcodec",
+      "target": "$graphify-root$_services_dsp_fm_fmcodec_ber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_fmcodec",
+      "target": "$graphify-root$_services_dsp_fm_fmcodec_occupied_bandwidth_hz",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_rationale_1",
+      "target": "$graphify-root$_services_dsp_fm_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_dsp_fm_rationale_19",
+      "target": "$graphify-root$_services_dsp_fm_fmcodec",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L19",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "validate_sample_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L25",
+      "receiver": null,
+      "_python_call_site": [
+        651,
+        687
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "validate_bits",
+      "is_member_call": false,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L26",
+      "receiver": null,
+      "_python_call_site": [
+        705,
+        724
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L28",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        773,
+        805
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "where",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L30",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        915,
+        963
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "repeat",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L31",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        985,
+        1037
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "SAMPLES_PER_SYMBOL",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L32",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1054,
+        1097
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "cumsum",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L35",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1172,
+        1216
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "astype",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L36",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1234,
+        1286
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "exp",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L36",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1234,
+        1252
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "all",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L37",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1307,
+        1334
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L37",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1314,
+        1333
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "DSPInputError",
+      "is_member_call": false,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_call_site": [
+        1355,
+        1418
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_modulate",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L39",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1434,
+        1462
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "validate_sample_rate",
+      "is_member_call": false,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L42",
+      "receiver": null,
+      "_python_call_site": [
+        1551,
+        1587
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "validate_iq",
+      "is_member_call": false,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_call_site": [
+        1606,
+        1621
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "require_complete_groups",
+      "is_member_call": false,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L44",
+      "receiver": null,
+      "_python_call_site": [
+        1630,
+        1688
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "SAMPLES_PER_SYMBOL",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L46",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1738,
+        1765
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "reshape",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L47",
+      "receiver": "samples",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1783,
+        1822
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "SAMPLES_PER_SYMBOL",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L47"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "arange",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L48",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1841,
+        1888
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "SAMPLES_PER_SYMBOL",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L49",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1909,
+        1950
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "exp",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L53",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2154,
+        2204
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "exp",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L54",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2228,
+        2278
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "vdot",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L55",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2310,
+        2335
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "vdot",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L56",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2372,
+        2396
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_demodulate",
+      "callee": "ascontiguousarray",
+      "is_member_call": true,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L58",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2472,
+        2503
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_ber",
+      "callee": "check_ber_model",
+      "is_member_call": false,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L61",
+      "receiver": null,
+      "_python_call_site": [
+        2564,
+        2613
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_ber",
+      "callee": "ber_coherent_orthogonal",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_dsp_fm_fmcodec_occupied_bandwidth_hz",
+      "callee": "scaled_bandwidth",
+      "is_member_call": false,
+      "source_file": "services/dsp/fm.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_call_site": [
+        2777,
+        2814
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/dsp/_analytic.py",
+    "$graphify-root$/services/dsp/_single_carrier.py",
+    "$graphify-root$/services/dsp/_validation.py"
+  ]
+}

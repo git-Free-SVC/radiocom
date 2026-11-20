@@ -1,0 +1,443 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_zmq_transport_py",
+      "label": "zmq_transport.py",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport",
+      "label": "ZeroMQTransport",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L13",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L23",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "label": ".exchange()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L43",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_close",
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L63",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_zmq_transport_rationale_1",
+      "label": "Lazy PyZMQ REQ transport for a separately started GNU Radio worker.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_zmq_transport_rationale_11",
+      "label": "Synchronous REQ transport; importing or constructing it opens no socket.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L11"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_py",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/integrations/gnu_radio/errors.py"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_py",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_close",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_close",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_close",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_rationale_1",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_zmq_transport_rationale_11",
+      "target": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L11",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_init",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L14"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_init",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L15",
+      "receiver": null,
+      "_python_call_site": [
+        478,
+        536
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_init",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_init",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_init",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L17",
+      "receiver": null,
+      "_python_call_site": [
+        650,
+        701
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "callee": "WorkerUnavailableError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L29",
+      "receiver": null,
+      "_python_call_site": [
+        1014,
+        1138
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "callee": "instance",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L33",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1189,
+        1211
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "callee": "socket",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L34",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1239,
+        1268
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "callee": "setsockopt",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L35",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1281,
+        1319
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "callee": "setsockopt",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L36",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1332,
+        1386
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "callee": "setsockopt",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1399,
+        1453
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "callee": "connect",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1466,
+        1501
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_start",
+      "callee": "WorkerUnavailableError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L41",
+      "receiver": null,
+      "_python_call_site": [
+        1578,
+        1651
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "callee": "send_multipart",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L47",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1821,
+        1862
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "callee": "recv_multipart",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L48",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1886,
+        1915
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "callee": "WorkerUnavailableError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L55",
+      "receiver": null,
+      "_python_call_site": [
+        2156,
+        2222
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "callee": "WorkerTimeoutError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L57",
+      "receiver": null,
+      "_python_call_site": [
+        2297,
+        2363
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "callee": "WorkerUnavailableError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L58",
+      "receiver": null,
+      "_python_call_site": [
+        2391,
+        2446
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_exchange",
+      "callee": "WorkerProtocolError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L60",
+      "receiver": null,
+      "_python_call_site": [
+        2505,
+        2573
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_zmq_transport_zeromqtransport_close",
+      "callee": "close",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/zmq_transport.py",
+      "source_location": "L67",
+      "receiver": "socket",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2772,
+        2794
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/integrations/gnu_radio/errors.py"
+  ]
+}

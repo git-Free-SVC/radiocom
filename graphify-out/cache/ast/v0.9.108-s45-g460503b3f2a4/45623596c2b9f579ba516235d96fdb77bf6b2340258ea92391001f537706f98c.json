@@ -1,0 +1,1170 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "label": "worker.py",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_load_factory",
+      "label": "_load_factory()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L24",
+      "_py_return_type": "Any",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/worker.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_check_codec",
+      "label": "_check_codec()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L33",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "label": "process_request()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L40",
+      "_callable": true
+    },
+    {
+      "id": "workerrequest",
+      "label": "WorkerRequest",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/worker.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "label": "_malformed_request_response()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L59",
+      "_callable": true
+    },
+    {
+      "id": "exception",
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/worker.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "label": "serve()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L91",
+      "_callable": true
+    },
+    {
+      "id": "event",
+      "label": "Event",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/integrations/gnu_radio/worker.py"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L141",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_rationale_1",
+      "label": "Optional ZeroMQ worker host for an installed GNU Radio codec plugin. The host\u2026",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_rationale_41",
+      "label": "Dispatch a decoded request and turn plugin failures into wire errors.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_rationale_60",
+      "label": "Reply when malformed payloads still carry safe correlation metadata.",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L60"
+    },
+    {
+      "id": "$graphify-root$_integrations_gnu_radio_worker_rationale_98",
+      "label": "Run a sequential ZeroMQ REP worker until ``stop_event`` is set.\u2026",
+      "file_type": "rationale",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L98"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "argparse",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "argparse",
+      "_python_import_bindings": [
+        [
+          "argparse",
+          "argparse"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "importlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "importlib",
+      "_python_import_bindings": [
+        [
+          "importlib",
+          "importlib"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "threading",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "threading",
+      "_python_import_bindings": [
+        [
+          "threading",
+          "threading"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "$graphify-root$_integrations_gnu_radio_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/integrations/gnu_radio/errors.py"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "$graphify-root$_integrations_gnu_radio_protocol_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/integrations/gnu_radio/protocol.py"
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_load_factory",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_load_factory",
+      "target": "any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_check_codec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_check_codec",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "target": "workerrequest",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "target": "exception",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "target": "event",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_check_codec",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_check_codec",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_load_factory",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_rationale_1",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_rationale_41",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_rationale_60",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_integrations_gnu_radio_worker_rationale_98",
+      "target": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L98",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_load_factory",
+      "callee": "partition",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L25",
+      "receiver": "spec",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        737,
+        756
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_load_factory",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L27",
+      "receiver": null,
+      "_python_call_site": [
+        829,
+        892
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_load_factory",
+      "callee": "import_module",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L28",
+      "receiver": "importlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        906,
+        942
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_check_codec",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1321,
+        1339
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L45",
+      "receiver": null,
+      "_python_call_site": [
+        1600,
+        1713
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L49",
+      "receiver": "codec",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Any",
+      "_python_call_site": [
+        1779,
+        1834
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "demodulate",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L51",
+      "receiver": "codec",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Any",
+      "_python_call_site": [
+        1904,
+        1961
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        1994,
+        2052
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "encode_response",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L54",
+      "receiver": null,
+      "_python_call_site": [
+        2068,
+        2100
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "encode_response",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L56",
+      "receiver": null,
+      "_python_call_site": [
+        2145,
+        2180
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L64",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2435,
+        2471
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L64",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2446,
+        2470
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L75",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2873,
+        2892
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "callee": "WorkerRequest",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L79",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        2973,
+        3172
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "callee": "empty",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L84",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3134,
+        3161
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_malformed_request_response",
+      "callee": "encode_response",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L86",
+      "receiver": null,
+      "_python_call_site": [
+        3188,
+        3225
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "WorkerUnavailableError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L107",
+      "receiver": null,
+      "_python_call_site": [
+        3777,
+        3890
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "import_module",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L112",
+      "receiver": "importlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3950,
+        3988
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "WorkerUnavailableError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L114",
+      "receiver": null,
+      "_python_call_site": [
+        4042,
+        4182
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "Event",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L117",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4217,
+        4234
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "Context",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L118",
+      "receiver": "zmq",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4249,
+        4262
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "socket",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L119",
+      "receiver": "context",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Context",
+      "_python_call_site": [
+        4276,
+        4299
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "setsockopt",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L120",
+      "receiver": "socket",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4276,
+        4299
+      ],
+      "_python_call_site": [
+        4304,
+        4336
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "bind",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L121",
+      "receiver": "socket",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4276,
+        4299
+      ],
+      "_python_call_site": [
+        4341,
+        4362
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "is_set",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L123",
+      "receiver": "stop",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4390,
+        4403
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "poll",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L124",
+      "receiver": "socket",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4276,
+        4299
+      ],
+      "_python_call_site": [
+        4424,
+        4452
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "recv_multipart",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L126",
+      "receiver": "socket",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4276,
+        4299
+      ],
+      "_python_call_site": [
+        4499,
+        4522
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "decode_request",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L128",
+      "receiver": null,
+      "_python_call_site": [
+        4566,
+        4587
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L130"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "send_multipart",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L132",
+      "receiver": "socket",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4276,
+        4299
+      ],
+      "_python_call_site": [
+        4754,
+        4791
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "send_multipart",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L135",
+      "receiver": "socket",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4276,
+        4299
+      ],
+      "_python_call_site": [
+        4907,
+        4967
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "close",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L137",
+      "receiver": "socket",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4276,
+        4299
+      ],
+      "_python_call_site": [
+        4989,
+        5011
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_serve",
+      "callee": "term",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L138",
+      "receiver": "context",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Context",
+      "_python_call_site": [
+        5020,
+        5034
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "callee": "ArgumentParser",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L142",
+      "receiver": "argparse",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5070,
+        5114
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "callee": "__doc__",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L142"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L143",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [
+        5119,
+        5184
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "callee": "add_argument",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L144",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [
+        5189,
+        5242
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "callee": "parse_args",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L145",
+      "receiver": "parser",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ArgumentParser",
+      "_python_call_site": [
+        5254,
+        5273
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "callee": "import_module",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L147",
+      "receiver": "importlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5291,
+        5329
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_main",
+      "callee": "WorkerUnavailableError",
+      "is_member_call": false,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L149",
+      "receiver": null,
+      "_python_call_site": [
+        5375,
+        5507
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "operation",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L53",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "sample_rate_hz",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L51",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "payload",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L51",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "operation",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L50",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "sample_rate_hz",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L49",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "payload",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L49",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "operation",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L48",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "codec",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L46",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "name",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L46",
+      "_python_attr_read": true,
+      "receiver": "codec",
+      "receiver_type": "Any"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "name",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L44",
+      "_python_attr_read": true,
+      "receiver": "codec",
+      "receiver_type": "Any"
+    },
+    {
+      "caller_nid": "$graphify-root$_integrations_gnu_radio_worker_process_request",
+      "callee": "codec",
+      "is_member_call": true,
+      "source_file": "integrations/gnu_radio/worker.py",
+      "source_location": "L44",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "WorkerRequest"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/integrations/gnu_radio/errors.py",
+    "$graphify-root$/integrations/gnu_radio/protocol.py"
+  ]
+}

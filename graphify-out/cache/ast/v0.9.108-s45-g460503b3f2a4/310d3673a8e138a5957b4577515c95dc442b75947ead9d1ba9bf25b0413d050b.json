@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_dsp_init_py",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "services/dsp/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_dsp_init_rationale_1",
+      "label": "Deterministic NumPy waveform codecs for the RADIOCOM Wave 2 DSP service. The\u2026",
+      "file_type": "rationale",
+      "source_file": "services/dsp/__init__.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_dsp_init_py",
+      "target": "$graphify-root$_services_dsp_am_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/__init__.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/am.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_init_py",
+      "target": "$graphify-root$_services_dsp_bpsk_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/__init__.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/bpsk.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_init_py",
+      "target": "$graphify-root$_services_dsp_fm_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/fm.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_init_py",
+      "target": "$graphify-root$_services_dsp_ofdm_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/__init__.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/ofdm.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_init_py",
+      "target": "$graphify-root$_services_dsp_qpsk_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/__init__.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/dsp/qpsk.py"
+    },
+    {
+      "source": "$graphify-root$_services_dsp_init_rationale_1",
+      "target": "$graphify-root$_services_dsp_init_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/dsp/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/services/dsp/am.py",
+    "$graphify-root$/services/dsp/bpsk.py",
+    "$graphify-root$/services/dsp/fm.py",
+    "$graphify-root$/services/dsp/ofdm.py",
+    "$graphify-root$/services/dsp/qpsk.py"
+  ]
+}
