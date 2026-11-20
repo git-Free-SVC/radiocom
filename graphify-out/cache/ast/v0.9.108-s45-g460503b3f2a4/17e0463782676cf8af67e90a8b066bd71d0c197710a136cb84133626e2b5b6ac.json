@@ -1,0 +1,2311 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_api_app_py",
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app",
+      "label": "create_app()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L58",
+      "_py_return_type": "FastAPI",
+      "_callable": true
+    },
+    {
+      "id": "scenarioport",
+      "label": "ScenarioPort",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/app.py"
+    },
+    {
+      "id": "simulationregistryport",
+      "label": "SimulationRegistryPort",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/app.py"
+    },
+    {
+      "id": "eventbus",
+      "label": "EventBus",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/app.py"
+    },
+    {
+      "id": "clockport",
+      "label": "ClockPort",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/app.py"
+    },
+    {
+      "id": "geodataport",
+      "label": "GeodataPort",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/app.py"
+    },
+    {
+      "id": "fastapi",
+      "label": "FastAPI",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/app.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_enforce_body_limit",
+      "label": "enforce_body_limit()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L102",
+      "_py_return_type": "Any",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_run_control",
+      "label": "run_control()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L109",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_list_scenarios_route",
+      "label": "list_scenarios_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L129",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_create_scenario_route",
+      "label": "create_scenario_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L135",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_get_scenario_route",
+      "label": "get_scenario_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L142",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "label": "create_simulation_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L154",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_start_simulation_route",
+      "label": "start_simulation_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L172",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_pause_simulation_route",
+      "label": "pause_simulation_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L176",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_resume_simulation_route",
+      "label": "resume_simulation_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L180",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_reset_simulation_route",
+      "label": "reset_simulation_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L184",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_add_radio_route",
+      "label": "add_radio_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L192",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_update_radio_route",
+      "label": "update_radio_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L202",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_get_link_route",
+      "label": "get_link_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L214",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_list_layers_route",
+      "label": "list_layers_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L226",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "label": "publish_layer_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L232",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_elevation_route",
+      "label": "elevation_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L250",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_elevation_profile_route",
+      "label": "elevation_profile_route()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L261",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "label": "telemetry_websocket()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L282",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "label": "spectrum_websocket()",
+      "file_type": "code",
+      "source_file": "services/api/app.py",
+      "source_location": "L300",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_app_rationale_1",
+      "label": "REST + WebSocket routes of architecture doc \u00a717, over injected ports. Thin\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/app.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_app_rationale_66",
+      "label": "Build the API application over the given ports (all optional).",
+      "file_type": "rationale",
+      "source_file": "services/api/app.py",
+      "source_location": "L66"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Annotated",
+          "Annotated"
+        ],
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_python_import_module": "fastapi",
+      "_python_import_bindings": [
+        [
+          "Body",
+          "Body"
+        ],
+        [
+          "FastAPI",
+          "FastAPI"
+        ],
+        [
+          "Query",
+          "Query"
+        ],
+        [
+          "Request",
+          "Request"
+        ],
+        [
+          "WebSocket",
+          "WebSocket"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.event_bus",
+      "_python_import_bindings": [
+        [
+          "EventBus",
+          "EventBus"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.geodata",
+      "_python_import_bindings": [
+        [
+          "GeoJSONFile",
+          "GeoJSONFile"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/geodata.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_services_api_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_python_import_module": "services.api.errors",
+      "_python_import_bindings": [
+        [
+          "ApiError",
+          "ApiError"
+        ],
+        [
+          "error_response",
+          "error_response"
+        ],
+        [
+          "install_exception_handlers",
+          "install_exception_handlers"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_services_api_mocks_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_python_import_module": "services.api.mocks",
+      "_python_import_bindings": [
+        [
+          "FakeClock",
+          "FakeClock"
+        ],
+        [
+          "InMemoryEventBus",
+          "InMemoryEventBus"
+        ],
+        [
+          "InMemoryScenarioStore",
+          "InMemoryScenarioStore"
+        ],
+        [
+          "InMemorySimulationRegistry",
+          "InMemorySimulationRegistry"
+        ],
+        [
+          "MockGeodataProvider",
+          "MockGeodataProvider"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_services_api_ports_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_python_import_module": "services.api.ports",
+      "_python_import_bindings": [
+        [
+          "ClockPort",
+          "ClockPort"
+        ],
+        [
+          "GeodataPort",
+          "GeodataPort"
+        ],
+        [
+          "ScenarioPort",
+          "ScenarioPort"
+        ],
+        [
+          "SimulationRegistryPort",
+          "SimulationRegistryPort"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/ports.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_services_api_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_python_import_module": "services.api.schemas",
+      "_python_import_bindings": [
+        [
+          "validate_create_scenario",
+          "validate_create_scenario"
+        ],
+        [
+          "validate_request",
+          "validate_request"
+        ],
+        [
+          "validate_response",
+          "validate_response"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/schemas.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_services_api_serialization_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_python_import_module": "services.api.serialization",
+      "_python_import_bindings": [
+        [
+          "to_payload",
+          "to_payload"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/serialization.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_services_api_ws_connection_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_python_import_module": "services.api.ws_connection",
+      "_python_import_bindings": [
+        [
+          "stream_events",
+          "stream_events"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/ws_connection.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_services_api_ws_contract_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_python_import_module": "services.api.ws_contract",
+      "_python_import_bindings": [
+        [
+          "CHANNEL_SPECTRUM",
+          "CHANNEL_SPECTRUM"
+        ],
+        [
+          "CLOSE_UNKNOWN_SIMULATION",
+          "CLOSE_UNKNOWN_SIMULATION"
+        ],
+        [
+          "SPECTRUM_TOPIC",
+          "SPECTRUM_TOPIC"
+        ],
+        [
+          "WS_PATH_SPECTRUM",
+          "WS_PATH_SPECTRUM"
+        ],
+        [
+          "WS_PATH_TELEMETRY",
+          "WS_PATH_TELEMETRY"
+        ],
+        [
+          "build_telemetry_snapshot",
+          "build_telemetry_snapshot"
+        ],
+        [
+          "spectrum_snapshot",
+          "spectrum_snapshot"
+        ],
+        [
+          "telemetry_topic",
+          "telemetry_topic"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/ws_contract.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_app_py",
+      "target": "$graphify-root$_services_api_app_create_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "scenarioport",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "simulationregistryport",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "eventbus",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "clockport",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "geodataport",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "fastapi",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_enforce_body_limit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_run_control",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_list_scenarios_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_create_scenario_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_get_scenario_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_start_simulation_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_pause_simulation_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_resume_simulation_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_reset_simulation_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_add_radio_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_update_radio_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_get_link_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_list_layers_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_elevation_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_elevation_profile_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L282",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app",
+      "target": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app_start_simulation_route",
+      "target": "$graphify-root$_services_api_app_create_app_run_control",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app_pause_simulation_route",
+      "target": "$graphify-root$_services_api_app_create_app_run_control",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app_resume_simulation_route",
+      "target": "$graphify-root$_services_api_app_create_app_run_control",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_create_app_reset_simulation_route",
+      "target": "$graphify-root$_services_api_app_create_app_run_control",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_rationale_1",
+      "target": "$graphify-root$_services_api_app_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_app_rationale_66",
+      "target": "$graphify-root$_services_api_app_create_app",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/app.py",
+      "source_location": "L66",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "FakeClock",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L68",
+      "receiver": null,
+      "_python_call_site": [
+        2595,
+        2606
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "InMemoryScenarioStore",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L70",
+      "receiver": null,
+      "_python_call_site": [
+        2656,
+        2699
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "seed_default_scenarios",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L71",
+      "receiver": "default_store",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        2708,
+        2746
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "InMemoryEventBus",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L75",
+      "receiver": null,
+      "_python_call_site": [
+        2933,
+        2951
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "InMemoryScenarioStore",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "InMemorySimulationRegistry",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L81",
+      "receiver": null,
+      "_python_call_site": [
+        3349,
+        3459
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "MockGeodataProvider",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L86",
+      "receiver": null,
+      "_python_call_site": [
+        3579,
+        3600
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "FastAPI",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L88",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        3612,
+        3687
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "install_exception_handlers",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_call_site": [
+        3692,
+        3723
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "middleware",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L101",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        4234,
+        4256
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L128",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        5550,
+        5571
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "post",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L134",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        5772,
+        5811
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L141",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        6119,
+        6145
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "post",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L153",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        6763,
+        6804
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "post",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L171",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        7585,
+        7620
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "post",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L175",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        7758,
+        7793
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "post",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L179",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        7931,
+        7967
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "post",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L183",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        8108,
+        8143
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "post",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L191",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        8616,
+        8652
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "patch",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L201",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        9095,
+        9120
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L213",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        9602,
+        9627
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L225",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        10217,
+        10243
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "post",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L231",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        10472,
+        10516
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L249",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        11247,
+        11276
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L260",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        11781,
+        11818
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "websocket",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L281",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        12766,
+        12798
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "WS_PATH_TELEMETRY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L281"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "websocket",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L299",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        13425,
+        13456
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "WS_PATH_SPECTRUM",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L299"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_enforce_body_limit",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L103",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4351,
+        4388
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_enforce_body_limit",
+      "callee": "isdigit",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L104",
+      "receiver": "declared",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4351,
+        4388
+      ],
+      "_python_call_site": [
+        4425,
+        4443
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_enforce_body_limit",
+      "callee": "error_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L105",
+      "receiver": null,
+      "_python_call_site": [
+        4499,
+        4544
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_run_control",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L110",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4772,
+        4808
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_run_control",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L112",
+      "receiver": null,
+      "_python_call_site": [
+        4854,
+        4908
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_run_control",
+      "callee": "getattr(engine, action)",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L114",
+      "receiver": null,
+      "_python_call_site": [
+        4934,
+        4959
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_run_control",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L116",
+      "receiver": null,
+      "_python_call_site": [
+        5053,
+        5076
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_run_control",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L116"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_run_control",
+      "callee": "scenario_id",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L119",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5166,
+        5210
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_run_control",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L120",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5234,
+        5273
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_run_control",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L122",
+      "receiver": null,
+      "_python_call_site": [
+        5293,
+        5330
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_list_scenarios_route",
+      "callee": "list_scenarios",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L130",
+      "receiver": "resolved_scenario",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5654,
+        5688
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_list_scenarios_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L131",
+      "receiver": null,
+      "_python_call_site": [
+        5698,
+        5742
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_scenario_route",
+      "callee": "validate_create_scenario",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L136",
+      "receiver": null,
+      "_python_call_site": [
+        5910,
+        5940
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_scenario_route",
+      "callee": "create_scenario",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L137",
+      "receiver": "resolved_scenario",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5998,
+        6037
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_scenario_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L138",
+      "receiver": null,
+      "_python_call_site": [
+        6046,
+        6090
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_get_scenario_route",
+      "callee": "get_scenario",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L143",
+      "receiver": "resolved_scenario",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6218,
+        6252
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_get_scenario_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_call_site": [
+        6298,
+        6339
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_get_scenario_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L146",
+      "receiver": null,
+      "_python_call_site": [
+        6348,
+        6396
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "callee": "validate_request",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L155",
+      "receiver": null,
+      "_python_call_site": [
+        6905,
+        6948
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "callee": "get_scenario",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L157",
+      "receiver": "resolved_scenario",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7008,
+        7051
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L159",
+      "receiver": null,
+      "_python_call_site": [
+        7097,
+        7147
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "callee": "create",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L160",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7172,
+        7209
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L161",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7227,
+        7263
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L162",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        7227,
+        7263
+      ],
+      "_python_call_site": [
+        7272,
+        7291
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L166",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7449,
+        7488
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_create_simulation_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L168",
+      "receiver": null,
+      "_python_call_site": [
+        7508,
+        7555
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_add_radio_route",
+      "callee": "validate_request",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L193",
+      "receiver": null,
+      "_python_call_site": [
+        8745,
+        8783
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_add_radio_route",
+      "callee": "add_radio",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L195",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8819,
+        8875
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_add_radio_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L197",
+      "receiver": null,
+      "_python_call_site": [
+        8982,
+        9005
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_add_radio_route",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L197"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_add_radio_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L198",
+      "receiver": null,
+      "_python_call_site": [
+        9023,
+        9065
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_update_radio_route",
+      "callee": "validate_request",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L203",
+      "receiver": null,
+      "_python_call_site": [
+        9225,
+        9269
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_update_radio_route",
+      "callee": "update_radio",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L205",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9305,
+        9345
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_update_radio_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L207",
+      "receiver": null,
+      "_python_call_site": [
+        9398,
+        9421
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_update_radio_route",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L207"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_update_radio_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L209",
+      "receiver": null,
+      "_python_call_site": [
+        9477,
+        9515
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_update_radio_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L210",
+      "receiver": null,
+      "_python_call_site": [
+        9524,
+        9572
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_get_link_route",
+      "callee": "get_link",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L215",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9704,
+        9736
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_get_link_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L217",
+      "receiver": null,
+      "_python_call_site": [
+        9783,
+        9835
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_get_link_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L218",
+      "receiver": null,
+      "_python_call_site": [
+        9844,
+        9892
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_list_layers_route",
+      "callee": "to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L227",
+      "receiver": null,
+      "_python_call_site": [
+        10321,
+        10338
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_list_layers_route",
+      "callee": "list_layers",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L227",
+      "receiver": "resolved_geodata",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10352,
+        10382
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_list_layers_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L228",
+      "receiver": null,
+      "_python_call_site": [
+        10393,
+        10442
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "validate_request",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L233",
+      "receiver": null,
+      "_python_call_site": [
+        10613,
+        10659
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "publish_raster",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L236",
+      "receiver": "resolved_geodata",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10738,
+        10872
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L237",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10826,
+        10854
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "publish_vector",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L240",
+      "receiver": "resolved_geodata",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10915,
+        11037
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "GeoJSONFile",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L241",
+      "receiver": null,
+      "_python_call_site": [
+        10982,
+        11019
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L244",
+      "receiver": null,
+      "_python_call_site": [
+        11090,
+        11113
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L244"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L245",
+      "receiver": null,
+      "_python_call_site": [
+        11141,
+        11158
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_publish_layer_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L246",
+      "receiver": null,
+      "_python_call_site": [
+        11167,
+        11217
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_route",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L252",
+      "receiver": null,
+      "_python_call_site": [
+        11406,
+        11435
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_route",
+      "callee": "elevation_at",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L253",
+      "receiver": "resolved_geodata",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11497,
+        11536
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L255",
+      "receiver": null,
+      "_python_call_site": [
+        11589,
+        11612
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_route",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L255"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L257",
+      "receiver": null,
+      "_python_call_site": [
+        11699,
+        11751
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_profile_route",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L269",
+      "receiver": null,
+      "_python_call_site": [
+        12081,
+        12112
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_profile_route",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L270",
+      "receiver": null,
+      "_python_call_site": [
+        12131,
+        12162
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_profile_route",
+      "callee": "elevation_profile",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L271",
+      "receiver": "resolved_geodata",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12184,
+        12239
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_profile_route",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L273",
+      "receiver": null,
+      "_python_call_site": [
+        12334,
+        12357
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_profile_route",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L273"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_elevation_profile_route",
+      "callee": "validate_response",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L275",
+      "receiver": null,
+      "_python_call_site": [
+        12415,
+        12475
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "exists",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L283",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12881,
+        12909
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "accept",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L285",
+      "receiver": "ws",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "WebSocket",
+      "_python_call_site": [
+        13003,
+        13014
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "close",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L286",
+      "receiver": "ws",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "WebSocket",
+      "_python_call_site": [
+        13033,
+        13072
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "CLOSE_UNKNOWN_SIMULATION",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L286"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "accept",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L288",
+      "receiver": "ws",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "WebSocket",
+      "_python_call_site": [
+        13106,
+        13117
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "stream_events",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L289",
+      "receiver": null,
+      "_python_call_site": [
+        13132,
+        13418
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "resolved_bus",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L291"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "telemetry_topic",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L292",
+      "receiver": null,
+      "_python_call_site": [
+        13211,
+        13230
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "build_telemetry_snapshot",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L293",
+      "receiver": null,
+      "_python_call_site": [
+        13261,
+        13374
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "radios",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L294",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13303,
+        13331
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_telemetry_websocket",
+      "callee": "links",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L294",
+      "receiver": "resolved_registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13333,
+        13360
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "callee": "accept",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L303",
+      "receiver": "ws",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "WebSocket",
+      "_python_call_site": [
+        13654,
+        13665
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "callee": "resolved_bus",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L304"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "callee": "last_payload",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "getattr",
+      "source_file": "services/api/app.py",
+      "source_location": "L304"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "callee": "stream_events",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L305",
+      "receiver": null,
+      "_python_call_site": [
+        13750,
+        14095
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "callee": "resolved_bus",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L307"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "callee": "SPECTRUM_TOPIC",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L308"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "callee": "spectrum_snapshot",
+      "is_member_call": false,
+      "source_file": "services/api/app.py",
+      "source_location": "L310",
+      "receiver": null,
+      "_python_call_site": [
+        13910,
+        14037
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_spectrum_websocket",
+      "callee": "SPECTRUM_TOPIC",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/app.py",
+      "source_location": "L311"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L98",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "FastAPI"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L97",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "FastAPI"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L96",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "FastAPI"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L95",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "FastAPI"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L94",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "FastAPI"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L93",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "FastAPI"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L92",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "FastAPI"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_app_create_app_enforce_body_limit",
+      "callee": "headers",
+      "is_member_call": true,
+      "source_file": "services/api/app.py",
+      "source_location": "L103",
+      "_python_attr_read": true,
+      "receiver": "request",
+      "receiver_type": "Request"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/plugin_sdk/event_bus.py",
+    "$graphify-root$/libraries/plugin_sdk/geodata.py",
+    "$graphify-root$/services/api/errors.py",
+    "$graphify-root$/services/api/mocks.py",
+    "$graphify-root$/services/api/ports.py",
+    "$graphify-root$/services/api/schemas.py",
+    "$graphify-root$/services/api/serialization.py",
+    "$graphify-root$/services/api/ws_connection.py",
+    "$graphify-root$/services/api/ws_contract.py"
+  ]
+}

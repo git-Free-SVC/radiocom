@@ -1,0 +1,939 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_api_ports_py",
+      "label": "ports.py",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_scenarioport",
+      "label": "ScenarioPort",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/ports.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_scenarioport_list_scenarios",
+      "label": ".list_scenarios()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L23",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/ports.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_scenarioport_create_scenario",
+      "label": ".create_scenario()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L27",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_scenarioport_get_scenario",
+      "label": ".get_scenario()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L32",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_clockport",
+      "label": "ClockPort",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_clockport_now",
+      "label": ".now()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L41",
+      "_callable": true
+    },
+    {
+      "id": "datetime",
+      "label": "datetime",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/ports.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_coreport",
+      "label": "CorePort",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L45",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_coreport_add_radio",
+      "label": ".add_radio()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L49",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_coreport_update_radio",
+      "label": ".update_radio()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L54",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_coreport_get_link",
+      "label": ".get_link()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L58",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_coreport_radios",
+      "label": ".radios()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L63",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_coreport_links",
+      "label": ".links()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L67",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_simulationregistryport",
+      "label": "SimulationRegistryPort",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L73",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_simulationregistryport_create",
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L77",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_simulationregistryport_get",
+      "label": ".get()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L81",
+      "_py_return_type": "SimulationEngine",
+      "_callable": true
+    },
+    {
+      "id": "simulationengine",
+      "label": "SimulationEngine",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/ports.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_simulationregistryport_exists",
+      "label": ".exists()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_simulationregistryport_status",
+      "label": ".status()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L85",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_simulationregistryport_scenario_id",
+      "label": ".scenario_id()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L89",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_geodataport",
+      "label": "GeodataPort",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L95",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "geodataprovider",
+      "label": "GeodataProvider",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/ports.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_geodataport_list_layers",
+      "label": ".list_layers()",
+      "file_type": "code",
+      "source_file": "services/api/ports.py",
+      "source_location": "L100",
+      "_callable": true
+    },
+    {
+      "id": "layerref",
+      "label": "LayerRef",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/ports.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_1",
+      "label": "API-local ports (typing.Protocol). The API package depends only on these. The\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_21",
+      "label": "Read/write access to stored scenarios.",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_24",
+      "label": "Summaries [{id, name}, ...] in creation order.",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_28",
+      "label": "Validate-free storage: schema validation happens in the route. Returns {id,\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_33",
+      "label": "The stored record, or None for an unknown id.",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L33"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_39",
+      "label": "Injected deterministic clock \u2014 no wall time anywhere in services/api.",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L39"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_46",
+      "label": "Radio/link operations needed by POST|PATCH /radios, GET /links/{a}/{b} and the\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L46"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_50",
+      "label": "Build frozen domain types from a validated body (ValueError from a domain\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L50"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_55",
+      "label": "Apply a whole-value replacement patch; None for an unknown radio.",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_59",
+      "label": "Link payload (link_state_changed keys); direction-insensitive; None when no\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L59"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_64",
+      "label": "Radio payloads of one simulation (WS snapshot source).",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L64"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_68",
+      "label": "Link payloads of one simulation (WS snapshot source).",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L68"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_74",
+      "label": "One SimulationEngine per /simulations/{id} (SimulationEngine itself has no id\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L74"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_78",
+      "label": "Register a fresh engine (state \"new\"); returns sim_000N.",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L78"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_86",
+      "label": "LOADED | RUNNING | PAUSED | new; ApiError(404) when unknown.",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L86"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_90",
+      "label": "The scenario a simulation was created from; ApiError(404) unknown.",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L90"
+    },
+    {
+      "id": "$graphify-root$_services_api_ports_rationale_96",
+      "label": "Frozen GeodataProvider plus list_layers for GET /geodata/layers (the frozen\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ports.py",
+      "source_location": "L96"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "datetime",
+      "_python_import_bindings": [
+        [
+          "datetime",
+          "datetime"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "Protocol",
+          "Protocol"
+        ],
+        [
+          "runtime_checkable",
+          "runtime_checkable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.geodata",
+      "_python_import_bindings": [
+        [
+          "GeodataProvider",
+          "GeodataProvider"
+        ],
+        [
+          "LayerRef",
+          "LayerRef"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/geodata.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "SimulationEngine",
+          "SimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "$graphify-root$_services_api_ports_scenarioport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_scenarioport",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_scenarioport",
+      "target": "$graphify-root$_services_api_ports_scenarioport_list_scenarios",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_scenarioport_list_scenarios",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_scenarioport",
+      "target": "$graphify-root$_services_api_ports_scenarioport_create_scenario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_scenarioport_create_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_scenarioport",
+      "target": "$graphify-root$_services_api_ports_scenarioport_get_scenario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_scenarioport_get_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "$graphify-root$_services_api_ports_clockport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_clockport",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_clockport",
+      "target": "$graphify-root$_services_api_ports_clockport_now",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_clockport_now",
+      "target": "datetime",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "$graphify-root$_services_api_ports_coreport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport",
+      "target": "$graphify-root$_services_api_ports_coreport_add_radio",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport_add_radio",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport",
+      "target": "$graphify-root$_services_api_ports_coreport_update_radio",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport_update_radio",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport",
+      "target": "$graphify-root$_services_api_ports_coreport_get_link",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport_get_link",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport",
+      "target": "$graphify-root$_services_api_ports_coreport_radios",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport_radios",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport",
+      "target": "$graphify-root$_services_api_ports_coreport_links",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_coreport_links",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_simulationregistryport",
+      "target": "$graphify-root$_services_api_ports_coreport",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_simulationregistryport",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_simulationregistryport",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport_create",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_simulationregistryport",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport_get",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_simulationregistryport_get",
+      "target": "simulationengine",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_simulationregistryport",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_simulationregistryport",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport_status",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_simulationregistryport",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport_scenario_id",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_py",
+      "target": "$graphify-root$_services_api_ports_geodataport",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_geodataport",
+      "target": "geodataprovider",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_geodataport",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_geodataport",
+      "target": "$graphify-root$_services_api_ports_geodataport_list_layers",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_geodataport_list_layers",
+      "target": "layerref",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_1",
+      "target": "$graphify-root$_services_api_ports_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_21",
+      "target": "$graphify-root$_services_api_ports_scenarioport",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_24",
+      "target": "$graphify-root$_services_api_ports_scenarioport_list_scenarios",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_28",
+      "target": "$graphify-root$_services_api_ports_scenarioport_create_scenario",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_33",
+      "target": "$graphify-root$_services_api_ports_scenarioport_get_scenario",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_39",
+      "target": "$graphify-root$_services_api_ports_clockport",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_46",
+      "target": "$graphify-root$_services_api_ports_coreport",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_50",
+      "target": "$graphify-root$_services_api_ports_coreport_add_radio",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_55",
+      "target": "$graphify-root$_services_api_ports_coreport_update_radio",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_59",
+      "target": "$graphify-root$_services_api_ports_coreport_get_link",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_64",
+      "target": "$graphify-root$_services_api_ports_coreport_radios",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_68",
+      "target": "$graphify-root$_services_api_ports_coreport_links",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_74",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_78",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport_create",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L78",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_86",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport_status",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_90",
+      "target": "$graphify-root$_services_api_ports_simulationregistryport_scenario_id",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ports_rationale_96",
+      "target": "$graphify-root$_services_api_ports_geodataport",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ports.py",
+      "source_location": "L96",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/geodata.py",
+    "$graphify-root$/libraries/plugin_sdk/simulation.py"
+  ]
+}

@@ -1,6 +1,6 @@
 """WaveformCodec interface. Frozen after Wave 0 — see docs/adr/ADR-000.
 Implementations: services/dsp/{am,fm,bpsk,qpsk,ofdm,...}.py and the
-GNU Radio adapter in integrations/gnu-radio (§10)."""
+GNU Radio adapter in integrations/gnu_radio (§10)."""
 
 from __future__ import annotations
 

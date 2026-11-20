@@ -1,0 +1,13 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_domain_init_py",
+      "label": "_init_.py",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/_init_.py",
+      "source_location": null
+    }
+  ],
+  "edges": [],
+  "raw_calls": []
+}

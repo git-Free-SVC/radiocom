@@ -1,0 +1,309 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_fakes_in_process_event_bus_py",
+      "label": "in_process_event_bus.py",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus",
+      "label": "InProcessEventBus",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L15",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_publish",
+      "label": ".publish()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L18",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/in_process_event_bus.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_subscribe",
+      "label": ".subscribe()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "handler",
+      "label": "Handler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/in_process_event_bus.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_unsubscribe",
+      "label": ".unsubscribe()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L29",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_in_process_event_bus_rationale_1",
+      "label": "Reference EventBus: synchronous in-process pub/sub (MVP, \u00a719).",
+      "file_type": "rationale",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_py",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "logging",
+      "_python_import_bindings": [
+        [
+          "logging",
+          "logging"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_py",
+      "target": "collections",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "collections",
+      "_python_import_bindings": [
+        [
+          "defaultdict",
+          "defaultdict"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.event_bus",
+      "_python_import_bindings": [
+        [
+          "Handler",
+          "Handler"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_py",
+      "target": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus",
+      "target": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus",
+      "target": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_publish",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_publish",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus",
+      "target": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_subscribe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_subscribe",
+      "target": "handler",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus",
+      "target": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_unsubscribe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_unsubscribe",
+      "target": "handler",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_in_process_event_bus_rationale_1",
+      "target": "$graphify-root$_tests_contract_fakes_in_process_event_bus_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_init",
+      "callee": "defaultdict",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L16",
+      "receiver": null,
+      "_python_call_site": [
+        374,
+        391
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_init",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L16"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_publish",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L19",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        490,
+        515
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_publish",
+      "callee": "exception",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L23",
+      "receiver": "log",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        675,
+        725
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_subscribe",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L27",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        847,
+        880
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_in_process_event_bus_inprocesseventbus_unsubscribe",
+      "callee": "remove",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/in_process_event_bus.py",
+      "source_location": "L31",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        972,
+        1005
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+  ]
+}

@@ -1,0 +1,1129 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "label": "test_determinism.py",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "label": "_sequence()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L46",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/test_determinism.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_test_identical_sequence_on_two_fresh_apps_is_byte_identical",
+      "label": "test_identical_sequence_on_two_fresh_apps_is_byte_identical()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L62",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "label": "test_created_at_comes_only_from_the_injected_fake_clock()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L69",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "label": "test_parallel_radio_creations_yield_unique_counter_ids()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L84",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "label": "test_parallel_scenario_creations_yield_unique_counter_ids()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L105",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "label": "test_parallel_control_requests_produce_exactly_n_engine_entries()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L121",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_test_source_scan_forbids_wall_clock_uuid_and_random",
+      "label": "test_source_scan_forbids_wall_clock_uuid_and_random()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L149",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_rationale_1",
+      "label": "Determinism (task prompt \u00a74/\u00a79): counter ids, injected clock, byte-identical\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_rationale_47",
+      "label": "One fixed request sequence; responses kept as raw bytes.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_determinism_rationale_122",
+      "label": "N parallel start() requests -> exactly N log entries, no double-calls, exactly\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L122"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "re",
+      "_python_import_bindings": [
+        [
+          "re",
+          "re"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "concurrent_futures",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "concurrent.futures",
+      "_python_import_bindings": [
+        [
+          "ThreadPoolExecutor",
+          "ThreadPoolExecutor"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "conftest",
+      "_python_import_bindings": [
+        [
+          "REPOSITORY_ROOT",
+          "REPOSITORY_ROOT"
+        ],
+        [
+          "VALID_RADIO_BODY",
+          "VALID_RADIO_BODY"
+        ],
+        [
+          "VALID_SCENARIO_BODY",
+          "VALID_SCENARIO_BODY"
+        ],
+        [
+          "create_scenario",
+          "create_scenario"
+        ],
+        [
+          "create_simulation",
+          "create_simulation"
+        ],
+        [
+          "get",
+          "get"
+        ],
+        [
+          "post",
+          "post"
+        ],
+        [
+          "request",
+          "request"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/api/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_services_api_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "services.api",
+      "_python_import_bindings": [
+        [
+          "create_app",
+          "create_app"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_test_identical_sequence_on_two_fresh_apps_is_byte_identical",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_test_source_scan_forbids_wall_clock_uuid_and_random",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_test_identical_sequence_on_two_fresh_apps_is_byte_identical",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_rationale_1",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_rationale_47",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_determinism_rationale_122",
+      "target": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L122",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L49",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1344,
+        1419
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L49",
+      "receiver": null,
+      "_python_call_site": [
+        1356,
+        1413
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L50",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1424,
+        1472
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L50",
+      "receiver": null,
+      "_python_call_site": [
+        1436,
+        1466
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L51",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1477,
+        1562
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L51",
+      "receiver": null,
+      "_python_call_site": [
+        1489,
+        1556
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L53",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1629,
+        1687
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        1641,
+        1681
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L54",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1692,
+        1750
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L54",
+      "receiver": null,
+      "_python_call_site": [
+        1704,
+        1744
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L55",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1755,
+        1817
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L55",
+      "receiver": null,
+      "_python_call_site": [
+        1767,
+        1811
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L56",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1822,
+        1897
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L56",
+      "receiver": null,
+      "_python_call_site": [
+        1834,
+        1891
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L57",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1902,
+        1955
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L57",
+      "receiver": null,
+      "_python_call_site": [
+        1914,
+        1949
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L58",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1960,
+        2017
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_sequence",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L58",
+      "receiver": null,
+      "_python_call_site": [
+        1972,
+        2011
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_identical_sequence_on_two_fresh_apps_is_byte_identical",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L63",
+      "receiver": null,
+      "_python_call_site": [
+        2133,
+        2145
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_identical_sequence_on_two_fresh_apps_is_byte_identical",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L64",
+      "receiver": null,
+      "_python_call_site": [
+        2170,
+        2182
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_identical_sequence_on_two_fresh_apps_is_byte_identical",
+      "callee": "bytes",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L66"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L70",
+      "receiver": null,
+      "_python_call_site": [
+        2376,
+        2394
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L71",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2449,
+        2513
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L71",
+      "receiver": null,
+      "_python_call_site": [
+        2449,
+        2506
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L72",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2527,
+        2591
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L72",
+      "receiver": null,
+      "_python_call_site": [
+        2527,
+        2584
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L72"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2885,
+        2897
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2899,
+        2911
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L79",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2926,
+        2986
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L79",
+      "receiver": null,
+      "_python_call_site": [
+        2926,
+        2979
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L80",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3015,
+        3075
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L80",
+      "receiver": null,
+      "_python_call_site": [
+        3015,
+        3068
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_created_at_comes_only_from_the_injected_fake_clock",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L85",
+      "receiver": null,
+      "_python_call_site": [
+        3259,
+        3277
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L86",
+      "receiver": null,
+      "_python_call_site": [
+        3282,
+        3312
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L87",
+      "receiver": null,
+      "_python_call_site": [
+        3373,
+        3420
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L88",
+      "receiver": null,
+      "_python_call_site": [
+        3438,
+        3484
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "callee": "ThreadPoolExecutor",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L91",
+      "receiver": null,
+      "_python_call_site": [
+        3562,
+        3595
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "callee": "map",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L93",
+      "receiver": "pool",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ThreadPoolExecutor",
+      "_python_call_site": [
+        3643,
+        3776
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "callee": "request",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L94",
+      "receiver": null,
+      "_python_call_site": [
+        3684,
+        3734
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_radio_creations_yield_unique_counter_ids",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L101",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3946,
+        3961
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L106",
+      "receiver": null,
+      "_python_call_site": [
+        4157,
+        4175
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L107",
+      "receiver": null,
+      "_python_call_site": [
+        4180,
+        4210
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "callee": "ThreadPoolExecutor",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L109",
+      "receiver": null,
+      "_python_call_site": [
+        4221,
+        4254
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "callee": "map",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L111",
+      "receiver": "pool",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ThreadPoolExecutor",
+      "_python_call_site": [
+        4302,
+        4453
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "callee": "request",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L112",
+      "receiver": null,
+      "_python_call_site": [
+        4343,
+        4411
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L112"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_scenario_creations_yield_unique_counter_ids",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L117",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4540,
+        4555
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L124",
+      "receiver": null,
+      "_python_call_site": [
+        4900,
+        4918
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L125",
+      "receiver": null,
+      "_python_call_site": [
+        4923,
+        4953
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L126",
+      "receiver": null,
+      "_python_call_site": [
+        4969,
+        5005
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L127",
+      "receiver": null,
+      "_python_call_site": [
+        5023,
+        5069
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "ThreadPoolExecutor",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L131",
+      "receiver": null,
+      "_python_call_site": [
+        5197,
+        5231
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "map",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L133",
+      "receiver": "pool",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ThreadPoolExecutor",
+      "_python_call_site": [
+        5279,
+        5429
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "request",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L134",
+      "receiver": null,
+      "_python_call_site": [
+        5320,
+        5387
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L140",
+      "receiver": "statuses",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5511,
+        5530
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L141",
+      "receiver": "statuses",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5557,
+        5576
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L145",
+      "receiver": "calls",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5731,
+        5767
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_parallel_control_requests_produce_exactly_n_engine_entries",
+      "callee": "count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L146",
+      "receiver": "calls",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5784,
+        5821
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_source_scan_forbids_wall_clock_uuid_and_random",
+      "callee": "glob",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L151",
+      "receiver": "api_dir",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5969,
+        5989
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_source_scan_forbids_wall_clock_uuid_and_random",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L154",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6087,
+        6119
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_determinism_test_source_scan_forbids_wall_clock_uuid_and_random",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_determinism.py",
+      "source_location": "L156",
+      "receiver": "pattern",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6183,
+        6203
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/api/__init__.py",
+    "$graphify-root$/tests/unit/api/conftest.py"
+  ]
+}

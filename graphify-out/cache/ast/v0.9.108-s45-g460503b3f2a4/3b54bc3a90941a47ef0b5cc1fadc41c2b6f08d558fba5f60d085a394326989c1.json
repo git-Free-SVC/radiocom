@@ -1,0 +1,298 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_fakes_null_propagation_model_py",
+      "label": "null_propagation_model.py",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_null_propagation_model_flatvaliditydomain",
+      "label": "_FlatValidityDomain",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel",
+      "label": "NullPropagationModel",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_validity_domain",
+      "label": ".validity_domain()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L24",
+      "_py_return_type": "ValidityDomain",
+      "_callable": true
+    },
+    {
+      "id": "validitydomain",
+      "label": "ValidityDomain",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/null_propagation_model.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "label": ".evaluate()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L27",
+      "_py_return_type": "PropagationResult",
+      "_callable": true
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/null_propagation_model.py"
+    },
+    {
+      "id": "propagationresult",
+      "label": "PropagationResult",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/null_propagation_model.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_null_propagation_model_rationale_1",
+      "label": "Trivial fake: proves the contract test template is runnable before any real\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_null_propagation_model_rationale_20",
+      "label": "Constant path loss, no fading \u2014 satisfies PropagationModel Protocol.",
+      "file_type": "rationale",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L20"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Radio",
+          "Radio"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "PropagationResult",
+          "PropagationResult"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.propagation",
+      "_python_import_bindings": [
+        [
+          "ValidityDomain",
+          "ValidityDomain"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/propagation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_py",
+      "target": "$graphify-root$_tests_contract_fakes_null_propagation_model_flatvaliditydomain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_py",
+      "target": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel",
+      "target": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_validity_domain",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_validity_domain",
+      "target": "validitydomain",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel",
+      "target": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "target": "radio",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "target": "propagationresult",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_validity_domain",
+      "target": "$graphify-root$_tests_contract_fakes_null_propagation_model_flatvaliditydomain",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_rationale_1",
+      "target": "$graphify-root$_tests_contract_fakes_null_propagation_model_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_null_propagation_model_rationale_20",
+      "target": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L20",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L31",
+      "receiver": "math",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        938,
+        982
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "callee": "PropagationResult",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L33",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1093,
+        1221
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "callee": "antenna",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L32",
+      "_python_attr_read": true,
+      "receiver": "rx",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "callee": "antenna",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L32",
+      "_python_attr_read": true,
+      "receiver": "tx",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_null_propagation_model_nullpropagationmodel_evaluate",
+      "callee": "transmitter",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/null_propagation_model.py",
+      "source_location": "L31",
+      "_python_attr_read": true,
+      "receiver": "tx",
+      "receiver_type": "Radio"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/radio.py",
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/plugin_sdk/propagation.py"
+  ]
+}

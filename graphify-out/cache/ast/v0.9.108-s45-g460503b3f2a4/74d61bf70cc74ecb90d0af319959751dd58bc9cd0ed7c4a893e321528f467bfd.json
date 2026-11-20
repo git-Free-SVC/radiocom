@@ -1,0 +1,311 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_physics_propagation_py",
+      "label": "propagation.py",
+      "file_type": "code",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_propagation_finite",
+      "label": "_finite()",
+      "file_type": "code",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "label": "free_space_path_loss_db()",
+      "file_type": "code",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L26",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_propagation_rationale_1",
+      "label": "Free-space path-loss calculation.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_propagation_rationale_27",
+      "label": "Return raw free-space path loss in dB using the engineering 32.44 form.\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L27"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_physics_propagation_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_propagation_py",
+      "target": "$graphify-root$_libraries_physics_constants_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.constants",
+      "_python_import_bindings": [
+        [
+          "MIN_DISTANCE_M",
+          "MIN_DISTANCE_M"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/constants.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_propagation_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_propagation_py",
+      "target": "$graphify-root$_libraries_physics_propagation_finite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_propagation_py",
+      "target": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "target": "$graphify-root$_libraries_physics_propagation_finite",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_propagation_rationale_1",
+      "target": "$graphify-root$_libraries_physics_propagation_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_propagation_rationale_27",
+      "target": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L27",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_finite",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_finite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L16",
+      "receiver": null,
+      "_python_call_site": [
+        321,
+        388
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_finite",
+      "callee": "TypeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L19"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_finite",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L19"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_finite",
+      "callee": "OverflowError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L19"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_finite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L20",
+      "receiver": null,
+      "_python_call_site": [
+        504,
+        571
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_finite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L21",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        593,
+        614
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_finite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L22",
+      "receiver": null,
+      "_python_call_site": [
+        631,
+        689
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_call_site": [
+        1320,
+        1383
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_call_site": [
+        1425,
+        1490
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "callee": "MIN_DISTANCE_M",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L41"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L45",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1719,
+        1749
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L46",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1776,
+        1797
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L49",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1852,
+        1873
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_propagation_free_space_path_loss_db",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/propagation.py",
+      "source_location": "L50",
+      "receiver": null,
+      "_python_call_site": [
+        1890,
+        1953
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/physics/constants.py",
+    "$graphify-root$/libraries/physics/errors.py"
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "label": "simple_engine.py",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler",
+      "label": "HeapScheduler",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L22",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "simulationscheduler",
+      "label": "SimulationScheduler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/simple_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L23",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_schedule",
+      "label": ".schedule()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L26",
+      "_callable": true
+    },
+    {
+      "id": "simulationevent",
+      "label": "SimulationEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/simple_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_pop_next",
+      "label": ".pop_next()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L29",
+      "_py_return_type": "SimulationEvent",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_peek_time",
+      "label": ".peek_time()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L32",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "label": "SimpleClock",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_now_s",
+      "label": ".now_s()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L41",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_advance_to",
+      "label": ".advance_to()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L44",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_real_time_factor",
+      "label": ".real_time_factor()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L50",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate",
+      "label": "SimpleState",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L54",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L55",
+      "_callable": true
+    },
+    {
+      "id": "simulationentity",
+      "label": "SimulationEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/simple_engine.py"
+    },
+    {
+      "id": "random",
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/simple_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_rng_state",
+      "label": ".rng_state()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L61",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_checkpoint",
+      "label": ".checkpoint()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "label": ".restore()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L70",
+      "_py_return_type": "SimpleState",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "label": "SimpleEngine",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L79",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "simulationengine",
+      "label": "SimulationEngine",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/simple_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L82",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "label": "._init_run()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L86",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "label": "._require()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L94",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_load",
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L98",
+      "_callable": true
+    },
+    {
+      "id": "simulationscenario",
+      "label": "SimulationScenario",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/simple_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_start",
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_pause",
+      "label": ".pause()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L107",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_resume",
+      "label": ".resume()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L111",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L115",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "label": ".step()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L120",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_state",
+      "label": ".state()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L138",
+      "_py_return_type": "SimulationState",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "simulationstate",
+      "label": "SimulationState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/simple_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_simple_engine_rationale_1",
+      "label": "Reference SimulationEngine/Scheduler/State/Clock. Pre-seeds one MOBILITY_TICK\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "heapq",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "heapq",
+      "_python_import_bindings": [
+        [
+          "heapq",
+          "heapq"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "pickle",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "pickle",
+      "_python_import_bindings": [
+        [
+          "pickle",
+          "pickle"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "EventKind",
+          "EventKind"
+        ],
+        [
+          "SimulationEngine",
+          "SimulationEngine"
+        ],
+        [
+          "SimulationEntity",
+          "SimulationEntity"
+        ],
+        [
+          "SimulationEvent",
+          "SimulationEvent"
+        ],
+        [
+          "SimulationScenario",
+          "SimulationScenario"
+        ],
+        [
+          "SimulationScheduler",
+          "SimulationScheduler"
+        ],
+        [
+          "SimulationState",
+          "SimulationState"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler",
+      "target": "simulationscheduler",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_schedule",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_schedule",
+      "target": "simulationevent",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_pop_next",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_pop_next",
+      "target": "simulationevent",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_peek_time",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_now_s",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_advance_to",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_real_time_factor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_init",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_init",
+      "target": "simulationentity",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_init",
+      "target": "random",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_rng_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_checkpoint",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "simulationengine",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_load",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_load",
+      "target": "simulationscenario",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_start",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_pause",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_resume",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_state",
+      "target": "simulationstate",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_load",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_start",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_pause",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_resume",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_reset",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_reset",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_state",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_simple_engine_rationale_1",
+      "target": "$graphify-root$_tests_contract_fakes_simple_engine_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_schedule",
+      "callee": "heappush",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L27",
+      "receiver": "heapq",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        628,
+        661
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_heapscheduler_pop_next",
+      "callee": "heappop",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L30",
+      "receiver": "heapq",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        728,
+        753
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleclock_advance_to",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L46",
+      "receiver": null,
+      "_python_call_site": [
+        1120,
+        1159
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_rng_state",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L62",
+      "receiver": "pickle",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1550,
+        1584
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_rng_state",
+      "callee": "getstate",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L62",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1563,
+        1583
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_checkpoint",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1636,
+        1751
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_checkpoint",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L65",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1636,
+        1742
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_checkpoint",
+      "callee": "hex",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L66",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1695,
+        1715
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L71",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1834,
+        1850
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "callee": "advance_to",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L73",
+      "receiver": "clock",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "SimpleClock",
+      "_python_call_site": [
+        1889,
+        1917
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L74",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1932,
+        1947
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "callee": "setstate",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L75",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        1956,
+        2007
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L75",
+      "receiver": "pickle",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1969,
+        2006
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_restore",
+      "callee": "fromhex",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L75",
+      "receiver": "bytes",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1982,
+        2005
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L89",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2341,
+        2363
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L92",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "HeapScheduler",
+      "_python_call_site": [
+        2522,
+        2597
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L92",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        2543,
+        2596
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_require",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L96",
+      "receiver": null,
+      "_python_call_site": [
+        2704,
+        2754
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L124",
+      "receiver": null,
+      "_python_call_site": [
+        3542,
+        3581
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "peek_time",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L125",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "HeapScheduler",
+      "_python_call_site": [
+        3602,
+        3625
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "pop_next",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L128",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "HeapScheduler",
+      "_python_call_site": [
+        3723,
+        3745
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "advance_to",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L129",
+      "receiver": "clock",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3758,
+        3785
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "values",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L131",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3864,
+        3893
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "on_tick",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L132",
+      "receiver": "ent",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3915,
+        3937
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "random",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L133",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3954,
+        3972
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "advance_to",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L135",
+      "receiver": "clock",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4072,
+        4100
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simplestate_checkpoint",
+      "callee": "rng_state",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L66",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_init_run",
+      "callee": "horizon_s",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L91",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "entities",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L131",
+      "_python_attr_read": true,
+      "receiver": "self._state",
+      "_python_self_attr_type": "SimpleState"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_simple_engine_simpleengine_step",
+      "callee": "clock",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/simple_engine.py",
+      "source_location": "L122",
+      "_python_attr_read": true,
+      "receiver": "self._state",
+      "_python_self_attr_type": "SimpleState"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/simulation.py"
+  ]
+}

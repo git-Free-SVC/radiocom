@@ -1,0 +1,359 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_reset_py",
+      "label": "test_reset.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_reset_testreset",
+      "label": "TestReset",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "label": ".test_reset_then_rerun_reproduces_original_run()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "label": ".test_reset_resets_clock_to_zero()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L32",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_reset_rationale_1",
+      "label": "reset() is only GUARANTEED deterministic for state the engine itself owns\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_reset_py",
+      "target": "$graphify-root$_services_simulation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation",
+      "_python_import_bindings": [
+        [
+          "CoreSimulationEngine",
+          "CoreSimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_reset_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "tests.unit.simulation.conftest",
+      "_python_import_bindings": [
+        [
+          "RngEntity",
+          "RngEntity"
+        ],
+        [
+          "StubScenario",
+          "StubScenario"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/simulation/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_reset_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_reset_testreset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_reset_testreset",
+      "target": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_reset_testreset",
+      "target": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_reset_rationale_1",
+      "target": "$graphify-root$_tests_unit_simulation_test_reset_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L15",
+      "receiver": null,
+      "_python_call_site": [
+        603,
+        644
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "RngEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L16",
+      "receiver": null,
+      "_python_call_site": [
+        665,
+        687
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L17",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        719,
+        778
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L17",
+      "receiver": null,
+      "_python_call_site": [
+        731,
+        777
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L18",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        787,
+        801
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L19",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        810,
+        837
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "reset",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L25",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        995,
+        1009
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L26",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1018,
+        1032
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_then_rerun_reproduces_original_run",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L27",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1041,
+        1068
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L33",
+      "receiver": null,
+      "_python_call_site": [
+        1238,
+        1279
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "RngEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L34",
+      "receiver": null,
+      "_python_call_site": [
+        1297,
+        1319
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L35",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1328,
+        1385
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L35",
+      "receiver": null,
+      "_python_call_site": [
+        1340,
+        1384
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L36",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1394,
+        1408
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L37",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1417,
+        1444
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "reset",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L40",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1501,
+        1515
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L41",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "CoreSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_reset_testreset_test_reset_resets_clock_to_zero",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_reset.py",
+      "source_location": "L38",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "CoreSimulationEngine"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/simulation/__init__.py",
+    "$graphify-root$/tests/unit/simulation/conftest.py"
+  ]
+}

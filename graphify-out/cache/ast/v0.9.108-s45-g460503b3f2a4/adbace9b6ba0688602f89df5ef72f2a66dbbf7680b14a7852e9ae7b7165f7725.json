@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_scenario_init_py",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "services/scenario/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_init_rationale_1",
+      "label": "Scenario Engine: parse, validate and version RADIOCOM scenario files. Pure data\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/__init__.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_scenario_init_py",
+      "target": "$graphify-root$_services_scenario_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/__init__.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/scenario/errors.py"
+    },
+    {
+      "source": "$graphify-root$_services_scenario_init_py",
+      "target": "$graphify-root$_services_scenario_loader_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/__init__.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/scenario/loader.py"
+    },
+    {
+      "source": "$graphify-root$_services_scenario_init_py",
+      "target": "$graphify-root$_services_scenario_models_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/__init__.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/scenario/models.py"
+    },
+    {
+      "source": "$graphify-root$_services_scenario_init_py",
+      "target": "$graphify-root$_services_scenario_validation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/__init__.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/scenario/validation.py"
+    },
+    {
+      "source": "$graphify-root$_services_scenario_init_rationale_1",
+      "target": "$graphify-root$_services_scenario_init_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/services/scenario/errors.py",
+    "$graphify-root$/services/scenario/loader.py",
+    "$graphify-root$/services/scenario/models.py",
+    "$graphify-root$/services/scenario/validation.py"
+  ]
+}

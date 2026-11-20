@@ -1,0 +1,626 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_world_geodesy_py",
+      "label": "geodesy.py",
+      "file_type": "code",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "label": "geodetic_rad_to_ecef()",
+      "file_type": "code",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L38",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "label": "ecef_to_geodetic_rad()",
+      "file_type": "code",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "label": "geo_to_ecef()",
+      "file_type": "code",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L102",
+      "_callable": true
+    },
+    {
+      "id": "geoposition",
+      "label": "GeoPosition",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/world/geodesy.py"
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_ecef_to_geo",
+      "label": "ecef_to_geo()",
+      "file_type": "code",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L107",
+      "_py_return_type": "GeoPosition",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_to_geo_position",
+      "label": "_to_geo_position()",
+      "file_type": "code",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L117",
+      "_py_return_type": "GeoPosition",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_rationale_1",
+      "label": "WGS84 geodetic <-> ECEF conversions (pure math, standard library only). Two\u2026",
+      "file_type": "rationale",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_rationale_39",
+      "label": "Geodetic (radians, radians, metres) -> ECEF ``(X, Y, Z)`` metres. ``N`` is the\u2026",
+      "file_type": "rationale",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L39"
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_rationale_57",
+      "label": "ECEF metres -> geodetic ``(lat_rad, lon_rad, alt_m)``. Algorithm: Bowring's\u2026",
+      "file_type": "rationale",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L57"
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_rationale_103",
+      "label": "Convert a WGS84 :class:`GeoPosition` to ECEF ``(X, Y, Z)`` in metres.",
+      "file_type": "rationale",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L103"
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_rationale_108",
+      "label": "Convert ECEF metres to a WGS84 :class:`GeoPosition`. See\u2026",
+      "file_type": "rationale",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L108"
+    },
+    {
+      "id": "$graphify-root$_services_world_geodesy_rationale_118",
+      "label": "Build a :class:`GeoPosition`, clamping the last-ulp overshoot of\u2026",
+      "file_type": "rationale",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L118"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_world_geodesy_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_py",
+      "target": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_py",
+      "target": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_py",
+      "target": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_py",
+      "target": "$graphify-root$_services_world_geodesy_ecef_to_geo",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_ecef_to_geo",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_py",
+      "target": "$graphify-root$_services_world_geodesy_to_geo_position",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_to_geo_position",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "target": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_ecef_to_geo",
+      "target": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_ecef_to_geo",
+      "target": "$graphify-root$_services_world_geodesy_to_geo_position",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_rationale_1",
+      "target": "$graphify-root$_services_world_geodesy_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_rationale_39",
+      "target": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_rationale_57",
+      "target": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_rationale_103",
+      "target": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_rationale_108",
+      "target": "$graphify-root$_services_world_geodesy_ecef_to_geo",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_geodesy_rationale_118",
+      "target": "$graphify-root$_services_world_geodesy_to_geo_position",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L118",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "callee": "_sin",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L50",
+      "receiver": null,
+      "_python_call_site": [
+        1985,
+        1994
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "callee": "_sqrt",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L51",
+      "receiver": null,
+      "_python_call_site": [
+        2013,
+        2054
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "callee": "_cos",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L52",
+      "receiver": null,
+      "_python_call_site": [
+        2080,
+        2089
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "callee": "_cos",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        2140,
+        2149
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geodetic_rad_to_ecef",
+      "callee": "_sin",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        2158,
+        2167
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_hypot",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L72",
+      "receiver": null,
+      "_python_call_site": [
+        2998,
+        3010
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L73",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3022,
+        3042
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L74",
+      "receiver": null,
+      "_python_call_site": [
+        3058,
+        3125
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L76",
+      "receiver": null,
+      "_python_call_site": [
+        3170,
+        3241
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_atan2",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L79",
+      "receiver": null,
+      "_python_call_site": [
+        3338,
+        3370
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_sin",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L80",
+      "receiver": null,
+      "_python_call_site": [
+        3390,
+        3401
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_cos",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L80",
+      "receiver": null,
+      "_python_call_site": [
+        3403,
+        3414
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_atan2",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L81",
+      "receiver": null,
+      "_python_call_site": [
+        3425,
+        3551
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_MAX_REFINEMENTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_sin",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L87",
+      "receiver": null,
+      "_python_call_site": [
+        3622,
+        3631
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_sqrt",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L88",
+      "receiver": null,
+      "_python_call_site": [
+        3644,
+        3685
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_cos",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L93",
+      "receiver": null,
+      "_python_call_site": [
+        3949,
+        3958
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_atan2",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L94",
+      "receiver": null,
+      "_python_call_site": [
+        4005,
+        4052
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_ecef_to_geodetic_rad",
+      "callee": "_atan2",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L99",
+      "receiver": null,
+      "_python_call_site": [
+        4178,
+        4190
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L104",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4375,
+        4396
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L104",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4398,
+        4419
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_to_geo_position",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L120",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        4989,
+        5146
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_to_geo_position",
+      "callee": "degrees",
+      "is_member_call": true,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L121",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5035,
+        5056
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_to_geo_position",
+      "callee": "degrees",
+      "is_member_call": true,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L122",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5095,
+        5116
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "callee": "alt_m",
+      "is_member_call": true,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L104",
+      "_python_attr_read": true,
+      "receiver": "pos",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "callee": "lon",
+      "is_member_call": true,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L104",
+      "_python_attr_read": true,
+      "receiver": "pos",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_geodesy_geo_to_ecef",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "services/world/geodesy.py",
+      "source_location": "L104",
+      "_python_attr_read": true,
+      "receiver": "pos",
+      "receiver_type": "GeoPosition"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/position.py"
+  ]
+}

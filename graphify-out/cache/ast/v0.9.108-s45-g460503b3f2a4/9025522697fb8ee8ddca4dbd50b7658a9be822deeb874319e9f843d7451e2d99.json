@@ -1,0 +1,371 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "label": "test_waveform_codec_contract.py",
+      "file_type": "code",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_conforms_to_protocol",
+      "label": "test_conforms_to_protocol()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L16",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_ber_is_probability",
+      "label": "test_ber_is_probability()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L21",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_ber_non_increasing_with_ebn0",
+      "label": "test_ber_non_increasing_with_ebn0()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L26",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_occupied_bandwidth_positive_and_monotonic",
+      "label": "test_occupied_bandwidth_positive_and_monotonic()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L31",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "label": "test_noiseless_roundtrip()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_waveform_codec_contract_rationale_1",
+      "label": "Contract for any WaveformCodec. pytest\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.waveform",
+      "_python_import_bindings": [
+        [
+          "WaveformCodec",
+          "WaveformCodec"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/waveform.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "target": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_conforms_to_protocol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "target": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_ber_is_probability",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "target": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_ber_non_increasing_with_ebn0",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "target": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_occupied_bandwidth_positive_and_monotonic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "target": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_waveform_codec_contract_rationale_1",
+      "target": "$graphify-root$_tests_contract_test_waveform_codec_contract_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_conforms_to_protocol",
+      "callee": "WaveformCodec",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L17"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_conforms_to_protocol",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_ber_is_probability",
+      "callee": "ber",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L23",
+      "receiver": "codec",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        514,
+        526
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_ber_non_increasing_with_ebn0",
+      "callee": "ber",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L27",
+      "receiver": "codec",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        606,
+        618
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_occupied_bandwidth_positive_and_monotonic",
+      "callee": "occupied_bandwidth_hz",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L32",
+      "receiver": "codec",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        783,
+        813
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "astype",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        953,
+        1014
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "integers",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        953,
+        997
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "default_rng",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        953,
+        977
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "modulate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L39",
+      "receiver": "codec",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1039,
+        1063
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "FS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "skip",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L41",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1106,
+        1142
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "iscomplexobj",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L42",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1155,
+        1174
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "asarray",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L43",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1186,
+        1222
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "demodulate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L43",
+      "receiver": "codec",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1197,
+        1221
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "FS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_waveform_codec_contract_test_noiseless_roundtrip",
+      "callee": "array_equal",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_waveform_codec_contract.py",
+      "source_location": "L44",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1248,
+        1273
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/waveform.py"
+  ]
+}

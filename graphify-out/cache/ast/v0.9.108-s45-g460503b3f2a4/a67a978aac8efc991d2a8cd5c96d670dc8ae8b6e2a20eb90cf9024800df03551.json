@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_json",
+      "label": "link_state_changed.schema.json",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_schema",
+      "label": "$schema",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_title",
+      "label": "title",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_required",
+      "label": "required",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties",
+      "label": "properties",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_tx_id",
+      "label": "tx_id",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_tx_id_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_rx_id",
+      "label": "rx_id",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_rx_id_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_snr_db",
+      "label": "snr_db",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_snr_db_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_margin_db",
+      "label": "margin_db",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_margin_db_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_quality",
+      "label": "quality",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_quality_enum",
+      "label": "enum",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_time_s",
+      "label": "time_s",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_time_s_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L12"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_json",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_json",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_title",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_json",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_json",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_required",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_json",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_tx_id",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_tx_id",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_tx_id_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_rx_id",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_rx_id",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_rx_id_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_snr_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_snr_db",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_snr_db_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_margin_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_margin_db",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_margin_db_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_quality",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_quality",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_quality_enum",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_time_s",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_properties_time_s",
+      "target": "$graphify-root$_libraries_protocols_events_link_state_changed_schema_time_s_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/protocols/events/link_state_changed.schema.json",
+      "source_location": "L12",
+      "weight": 1.0
+    }
+  ]
+}

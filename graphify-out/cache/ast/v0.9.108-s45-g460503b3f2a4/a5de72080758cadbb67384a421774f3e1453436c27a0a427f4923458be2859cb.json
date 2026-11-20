@@ -1,0 +1,3524 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "label": "test_scenario_engine.py",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "fixture",
+      "label": "fixture",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/scenario/test_scenario_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_raw",
+      "label": "raw()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L29",
+      "_py_fixture": "?",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/scenario/test_scenario_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "label": "_errors_for()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L34",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath",
+      "label": "TestHappyPath",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_example_validates_end_to_end",
+      "label": ".test_example_validates_end_to_end()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L39",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_accepts_str_path_and_path",
+      "label": ".test_accepts_str_path_and_path()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_minimal_scenario",
+      "label": ".test_minimal_scenario()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L59",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_terrain_srs_defaults",
+      "label": ".test_terrain_srs_defaults()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L67",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity",
+      "label": "TestYamlJsonParity",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L72",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_and_json_produce_identical_objects",
+      "label": ".test_yaml_and_json_produce_identical_objects()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L73",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_unsigned_exponent_floats_are_numbers",
+      "label": ".test_yaml_unsigned_exponent_floats_are_numbers()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/scenario/test_scenario_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_plain_ints_stay_ints",
+      "label": ".test_yaml_plain_ints_stay_ints()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L87",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_json_with_bom_loads",
+      "label": ".test_json_with_bom_loads()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L92",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields",
+      "label": "TestRequiredFields",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L98",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_root_scenario",
+      "label": ".test_missing_root_scenario()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L99",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_name",
+      "label": ".test_missing_name()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_nodes",
+      "label": ".test_missing_nodes()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L107",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/scenario/test_scenario_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_node_field",
+      "label": ".test_missing_node_field()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_terrain_fields",
+      "label": ".test_missing_terrain_fields()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L116",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_all_errors_are_reported_not_just_first",
+      "label": ".test_all_errors_are_reported_not_just_first()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L120",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition",
+      "label": "TestPosition",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L127",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_wrong_length_rejected",
+      "label": ".test_wrong_length_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L129",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_error_message_format",
+      "label": ".test_error_message_format()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L135",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_two_and_three_elements_accepted",
+      "label": ".test_two_and_three_elements_accepted()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L142",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_non_numeric_element_rejected",
+      "label": ".test_non_numeric_element_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L149",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired",
+      "label": "TestMobileRadioPositionRequired",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L154",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_position_rejected",
+      "label": ".test_mobile_radio_without_position_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L157",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_fixed_radio_without_position_rejected_identically",
+      "label": ".test_fixed_radio_without_position_rejected_identically()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L163",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_route_but_with_position_ok",
+      "label": ".test_mobile_radio_without_route_but_with_position_ok()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L167",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "label": ".test_load_scenario_raises_for_mobile_without_position()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L172",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype",
+      "label": "TestNodeType",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L182",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype_test_invalid_type_rejected_and_names_allowed_values",
+      "label": ".test_invalid_type_rejected_and_names_allowed_values()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L184",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference",
+      "label": "TestInterference",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L194",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_each_missing_field_rejected_individually",
+      "label": ".test_each_missing_field_rejected_individually()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L196",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_non_numeric_frequency_rejected",
+      "label": ".test_non_numeric_frequency_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L202",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_boolean_is_not_a_number",
+      "label": ".test_boolean_is_not_a_number()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L208",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning",
+      "label": "TestVersioning",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L213",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_absent_defaults_to_1",
+      "label": ".test_absent_defaults_to_1()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L214",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_explicit_value_round_trips",
+      "label": ".test_explicit_value_round_trips()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L219",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_invalid_version_rejected",
+      "label": ".test_invalid_version_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L224",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "label": "TestRadioCatalog",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L230",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_no_catalog_means_opaque_reference",
+      "label": ".test_no_catalog_means_opaque_reference()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L231",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_resolving_catalog_ok_and_params_carried",
+      "label": ".test_resolving_catalog_ok_and_params_carried()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L239",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unknown_radio_names_radio_and_node",
+      "label": ".test_unknown_radio_names_radio_and_node()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L252",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_empty_catalog_rejects_every_reference",
+      "label": ".test_empty_catalog_rejects_every_reference()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L261",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_catalog_with_wrong_shape",
+      "label": ".test_catalog_with_wrong_shape()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L265",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unresolved_reference_raises_on_parse",
+      "label": ".test_unresolved_reference_raises_on_parse()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L271",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_malformed_node_does_not_crash_reference_check",
+      "label": ".test_malformed_node_does_not_crash_reference_check()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L277",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors",
+      "label": "TestLoadingErrors",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L284",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_unsupported_extension",
+      "label": ".test_unsupported_extension()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L285",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_missing_file",
+      "label": ".test_missing_file()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L291",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "label": ".test_malformed_yaml_and_json()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L295",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_non_object_document",
+      "label": ".test_non_object_document()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L305",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_validation_error_lists_all_errors_in_message",
+      "label": ".test_validation_error_lists_all_errors_in_message()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L311",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels",
+      "label": "TestModels",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L321",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_models_are_immutable",
+      "label": ".test_models_are_immutable()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L322",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_unknown_keys_are_tolerated",
+      "label": ".test_unknown_keys_are_tolerated()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L327",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "label": "TestHardening",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L334",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_invalid_utf8_is_a_file_error",
+      "label": ".test_invalid_utf8_is_a_file_error()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L337",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_non_finite_numbers_rejected",
+      "label": ".test_non_finite_numbers_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L344",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_overflowing_literal_rejected",
+      "label": ".test_overflowing_literal_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L350",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_nan_rejected",
+      "label": ".test_yaml_nan_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L360",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_yaml_key_rejected",
+      "label": ".test_duplicate_yaml_key_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L370",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_json_key_rejected",
+      "label": ".test_duplicate_json_key_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L376",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_merge_keys_still_work",
+      "label": ".test_yaml_merge_keys_still_work()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L382",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "label": ".test_deeply_nested_input_is_rejected_before_jsonschema()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L392",
+      "_callable": true
+    },
+    {
+      "id": "monkeypatch",
+      "label": "MonkeyPatch",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/scenario/test_scenario_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema_must_not_run",
+      "label": "_must_not_run()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L397",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_reasonable_nesting_is_accepted",
+      "label": ".test_reasonable_nesting_is_accepted()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L410",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "label": ".test_deeply_nested_file_is_a_clean_error()",
+      "file_type": "code",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L424",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_rationale_1",
+      "label": "Unit tests for services/scenario (pure: file/dict in, typed data out).",
+      "file_type": "rationale",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_rationale_30",
+      "label": "The representative example as a plain dict (from the JSON fixture).",
+      "file_type": "rationale",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L30"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_rationale_155",
+      "label": "position is unconditionally required (frozen schema), even with a route.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L155"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_scenario_test_scenario_engine_rationale_335",
+      "label": "Regressions found by stress testing.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L335"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "copy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "copy",
+      "_python_import_bindings": [
+        [
+          "copy",
+          "copy"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [
+        [
+          "Path",
+          "Path"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_services_scenario_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "services.scenario",
+      "_python_import_bindings": [
+        [
+          "DEFAULT_SCENARIO_VERSION",
+          "DEFAULT_SCENARIO_VERSION"
+        ],
+        [
+          "Scenario",
+          "Scenario"
+        ],
+        [
+          "ScenarioFileError",
+          "ScenarioFileError"
+        ],
+        [
+          "ScenarioValidationError",
+          "ScenarioValidationError"
+        ],
+        [
+          "load_scenario",
+          "load_scenario"
+        ],
+        [
+          "parse_scenario_dict",
+          "parse_scenario_dict"
+        ],
+        [
+          "validate_scenario_dict",
+          "validate_scenario_dict"
+        ],
+        [
+          "validation",
+          "validation"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/scenario/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_raw",
+      "target": "fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_raw",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_raw",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_example_validates_end_to_end",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_accepts_str_path_and_path",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_minimal_scenario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_terrain_srs_defaults",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_terrain_srs_defaults",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_and_json_produce_identical_objects",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_unsigned_exponent_floats_are_numbers",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_unsigned_exponent_floats_are_numbers",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_plain_ints_stay_ints",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_plain_ints_stay_ints",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_json_with_bom_loads",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_json_with_bom_loads",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_root_scenario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_name",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_name",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_nodes",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_nodes",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_node_field",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_node_field",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_node_field",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_terrain_fields",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_terrain_fields",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_all_errors_are_reported_not_just_first",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_all_errors_are_reported_not_just_first",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_wrong_length_rejected",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_wrong_length_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_wrong_length_rejected",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_error_message_format",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_error_message_format",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_two_and_three_elements_accepted",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_two_and_three_elements_accepted",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_two_and_three_elements_accepted",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_non_numeric_element_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_non_numeric_element_rejected",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_position_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_position_rejected",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L157",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_fixed_radio_without_position_rejected_identically",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_fixed_radio_without_position_rejected_identically",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_route_but_with_position_ok",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_route_but_with_position_ok",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype_test_invalid_type_rejected_and_names_allowed_values",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype_test_invalid_type_rejected_and_names_allowed_values",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype_test_invalid_type_rejected_and_names_allowed_values",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_each_missing_field_rejected_individually",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L195",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_each_missing_field_rejected_individually",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_each_missing_field_rejected_individually",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_non_numeric_frequency_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_non_numeric_frequency_rejected",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_boolean_is_not_a_number",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_boolean_is_not_a_number",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_absent_defaults_to_1",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_absent_defaults_to_1",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_explicit_value_round_trips",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L219",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_explicit_value_round_trips",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L219",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_invalid_version_rejected",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L223",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_invalid_version_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_invalid_version_rejected",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_no_catalog_means_opaque_reference",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_no_catalog_means_opaque_reference",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_resolving_catalog_ok_and_params_carried",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_resolving_catalog_ok_and_params_carried",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unknown_radio_names_radio_and_node",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unknown_radio_names_radio_and_node",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_empty_catalog_rejects_every_reference",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_empty_catalog_rejects_every_reference",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_catalog_with_wrong_shape",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_catalog_with_wrong_shape",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unresolved_reference_raises_on_parse",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unresolved_reference_raises_on_parse",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_malformed_node_does_not_crash_reference_check",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_malformed_node_does_not_crash_reference_check",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L284",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_unsupported_extension",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_unsupported_extension",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L285",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_missing_file",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L291",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_missing_file",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L291",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_non_object_document",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L305",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_non_object_document",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L305",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_validation_error_lists_all_errors_in_message",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_validation_error_lists_all_errors_in_message",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_models_are_immutable",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L322",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_unknown_keys_are_tolerated",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_unknown_keys_are_tolerated",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L334",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_invalid_utf8_is_a_file_error",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_invalid_utf8_is_a_file_error",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_non_finite_numbers_rejected",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L343",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_non_finite_numbers_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L344",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_non_finite_numbers_rejected",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L344",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_overflowing_literal_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_overflowing_literal_rejected",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_nan_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_nan_rejected",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_yaml_key_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L370",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_yaml_key_rejected",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L370",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_json_key_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L376",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_json_key_rejected",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L376",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_merge_keys_still_work",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L382",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_merge_keys_still_work",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L382",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "target": "monkeypatch",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema_must_not_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L397",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_reasonable_nesting_is_accepted",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L410",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_reasonable_nesting_is_accepted",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L410",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L417",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L424",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L424",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_root_scenario",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_name",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_nodes",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_node_field",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_missing_terrain_fields",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testrequiredfields_test_all_errors_are_reported_not_just_first",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_wrong_length_rejected",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_error_message_format",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_two_and_three_elements_accepted",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_non_numeric_element_rejected",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_position_rejected",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_fixed_radio_without_position_rejected_identically",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_route_but_with_position_ok",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype_test_invalid_type_rejected_and_names_allowed_values",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_each_missing_field_rejected_individually",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_non_numeric_frequency_rejected",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testinterference_test_boolean_is_not_a_number",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L210",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_invalid_version_rejected",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_no_catalog_means_opaque_reference",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_resolving_catalog_ok_and_params_carried",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unknown_radio_names_radio_and_node",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_empty_catalog_rejects_every_reference",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_catalog_with_wrong_shape",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_malformed_node_does_not_crash_reference_check",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L280",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_unknown_keys_are_tolerated",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L330",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_non_finite_numbers_rejected",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L346",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema_must_not_run",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L400",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L405",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_reasonable_nesting_is_accepted",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L415",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_rationale_1",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_rationale_30",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_raw",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_rationale_155",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_scenario_test_scenario_engine_rationale_335",
+      "target": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L335",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_raw",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L31",
+      "receiver": "json",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        725,
+        777
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_raw",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L31",
+      "receiver": "JSON_FIXTURE",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        736,
+        776
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_errors_for",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L35",
+      "receiver": null,
+      "_python_call_site": [
+        843,
+        871
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_example_validates_end_to_end",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L40",
+      "receiver": null,
+      "_python_call_site": [
+        964,
+        991
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_example_validates_end_to_end",
+      "callee": "YAML_FIXTURE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_example_validates_end_to_end",
+      "callee": "Scenario",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L41"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_accepts_str_path_and_path",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L57",
+      "receiver": null,
+      "_python_call_site": [
+        1780,
+        1812
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_accepts_str_path_and_path",
+      "callee": "YAML_FIXTURE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_accepts_str_path_and_path",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L57",
+      "receiver": null,
+      "_python_call_site": [
+        1816,
+        1843
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_accepts_str_path_and_path",
+      "callee": "YAML_FIXTURE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_minimal_scenario",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L61",
+      "receiver": null,
+      "_python_call_site": [
+        1961,
+        1989
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_minimal_scenario",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L62",
+      "receiver": null,
+      "_python_call_site": [
+        2008,
+        2033
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhappypath_test_terrain_srs_defaults",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L69",
+      "receiver": null,
+      "_python_call_site": [
+        2289,
+        2313
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_and_json_produce_identical_objects",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L74",
+      "receiver": null,
+      "_python_call_site": [
+        2492,
+        2519
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_and_json_produce_identical_objects",
+      "callee": "YAML_FIXTURE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_and_json_produce_identical_objects",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L74",
+      "receiver": null,
+      "_python_call_site": [
+        2523,
+        2550
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_and_json_produce_identical_objects",
+      "callee": "JSON_FIXTURE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L74"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_unsigned_exponent_floats_are_numbers",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L79",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2746,
+        2949
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_unsigned_exponent_floats_are_numbers",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L84",
+      "receiver": null,
+      "_python_call_site": [
+        2962,
+        2978
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_plain_ints_stay_ints",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L89",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3182,
+        3262
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_yaml_plain_ints_stay_ints",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        3278,
+        3294
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_json_with_bom_loads",
+      "callee": "write_bytes",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L94",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3410,
+        3486
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testyamljsonparity_test_json_with_bom_loads",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L95",
+      "receiver": null,
+      "_python_call_site": [
+        3502,
+        3518
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_wrong_length_rejected",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L133",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5202,
+        5262
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testposition_test_two_and_three_elements_accepted",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_call_site": [
+        5920,
+        5944
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_mobile_radio_without_route_but_with_position_ok",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L170",
+      "receiver": null,
+      "_python_call_site": [
+        7198,
+        7222
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L177",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7469,
+        7516
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L177",
+      "receiver": "json",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7482,
+        7497
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L178",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7530,
+        7602
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "callee": "ScenarioValidationError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L178"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmobileradiopositionrequired_test_load_scenario_raises_for_mobile_without_position",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L179",
+      "receiver": null,
+      "_python_call_site": [
+        7616,
+        7632
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testnodetype_test_invalid_type_rejected_and_names_allowed_values",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L190",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7984,
+        8030
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_absent_defaults_to_1",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L217",
+      "receiver": null,
+      "_python_call_site": [
+        9143,
+        9167
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_explicit_value_round_trips",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L221",
+      "receiver": null,
+      "_python_call_site": [
+        9330,
+        9354
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testversioning_test_invalid_version_rejected",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L227",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9648,
+        9697
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_no_catalog_means_opaque_reference",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L234",
+      "receiver": null,
+      "_python_call_site": [
+        9904,
+        9928
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_no_catalog_means_opaque_reference",
+      "callee": "radio_for",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L237",
+      "receiver": "s",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10026,
+        10049
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_resolving_catalog_ok_and_params_carried",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L245",
+      "receiver": null,
+      "_python_call_site": [
+        10346,
+        10370
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_resolving_catalog_ok_and_params_carried",
+      "callee": "radio_for",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L246",
+      "receiver": "s",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10386,
+        10409
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unknown_radio_names_radio_and_node",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L256",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10754,
+        10801
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unresolved_reference_raises_on_parse",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L273",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11658,
+        11696
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unresolved_reference_raises_on_parse",
+      "callee": "ScenarioValidationError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L273"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testradiocatalog_test_unresolved_reference_raises_on_parse",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L274",
+      "receiver": null,
+      "_python_call_site": [
+        11717,
+        11741
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_unsupported_extension",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L287",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12226,
+        12262
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_unsupported_extension",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L288",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12276,
+        12344
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_unsupported_extension",
+      "callee": "ScenarioFileError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L288"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_unsupported_extension",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L289",
+      "receiver": null,
+      "_python_call_site": [
+        12358,
+        12374
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_missing_file",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L292",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12446,
+        12499
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_missing_file",
+      "callee": "ScenarioFileError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L292"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_missing_file",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L293",
+      "receiver": null,
+      "_python_call_site": [
+        12513,
+        12550
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L297",
+      "receiver": "y",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12662,
+        12715
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L298",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12729,
+        12785
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "callee": "ScenarioFileError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L298"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L299",
+      "receiver": null,
+      "_python_call_site": [
+        12799,
+        12815
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L301",
+      "receiver": "j",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12858,
+        12901
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L302",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12915,
+        12971
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "callee": "ScenarioFileError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L302"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_malformed_yaml_and_json",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L303",
+      "receiver": null,
+      "_python_call_site": [
+        12985,
+        13001
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_non_object_document",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L307",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13110,
+        13154
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_non_object_document",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L308",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13168,
+        13242
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_non_object_document",
+      "callee": "ScenarioValidationError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L308"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_non_object_document",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L309",
+      "receiver": null,
+      "_python_call_site": [
+        13256,
+        13272
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_validation_error_lists_all_errors_in_message",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L312",
+      "receiver": "copy",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13382,
+        13400
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_validation_error_lists_all_errors_in_message",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L315",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13500,
+        13538
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_validation_error_lists_all_errors_in_message",
+      "callee": "ScenarioValidationError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L315"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testloadingerrors_test_validation_error_lists_all_errors_in_message",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L316",
+      "receiver": null,
+      "_python_call_site": [
+        13559,
+        13583
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_models_are_immutable",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L323",
+      "receiver": null,
+      "_python_call_site": [
+        13774,
+        13801
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_models_are_immutable",
+      "callee": "YAML_FIXTURE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L323"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_models_are_immutable",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L324",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13815,
+        13839
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_models_are_immutable",
+      "callee": "Exception",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L324"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testmodels_test_unknown_keys_are_tolerated",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L331",
+      "receiver": null,
+      "_python_call_site": [
+        14165,
+        14189
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_invalid_utf8_is_a_file_error",
+      "callee": "write_bytes",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L339",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14393,
+        14428
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_invalid_utf8_is_a_file_error",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L340",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14442,
+        14499
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_invalid_utf8_is_a_file_error",
+      "callee": "ScenarioFileError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L340"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_invalid_utf8_is_a_file_error",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L341",
+      "receiver": null,
+      "_python_call_site": [
+        14513,
+        14529
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_non_finite_numbers_rejected",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L348",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14836,
+        14911
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_overflowing_literal_rejected",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L352",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15026,
+        15210
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_overflowing_literal_rejected",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L357",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15224,
+        15295
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_overflowing_literal_rejected",
+      "callee": "ScenarioValidationError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L357"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_overflowing_literal_rejected",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L358",
+      "receiver": null,
+      "_python_call_site": [
+        15309,
+        15325
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_nan_rejected",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L362",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15429,
+        15602
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_nan_rejected",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L367",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15616,
+        15670
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_nan_rejected",
+      "callee": "ScenarioValidationError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L367"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_nan_rejected",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L368",
+      "receiver": null,
+      "_python_call_site": [
+        15684,
+        15700
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_yaml_key_rejected",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L372",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15814,
+        15894
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_yaml_key_rejected",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L373",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15908,
+        15970
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_yaml_key_rejected",
+      "callee": "ScenarioFileError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L373"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_yaml_key_rejected",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L374",
+      "receiver": null,
+      "_python_call_site": [
+        15984,
+        16000
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_json_key_rejected",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L378",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16114,
+        16201
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_json_key_rejected",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L379",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16215,
+        16277
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_json_key_rejected",
+      "callee": "ScenarioFileError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L379"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_duplicate_json_key_rejected",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L380",
+      "receiver": null,
+      "_python_call_site": [
+        16291,
+        16307
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_merge_keys_still_work",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L384",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16420,
+        16632
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_yaml_merge_keys_still_work",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L390",
+      "receiver": null,
+      "_python_call_site": [
+        16648,
+        16664
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "callee": "setattr",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L400",
+      "receiver": "monkeypatch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MonkeyPatch",
+      "_python_call_site": [
+        17119,
+        17179
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "callee": "validation",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L400"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L408",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        17449,
+        17497
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_input_is_rejected_before_jsonschema_must_not_run",
+      "callee": "AssertionError",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L398",
+      "receiver": null,
+      "_python_call_site": [
+        17042,
+        17109
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L428",
+      "receiver": "f",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        18221,
+        18257
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L429",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        18271,
+        18330
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "callee": "ScenarioFileError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L429"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "callee": "ScenarioValidationError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L429"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_scenario_test_scenario_engine_testhardening_test_deeply_nested_file_is_a_clean_error",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/scenario/test_scenario_engine.py",
+      "source_location": "L430",
+      "receiver": null,
+      "_python_call_site": [
+        18344,
+        18360
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/scenario/__init__.py"
+  ]
+}

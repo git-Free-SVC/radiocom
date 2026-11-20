@@ -1,0 +1,2013 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_py",
+      "label": "sdk_freeze.py",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_freezeerror",
+      "label": "FreezeError",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L46",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "exception",
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tools/sdk_freeze.py"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_parse_version",
+      "label": "parse_version()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L51",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_snapshot_path",
+      "label": "snapshot_path()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L58",
+      "_py_return_type": "Path",
+      "_callable": true
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tools/sdk_freeze.py"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_current_version",
+      "label": "current_version()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L62",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_callable_name",
+      "label": "_callable_name()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L69",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tools/sdk_freeze.py"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_field_default",
+      "label": "_field_default()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L75",
+      "_callable": true
+    },
+    {
+      "id": "field",
+      "label": "Field",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tools/sdk_freeze.py"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "label": "_describe_class()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "label": "_module_constants()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L116",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "label": "build_surface()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L134",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_build_snapshot",
+      "label": "build_snapshot()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L155",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "label": "load_snapshots()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L160",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_flatten",
+      "label": "_flatten()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L176",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_extends_contract",
+      "label": "_extends_contract()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L184",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_classify",
+      "label": "classify()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L193",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_bump_ok",
+      "label": "bump_ok()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L215",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_required_bump",
+      "label": "required_bump()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L226",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_check_history",
+      "label": "check_history()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L230",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "label": "find_accepted_adr()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L245",
+      "_py_return_type": "Path",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "label": "write_snapshot()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L256",
+      "_py_return_type": "Path",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L294",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_1",
+      "label": "SDK freeze tooling: versioned snapshots + semver rule + ADR rule. python -m\u2026",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_47",
+      "label": "A freeze rule is violated (message is meant to be shown to the developer).",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_117",
+      "label": "Public top-level assignments (type aliases, constants), as source text. Source\u2026",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L117"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_135",
+      "label": "The frozen surface: classes, module-level functions and constants of each\u2026",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L135"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_161",
+      "label": "{version: snapshot}, ordered oldest -> newest. Validates file name == content.",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L161"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_185",
+      "label": "True if `p` is a new member of a Protocol/ABC that already existed: every\u2026",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L185"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_194",
+      "label": "-> (\"none\" | \"minor\" | \"major\", human-readable reasons).",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L194"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_231",
+      "label": "Every consecutive pair of recorded snapshots must respect the semver rule.",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L231"
+    },
+    {
+      "id": "$graphify-root$_tools_sdk_freeze_rationale_264",
+      "label": "Record a new snapshot. Refuses unless VERSION and ADR rules hold.",
+      "file_type": "rationale",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L264"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "ast",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_python_import_module": "ast",
+      "_python_import_bindings": [
+        [
+          "ast",
+          "ast"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "dataclasses",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclasses",
+          "dataclasses"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "enum",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "enum",
+      "_python_import_bindings": [
+        [
+          "enum",
+          "enum"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "importlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "importlib",
+      "_python_import_bindings": [
+        [
+          "importlib",
+          "importlib"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "inspect",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "inspect",
+      "_python_import_bindings": [
+        [
+          "inspect",
+          "inspect"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "re",
+      "_python_import_bindings": [
+        [
+          "re",
+          "re"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_python_import_module": "sys",
+      "_python_import_bindings": [
+        [
+          "sys",
+          "sys"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [
+        [
+          "Path",
+          "Path"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "Iterator",
+          "Iterator"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_freezeerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_freezeerror",
+      "target": "exception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_parse_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_snapshot_path",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_snapshot_path",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_snapshot_path",
+      "target": "path",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_current_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_callable_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_callable_name",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_field_default",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_field_default",
+      "target": "field",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_build_snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_flatten",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_flatten",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_extends_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_classify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_bump_ok",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_required_bump",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_check_history",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "target": "path",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "path",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_py",
+      "target": "$graphify-root$_tools_sdk_freeze_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_parse_version",
+      "target": "$graphify-root$_tools_sdk_freeze_freezeerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_field_default",
+      "target": "$graphify-root$_tools_sdk_freeze_callable_name",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "target": "$graphify-root$_tools_sdk_freeze_field_default",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "target": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "target": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_build_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_current_version",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_build_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "target": "$graphify-root$_tools_sdk_freeze_parse_version",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "target": "$graphify-root$_tools_sdk_freeze_freezeerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_flatten",
+      "target": "$graphify-root$_tools_sdk_freeze_flatten",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_classify",
+      "target": "$graphify-root$_tools_sdk_freeze_flatten",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_classify",
+      "target": "$graphify-root$_tools_sdk_freeze_extends_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_bump_ok",
+      "target": "$graphify-root$_tools_sdk_freeze_parse_version",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L216",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_check_history",
+      "target": "$graphify-root$_tools_sdk_freeze_classify",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_check_history",
+      "target": "$graphify-root$_tools_sdk_freeze_bump_ok",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_check_history",
+      "target": "$graphify-root$_tools_sdk_freeze_required_bump",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_current_version",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_parse_version",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L266",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_snapshot_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_freezeerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L274",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L279",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L280",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_classify",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_bump_ok",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L284",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "target": "$graphify-root$_tools_sdk_freeze_required_bump",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L287",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_main",
+      "target": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L299",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_main",
+      "target": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L302",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_main",
+      "target": "$graphify-root$_tools_sdk_freeze_classify",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L307",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_main",
+      "target": "$graphify-root$_tools_sdk_freeze_build_snapshot",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L307",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_main",
+      "target": "$graphify-root$_tools_sdk_freeze_current_version",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L308",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_main",
+      "target": "$graphify-root$_tools_sdk_freeze_required_bump",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L312",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_1",
+      "target": "$graphify-root$_tools_sdk_freeze_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_47",
+      "target": "$graphify-root$_tools_sdk_freeze_freezeerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_117",
+      "target": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_135",
+      "target": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_161",
+      "target": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_185",
+      "target": "$graphify-root$_tools_sdk_freeze_extends_contract",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_194",
+      "target": "$graphify-root$_tools_sdk_freeze_classify",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_231",
+      "target": "$graphify-root$_tools_sdk_freeze_check_history",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tools_sdk_freeze_rationale_264",
+      "target": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L264",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_parse_version",
+      "callee": "fullmatch",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L52",
+      "receiver": "re",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1745,
+        1784
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_current_version",
+      "callee": "SDK_VERSION",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "return",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L65"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "issubclass",
+      "is_member_call": false,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L85",
+      "receiver": null,
+      "_python_call_site": [
+        2887,
+        2913
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "is_dataclass",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L88",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3007,
+        3036
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "fields",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L92",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3245,
+        3268
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L94",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3289,
+        3328
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L95",
+      "receiver": "ann",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        3289,
+        3328
+      ],
+      "_python_call_site": [
+        3386,
+        3397
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L95",
+      "receiver": "k",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3406,
+        3423
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "__abstractmethods__",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "getattr",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L96"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L100",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3582,
+        3599
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L101",
+      "receiver": "name",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3612,
+        3632
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "property",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L104"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "classmethod",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L106"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "staticmethod",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L108"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "isfunction",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L110",
+      "receiver": "inspect",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3971,
+        3993
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "signature",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L111",
+      "receiver": "inspect",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4033,
+        4054
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_describe_class",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L112",
+      "receiver": "methods",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4092,
+        4107
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "callee": "parse",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L119",
+      "receiver": "ast",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4345,
+        4378
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "callee": "getsource",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L119",
+      "receiver": "inspect",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4355,
+        4377
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L129",
+      "receiver": "n",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4804,
+        4821
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "callee": "unparse",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L130",
+      "receiver": "ast",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4848,
+        4866
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_module_constants",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L131",
+      "receiver": "out",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4890,
+        4901
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "callee": "import_module",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L138",
+      "receiver": "importlib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5116,
+        5148
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L140",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5212,
+        5229
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "callee": "startswith",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L141",
+      "receiver": "n",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5247,
+        5264
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "callee": "__module__",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "getattr",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L141"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "callee": "isclass",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L143",
+      "receiver": "inspect",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5351,
+        5369
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "callee": "isfunction",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L145",
+      "receiver": "inspect",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5436,
+        5457
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_build_surface",
+      "callee": "signature",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L146",
+      "receiver": "inspect",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5494,
+        5514
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "callee": "glob",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L163",
+      "receiver": "snap_dir",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [
+        6124,
+        6158
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "callee": "removeprefix",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L164",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6178,
+        6212
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L166",
+      "receiver": "json",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6259,
+        6300
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L166",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6270,
+        6299
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L167",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        6259,
+        6300
+      ],
+      "_python_call_site": [
+        6312,
+        6335
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L169",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        6259,
+        6300
+      ],
+      "_python_call_site": [
+        6453,
+        6476
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_load_snapshots",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L172",
+      "receiver": "found",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6546,
+        6559
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_flatten",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L177"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_flatten",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L178",
+      "receiver": "obj",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Any",
+      "_python_call_site": [
+        6821,
+        6832
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_flatten",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L181",
+      "receiver": "json",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6912,
+        6943
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L198",
+      "receiver": "o",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7625,
+        7634
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L200",
+      "receiver": "major",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7671,
+        7710
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L200",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7696,
+        7707
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L202",
+      "receiver": "major",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7747,
+        7819
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L202",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7772,
+        7783
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L207",
+      "receiver": "major",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7937,
+        8012
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L207",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7998,
+        8009
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L209",
+      "receiver": "minor",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8039,
+        8076
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_classify",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L209",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8062,
+        8073
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_check_history",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L237",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8951,
+        9119
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "callee": "compile",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L246",
+      "receiver": "re",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9317,
+        9372
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "callee": "compile",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L247",
+      "receiver": "re",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9383,
+        9462
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "callee": "escape",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L247",
+      "receiver": "re",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9424,
+        9442
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "callee": "glob",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L248",
+      "receiver": "adr_dir",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [
+        9483,
+        9503
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L249",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9521,
+        9550
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L250",
+      "receiver": "status",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        9317,
+        9372
+      ],
+      "_python_call_site": [
+        9562,
+        9581
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_find_accepted_adr",
+      "callee": "search",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L250",
+      "receiver": "ver",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        9383,
+        9462
+      ],
+      "_python_call_site": [
+        9586,
+        9602
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L267",
+      "receiver": "snap_dir",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [
+        10070,
+        10113
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "callee": "exists",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L269",
+      "receiver": "target",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10167,
+        10182
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L287",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11080,
+        11105
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L289",
+      "receiver": "target",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11124,
+        11209
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_write_snapshot",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L289",
+      "receiver": "json",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11142,
+        11183
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_main",
+      "callee": "__doc__",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L314"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_callable_name",
+      "callee": "__qualname__",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L71",
+      "_python_attr_read": true,
+      "receiver": "obj",
+      "receiver_type": "Any"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_field_default",
+      "callee": "default_factory",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L79",
+      "_python_attr_read": true,
+      "receiver": "f",
+      "receiver_type": "Field"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_field_default",
+      "callee": "default_factory",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L79",
+      "_python_attr_read": true,
+      "receiver": "f",
+      "receiver_type": "Field"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_field_default",
+      "callee": "default_factory",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L78",
+      "_python_attr_read": true,
+      "receiver": "f",
+      "receiver_type": "Field"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_field_default",
+      "callee": "default",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L77",
+      "_python_attr_read": true,
+      "receiver": "f",
+      "receiver_type": "Field"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_field_default",
+      "callee": "default",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L77",
+      "_python_attr_read": true,
+      "receiver": "f",
+      "receiver_type": "Field"
+    },
+    {
+      "caller_nid": "$graphify-root$_tools_sdk_freeze_field_default",
+      "callee": "default",
+      "is_member_call": true,
+      "source_file": "tools/sdk_freeze.py",
+      "source_location": "L76",
+      "_python_attr_read": true,
+      "receiver": "f",
+      "receiver_type": "Field"
+    }
+  ]
+}

@@ -1,0 +1,2734 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "label": "test_port_contract.py",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_registry",
+      "label": "_registry()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L46",
+      "_py_return_type": "InMemorySimulationRegistry",
+      "_callable": true
+    },
+    {
+      "id": "inmemorysimulationregistry",
+      "label": "InMemorySimulationRegistry",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/test_port_contract.py"
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/test_port_contract.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_mock_satisfies_its_protocol",
+      "label": "test_mock_satisfies_its_protocol()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L67",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/test_port_contract.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "label": "test_scenario_port_behaviours()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L77",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_clock_port_is_injected_and_deterministic",
+      "label": "test_clock_port_is_injected_and_deterministic()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L99",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "label": "test_event_bus_handlers_run_in_subscription_order_on_publisher_thread()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L113",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "label": "test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L127",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery_boom",
+      "label": "boom()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L130",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "label": "test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L143",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop_handler",
+      "label": "handler()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L146",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only",
+      "label": "test_event_bus_changes_during_publish_affect_later_publishes_only()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L160",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only_adder",
+      "label": "adder()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L164",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "label": "test_engine_lifecycle_matches_frozen_state_machine()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L180",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "label": "test_engine_call_log_records_exactly_one_entry_per_attempt()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L223",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "label": "test_registry_port_behaviours()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L246",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "label": "test_core_port_behaviours()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L264",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "label": "test_geodata_port_behaviours()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L297",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_port_contract_rationale_1",
+      "label": "Port contracts (task prompt \u00a74/\u00a79): every mock is parametrized against its\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "threading",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "threading",
+      "_python_import_bindings": [
+        [
+          "threading",
+          "threading"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "datetime",
+      "_python_import_bindings": [
+        [
+          "timedelta",
+          "timedelta"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.event_bus",
+      "_python_import_bindings": [
+        [
+          "EventBus",
+          "EventBus"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.geodata",
+      "_python_import_bindings": [
+        [
+          "GeodataProvider",
+          "GeodataProvider"
+        ],
+        [
+          "GeoJSONFile",
+          "GeoJSONFile"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/geodata.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "SimulationEngine",
+          "SimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_services_api_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "services.api.errors",
+      "_python_import_bindings": [
+        [
+          "ApiError",
+          "ApiError"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_services_api_mocks_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "services.api.mocks",
+      "_python_import_bindings": [
+        [
+          "FakeClock",
+          "FakeClock"
+        ],
+        [
+          "InMemoryEventBus",
+          "InMemoryEventBus"
+        ],
+        [
+          "InMemoryScenarioStore",
+          "InMemoryScenarioStore"
+        ],
+        [
+          "InMemorySimulationRegistry",
+          "InMemorySimulationRegistry"
+        ],
+        [
+          "MockGeodataProvider",
+          "MockGeodataProvider"
+        ],
+        [
+          "MockSimulationEngine",
+          "MockSimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_services_api_ports_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_python_import_module": "services.api.ports",
+      "_python_import_bindings": [
+        [
+          "ClockPort",
+          "ClockPort"
+        ],
+        [
+          "CorePort",
+          "CorePort"
+        ],
+        [
+          "GeodataPort",
+          "GeodataPort"
+        ],
+        [
+          "ScenarioPort",
+          "ScenarioPort"
+        ],
+        [
+          "SimulationRegistryPort",
+          "SimulationRegistryPort"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/ports.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_registry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_registry",
+      "target": "inmemorysimulationregistry",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_mock_satisfies_its_protocol",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_mock_satisfies_its_protocol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_mock_satisfies_its_protocol",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_clock_port_is_injected_and_deterministic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery_boom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only_adder",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L246",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L264",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L297",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery_boom",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop_handler",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only_adder",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_registry",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_registry",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_registry",
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_port_contract_rationale_1",
+      "target": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_registry",
+      "callee": "InMemorySimulationRegistry",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L47",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1486,
+        1536
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_registry",
+      "callee": "InMemoryEventBus",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L47",
+      "receiver": null,
+      "_python_call_site": [
+        1517,
+        1535
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "InMemoryScenarioStore",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2617,
+        2657
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "FakeClock",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2645,
+        2656
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "list_scenarios",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L79",
+      "receiver": "store",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        2669,
+        2691
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "get_scenario",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L80",
+      "receiver": "store",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        2709,
+        2739
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "create_scenario",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L82",
+      "receiver": "store",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        2762,
+        2828
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "get_scenario",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L85",
+      "receiver": "store",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        2936,
+        2966
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "get_scenario",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L86",
+      "receiver": "store",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        2988,
+        3014
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "list_scenarios",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L87",
+      "receiver": "store",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        3034,
+        3056
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "InMemoryScenarioStore",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_call_site": [
+        3111,
+        3151
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "FakeClock",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_call_site": [
+        3139,
+        3150
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "seed_default_scenarios",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L90",
+      "receiver": "seeded",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        3156,
+        3187
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_scenario_port_behaviours",
+      "callee": "seed_records",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L91",
+      "receiver": "seeded",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        3225,
+        3246
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_clock_port_is_injected_and_deterministic",
+      "callee": "FakeClock",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L100",
+      "receiver": null,
+      "_python_call_site": [
+        3551,
+        3562
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_clock_port_is_injected_and_deterministic",
+      "callee": "FakeClock",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L100",
+      "receiver": null,
+      "_python_call_site": [
+        3564,
+        3575
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_clock_port_is_injected_and_deterministic",
+      "callee": "now",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L101",
+      "receiver": "first",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3594,
+        3605
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_clock_port_is_injected_and_deterministic",
+      "callee": "now",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L102",
+      "receiver": "second",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3643,
+        3655
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_clock_port_is_injected_and_deterministic",
+      "callee": "timedelta",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L104",
+      "receiver": null,
+      "_python_call_site": [
+        3755,
+        3775
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_clock_port_is_injected_and_deterministic",
+      "callee": "isoformat",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L105",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3787,
+        3812
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "InMemoryEventBus",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L114",
+      "receiver": null,
+      "_python_call_site": [
+        4198,
+        4216
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L117",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        4275,
+        4327
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L117",
+      "receiver": "order",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4305,
+        4326
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L118",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        4332,
+        4449
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L120",
+      "receiver": "order",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4380,
+        4402
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L120",
+      "receiver": "threads",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4404,
+        4441
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "get_ident",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L120",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4419,
+        4440
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L122",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        4454,
+        4480
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handlers_run_in_subscription_order_on_publisher_thread",
+      "callee": "get_ident",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L124",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4544,
+        4565
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "callee": "InMemoryEventBus",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L128",
+      "receiver": null,
+      "_python_call_site": [
+        4665,
+        4683
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L134",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        4802,
+        4826
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L135",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        4831,
+        4867
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L136",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        4872,
+        4898
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L139"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "callee": "subscription_count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L140",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5084,
+        5108
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery_boom",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L131",
+      "receiver": null,
+      "_python_call_site": [
+        4737,
+        4765
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "InMemoryEventBus",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L144",
+      "receiver": null,
+      "_python_call_site": [
+        5247,
+        5265
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L149",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5333,
+        5360
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L150",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5365,
+        5392
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "subscriptions_on",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L151",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5404,
+        5429
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "unsubscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L153",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5440,
+        5477
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "subscriptions_on",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L154",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5516,
+        5541
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "unsubscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L155",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5551,
+        5580
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "unsubscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L156",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5585,
+        5614
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_double_subscribe_is_idempotent_and_unknown_unsubscribe_noop",
+      "callee": "subscription_count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L157",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5661,
+        5685
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only",
+      "callee": "InMemoryEventBus",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L161",
+      "receiver": null,
+      "_python_call_site": [
+        5784,
+        5802
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L168",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5965,
+        5990
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L169",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        5995,
+        6015
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L171",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryEventBus",
+      "_python_call_site": [
+        6103,
+        6123
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only_adder",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L165",
+      "receiver": "calls",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5877,
+        5898
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only_adder",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L166",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5907,
+        5959
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_changes_during_publish_affect_later_publishes_only_adder",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L166",
+      "receiver": "calls",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5937,
+        5958
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "MockSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L181",
+      "receiver": null,
+      "_python_call_site": [
+        6534,
+        6556
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L184",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6611,
+        6670
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L184"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L188",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6843,
+        6870
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L188"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L191",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        6899,
+        6925
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L193",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6972,
+        6999
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L193"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L194",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7027,
+        7042
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L195",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7052,
+        7079
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L195"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "pause",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L196",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7112,
+        7126
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L198",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7132,
+        7146
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L200",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7194,
+        7221
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L200"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L201",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7253,
+        7267
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L202",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7277,
+        7304
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L202"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "resume",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L203",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7337,
+        7352
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L205",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7358,
+        7374
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L207",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7420,
+        7445
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L207"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L208",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7499,
+        7515
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "pause",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L210",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7521,
+        7535
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "resume",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L212",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7577,
+        7592
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "reset",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L214",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        7635,
+        7649
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "checkpoint",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L220",
+      "receiver": "state",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7833,
+        7851
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "MockSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L224",
+      "receiver": null,
+      "_python_call_site": [
+        7971,
+        7993
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L226",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8020,
+        8047
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L226"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L227",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        8083,
+        8097
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L229",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        8120,
+        8137
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L231",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8165,
+        8192
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L231"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L232",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        8220,
+        8237
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L234",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockSimulationEngine",
+      "_python_call_site": [
+        8260,
+        8274
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "create",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L248",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8698,
+        8725
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "exists",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L249",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8751,
+        8778
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "exists",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L250",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8794,
+        8821
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L251",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8833,
+        8857
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "SimulationEngine",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L252"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L252",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8888,
+        8912
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L253",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8943,
+        8970
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "scenario_id",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L254",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9006,
+        9038
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L256",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        9063,
+        9086
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L256"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L257",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9114,
+        9141
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L259",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        9202,
+        9225
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L259"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_registry_port_behaviours",
+      "callee": "scenario_id",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L260",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9255,
+        9287
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "create",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L266",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9415,
+        9442
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L268",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        9453,
+        9476
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L268"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "add_radio",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L269",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9501,
+        9555
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "VALID_RADIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L269"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "add_radio",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L272",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9617,
+        9671
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "VALID_RADIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L272"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "radios",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L274",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9720,
+        9747
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "radios",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L275",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9770,
+        9797
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "get_link",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L276",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9815,
+        9856
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "update_radio",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L277",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9876,
+        9949
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "add_radio",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L279",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9972,
+        10026
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "VALID_RADIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L279"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "get_link",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L280",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10038,
+        10082
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "links",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L284",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10246,
+        10272
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_core_port_behaviours",
+      "callee": "update_radio",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L286",
+      "receiver": "registry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10298,
+        10373
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "MockGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L298",
+      "receiver": null,
+      "_python_call_site": [
+        10826,
+        10847
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "list_layers",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L299",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        10884,
+        10905
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "publish_raster",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L304",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        10984,
+        11049
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "publish_vector",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L305",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        11063,
+        11129
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "GeoJSONFile",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L305",
+      "receiver": null,
+      "_python_call_site": [
+        11095,
+        11128
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "list_layers",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L307",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        11208,
+        11229
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L309",
+      "receiver": null,
+      "_python_call_site": [
+        11249,
+        11292
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L310",
+      "receiver": null,
+      "_python_call_site": [
+        11303,
+        11346
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "elevation_at",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L311",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        11363,
+        11390
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L312"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "elevation_profile",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L314",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        11483,
+        11523
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L316",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        11606,
+        11640
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L317",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        11679,
+        11734
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L317"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "elevation_profile",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L318",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        11744,
+        11784
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "set_style",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L320",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        11790,
+        11825
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "features_in",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L322",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        11882,
+        11915
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L323",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11933,
+        11994
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "tile_url",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L323",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        11933,
+        11971
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "tile_url",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L324",
+      "receiver": "geodata",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "MockGeodataProvider",
+      "_python_call_site": [
+        12015,
+        12039
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "ScenarioPort",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L51"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "InMemoryScenarioStore",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L51"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "ClockPort",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "FakeClock",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "GeodataPort",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "MockGeodataProvider",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "GeodataProvider",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "MockGeodataProvider",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "EventBus",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "InMemoryEventBus",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L55"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "SimulationRegistryPort",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "CorePort",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "SimulationEngine",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_py",
+      "callee": "MockSimulationEngine",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "callee": "handler_errors",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L139",
+      "_python_attr_read": true,
+      "receiver": "bus",
+      "receiver_type": "InMemoryEventBus"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_event_bus_handler_errors_never_propagate_and_do_not_stop_delivery",
+      "callee": "handler_errors",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L138",
+      "_python_attr_read": true,
+      "receiver": "bus",
+      "receiver_type": "InMemoryEventBus"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L218",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "sim_time_s",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L216",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L215",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L213",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L211",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "sim_time_s",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L206",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L199",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L192",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L187",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "reset",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L187",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "resume",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L187",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "pause",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L187",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L187",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_lifecycle_matches_frozen_state_machine",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L185",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "calls",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L238",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_engine_call_log_records_exactly_one_entry_per_attempt",
+      "callee": "calls",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L237",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "MockSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_port_contract_test_geodata_port_behaviours",
+      "callee": "styles",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_port_contract.py",
+      "source_location": "L321",
+      "_python_attr_read": true,
+      "receiver": "geodata",
+      "receiver_type": "MockGeodataProvider"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/plugin_sdk/event_bus.py",
+    "$graphify-root$/libraries/plugin_sdk/geodata.py",
+    "$graphify-root$/libraries/plugin_sdk/simulation.py",
+    "$graphify-root$/services/api/errors.py",
+    "$graphify-root$/services/api/mocks.py",
+    "$graphify-root$/services/api/ports.py"
+  ]
+}

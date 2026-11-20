@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_domain_radio_py",
+      "label": "radio.py",
+      "file_type": "code",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_radio_antenna",
+      "label": "Antenna",
+      "file_type": "code",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_radio_transmitter",
+      "label": "Transmitter",
+      "file_type": "code",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L24",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_radio_receiver",
+      "label": "Receiver",
+      "file_type": "code",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L30",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_radio_radio",
+      "label": "Radio",
+      "file_type": "code",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_radio_rationale_1",
+      "label": "Radio composition types. See architecture doc \u00a79. Minimal shape needed for\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_domain_radio_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclass",
+          "dataclass"
+        ],
+        [
+          "field",
+          "field"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_radio_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Callable",
+          "Callable"
+        ],
+        [
+          "Optional",
+          "Optional"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_radio_py",
+      "target": "$graphify-root$_libraries_domain_frequency_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.frequency",
+      "_python_import_bindings": [
+        [
+          "Frequency",
+          "Frequency"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/frequency.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_radio_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "ENUPosition",
+          "ENUPosition"
+        ],
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_radio_py",
+      "target": "$graphify-root$_libraries_domain_radio_antenna",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_radio_py",
+      "target": "$graphify-root$_libraries_domain_radio_transmitter",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_radio_py",
+      "target": "$graphify-root$_libraries_domain_radio_receiver",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_radio_py",
+      "target": "$graphify-root$_libraries_domain_radio_radio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_radio_rationale_1",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/radio.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/frequency.py",
+    "$graphify-root$/libraries/domain/position.py"
+  ]
+}

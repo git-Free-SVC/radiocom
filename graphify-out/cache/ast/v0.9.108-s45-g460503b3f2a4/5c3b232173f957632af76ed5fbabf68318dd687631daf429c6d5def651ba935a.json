@@ -1,0 +1,267 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "label": "conftest.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_stubscenario",
+      "label": "StubScenario",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_stubscenario_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L10",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_rngentity",
+      "label": "RngEntity",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_rngentity_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L22",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_rngentity_on_tick",
+      "label": ".on_tick()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L27",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_countingentity",
+      "label": "CountingEntity",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L31",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_countingentity_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_countingentity_on_tick",
+      "label": ".on_tick()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L42",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_rationale_1",
+      "label": "Shared fixtures/stubs for services/simulation unit tests. Deliberately minimal\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_rationale_17",
+      "label": "Correct pattern for reset()-safe randomness: pull the RNG from the engine each\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L17"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_conftest_rationale_32",
+      "label": "Records every tick time it's called at; optionally calls engine.pause() when it\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L32"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_stubscenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_stubscenario",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_stubscenario_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_rngentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_rngentity",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_rngentity_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_rngentity",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_rngentity_on_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_countingentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_countingentity",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_countingentity_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_countingentity",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_countingentity_on_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_rationale_1",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_rationale_17",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_rngentity",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_conftest_rationale_32",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_countingentity",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L32",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_conftest_rngentity_on_tick",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L28",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        959,
+        1023
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_conftest_rngentity_on_tick",
+      "callee": "random",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L28",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        977,
+        1022
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_conftest_rngentity_on_tick",
+      "callee": "rng_for",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L28",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        977,
+        1013
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_conftest_countingentity_on_tick",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1533,
+        1555
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_conftest_countingentity_on_tick",
+      "callee": "pause",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/conftest.py",
+      "source_location": "L45",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1602,
+        1622
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1293 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_simulation_engine_py",
+      "label": "engine.py",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "label": "CoreSimulationEngine",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L66",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "simulationengine",
+      "label": "SimulationEngine",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/engine.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L67",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L110",
+      "_callable": true
+    },
+    {
+      "id": "simulationscenario",
+      "label": "SimulationScenario",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/engine.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_start",
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L170",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_pause",
+      "label": ".pause()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L177",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_resume",
+      "label": ".resume()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L185",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L193",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "label": ".step()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L201",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_step_locked",
+      "label": "._step_locked()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L220",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_rng_for",
+      "label": ".rng_for()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L238",
+      "_py_return_type": "Random",
+      "_callable": true
+    },
+    {
+      "id": "random",
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/engine.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_tick",
+      "label": "._schedule_tick()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L250",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_next_tick",
+      "label": "._schedule_next_tick()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L258",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_next_seq",
+      "label": "._next_seq()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L272",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "label": "._handle_event()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L276",
+      "_callable": true
+    },
+    {
+      "id": "simulationevent",
+      "label": "SimulationEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/engine.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "label": "._publish()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L311",
+      "_callable": true
+    },
+    {
+      "id": "eventkind",
+      "label": "EventKind",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/engine.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "label": "._require_loaded()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L315",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_coresimulationengine_state",
+      "label": ".state()",
+      "file_type": "code",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L322",
+      "_py_return_type": "InMemorySimulationState",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "inmemorysimulationstate",
+      "label": "InMemorySimulationState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/engine.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_rationale_1",
+      "label": "Concrete SimulationEngine (architecture doc \u00a714). State machine: load() ->\u2026",
+      "file_type": "rationale",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_engine_rationale_239",
+      "label": "The deterministically-derived RNG stream for one entity (\u00a714 \u00a75.2). Entities\u2026",
+      "file_type": "rationale",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L239"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "threading",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_python_import_module": "threading",
+      "_python_import_bindings": [
+        [
+          "threading",
+          "threading"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "EventKind",
+          "EventKind"
+        ],
+        [
+          "SimulationEngine",
+          "SimulationEngine"
+        ],
+        [
+          "SimulationEvent",
+          "SimulationEvent"
+        ],
+        [
+          "SimulationScenario",
+          "SimulationScenario"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "$graphify-root$_services_simulation_clock_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.clock",
+      "_python_import_bindings": [
+        [
+          "WallClock",
+          "WallClock"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/clock.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "$graphify-root$_services_simulation_determinism_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.determinism",
+      "_python_import_bindings": [
+        [
+          "derive_entity_seed",
+          "derive_entity_seed"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/determinism.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "$graphify-root$_services_simulation_scheduler_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.scheduler",
+      "_python_import_bindings": [
+        [
+          "HeapScheduler",
+          "HeapScheduler"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/scheduler.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "$graphify-root$_services_simulation_state_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.state",
+      "_python_import_bindings": [
+        [
+          "InMemorySimulationState",
+          "InMemorySimulationState"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/state.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_py",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "simulationengine",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "target": "simulationscenario",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_start",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_pause",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_resume",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L201",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_step_locked",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_rng_for",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_rng_for",
+      "target": "random",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_next_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L258",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_next_seq",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L272",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L276",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "target": "simulationevent",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L276",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "target": "eventkind",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L315",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L322",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_state",
+      "target": "inmemorysimulationstate",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L322",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_tick",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_start",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_start",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_pause",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_pause",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_resume",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_resume",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L191",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_reset",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_reset",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_step_locked",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L215",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_step_locked",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L236",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_rng_for",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_tick",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_next_seq",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L255",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_next_tick",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_next_seq",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L269",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_next_tick",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L309",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_coresimulationengine_state",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L323",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_rationale_1",
+      "target": "$graphify-root$_services_simulation_engine_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_engine_rationale_239",
+      "target": "$graphify-root$_services_simulation_engine_coresimulationengine_rng_for",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L239",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_init",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L74",
+      "receiver": null,
+      "_python_call_site": [
+        3500,
+        3570
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_init",
+      "callee": "Lock",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L95",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4431,
+        4447
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_init",
+      "callee": "Lock",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L99",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4711,
+        4727
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "get_ident",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L127",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6544,
+        6565
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L136",
+      "receiver": null,
+      "_python_call_site": [
+        7120,
+        7511
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "WallClock",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L148",
+      "receiver": null,
+      "_python_call_site": [
+        7683,
+        7733
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "HeapScheduler",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L149",
+      "receiver": null,
+      "_python_call_site": [
+        7768,
+        7783
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L151",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7894,
+        7922
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L153",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7986,
+        8039
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "derive_entity_seed",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L153",
+      "receiver": null,
+      "_python_call_site": [
+        8000,
+        8038
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_resume",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L188",
+      "receiver": null,
+      "_python_call_site": [
+        9324,
+        9400
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L204",
+      "receiver": null,
+      "_python_call_site": [
+        10070,
+        10144
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "callee": "acquire",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L206",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10161,
+        10200
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L207",
+      "receiver": null,
+      "_python_call_site": [
+        10220,
+        10559
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "callee": "get_ident",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L213",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10592,
+        10613
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step",
+      "callee": "release",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L218",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10739,
+        10764
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step_locked",
+      "callee": "peek_time",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L228",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11318,
+        11345
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step_locked",
+      "callee": "pop_next",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L233",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11510,
+        11536
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step_locked",
+      "callee": "sleep_until_paced",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L234",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11549,
+        11592
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_step_locked",
+      "callee": "advance_to",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L235",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11643,
+        11679
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_tick",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L254",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12640,
+        12773
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_tick",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L255",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        12678,
+        12763
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_next_tick",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L268",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13438,
+        13571
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_schedule_next_tick",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L269",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        13476,
+        13561
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L295",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14920,
+        14941
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "on_tick",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L297",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14985,
+        15032
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L299",
+      "receiver": "failures",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15152,
+        15185
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "ExceptionGroup",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L301",
+      "receiver": null,
+      "_python_call_site": [
+        15233,
+        15404
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L313",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15823,
+        15867
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_require_loaded",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L317",
+      "receiver": null,
+      "_python_call_site": [
+        15955,
+        16015
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_state",
+      "callee": "InMemorySimulationState",
+      "is_member_call": false,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L324",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        16201,
+        16395
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "name",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L165",
+      "_python_attr_read": true,
+      "receiver": "scenario",
+      "receiver_type": "SimulationScenario"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "seed",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L153",
+      "_python_attr_read": true,
+      "receiver": "scenario",
+      "receiver_type": "SimulationScenario"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "seed",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L151",
+      "_python_attr_read": true,
+      "receiver": "scenario",
+      "receiver_type": "SimulationScenario"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_load",
+      "callee": "entities",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L150",
+      "_python_attr_read": true,
+      "receiver": "scenario",
+      "receiver_type": "SimulationScenario"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "payload",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L309",
+      "_python_attr_read": true,
+      "receiver": "event",
+      "receiver_type": "SimulationEvent"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "kind",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L309",
+      "_python_attr_read": true,
+      "receiver": "event",
+      "receiver_type": "SimulationEvent"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "time_s",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L302",
+      "_python_attr_read": true,
+      "receiver": "event",
+      "receiver_type": "SimulationEvent"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "time_s",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L297",
+      "_python_attr_read": true,
+      "receiver": "event",
+      "receiver_type": "SimulationEvent"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_handle_event",
+      "callee": "kind",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L277",
+      "_python_attr_read": true,
+      "receiver": "event",
+      "receiver_type": "SimulationEvent"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_engine_coresimulationengine_publish",
+      "callee": "value",
+      "is_member_call": true,
+      "source_file": "services/simulation/engine.py",
+      "source_location": "L313",
+      "_python_attr_read": true,
+      "receiver": "kind",
+      "receiver_type": "EventKind"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/simulation.py",
+    "$graphify-root$/services/simulation/clock.py",
+    "$graphify-root$/services/simulation/determinism.py",
+    "$graphify-root$/services/simulation/scheduler.py",
+    "$graphify-root$/services/simulation/state.py"
+  ]
+}

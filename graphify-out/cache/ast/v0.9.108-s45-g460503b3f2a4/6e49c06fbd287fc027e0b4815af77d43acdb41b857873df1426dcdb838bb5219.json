@@ -1,0 +1,493 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_py",
+      "label": "test_scheduler_concurrency.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency",
+      "label": "TestSchedulerConcurrency",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "label": ".test_concurrent_push_and_pop_does_not_crash_or_corrupt()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L20",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "label": "pusher()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L32",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_popper",
+      "label": "popper()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L45",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_rationale_1",
+      "label": "Regression test for a real bug found by stress-testing with genuine OS threads\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_py",
+      "target": "threading",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "threading",
+      "_python_import_bindings": [
+        [
+          "threading",
+          "threading"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "SimulationEvent",
+          "SimulationEvent"
+        ],
+        [
+          "EventKind",
+          "EventKind"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_py",
+      "target": "$graphify-root$_services_simulation_scheduler_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.scheduler",
+      "_python_import_bindings": [
+        [
+          "HeapScheduler",
+          "HeapScheduler"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/scheduler.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_popper",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_popper",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_rationale_1",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "HeapScheduler",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L21",
+      "receiver": null,
+      "_python_call_site": [
+        902,
+        917
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "Lock",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L24",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1035,
+        1051
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "Event",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L25",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1072,
+        1089
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L28",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        1132,
+        1259
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L29",
+      "receiver": null,
+      "_python_call_site": [
+        1162,
+        1245
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L29",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1185,
+        1207
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "Thread",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L57",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2332,
+        2374
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "Thread",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L58",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2414,
+        2456
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L60",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2514,
+        2523
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L62",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2562,
+        2582
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "set",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L63",
+      "receiver": "stop_flag",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Event",
+      "_python_call_site": [
+        2591,
+        2606
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt",
+      "callee": "is_alive",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L65",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2653,
+        2665
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L33",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1323,
+        1354
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L37",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1485,
+        1681
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_call_site": [
+        1523,
+        1659
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L39",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        1575,
+        1594
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L43",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1799,
+        1842
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_pusher",
+      "callee": "e",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_popper",
+      "callee": "is_set",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L48",
+      "receiver": "stop_flag",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1957,
+        1975
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_popper",
+      "callee": "pop_next",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L49",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2019,
+        2033
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_popper",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L52",
+      "receiver": "popped_log",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2144,
+        2166
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_popper",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L55",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2269,
+        2311
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_concurrency_testschedulerconcurrency_test_concurrent_push_and_pop_does_not_crash_or_corrupt_popper",
+      "callee": "e",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/simulation/test_scheduler_concurrency.py",
+      "source_location": "L55"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/simulation.py",
+    "$graphify-root$/services/simulation/scheduler.py"
+  ]
+}

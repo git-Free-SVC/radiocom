@@ -1,0 +1,2257 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "label": "test_contract_conformance.py",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "label": "load_yaml_contract()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L87",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/test_contract_conformance.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "label": "yaml_operations()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L94",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "label": "yaml_success_statuses()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_app_operations",
+      "label": "app_operations()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L116",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_app_declared_statuses",
+      "label": "app_declared_statuses()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L126",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_app_ws_paths",
+      "label": "app_ws_paths()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L138",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_routes",
+      "label": "compare_routes()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L142",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_statuses",
+      "label": "compare_statuses()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L149",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_yaml_to_app",
+      "label": "test_route_parity_yaml_to_app()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L165",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_app_to_yaml",
+      "label": "test_route_parity_app_to_yaml()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L171",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_ws_paths_match_architecture_section_17",
+      "label": "test_ws_paths_match_architecture_section_17()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L177",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_every_yaml_operation_has_a_declared_response_schema",
+      "label": "test_every_yaml_operation_has_a_declared_response_schema()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L181",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_status_parity_declared_handlers_vs_yaml",
+      "label": "test_status_parity_declared_handlers_vs_yaml()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L193",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "label": "_run_happy_chain()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L199",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_runtime_success_statuses_match_yaml",
+      "label": "test_runtime_success_statuses_match_yaml()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L244",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_split_route",
+      "label": "_split_route()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L256",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_response_key_sets_exact_and_schema_valid",
+      "label": "test_response_key_sets_exact_and_schema_valid()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L266",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_scenario_record_inner_keys_are_the_frozen_property_set",
+      "label": "test_scenario_record_inner_keys_are_the_frozen_property_set()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L276",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_request_bodies_validated_against_declared_schemas",
+      "label": "test_request_bodies_validated_against_declared_schemas()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L282",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "label": "test_frozen_yaml_declares_no_bodies_no_schemas_no_errors()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L294",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_is_valid_openapi",
+      "label": "test_frozen_yaml_is_valid_openapi()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L310",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_renamed_path",
+      "label": "test_negative_parity_detects_renamed_path()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L321",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_dropped_operation",
+      "label": "test_negative_parity_detects_dropped_operation()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L330",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_wrong_method",
+      "label": "test_negative_parity_detects_wrong_method()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L338",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_status_parity_detects_doctored_status",
+      "label": "test_negative_status_parity_detects_doctored_status()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L346",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_renamed_field",
+      "label": "test_negative_response_schema_detects_renamed_field()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L359",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_missing_field",
+      "label": "test_negative_response_schema_detects_missing_field()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L368",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_extra_field",
+      "label": "test_negative_response_schema_detects_extra_field()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L376",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_frozen_scenario_schema_rejects_doctored_instance",
+      "label": "test_negative_frozen_scenario_schema_rejects_doctored_instance()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L384",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_link_event_schema_is_frozen_and_six_keys",
+      "label": "test_link_event_schema_is_frozen_and_six_keys()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L391",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_test_helpers_are_reusable_without_app",
+      "label": "test_helpers_are_reusable_without_app()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L403",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_1",
+      "label": "Contract conformance (task prompt \u00a76): two independent, machine-verified checks\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_145",
+      "label": "(missing_from_actual, extra_in_actual) \u2014 used in both directions.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L145"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_152",
+      "label": "[(route_key, expected_code, actual_code), ...] for shared routes that differ.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L152"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_200",
+      "label": "Execute every YAML operation once; returns route_key -> HttpResponse.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L200"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_283",
+      "label": "Extra key on a no-spec request body -> 422 with the offending key named.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L283"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_295",
+      "label": "If the frozen contract ever grows request/response schemas, this canary fails\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L295"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_347",
+      "label": "A doctored expected status (200 instead of the contract's 201) must be reported\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L347"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_404",
+      "label": "Pure functions usable by the Integration Agent in CI, no app needed.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L404"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "jsonschema",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "jsonschema",
+      "_python_import_bindings": [
+        [
+          "jsonschema",
+          "jsonschema"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "yaml",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "yaml",
+      "_python_import_bindings": [
+        [
+          "yaml",
+          "yaml"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "conftest",
+      "_python_import_bindings": [
+        [
+          "REPOSITORY_ROOT",
+          "REPOSITORY_ROOT"
+        ],
+        [
+          "VALID_RADIO_BODY",
+          "VALID_RADIO_BODY"
+        ],
+        [
+          "VALID_SCENARIO_BODY",
+          "VALID_SCENARIO_BODY"
+        ],
+        [
+          "get",
+          "get"
+        ],
+        [
+          "patch",
+          "patch"
+        ],
+        [
+          "post",
+          "post"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/api/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "fastapi_routing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_python_import_module": "fastapi.routing",
+      "_python_import_bindings": [
+        [
+          "APIRoute",
+          "APIRoute"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "starlette_routing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_python_import_module": "starlette.routing",
+      "_python_import_bindings": [
+        [
+          "WebSocketRoute",
+          "WebSocketRoute"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_services_api_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_python_import_module": "services.api.schemas",
+      "_python_import_bindings": [
+        [
+          "LINK_EVENT_SCHEMA_PATH",
+          "LINK_EVENT_SCHEMA_PATH"
+        ],
+        [
+          "RESPONSE_SCHEMAS",
+          "RESPONSE_SCHEMAS"
+        ],
+        [
+          "SCENARIO_SCHEMA_PATH",
+          "SCENARIO_SCHEMA_PATH"
+        ],
+        [
+          "load_frozen_schema",
+          "load_frozen_schema"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/schemas.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_app_operations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_app_operations",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_app_declared_statuses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_app_declared_statuses",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_app_ws_paths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_app_ws_paths",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_routes",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_statuses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_yaml_to_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L165",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_app_to_yaml",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_ws_paths_match_architecture_section_17",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_every_yaml_operation_has_a_declared_response_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_status_parity_declared_handlers_vs_yaml",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_runtime_success_statuses_match_yaml",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_split_route",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_response_key_sets_exact_and_schema_valid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L266",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_scenario_record_inner_keys_are_the_frozen_property_set",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L276",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_request_bodies_validated_against_declared_schemas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L282",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_is_valid_openapi",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L310",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_renamed_path",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L321",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_dropped_operation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L330",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_wrong_method",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L338",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_status_parity_detects_doctored_status",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L346",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_renamed_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L359",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_missing_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L368",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_extra_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L376",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_frozen_scenario_schema_rejects_doctored_instance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L384",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_link_event_schema_is_frozen_and_six_keys",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L391",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_helpers_are_reusable_without_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L403",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_yaml_to_app",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_yaml_to_app",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_routes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_yaml_to_app",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_yaml_to_app",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_app_operations",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_app_to_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_app_to_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_routes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_app_to_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_route_parity_app_to_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_app_operations",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_ws_paths_match_architecture_section_17",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_app_ws_paths",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_every_yaml_operation_has_a_declared_response_schema",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_every_yaml_operation_has_a_declared_response_schema",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_status_parity_declared_handlers_vs_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L194",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_status_parity_declared_handlers_vs_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_statuses",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_status_parity_declared_handlers_vs_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_status_parity_declared_handlers_vs_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_app_declared_statuses",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_runtime_success_statuses_match_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_runtime_success_statuses_match_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L246",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_runtime_success_statuses_match_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L246",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_runtime_success_statuses_match_yaml",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_split_route",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_response_key_sets_exact_and_schema_valid",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L297",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_is_valid_openapi",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L312",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_renamed_path",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_routes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_dropped_operation",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_routes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_parity_detects_wrong_method",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_routes",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L341",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_status_parity_detects_doctored_status",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L350",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_status_parity_detects_doctored_status",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L351",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_status_parity_detects_doctored_status",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_statuses",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_status_parity_detects_doctored_status",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_app_declared_statuses",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L353",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_renamed_field",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_missing_field",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L369",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_extra_field",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L377",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_helpers_are_reusable_without_app",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L405",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_helpers_are_reusable_without_app",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L406",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_test_helpers_are_reusable_without_app",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L407",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_1",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_145",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_routes",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_152",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_statuses",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_200",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_283",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_request_bodies_validated_against_declared_schemas",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L283",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_295",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_347",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_status_parity_detects_doctored_status",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L347",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_contract_conformance_rationale_404",
+      "target": "$graphify-root$_tests_unit_api_test_contract_conformance_test_helpers_are_reusable_without_app",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L404",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "callee": "open",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L88",
+      "receiver": "YAML_PATH",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3099,
+        3131
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "callee": "safe_load",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L89",
+      "receiver": "yaml",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3160,
+        3182
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "callee": "handle",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_load_yaml_contract",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L96",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3373,
+        3394
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L97",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3429,
+        3441
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L98"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "callee": "add",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L99",
+      "receiver": "operations",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3530,
+        3568
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_operations",
+      "callee": "upper",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L99",
+      "receiver": "method",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3546,
+        3560
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L105",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3740,
+        3761
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L106",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3796,
+        3808
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L107"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L109",
+      "receiver": "operation",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3956,
+        3986
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "callee": "upper",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L111",
+      "receiver": "method",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4087,
+        4101
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_yaml_success_statuses",
+      "callee": "upper",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L112",
+      "receiver": "method",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4158,
+        4172
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_app_operations",
+      "callee": "APIRoute",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L120"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_app_declared_statuses",
+      "callee": "APIRoute",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L129"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_app_ws_paths",
+      "callee": "WebSocketRoute",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L139"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_compare_statuses",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L156",
+      "receiver": "mismatches",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5660,
+        5737
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_every_yaml_operation_has_a_declared_response_schema",
+      "callee": "RESPONSE_SCHEMAS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L184"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_every_yaml_operation_has_a_declared_response_schema",
+      "callee": "RESPONSE_SCHEMAS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L185"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_every_yaml_operation_has_a_declared_response_schema",
+      "callee": "EXPECTED_RESPONSE_KEYS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L185"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L202",
+      "receiver": null,
+      "_python_call_site": [
+        7574,
+        7596
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L204",
+      "receiver": null,
+      "_python_call_site": [
+        7633,
+        7682
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L204"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L205",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7701,
+        7736
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L206",
+      "receiver": null,
+      "_python_call_site": [
+        7782,
+        7819
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L208",
+      "receiver": null,
+      "_python_call_site": [
+        7858,
+        7918
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L209",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7939,
+        7976
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L210",
+      "receiver": null,
+      "_python_call_site": [
+        8031,
+        8079
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L211",
+      "receiver": null,
+      "_python_call_site": [
+        8128,
+        8176
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L212",
+      "receiver": null,
+      "_python_call_site": [
+        8226,
+        8275
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L213",
+      "receiver": null,
+      "_python_call_site": [
+        8324,
+        8372
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L215",
+      "receiver": null,
+      "_python_call_site": [
+        8406,
+        8499
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L218",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8518,
+        8550
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L219",
+      "receiver": null,
+      "_python_call_site": [
+        8570,
+        8649
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L221",
+      "receiver": "second",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8714,
+        8727
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L223",
+      "receiver": null,
+      "_python_call_site": [
+        8773,
+        8903
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L228",
+      "receiver": null,
+      "_python_call_site": [
+        8942,
+        8990
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L230",
+      "receiver": null,
+      "_python_call_site": [
+        9031,
+        9058
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L231",
+      "receiver": null,
+      "_python_call_site": [
+        9099,
+        9239
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L236",
+      "receiver": null,
+      "_python_call_site": [
+        9282,
+        9331
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_run_happy_chain",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L237",
+      "receiver": null,
+      "_python_call_site": [
+        9382,
+        9495
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_runtime_success_statuses_match_yaml",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L248",
+      "receiver": "responses",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9785,
+        9802
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_split_route",
+      "callee": "partition",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L257",
+      "receiver": "route_key",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10041,
+        10065
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_response_key_sets_exact_and_schema_valid",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L268",
+      "receiver": "responses",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10455,
+        10472
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_response_key_sets_exact_and_schema_valid",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L270",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10554,
+        10569
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_response_key_sets_exact_and_schema_valid",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L272",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        10554,
+        10569
+      ],
+      "_python_call_site": [
+        10647,
+        10658
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_response_key_sets_exact_and_schema_valid",
+      "callee": "validate",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L273",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10712,
+        10766
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_scenario_record_inner_keys_are_the_frozen_property_set",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L277",
+      "receiver": null,
+      "_python_call_site": [
+        10862,
+        10911
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_scenario_record_inner_keys_are_the_frozen_property_set",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L277"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_scenario_record_inner_keys_are_the_frozen_property_set",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L278",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10927,
+        10942
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_scenario_record_inner_keys_are_the_frozen_property_set",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L279",
+      "receiver": "scenario",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10970,
+        10985
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_request_bodies_validated_against_declared_schemas",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L284",
+      "receiver": null,
+      "_python_call_site": [
+        11220,
+        11291
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L299",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11930,
+        11951
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L300",
+      "receiver": "item",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11986,
+        11998
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L301"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "callee": "values",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L306",
+      "receiver": "responses",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12328,
+        12346
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_declares_no_bodies_no_schemas_no_errors",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L307",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12375,
+        12390
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_is_valid_openapi",
+      "callee": "importorskip",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L311",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        12517,
+        12562
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_frozen_yaml_is_valid_openapi",
+      "callee": "validate",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L313",
+      "receiver": "openapi_spec_validator",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        12517,
+        12562
+      ],
+      "_python_call_site": [
+        12599,
+        12636
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_renamed_field",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L361",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14776,
+        14811
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_renamed_field",
+      "callee": "pop",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L363",
+      "receiver": "doctored",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14867,
+        14885
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_renamed_field",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L364",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        14912,
+        14953
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_renamed_field",
+      "callee": "validate",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L365",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        14963,
+        15029
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_missing_field",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L370",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15156,
+        15188
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_missing_field",
+      "callee": "pop",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L371",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15194,
+        15214
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_missing_field",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L372",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        15241,
+        15282
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_missing_field",
+      "callee": "validate",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L373",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        15292,
+        15351
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_extra_field",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L378",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15476,
+        15514
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_extra_field",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L380",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        15571,
+        15612
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_response_schema_detects_extra_field",
+      "callee": "validate",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L381",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        15622,
+        15687
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_frozen_scenario_schema_rejects_doctored_instance",
+      "callee": "load_frozen_schema",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L385",
+      "receiver": null,
+      "_python_call_site": [
+        15781,
+        15821
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_frozen_scenario_schema_rejects_doctored_instance",
+      "callee": "SCENARIO_SCHEMA_PATH",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L385"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_frozen_scenario_schema_rejects_doctored_instance",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L387",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        15891,
+        15932
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_negative_frozen_scenario_schema_rejects_doctored_instance",
+      "callee": "validate",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L388",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        15942,
+        15979
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_link_event_schema_is_frozen_and_six_keys",
+      "callee": "load_frozen_schema",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L392",
+      "receiver": null,
+      "_python_call_site": [
+        16061,
+        16103
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_test_link_event_schema_is_frozen_and_six_keys",
+      "callee": "LINK_EVENT_SCHEMA_PATH",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L392"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_app_operations",
+      "callee": "routes",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L119",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "Any"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_app_declared_statuses",
+      "callee": "routes",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L128",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "Any"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_contract_conformance_app_ws_paths",
+      "callee": "routes",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_contract_conformance.py",
+      "source_location": "L139",
+      "_python_attr_read": true,
+      "receiver": "app",
+      "receiver_type": "Any"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/api/schemas.py",
+    "$graphify-root$/tests/unit/api/conftest.py"
+  ]
+}

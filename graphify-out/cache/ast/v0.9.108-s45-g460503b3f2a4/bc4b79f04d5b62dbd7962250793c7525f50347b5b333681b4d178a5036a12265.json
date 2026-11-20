@@ -1,0 +1,505 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "label": "geodata.py",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_layerref",
+      "label": "LayerRef",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_postgistable",
+      "label": "PostGISTable",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geojsonfile",
+      "label": "GeoJSONFile",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L26",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_bbox",
+      "label": "BBox",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L31",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_feature",
+      "label": "Feature",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L39",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "label": "GeodataProvider",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L45",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/geodata.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_publish_raster",
+      "label": ".publish_raster()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L46",
+      "_py_return_type": "LayerRef",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_publish_vector",
+      "label": ".publish_vector()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L48",
+      "_py_return_type": "LayerRef",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_set_style",
+      "label": ".set_style()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L50",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_elevation_at",
+      "label": ".elevation_at()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "geoposition",
+      "label": "GeoPosition",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/geodata.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_elevation_profile",
+      "label": ".elevation_profile()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_features_in",
+      "label": ".features_in()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L61",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_tile_url",
+      "label": ".tile_url()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L63",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_rationale_1",
+      "label": "GeodataProvider interface. Frozen after Wave 0 \u2014 see docs/adr/ADR-000. Real\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_rationale_53",
+      "label": "Single WCS elevation query, meters.",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L53"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_rationale_57",
+      "label": "LOS elevation profile a->b inclusive, meters, exactly `samples` points. Raises\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L57"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_geodata_rationale_64",
+      "label": "WMS/WMTS tile URL template for the UI basemap.",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L64"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclass",
+          "dataclass"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Protocol",
+          "Protocol"
+        ],
+        [
+          "Union",
+          "Union"
+        ],
+        [
+          "runtime_checkable",
+          "runtime_checkable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_layerref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_postgistable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geojsonfile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_bbox",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_feature",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_publish_raster",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_publish_raster",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_layerref",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_publish_vector",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_publish_vector",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_postgistable",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_publish_vector",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geojsonfile",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_publish_vector",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_layerref",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_set_style",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_set_style",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_elevation_at",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_elevation_at",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_elevation_profile",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_elevation_profile",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_features_in",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_features_in",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_features_in",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_bbox",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_features_in",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_feature",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_tile_url",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_tile_url",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_rationale_1",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_rationale_53",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_elevation_at",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_rationale_57",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_elevation_profile",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_geodata_rationale_64",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_geodataprovider_tile_url",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/geodata.py",
+      "source_location": "L64",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/position.py"
+  ]
+}

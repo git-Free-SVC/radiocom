@@ -1,0 +1,280 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_simulation_scheduler_py",
+      "label": "scheduler.py",
+      "file_type": "code",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_scheduler_heapscheduler",
+      "label": "HeapScheduler",
+      "file_type": "code",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L27",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "simulationscheduler",
+      "label": "SimulationScheduler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/scheduler.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_scheduler_heapscheduler_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_scheduler_heapscheduler_schedule",
+      "label": ".schedule()",
+      "file_type": "code",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L32",
+      "_callable": true
+    },
+    {
+      "id": "simulationevent",
+      "label": "SimulationEvent",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/scheduler.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_scheduler_heapscheduler_pop_next",
+      "label": ".pop_next()",
+      "file_type": "code",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L36",
+      "_py_return_type": "SimulationEvent",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_scheduler_heapscheduler_peek_time",
+      "label": ".peek_time()",
+      "file_type": "code",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L42",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_scheduler_heapscheduler_len",
+      "label": ".__len__()",
+      "file_type": "code",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L48",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_scheduler_rationale_1",
+      "label": "Concrete SimulationScheduler (architecture doc \u00a714 \u00a75.6 \u2014 plain heapq, no over-\u2026",
+      "file_type": "rationale",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_py",
+      "target": "heapq",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "heapq",
+      "_python_import_bindings": [
+        [
+          "heapq",
+          "heapq"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_py",
+      "target": "threading",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "threading",
+      "_python_import_bindings": [
+        [
+          "threading",
+          "threading"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "SimulationEvent",
+          "SimulationEvent"
+        ],
+        [
+          "SimulationScheduler",
+          "SimulationScheduler"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_py",
+      "target": "$graphify-root$_services_simulation_scheduler_heapscheduler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_heapscheduler",
+      "target": "simulationscheduler",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_heapscheduler",
+      "target": "$graphify-root$_services_simulation_scheduler_heapscheduler_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_heapscheduler",
+      "target": "$graphify-root$_services_simulation_scheduler_heapscheduler_schedule",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_heapscheduler_schedule",
+      "target": "simulationevent",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_heapscheduler",
+      "target": "$graphify-root$_services_simulation_scheduler_heapscheduler_pop_next",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_heapscheduler_pop_next",
+      "target": "simulationevent",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_heapscheduler",
+      "target": "$graphify-root$_services_simulation_scheduler_heapscheduler_peek_time",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_heapscheduler",
+      "target": "$graphify-root$_services_simulation_scheduler_heapscheduler_len",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_scheduler_rationale_1",
+      "target": "$graphify-root$_services_simulation_scheduler_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_simulation_scheduler_heapscheduler_init",
+      "callee": "Lock",
+      "is_member_call": true,
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L30",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1471,
+        1487
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_scheduler_heapscheduler_schedule",
+      "callee": "heappush",
+      "is_member_call": true,
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L34",
+      "receiver": "heapq",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1582,
+        1615
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_scheduler_heapscheduler_pop_next",
+      "callee": "heappop",
+      "is_member_call": true,
+      "source_file": "services/simulation/scheduler.py",
+      "source_location": "L40",
+      "receiver": "heapq",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1770,
+        1795
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/simulation.py"
+  ]
+}

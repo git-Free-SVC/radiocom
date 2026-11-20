@@ -1,0 +1,3059 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "label": "test_world_engine.py",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform",
+      "label": "TestForwardTransform",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L32",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_prime_meridian",
+      "label": ".test_equator_prime_meridian()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "label": ".test_north_pole()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L45",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_90_east",
+      "label": ".test_equator_90_east()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_constants",
+      "label": ".test_constants()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L58",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_altitude_adds_along_the_normal",
+      "label": ".test_altitude_adds_along_the_normal()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L61",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases",
+      "label": "TestENUSanityCases",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L66",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_radii",
+      "label": "._radii()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L71",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_origin_relative_to_itself_is_zero",
+      "label": ".test_origin_relative_to_itself_is_zero()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L77",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "label": ".test_point_north()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L81",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "label": ".test_point_east()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L89",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_above",
+      "label": ".test_point_above()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L97",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "label": "_assert_same()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L116",
+      "_callable": true
+    },
+    {
+      "id": "geoposition",
+      "label": "GeoPosition",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/world/test_world_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "label": "_nearby_origin()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L123",
+      "_py_return_type": "GeoPosition",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip",
+      "label": "TestRoundTrip",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L129",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/world/test_world_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_ecef_geo",
+      "label": ".test_geo_ecef_geo()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L131",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_nearby_origin",
+      "label": ".test_geo_enu_geo_nearby_origin()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L136",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_own_origin",
+      "label": ".test_geo_enu_geo_own_origin()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L142",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_distant_origin",
+      "label": ".test_geo_enu_geo_distant_origin()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L149",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "label": ".test_enu_geo_enu()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L153",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole",
+      "label": "TestNearPole",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L161",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_round_trip_close_to_pole",
+      "label": ".test_round_trip_close_to_pole()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L164",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_exactly_at_pole_does_not_crash",
+      "label": ".test_exactly_at_pole_does_not_crash()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L169",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_enu_near_pole_with_nearby_origin",
+      "label": ".test_enu_near_pole_with_nearby_origin()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L177",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_returned_position_is_always_valid",
+      "label": ".test_returned_position_is_always_valid()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L182",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "label": "WallGeodataProvider",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L188",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "flatgeodataprovider",
+      "label": "FlatGeodataProvider",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/world/test_world_engine.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L192",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider_elevation_profile",
+      "label": ".elevation_profile()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L196",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "label": "TestLineOfSight",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L202",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_flat_terrain_is_clear",
+      "label": ".test_flat_terrain_is_clear()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L206",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_obstructs_and_clearance_is_negative",
+      "label": ".test_wall_obstructs_and_clearance_is_negative()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L213",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_lower_than_line_is_clear",
+      "label": ".test_wall_lower_than_line_is_clear()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L220",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_touching_terrain_counts_as_clear",
+      "label": ".test_touching_terrain_counts_as_clear()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L225",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_identical_points_are_trivially_clear",
+      "label": ".test_identical_points_are_trivially_clear()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L230",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_different_altitudes_clear_over_flat_terrain",
+      "label": ".test_different_altitudes_clear_over_flat_terrain()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L235",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_sloped_line_can_clear_a_wall_a_level_line_would_not",
+      "label": ".test_sloped_line_can_clear_a_wall_a_level_line_would_not()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L243",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_endpoint_below_ground_is_obstructed_over_flat_terrain",
+      "label": ".test_endpoint_below_ground_is_obstructed_over_flat_terrain()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L249",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_samples_parameter_is_used",
+      "label": ".test_samples_parameter_is_used()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L254",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "label": ".test_too_few_samples_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L259",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "label": ".test_provider_returning_wrong_length_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L263",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected_elevation_profile",
+      "label": "elevation_profile()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L265",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_result_is_frozen",
+      "label": ".test_result_is_frozen()",
+      "file_type": "code",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L271",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_rationale_1",
+      "label": "Unit tests for services/world (pure math + LOS stub; no I/O).",
+      "file_type": "rationale",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_rationale_33",
+      "label": "Closed-form reference points (spec 5.1). cos(90 deg) is not exactly 0 in double\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L33"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_rationale_67",
+      "label": "Origin (45N, 6E, 1000 m) -- spec 5.2. Expected values are derived independently\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L67"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_rationale_124",
+      "label": "An origin ~100 m from ``p`` (same hemisphere/region).",
+      "file_type": "rationale",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L124"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_world_test_world_engine_rationale_189",
+      "label": "Reuses the shared flat fake, but with a wall of terrain between 40% and 60% of\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L189"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "ENUPosition",
+          "ENUPosition"
+        ],
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_services_world_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "services.world",
+      "_python_import_bindings": [
+        [
+          "DEFAULT_SAMPLES",
+          "DEFAULT_SAMPLES"
+        ],
+        [
+          "WGS84_A",
+          "WGS84_A"
+        ],
+        [
+          "WGS84_E2",
+          "WGS84_E2"
+        ],
+        [
+          "WGS84_F",
+          "WGS84_F"
+        ],
+        [
+          "LOSResult",
+          "LOSResult"
+        ],
+        [
+          "ecef_to_geo",
+          "ecef_to_geo"
+        ],
+        [
+          "enu_to_geo",
+          "enu_to_geo"
+        ],
+        [
+          "geo_to_ecef",
+          "geo_to_ecef"
+        ],
+        [
+          "geo_to_enu",
+          "geo_to_enu"
+        ],
+        [
+          "line_of_sight",
+          "line_of_sight"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/world/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "tests.contract.fakes.flat_geodata_provider",
+      "_python_import_bindings": [
+        [
+          "FlatGeodataProvider",
+          "FlatGeodataProvider"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/contract/fakes/flat_geodata_provider.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_prime_meridian",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_90_east",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_constants",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_altitude_adds_along_the_normal",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_radii",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_origin_relative_to_itself_is_zero",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_above",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_ecef_geo",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_ecef_geo",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_nearby_origin",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_nearby_origin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_own_origin",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_own_origin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_distant_origin",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_distant_origin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_round_trip_close_to_pole",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L162",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_round_trip_close_to_pole",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L163",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_round_trip_close_to_pole",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_exactly_at_pole_does_not_crash",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_enu_near_pole_with_nearby_origin",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_returned_position_is_always_valid",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "target": "flatgeodataprovider",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider_elevation_profile",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider_elevation_profile",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_flat_terrain_is_clear",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L206",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_obstructs_and_clearance_is_negative",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_lower_than_line_is_clear",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_touching_terrain_counts_as_clear",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_identical_points_are_trivially_clear",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L230",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_different_altitudes_clear_over_flat_terrain",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L235",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_sloped_line_can_clear_a_wall_a_level_line_would_not",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_endpoint_below_ground_is_obstructed_over_flat_terrain",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_samples_parameter_is_used",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L258",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected_elevation_profile",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_result_is_frozen",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_radii",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_radii",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_ecef_geo",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_nearby_origin",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_nearby_origin",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_own_origin",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_distant_origin",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_round_trip_close_to_pole",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_enu_near_pole_with_nearby_origin",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L180",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_obstructs_and_clearance_is_negative",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_lower_than_line_is_clear",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_touching_terrain_counts_as_clear",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_sloped_line_can_clear_a_wall_a_level_line_would_not",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L246",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_rationale_1",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_rationale_33",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_rationale_67",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_rationale_124",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_world_test_world_engine_rationale_189",
+      "target": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L189",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_prime_meridian",
+      "callee": "geo_to_ecef",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_call_site": [
+        866,
+        905
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_prime_meridian",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L37",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        878,
+        904
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_prime_meridian",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L39",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        948,
+        980
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_prime_meridian",
+      "callee": "WGS84_A",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_prime_meridian",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L40",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        994,
+        1022
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "callee": "geo_to_ecef",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L46",
+      "receiver": null,
+      "_python_call_site": [
+        1139,
+        1179
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L46",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1151,
+        1178
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L47",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1200,
+        1228
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L48",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1249,
+        1277
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L49",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1298,
+        1330
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "callee": "WGS84_B",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_north_pole",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L50",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1351,
+        1393
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_90_east",
+      "callee": "geo_to_ecef",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        1457,
+        1497
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_90_east",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L53",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1469,
+        1496
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_90_east",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L54",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1518,
+        1546
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_90_east",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L55",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1567,
+        1601
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_equator_90_east",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L56",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1622,
+        1650
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_constants",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L59",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1717,
+        1759
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_altitude_adds_along_the_normal",
+      "callee": "geo_to_ecef",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L62",
+      "receiver": null,
+      "_python_call_site": [
+        1838,
+        1879
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_altitude_adds_along_the_normal",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L62",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1850,
+        1878
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testforwardtransform_test_altitude_adds_along_the_normal",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L63",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1900,
+        1940
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_radii",
+      "callee": "sin",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L72",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2204,
+        2235
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_radii",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L72",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2213,
+        2234
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_radii",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L73",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2263,
+        2291
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_origin_relative_to_itself_is_zero",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2455,
+        2481
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_origin_relative_to_itself_is_zero",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L78"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_origin_relative_to_itself_is_zero",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L78"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L82",
+      "receiver": null,
+      "_python_call_site": [
+        2607,
+        2659
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L82"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L82",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        2618,
+        2650
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L84",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2722,
+        2751
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L85",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2782,
+        2842
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L85",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2811,
+        2830
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L86",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2873,
+        2904
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_north",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L87",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2932,
+        2961
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        3044,
+        3096
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L90",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        3055,
+        3087
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "cos",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L92",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3164,
+        3192
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L92",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3173,
+        3191
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L92",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3195,
+        3214
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L93",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3244,
+        3278
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L94",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3308,
+        3338
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_east",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L95",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3369,
+        3398
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_above",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L98",
+      "receiver": null,
+      "_python_call_site": [
+        3454,
+        3504
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_above",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L98"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_above",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L98",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        3465,
+        3495
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_above",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L99",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3534,
+        3562
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_above",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L100",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3593,
+        3621
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testenusanitycases_test_point_above",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L101",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3649,
+        3678
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L126",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        4588,
+        4627
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_ecef_geo",
+      "callee": "ecef_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L133",
+      "receiver": null,
+      "_python_call_site": [
+        4816,
+        4844
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_ecef_geo",
+      "callee": "geo_to_ecef",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L133",
+      "receiver": null,
+      "_python_call_site": [
+        4829,
+        4843
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_nearby_origin",
+      "callee": "enu_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L139",
+      "receiver": null,
+      "_python_call_site": [
+        5063,
+        5104
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_nearby_origin",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L139",
+      "receiver": null,
+      "_python_call_site": [
+        5074,
+        5095
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_own_origin",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L144",
+      "receiver": null,
+      "_python_call_site": [
+        5278,
+        5294
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_own_origin",
+      "callee": "enu_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L146",
+      "receiver": null,
+      "_python_call_site": [
+        5386,
+        5404
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_distant_origin",
+      "callee": "enu_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L151",
+      "receiver": null,
+      "_python_call_site": [
+        5621,
+        5662
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_distant_origin",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L151"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_distant_origin",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L151",
+      "receiver": null,
+      "_python_call_site": [
+        5632,
+        5653
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_geo_enu_geo_distant_origin",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L151"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "ENUPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L154",
+      "receiver": null,
+      "_python_call_site": [
+        5722,
+        5775
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L155",
+      "receiver": null,
+      "_python_call_site": [
+        5791,
+        5834
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "enu_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L155",
+      "receiver": null,
+      "_python_call_site": [
+        5802,
+        5825
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "ORIGIN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L155"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L156",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5865,
+        5900
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L157",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5932,
+        5968
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L158",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5997,
+        6030
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_round_trip_close_to_pole",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L165",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        6281,
+        6309
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_round_trip_close_to_pole",
+      "callee": "ecef_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L166",
+      "receiver": null,
+      "_python_call_site": [
+        6324,
+        6352
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_round_trip_close_to_pole",
+      "callee": "geo_to_ecef",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L166",
+      "receiver": null,
+      "_python_call_site": [
+        6337,
+        6351
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_exactly_at_pole_does_not_crash",
+      "callee": "ecef_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L172",
+      "receiver": null,
+      "_python_call_site": [
+        6575,
+        6631
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_exactly_at_pole_does_not_crash",
+      "callee": "geo_to_ecef",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L172",
+      "receiver": null,
+      "_python_call_site": [
+        6588,
+        6630
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_exactly_at_pole_does_not_crash",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L172",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        6600,
+        6629
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_exactly_at_pole_does_not_crash",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L173",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6662,
+        6690
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_exactly_at_pole_does_not_crash",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L174",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6723,
+        6753
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_enu_near_pole_with_nearby_origin",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L178",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        6879,
+        6909
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_enu_near_pole_with_nearby_origin",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L179",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        6922,
+        6956
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_enu_near_pole_with_nearby_origin",
+      "callee": "enu_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L180",
+      "receiver": null,
+      "_python_call_site": [
+        6978,
+        7019
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_enu_near_pole_with_nearby_origin",
+      "callee": "geo_to_enu",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L180",
+      "receiver": null,
+      "_python_call_site": [
+        6989,
+        7010
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_returned_position_is_always_valid",
+      "callee": "ecef_to_geo",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L185",
+      "receiver": null,
+      "_python_call_site": [
+        7225,
+        7280
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_returned_position_is_always_valid",
+      "callee": "geo_to_ecef",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L185",
+      "receiver": null,
+      "_python_call_site": [
+        7238,
+        7279
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testnearpole_test_returned_position_is_always_valid",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L185",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        7250,
+        7278
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_wallgeodataprovider_init",
+      "callee": "__init__",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L193",
+      "receiver": "super",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7552,
+        7570
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_flat_terrain_is_clear",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L207",
+      "receiver": null,
+      "_python_call_site": [
+        7997,
+        8049
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_flat_terrain_is_clear",
+      "callee": "FlatGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L207",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        8027,
+        8048
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_flat_terrain_is_clear",
+      "callee": "LOSResult",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L208"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_flat_terrain_is_clear",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L210",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8157,
+        8176
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_obstructs_and_clearance_is_negative",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L214",
+      "receiver": null,
+      "_python_call_site": [
+        8309,
+        8366
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_obstructs_and_clearance_is_negative",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L216",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8435,
+        8462
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_lower_than_line_is_clear",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L221",
+      "receiver": null,
+      "_python_call_site": [
+        8617,
+        8672
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_lower_than_line_is_clear",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L223",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8740,
+        8758
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_touching_terrain_counts_as_clear",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L226",
+      "receiver": null,
+      "_python_call_site": [
+        8833,
+        8889
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_touching_terrain_counts_as_clear",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L228",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8957,
+        8975
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_identical_points_are_trivially_clear",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L231",
+      "receiver": null,
+      "_python_call_site": [
+        9054,
+        9106
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_identical_points_are_trivially_clear",
+      "callee": "FlatGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L231",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        9084,
+        9105
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_identical_points_are_trivially_clear",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L233",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        9174,
+        9193
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_different_altitudes_clear_over_flat_terrain",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L236",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        9280,
+        9308
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_different_altitudes_clear_over_flat_terrain",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L237",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        9322,
+        9351
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_different_altitudes_clear_over_flat_terrain",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L238",
+      "receiver": null,
+      "_python_call_site": [
+        9364,
+        9408
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_different_altitudes_clear_over_flat_terrain",
+      "callee": "FlatGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L238",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        9386,
+        9407
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_different_altitudes_clear_over_flat_terrain",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L240",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        9476,
+        9495
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_sloped_line_can_clear_a_wall_a_level_line_would_not",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L244",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        9654,
+        9682
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_sloped_line_can_clear_a_wall_a_level_line_would_not",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L245",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        9696,
+        9726
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_sloped_line_can_clear_a_wall_a_level_line_would_not",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L246",
+      "receiver": null,
+      "_python_call_site": [
+        9742,
+        9791
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_sloped_line_can_clear_a_wall_a_level_line_would_not",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L247",
+      "receiver": null,
+      "_python_call_site": [
+        9842,
+        9891
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_endpoint_below_ground_is_obstructed_over_flat_terrain",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L250",
+      "receiver": null,
+      "_python_call_site": [
+        10002,
+        10076
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_endpoint_below_ground_is_obstructed_over_flat_terrain",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L250",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        10016,
+        10044
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_endpoint_below_ground_is_obstructed_over_flat_terrain",
+      "callee": "FlatGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L250",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        10054,
+        10075
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_endpoint_below_ground_is_obstructed_over_flat_terrain",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L252",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10145,
+        10164
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_samples_parameter_is_used",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L255",
+      "receiver": null,
+      "_python_call_site": [
+        10232,
+        10295
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_samples_parameter_is_used",
+      "callee": "FlatGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L255",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        10262,
+        10283
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L260",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10459,
+        10501
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L260"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L261",
+      "receiver": null,
+      "_python_call_site": [
+        10515,
+        10584
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "callee": "FlatGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L261",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        10545,
+        10566
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L268",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10845,
+        10888
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L268"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L269",
+      "receiver": null,
+      "_python_call_site": [
+        10902,
+        10941
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "callee": "Broken",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L269",
+      "receiver": null,
+      "_python_call_site": [
+        10932,
+        10940
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_result_is_frozen",
+      "callee": "line_of_sight",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L272",
+      "receiver": null,
+      "_python_call_site": [
+        11000,
+        11052
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_result_is_frozen",
+      "callee": "FlatGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L272",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        11030,
+        11051
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_result_is_frozen",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L273",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        11066,
+        11095
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_result_is_frozen",
+      "callee": "AttributeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L273"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "callee": "alt_m",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L120",
+      "_python_attr_read": true,
+      "receiver": "want",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "callee": "alt_m",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L120",
+      "_python_attr_read": true,
+      "receiver": "got",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L118",
+      "_python_attr_read": true,
+      "receiver": "want",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L118",
+      "_python_attr_read": true,
+      "receiver": "got",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "callee": "lon",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L117",
+      "_python_attr_read": true,
+      "receiver": "want",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_assert_same",
+      "callee": "lon",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L117",
+      "_python_attr_read": true,
+      "receiver": "got",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "callee": "alt_m",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L126",
+      "_python_attr_read": true,
+      "receiver": "p",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "callee": "lon",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L126",
+      "_python_attr_read": true,
+      "receiver": "p",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L125",
+      "_python_attr_read": true,
+      "receiver": "p",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L125",
+      "_python_attr_read": true,
+      "receiver": "p",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_nearby_origin",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L125",
+      "_python_attr_read": true,
+      "receiver": "p",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "up_m",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L158",
+      "_python_attr_read": true,
+      "receiver": "enu",
+      "receiver_type": "ENUPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "north_m",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L157",
+      "_python_attr_read": true,
+      "receiver": "enu",
+      "receiver_type": "ENUPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testroundtrip_test_enu_geo_enu",
+      "callee": "east_m",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L156",
+      "_python_attr_read": true,
+      "receiver": "enu",
+      "receiver_type": "ENUPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_flat_terrain_is_clear",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L207",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_flat_terrain_is_clear",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L207",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_obstructs_and_clearance_is_negative",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L214",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_obstructs_and_clearance_is_negative",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L214",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_lower_than_line_is_clear",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L221",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_wall_lower_than_line_is_clear",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L221",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_touching_terrain_counts_as_clear",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L226",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_touching_terrain_counts_as_clear",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L226",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_identical_points_are_trivially_clear",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L231",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_identical_points_are_trivially_clear",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L231",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_endpoint_below_ground_is_obstructed_over_flat_terrain",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L250",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_samples_parameter_is_used",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L255",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_samples_parameter_is_used",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L255",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L261",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_too_few_samples_rejected",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L261",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L269",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_provider_returning_wrong_length_rejected",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L269",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_result_is_frozen",
+      "callee": "B",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L272",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_world_test_world_engine_testlineofsight_test_result_is_frozen",
+      "callee": "A",
+      "is_member_call": true,
+      "source_file": "tests/unit/world/test_world_engine.py",
+      "source_location": "L272",
+      "_python_attr_read": true,
+      "receiver": "self"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/services/world/__init__.py",
+    "$graphify-root$/tests/contract/fakes/flat_geodata_provider.py"
+  ]
+}

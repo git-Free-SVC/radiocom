@@ -1,0 +1,681 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_scenario_models_py",
+      "label": "models.py",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_scenariomodel",
+      "label": "_ScenarioModel",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L21",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/scenario/models.py"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_terrainconfig",
+      "label": "TerrainConfig",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L27",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_vectorlayerconfig",
+      "label": "VectorLayerConfig",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L36",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_environment",
+      "label": "Environment",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L44",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_node",
+      "label": "Node",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L49",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "field_validator",
+      "label": "field_validator",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/scenario/models.py"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_node_check_position_length",
+      "label": "._check_position_length()",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L73",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_node_lat",
+      "label": ".lat()",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L79",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_node_lon",
+      "label": ".lon()",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L83",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_node_alt_m",
+      "label": ".alt_m()",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L87",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_interferencesource",
+      "label": "InterferenceSource",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L92",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_radiodefinition",
+      "label": "RadioDefinition",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L103",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_radiodefinition_params",
+      "label": ".params()",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L113",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/scenario/models.py"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_scenario",
+      "label": "Scenario",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L117",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_scenario_radio_for",
+      "label": ".radio_for()",
+      "file_type": "code",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L131",
+      "_py_return_type": "RadioDefinition",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_1",
+      "label": "Typed, immutable models mirroring the frozen scenario schema. These models are\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_28",
+      "label": "``environment.terrain`` -- validated as data only, never resolved.",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_37",
+      "label": "One entry of ``environment.vector_layers``.",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L37"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_50",
+      "label": "A radio node in the scenario. ``position`` is ``(lat, lon)`` or ``(lat, lon,\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L50"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_88",
+      "label": "Altitude in metres, or ``None`` if the position has no 3rd element.",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L88"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_93",
+      "label": "An interference entry. The schema does not state units; the example scenario\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L93"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_104",
+      "label": "An entry of the optional ``scenario.radios`` catalog. The catalog is NOT in the\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L104"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_118",
+      "label": "A validated scenario (the contents of the top-level ``scenario`` key).",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L118"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_models_rationale_132",
+      "label": "Return the catalog entry for ``node.radio``, or ``None`` if the scenario has no\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L132"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "Literal",
+          "Literal"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "pydantic",
+      "_python_import_bindings": [
+        [
+          "BaseModel",
+          "BaseModel"
+        ],
+        [
+          "ConfigDict",
+          "ConfigDict"
+        ],
+        [
+          "Field",
+          "Field"
+        ],
+        [
+          "field_validator",
+          "field_validator"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "$graphify-root$_services_scenario_models_scenariomodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_scenariomodel",
+      "target": "basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "$graphify-root$_services_scenario_models_terrainconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_terrainconfig",
+      "target": "$graphify-root$_services_scenario_models_scenariomodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "$graphify-root$_services_scenario_models_vectorlayerconfig",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_vectorlayerconfig",
+      "target": "$graphify-root$_services_scenario_models_scenariomodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "$graphify-root$_services_scenario_models_environment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_environment",
+      "target": "$graphify-root$_services_scenario_models_scenariomodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "$graphify-root$_services_scenario_models_node",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_node",
+      "target": "$graphify-root$_services_scenario_models_scenariomodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_node_check_position_length",
+      "target": "field_validator",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_node",
+      "target": "$graphify-root$_services_scenario_models_node_check_position_length",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_node",
+      "target": "$graphify-root$_services_scenario_models_node_lat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_node",
+      "target": "$graphify-root$_services_scenario_models_node_lon",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_node",
+      "target": "$graphify-root$_services_scenario_models_node_alt_m",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "$graphify-root$_services_scenario_models_interferencesource",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_interferencesource",
+      "target": "$graphify-root$_services_scenario_models_scenariomodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "$graphify-root$_services_scenario_models_radiodefinition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_radiodefinition",
+      "target": "$graphify-root$_services_scenario_models_scenariomodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_radiodefinition",
+      "target": "$graphify-root$_services_scenario_models_radiodefinition_params",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_radiodefinition_params",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_py",
+      "target": "$graphify-root$_services_scenario_models_scenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_scenario",
+      "target": "$graphify-root$_services_scenario_models_scenariomodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_scenario",
+      "target": "$graphify-root$_services_scenario_models_scenario_radio_for",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_scenario_radio_for",
+      "target": "$graphify-root$_services_scenario_models_node",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_scenario_radio_for",
+      "target": "$graphify-root$_services_scenario_models_radiodefinition",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_1",
+      "target": "$graphify-root$_services_scenario_models_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_28",
+      "target": "$graphify-root$_services_scenario_models_terrainconfig",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_37",
+      "target": "$graphify-root$_services_scenario_models_vectorlayerconfig",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_50",
+      "target": "$graphify-root$_services_scenario_models_node",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_88",
+      "target": "$graphify-root$_services_scenario_models_node_alt_m",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_93",
+      "target": "$graphify-root$_services_scenario_models_interferencesource",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_104",
+      "target": "$graphify-root$_services_scenario_models_radiodefinition",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_118",
+      "target": "$graphify-root$_services_scenario_models_scenario",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_models_rationale_132",
+      "target": "$graphify-root$_services_scenario_models_scenario_radio_for",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/models.py",
+      "source_location": "L132",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_node_check_position_length",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L75",
+      "receiver": null,
+      "_python_call_site": [
+        2375,
+        2423
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_node_lat",
+      "callee": "position",
+      "is_member_call": true,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L80",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_node_lon",
+      "callee": "position",
+      "is_member_call": true,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L84",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_node_alt_m",
+      "callee": "position",
+      "is_member_call": true,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L89",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_node_alt_m",
+      "callee": "position",
+      "is_member_call": true,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L89",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_radiodefinition_params",
+      "callee": "model_extra",
+      "is_member_call": true,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L114",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_scenario_radio_for",
+      "callee": "radio",
+      "is_member_call": true,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L136",
+      "_python_attr_read": true,
+      "receiver": "node",
+      "receiver_type": "Node"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_scenario_radio_for",
+      "callee": "radios",
+      "is_member_call": true,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L136",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_models_scenario_radio_for",
+      "callee": "radios",
+      "is_member_call": true,
+      "source_file": "services/scenario/models.py",
+      "source_location": "L134",
+      "_python_attr_read": true,
+      "receiver": "self"
+    }
+  ]
+}

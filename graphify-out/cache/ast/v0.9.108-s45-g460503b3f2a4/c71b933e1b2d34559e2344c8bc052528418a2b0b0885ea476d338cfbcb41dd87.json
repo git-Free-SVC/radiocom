@@ -1,0 +1,5015 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_py",
+      "label": "test_api.py",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_empty_store",
+      "label": "test_get_scenarios_empty_store()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L48",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_lists_seeded_fixtures",
+      "label": "test_get_scenarios_lists_seeded_fixtures()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_creates_deterministic_record",
+      "label": "test_post_scenarios_creates_deterministic_record()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L66",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_scenario_validates_against_frozen_schema",
+      "label": "test_post_scenarios_scenario_validates_against_frozen_schema()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_by_id_returns_created_record",
+      "label": "test_get_scenarios_by_id_returns_created_record()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L85",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_unknown_id_404",
+      "label": "test_get_scenarios_unknown_id_404()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L93",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_missing_nodes_frozen_schema_rejects_422",
+      "label": "test_post_scenarios_missing_nodes_frozen_schema_rejects_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L98",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_unknown_key_strict_declaration_rejects_422",
+      "label": "test_post_scenarios_unknown_key_strict_declaration_rejects_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L104",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_nan_position_rejected_422",
+      "label": "test_post_scenarios_nan_position_rejected_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L111",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_wrong_type_rejected_422",
+      "label": "test_post_scenarios_wrong_type_rejected_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L125",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_malformed_json_422",
+      "label": "test_post_scenarios_malformed_json_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L132",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_empty_body_422",
+      "label": "test_post_scenarios_empty_body_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L138",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_non_object_body_422",
+      "label": "test_post_scenarios_non_object_body_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L144",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_creates_loaded",
+      "label": "test_post_simulations_creates_loaded()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L154",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_unknown_scenario_404",
+      "label": "test_post_simulations_unknown_scenario_404()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L164",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_missing_field_422",
+      "label": "test_post_simulations_missing_field_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L169",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_create",
+      "label": "test_engine_called_exactly_once_on_create()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L175",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_start_transitions_to_running_exactly_once",
+      "label": "test_start_transitions_to_running_exactly_once()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L181",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "label": "test_pause_resume_reset_cycle_exactly_once_each()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L190",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_pause",
+      "label": "test_engine_called_exactly_once_on_pause()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L207",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_resume",
+      "label": "test_engine_called_exactly_once_on_resume()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L217",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_start_illegal_from_paused_409",
+      "label": "test_start_illegal_from_paused_409()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L228",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_pause_illegal_from_loaded_409",
+      "label": "test_pause_illegal_from_loaded_409()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L238",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_resume_illegal_from_loaded_409",
+      "label": "test_resume_illegal_from_loaded_409()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L245",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_start_twice_illegal_409",
+      "label": "test_start_twice_illegal_409()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L252",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_reset_from_running_is_legal_and_returns_loaded",
+      "label": "test_reset_from_running_is_legal_and_returns_loaded()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L263",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_control_unknown_simulation_404",
+      "label": "test_control_unknown_simulation_404()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L274",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_step_has_no_route_intentional_gap",
+      "label": "test_step_has_no_route_intentional_gap()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L279",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_radios_creates_deterministic_radio",
+      "label": "test_post_radios_creates_deterministic_radio()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L292",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_simulation_404",
+      "label": "test_post_radios_unknown_simulation_404()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L307",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_frequency_zero_422",
+      "label": "test_post_radios_domain_valueerror_frequency_zero_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L313",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_latitude_out_of_range_422",
+      "label": "test_post_radios_domain_valueerror_latitude_out_of_range_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L325",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_field_422",
+      "label": "test_post_radios_unknown_field_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L337",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_radios_missing_subfield_422",
+      "label": "test_post_radios_missing_subfield_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L346",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_radios_nan_frequency_rejected_before_domain",
+      "label": "test_post_radios_nan_frequency_rejected_before_domain()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L356",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "label": "test_patch_radio_updates_position_and_publishes_map_delta()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L369",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_merges_whole_values_only",
+      "label": "test_patch_radio_merges_whole_values_only()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L391",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_field_422",
+      "label": "test_patch_radio_unknown_field_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L408",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "label": "test_patch_radio_immutable_id_field_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L417",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_simulation_id_field_422",
+      "label": "test_patch_radio_immutable_simulation_id_field_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L430",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_empty_patch_422",
+      "label": "test_patch_radio_empty_patch_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L438",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_radio_404",
+      "label": "test_patch_radio_unknown_radio_404()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L446",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_domain_valueerror_422",
+      "label": "test_patch_radio_domain_valueerror_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L451",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_link_known_pair_known_values",
+      "label": "test_get_link_known_pair_known_values()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L463",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "label": "test_get_link_reversed_direction_matches()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L480",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_link_unknown_pair_404",
+      "label": "test_get_link_unknown_pair_404()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L491",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_geodata_layers_lists_defaults",
+      "label": "test_get_geodata_layers_lists_defaults()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L504",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_vector",
+      "label": "test_post_geodata_layers_publishes_vector()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L514",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_raster",
+      "label": "test_post_geodata_layers_publishes_raster()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L526",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_invalid_kind_422",
+      "label": "test_post_geodata_layers_invalid_kind_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L541",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_missing_field_422",
+      "label": "test_post_geodata_layers_missing_field_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L550",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "label": "test_get_elevation_is_deterministic_and_schema_valid()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L556",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_lat_out_of_range_422",
+      "label": "test_get_elevation_lat_out_of_range_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L568",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_nan_query_422",
+      "label": "test_get_elevation_nan_query_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L573",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_missing_query_parameter_422",
+      "label": "test_get_elevation_missing_query_parameter_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L578",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_exact_sample_count",
+      "label": "test_get_elevation_profile_exact_sample_count()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L583",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_samples_one_422",
+      "label": "test_get_elevation_profile_samples_one_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L593",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_samples_not_integer_422",
+      "label": "test_get_elevation_profile_samples_not_integer_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L599",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_missing_query_parameter_422",
+      "label": "test_get_elevation_profile_missing_query_parameter_422()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L605",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_oversized_body_rejected_413",
+      "label": "test_oversized_body_rejected_413()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L616",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_body_with_accurate_length_under_limit_accepted",
+      "label": "test_body_with_accurate_length_under_limit_accepted()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L627",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback",
+      "label": "test_unexpected_exception_returns_500_envelope_without_traceback()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L639",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback_boom",
+      "label": "boom()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L641",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_openapi_document_served",
+      "label": "test_openapi_document_served()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L651",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/test_api.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_every_yaml_operation_is_routed",
+      "label": "test_every_yaml_operation_is_routed()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L679",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_latitude_longitude_boundaries_accepted_and_just_past_rejected",
+      "label": "test_latitude_longitude_boundaries_accepted_and_just_past_rejected()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L697",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_infinity_request_rejected_422_never_500",
+      "label": "test_infinity_request_rejected_422_never_500()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L713",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_odd_path_ids_answer_404_without_crashing",
+      "label": "test_odd_path_ids_answer_404_without_crashing()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L732",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "label": "test_success_response_bodies_contain_only_finite_floats()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L743",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_api_rationale_1",
+      "label": "REST behaviour of the \u00a717 routes: one success test per YAML operation (15), the\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "jsonlib"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "jsonlib"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "jsonschema",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "jsonschema",
+      "_python_import_bindings": [
+        [
+          "jsonschema",
+          "jsonschema"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "conftest",
+      "_python_import_bindings": [
+        [
+          "VALID_RADIO_BODY",
+          "VALID_RADIO_BODY"
+        ],
+        [
+          "VALID_SCENARIO_BODY",
+          "VALID_SCENARIO_BODY"
+        ],
+        [
+          "assert_error",
+          "assert_error"
+        ],
+        [
+          "assert_error_detail_list",
+          "assert_error_detail_list"
+        ],
+        [
+          "create_radio",
+          "create_radio"
+        ],
+        [
+          "create_scenario",
+          "create_scenario"
+        ],
+        [
+          "create_simulation",
+          "create_simulation"
+        ],
+        [
+          "get",
+          "get"
+        ],
+        [
+          "patch",
+          "patch"
+        ],
+        [
+          "post",
+          "post"
+        ],
+        [
+          "request",
+          "request"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/api/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_services_api_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_python_import_module": "services.api",
+      "_python_import_bindings": [
+        [
+          "MAX_BODY_BYTES",
+          "MAX_BODY_BYTES"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_empty_store",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_lists_seeded_fixtures",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_creates_deterministic_record",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_scenario_validates_against_frozen_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_by_id_returns_created_record",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_unknown_id_404",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_missing_nodes_frozen_schema_rejects_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_unknown_key_strict_declaration_rejects_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_nan_position_rejected_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_wrong_type_rejected_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_malformed_json_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_empty_body_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_non_object_body_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_creates_loaded",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_unknown_scenario_404",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_missing_field_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_create",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_start_transitions_to_running_exactly_once",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_pause",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L207",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_resume",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_start_illegal_from_paused_409",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L228",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_pause_illegal_from_loaded_409",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_resume_illegal_from_loaded_409",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_start_twice_illegal_409",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L252",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_reset_from_running_is_legal_and_returns_loaded",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_control_unknown_simulation_404",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L274",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_step_has_no_route_intentional_gap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L279",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_radios_creates_deterministic_radio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_simulation_404",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L307",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_frequency_zero_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L313",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_latitude_out_of_range_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_field_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_radios_missing_subfield_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L346",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_radios_nan_frequency_rejected_before_domain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L356",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L369",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_merges_whole_values_only",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L391",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_field_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L408",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L417",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_simulation_id_field_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_empty_patch_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L438",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_radio_404",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L446",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_domain_valueerror_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L451",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_link_known_pair_known_values",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L463",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L480",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_link_unknown_pair_404",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L491",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_geodata_layers_lists_defaults",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L504",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_vector",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L514",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_raster",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L526",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_invalid_kind_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L541",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_missing_field_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L550",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L556",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_lat_out_of_range_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L568",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_nan_query_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L573",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_missing_query_parameter_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L578",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_exact_sample_count",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L583",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_samples_one_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L593",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_samples_not_integer_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L599",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_missing_query_parameter_422",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L605",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_oversized_body_rejected_413",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L616",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_body_with_accurate_length_under_limit_accepted",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L627",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L639",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback_boom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L641",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_openapi_document_served",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L651",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_test_every_yaml_operation_is_routed",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L659",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_every_yaml_operation_is_routed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L679",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_latitude_longitude_boundaries_accepted_and_just_past_rejected",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L697",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_infinity_request_rejected_422_never_500",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L713",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_test_odd_path_ids_answer_404_without_crashing",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L727",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_odd_path_ids_answer_404_without_crashing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L732",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_py",
+      "target": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L743",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_api_rationale_1",
+      "target": "$graphify-root$_tests_unit_api_test_api_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_empty_store",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L49",
+      "receiver": null,
+      "_python_call_site": [
+        1204,
+        1226
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_empty_store",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L51",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1287,
+        1302
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_empty_store",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L52",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        1287,
+        1302
+      ],
+      "_python_call_site": [
+        1318,
+        1329
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_lists_seeded_fixtures",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L57",
+      "receiver": null,
+      "_python_call_site": [
+        1466,
+        1495
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_lists_seeded_fixtures",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L59",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1561,
+        1576
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_lists_seeded_fixtures",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L63",
+      "receiver": "entry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1793,
+        1805
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_creates_deterministic_record",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L67",
+      "receiver": null,
+      "_python_call_site": [
+        1909,
+        1958
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_creates_deterministic_record",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_creates_deterministic_record",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L69",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2021,
+        2036
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_creates_deterministic_record",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L70",
+      "receiver": "record",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        2021,
+        2036
+      ],
+      "_python_call_site": [
+        2052,
+        2065
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_scenario_validates_against_frozen_schema",
+      "callee": "load_frozen_schema",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L79",
+      "receiver": null,
+      "_python_call_site": [
+        2466,
+        2506
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_scenario_validates_against_frozen_schema",
+      "callee": "SCENARIO_SCHEMA_PATH",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_scenario_validates_against_frozen_schema",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L80",
+      "receiver": null,
+      "_python_call_site": [
+        2522,
+        2571
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_scenario_validates_against_frozen_schema",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L80"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_scenario_validates_against_frozen_schema",
+      "callee": "validate",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L82",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2625,
+        2707
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_scenario_validates_against_frozen_schema",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L82",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2645,
+        2660
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_by_id_returns_created_record",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L86",
+      "receiver": null,
+      "_python_call_site": [
+        2790,
+        2826
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_by_id_returns_created_record",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L87",
+      "receiver": null,
+      "_python_call_site": [
+        2842,
+        2881
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_by_id_returns_created_record",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L89",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2942,
+        2957
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_by_id_returns_created_record",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L90",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2980,
+        2995
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_unknown_id_404",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L94",
+      "receiver": null,
+      "_python_call_site": [
+        3103,
+        3134
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_scenarios_unknown_id_404",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L95",
+      "receiver": null,
+      "_python_call_site": [
+        3139,
+        3191
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_missing_nodes_frozen_schema_rejects_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L99",
+      "receiver": null,
+      "_python_call_site": [
+        3287,
+        3351
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_missing_nodes_frozen_schema_rejects_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L100",
+      "receiver": null,
+      "_python_call_site": [
+        3365,
+        3404
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_missing_nodes_frozen_schema_rejects_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L101",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3427,
+        3448
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_unknown_key_strict_declaration_rejects_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L106",
+      "receiver": null,
+      "_python_call_site": [
+        3620,
+        3654
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_unknown_key_strict_declaration_rejects_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L107",
+      "receiver": null,
+      "_python_call_site": [
+        3668,
+        3707
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_unknown_key_strict_declaration_rejects_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L108",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3730,
+        3751
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_nan_position_rejected_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L120",
+      "receiver": null,
+      "_python_call_site": [
+        4054,
+        4088
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_nan_position_rejected_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L121",
+      "receiver": null,
+      "_python_call_site": [
+        4102,
+        4141
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_nan_position_rejected_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L122",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4169,
+        4190
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_wrong_type_rejected_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L127",
+      "receiver": null,
+      "_python_call_site": [
+        4343,
+        4377
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_wrong_type_rejected_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L128",
+      "receiver": null,
+      "_python_call_site": [
+        4391,
+        4430
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_wrong_type_rejected_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L129",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4454,
+        4475
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_malformed_json_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L133",
+      "receiver": null,
+      "_python_call_site": [
+        4550,
+        4600
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_malformed_json_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L134",
+      "receiver": null,
+      "_python_call_site": [
+        4614,
+        4653
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_malformed_json_422",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L135",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4675,
+        4704
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_malformed_json_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L135",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4675,
+        4696
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_empty_body_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L139",
+      "receiver": null,
+      "_python_call_site": [
+        4775,
+        4812
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_empty_body_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L140",
+      "receiver": null,
+      "_python_call_site": [
+        4826,
+        4865
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_empty_body_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L141",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4877,
+        4898
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_non_object_body_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_call_site": [
+        4974,
+        5017
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_scenarios_non_object_body_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L146",
+      "receiver": null,
+      "_python_call_site": [
+        5022,
+        5061
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_creates_loaded",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L155",
+      "receiver": null,
+      "_python_call_site": [
+        5357,
+        5377
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_creates_loaded",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L156",
+      "receiver": null,
+      "_python_call_site": [
+        5393,
+        5456
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_creates_loaded",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L158",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5517,
+        5532
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_creates_loaded",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L159",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        5517,
+        5532
+      ],
+      "_python_call_site": [
+        5548,
+        5559
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_unknown_scenario_404",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L165",
+      "receiver": null,
+      "_python_call_site": [
+        5827,
+        5886
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_unknown_scenario_404",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L166",
+      "receiver": null,
+      "_python_call_site": [
+        5891,
+        5943
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_missing_field_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L170",
+      "receiver": null,
+      "_python_call_site": [
+        6019,
+        6053
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_missing_field_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L171",
+      "receiver": null,
+      "_python_call_site": [
+        6067,
+        6106
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_simulations_missing_field_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L172",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6135,
+        6156
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_create",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L176",
+      "receiver": null,
+      "_python_call_site": [
+        6234,
+        6254
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_create",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L177",
+      "receiver": null,
+      "_python_call_site": [
+        6259,
+        6322
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_transitions_to_running_exactly_once",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L182",
+      "receiver": null,
+      "_python_call_site": [
+        6469,
+        6489
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_transitions_to_running_exactly_once",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L183",
+      "receiver": null,
+      "_python_call_site": [
+        6507,
+        6545
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_transitions_to_running_exactly_once",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L184",
+      "receiver": null,
+      "_python_call_site": [
+        6561,
+        6612
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_transitions_to_running_exactly_once",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L186",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6673,
+        6688
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L191",
+      "receiver": null,
+      "_python_call_site": [
+        6877,
+        6897
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L192",
+      "receiver": null,
+      "_python_call_site": [
+        6915,
+        6953
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L194",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6995,
+        7043
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L194",
+      "receiver": null,
+      "_python_call_site": [
+        6995,
+        7036
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L195",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7078,
+        7126
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L195",
+      "receiver": null,
+      "_python_call_site": [
+        7078,
+        7119
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L196",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7160,
+        7209
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L196",
+      "receiver": null,
+      "_python_call_site": [
+        7160,
+        7202
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L197",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7244,
+        7292
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_resume_reset_cycle_exactly_once_each",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L197",
+      "receiver": null,
+      "_python_call_site": [
+        7244,
+        7285
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_pause",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L208",
+      "receiver": null,
+      "_python_call_site": [
+        7575,
+        7595
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_pause",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L209",
+      "receiver": null,
+      "_python_call_site": [
+        7613,
+        7651
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_pause",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L210",
+      "receiver": null,
+      "_python_call_site": [
+        7656,
+        7707
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_pause",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L211",
+      "receiver": null,
+      "_python_call_site": [
+        7712,
+        7763
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_pause",
+      "callee": "count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L213",
+      "receiver": "calls",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7819,
+        7848
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_resume",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L218",
+      "receiver": null,
+      "_python_call_site": [
+        7998,
+        8018
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_resume",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L219",
+      "receiver": null,
+      "_python_call_site": [
+        8036,
+        8074
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_resume",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L220",
+      "receiver": null,
+      "_python_call_site": [
+        8079,
+        8130
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_resume",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L221",
+      "receiver": null,
+      "_python_call_site": [
+        8135,
+        8186
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_resume",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L222",
+      "receiver": null,
+      "_python_call_site": [
+        8191,
+        8243
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_engine_called_exactly_once_on_resume",
+      "callee": "count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L224",
+      "receiver": "calls",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8299,
+        8329
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_illegal_from_paused_409",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L229",
+      "receiver": null,
+      "_python_call_site": [
+        8432,
+        8452
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_illegal_from_paused_409",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L230",
+      "receiver": null,
+      "_python_call_site": [
+        8470,
+        8508
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_illegal_from_paused_409",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L232",
+      "receiver": null,
+      "_python_call_site": [
+        8543,
+        8584
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_illegal_from_paused_409",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L233",
+      "receiver": null,
+      "_python_call_site": [
+        8589,
+        8630
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_illegal_from_paused_409",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L234",
+      "receiver": null,
+      "_python_call_site": [
+        8646,
+        8687
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_illegal_from_paused_409",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L235",
+      "receiver": null,
+      "_python_call_site": [
+        8692,
+        8754
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_illegal_from_loaded_409",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L239",
+      "receiver": null,
+      "_python_call_site": [
+        8825,
+        8845
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_illegal_from_loaded_409",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L240",
+      "receiver": null,
+      "_python_call_site": [
+        8863,
+        8901
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_illegal_from_loaded_409",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L241",
+      "receiver": null,
+      "_python_call_site": [
+        8917,
+        8968
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_pause_illegal_from_loaded_409",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L242",
+      "receiver": null,
+      "_python_call_site": [
+        8973,
+        9035
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_resume_illegal_from_loaded_409",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L246",
+      "receiver": null,
+      "_python_call_site": [
+        9107,
+        9127
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_resume_illegal_from_loaded_409",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L247",
+      "receiver": null,
+      "_python_call_site": [
+        9145,
+        9183
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_resume_illegal_from_loaded_409",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L248",
+      "receiver": null,
+      "_python_call_site": [
+        9199,
+        9251
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_resume_illegal_from_loaded_409",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L249",
+      "receiver": null,
+      "_python_call_site": [
+        9256,
+        9319
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_twice_illegal_409",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L253",
+      "receiver": null,
+      "_python_call_site": [
+        9384,
+        9404
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_twice_illegal_409",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L254",
+      "receiver": null,
+      "_python_call_site": [
+        9422,
+        9460
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_twice_illegal_409",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L256",
+      "receiver": null,
+      "_python_call_site": [
+        9502,
+        9543
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_twice_illegal_409",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L257",
+      "receiver": null,
+      "_python_call_site": [
+        9573,
+        9614
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_twice_illegal_409",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L258",
+      "receiver": null,
+      "_python_call_site": [
+        9648,
+        9711
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_start_twice_illegal_409",
+      "callee": "count",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L260",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9791,
+        9846
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_reset_from_running_is_legal_and_returns_loaded",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L266",
+      "receiver": null,
+      "_python_call_site": [
+        10096,
+        10116
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_reset_from_running_is_legal_and_returns_loaded",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L267",
+      "receiver": null,
+      "_python_call_site": [
+        10134,
+        10172
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_reset_from_running_is_legal_and_returns_loaded",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L268",
+      "receiver": null,
+      "_python_call_site": [
+        10177,
+        10228
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_reset_from_running_is_legal_and_returns_loaded",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L269",
+      "receiver": null,
+      "_python_call_site": [
+        10244,
+        10295
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_reset_from_running_is_legal_and_returns_loaded",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L271",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10356,
+        10371
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_control_unknown_simulation_404",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L275",
+      "receiver": null,
+      "_python_call_site": [
+        10465,
+        10505
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_control_unknown_simulation_404",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L276",
+      "receiver": null,
+      "_python_call_site": [
+        10510,
+        10562
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_step_has_no_route_intentional_gap",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L280",
+      "receiver": null,
+      "_python_call_site": [
+        10637,
+        10657
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_step_has_no_route_intentional_gap",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L281",
+      "receiver": null,
+      "_python_call_site": [
+        10675,
+        10713
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_step_has_no_route_intentional_gap",
+      "callee": "request",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L283",
+      "receiver": null,
+      "_python_call_site": [
+        10768,
+        10829
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_creates_deterministic_radio",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L293",
+      "receiver": null,
+      "_python_call_site": [
+        11200,
+        11220
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_creates_deterministic_radio",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L294",
+      "receiver": null,
+      "_python_call_site": [
+        11238,
+        11276
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_creates_deterministic_radio",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L296",
+      "receiver": null,
+      "_python_call_site": [
+        11359,
+        11390
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_creates_deterministic_radio",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L298",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11452,
+        11467
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_creates_deterministic_radio",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L299",
+      "receiver": "radio",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        11452,
+        11467
+      ],
+      "_python_call_site": [
+        11483,
+        11495
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_simulation_404",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L309",
+      "receiver": null,
+      "_python_call_site": [
+        11971,
+        12002
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_simulation_404",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L310",
+      "receiver": null,
+      "_python_call_site": [
+        12007,
+        12059
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_frequency_zero_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L314",
+      "receiver": null,
+      "_python_call_site": [
+        12149,
+        12169
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_frequency_zero_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L315",
+      "receiver": null,
+      "_python_call_site": [
+        12187,
+        12225
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_frequency_zero_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L321",
+      "receiver": null,
+      "_python_call_site": [
+        12398,
+        12429
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_frequency_zero_422",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L322",
+      "receiver": null,
+      "_python_call_site": [
+        12434,
+        12491
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_latitude_out_of_range_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L326",
+      "receiver": null,
+      "_python_call_site": [
+        12615,
+        12635
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_latitude_out_of_range_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L327",
+      "receiver": null,
+      "_python_call_site": [
+        12653,
+        12691
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_latitude_out_of_range_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L333",
+      "receiver": null,
+      "_python_call_site": [
+        12845,
+        12876
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_domain_valueerror_latitude_out_of_range_422",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L334",
+      "receiver": null,
+      "_python_call_site": [
+        12881,
+        12928
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_field_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L338",
+      "receiver": null,
+      "_python_call_site": [
+        12999,
+        13019
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_field_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L339",
+      "receiver": null,
+      "_python_call_site": [
+        13037,
+        13075
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_field_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L341",
+      "receiver": null,
+      "_python_call_site": [
+        13170,
+        13201
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_field_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L342",
+      "receiver": null,
+      "_python_call_site": [
+        13215,
+        13254
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_unknown_field_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L343",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        13277,
+        13298
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_missing_subfield_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L347",
+      "receiver": null,
+      "_python_call_site": [
+        13372,
+        13392
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_missing_subfield_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L348",
+      "receiver": null,
+      "_python_call_site": [
+        13410,
+        13448
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_missing_subfield_422",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L349",
+      "receiver": "VALID_RADIO_BODY",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13490,
+        13514
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_missing_subfield_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L351",
+      "receiver": null,
+      "_python_call_site": [
+        13597,
+        13628
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_missing_subfield_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L352",
+      "receiver": null,
+      "_python_call_site": [
+        13642,
+        13681
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_missing_subfield_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L353",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        13707,
+        13728
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_nan_frequency_rejected_before_domain",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L357",
+      "receiver": null,
+      "_python_call_site": [
+        13818,
+        13838
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_nan_frequency_rejected_before_domain",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L358",
+      "receiver": null,
+      "_python_call_site": [
+        13856,
+        13894
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_nan_frequency_rejected_before_domain",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L364",
+      "receiver": null,
+      "_python_call_site": [
+        14076,
+        14107
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_nan_frequency_rejected_before_domain",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L365",
+      "receiver": null,
+      "_python_call_site": [
+        14121,
+        14160
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_radios_nan_frequency_rejected_before_domain",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L366",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        14188,
+        14209
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L370",
+      "receiver": null,
+      "_python_call_site": [
+        14303,
+        14323
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L371",
+      "receiver": null,
+      "_python_call_site": [
+        14341,
+        14379
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L372",
+      "receiver": null,
+      "_python_call_site": [
+        14392,
+        14427
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L373",
+      "receiver": null,
+      "_python_call_site": [
+        14443,
+        14571
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L379",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14635,
+        14650
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L380",
+      "receiver": "updated",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        14635,
+        14650
+      ],
+      "_python_call_site": [
+        14666,
+        14680
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "last_payload",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L386",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15019,
+        15080
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "telemetry_topic",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L386",
+      "receiver": null,
+      "_python_call_site": [
+        15046,
+        15079
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "CHANNEL_RADIO",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L388"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_updates_position_and_publishes_map_delta",
+      "callee": "CHANNEL_MAP",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L388"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_merges_whole_values_only",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L392",
+      "receiver": null,
+      "_python_call_site": [
+        15245,
+        15265
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_merges_whole_values_only",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L393",
+      "receiver": null,
+      "_python_call_site": [
+        15283,
+        15321
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_merges_whole_values_only",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L394",
+      "receiver": null,
+      "_python_call_site": [
+        15334,
+        15369
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_merges_whole_values_only",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L395",
+      "receiver": null,
+      "_python_call_site": [
+        15385,
+        15531
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_merges_whole_values_only",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L401",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15592,
+        15607
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_merges_whole_values_only",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L405",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15716,
+        15731
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_field_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L409",
+      "receiver": null,
+      "_python_call_site": [
+        15835,
+        15855
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_field_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L410",
+      "receiver": null,
+      "_python_call_site": [
+        15873,
+        15911
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_field_422",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L411",
+      "receiver": null,
+      "_python_call_site": [
+        15924,
+        15959
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_field_422",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L412",
+      "receiver": null,
+      "_python_call_site": [
+        15975,
+        16030
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_field_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L413",
+      "receiver": null,
+      "_python_call_site": [
+        16044,
+        16083
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_field_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L414",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        16106,
+        16127
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L418",
+      "receiver": null,
+      "_python_call_site": [
+        16203,
+        16223
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L419",
+      "receiver": null,
+      "_python_call_site": [
+        16241,
+        16279
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L420",
+      "receiver": null,
+      "_python_call_site": [
+        16292,
+        16327
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L421",
+      "receiver": null,
+      "_python_call_site": [
+        16343,
+        16406
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L422",
+      "receiver": null,
+      "_python_call_site": [
+        16420,
+        16459
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L423",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        16479,
+        16500
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L425",
+      "receiver": null,
+      "_python_call_site": [
+        16541,
+        16581
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_id_field_422",
+      "callee": "radios",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L426",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16610,
+        16653
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_simulation_id_field_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L431",
+      "receiver": null,
+      "_python_call_site": [
+        16803,
+        16823
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_simulation_id_field_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L432",
+      "receiver": null,
+      "_python_call_site": [
+        16841,
+        16879
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_simulation_id_field_422",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L433",
+      "receiver": null,
+      "_python_call_site": [
+        16892,
+        16927
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_simulation_id_field_422",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L434",
+      "receiver": null,
+      "_python_call_site": [
+        16943,
+        17016
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_immutable_simulation_id_field_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L435",
+      "receiver": null,
+      "_python_call_site": [
+        17021,
+        17060
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_empty_patch_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L439",
+      "receiver": null,
+      "_python_call_site": [
+        17129,
+        17149
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_empty_patch_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L440",
+      "receiver": null,
+      "_python_call_site": [
+        17167,
+        17205
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_empty_patch_422",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L441",
+      "receiver": null,
+      "_python_call_site": [
+        17218,
+        17253
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_empty_patch_422",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L442",
+      "receiver": null,
+      "_python_call_site": [
+        17269,
+        17314
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_empty_patch_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L443",
+      "receiver": null,
+      "_python_call_site": [
+        17319,
+        17358
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_radio_404",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L447",
+      "receiver": null,
+      "_python_call_site": [
+        17429,
+        17504
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_unknown_radio_404",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L448",
+      "receiver": null,
+      "_python_call_site": [
+        17509,
+        17561
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_domain_valueerror_422",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L452",
+      "receiver": null,
+      "_python_call_site": [
+        17636,
+        17656
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_domain_valueerror_422",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L453",
+      "receiver": null,
+      "_python_call_site": [
+        17674,
+        17712
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_domain_valueerror_422",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L454",
+      "receiver": null,
+      "_python_call_site": [
+        17725,
+        17760
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_domain_valueerror_422",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L455",
+      "receiver": null,
+      "_python_call_site": [
+        17776,
+        17910
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_patch_radio_domain_valueerror_422",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L460",
+      "receiver": null,
+      "_python_call_site": [
+        17915,
+        17972
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_known_pair_known_values",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L464",
+      "receiver": null,
+      "_python_call_site": [
+        18046,
+        18066
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_known_pair_known_values",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L465",
+      "receiver": null,
+      "_python_call_site": [
+        18084,
+        18122
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_known_pair_known_values",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L466",
+      "receiver": null,
+      "_python_call_site": [
+        18135,
+        18170
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_known_pair_known_values",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L467",
+      "receiver": null,
+      "_python_call_site": [
+        18184,
+        18219
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_known_pair_known_values",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L468",
+      "receiver": null,
+      "_python_call_site": [
+        18235,
+        18283
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_known_pair_known_values",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L470",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        18344,
+        18359
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L481",
+      "receiver": null,
+      "_python_call_site": [
+        18606,
+        18626
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L482",
+      "receiver": null,
+      "_python_call_site": [
+        18644,
+        18682
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L483",
+      "receiver": null,
+      "_python_call_site": [
+        18695,
+        18730
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L484",
+      "receiver": null,
+      "_python_call_site": [
+        18744,
+        18779
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L485",
+      "receiver": null,
+      "_python_call_site": [
+        18794,
+        18842
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L486",
+      "receiver": null,
+      "_python_call_site": [
+        18867,
+        18915
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L488",
+      "receiver": "reversed_response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        18994,
+        19018
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_reversed_direction_matches",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L488",
+      "receiver": "forward",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        19022,
+        19036
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_unknown_pair_404",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L492",
+      "receiver": null,
+      "_python_call_site": [
+        19127,
+        19147
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_unknown_pair_404",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L493",
+      "receiver": null,
+      "_python_call_site": [
+        19165,
+        19203
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_unknown_pair_404",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L494",
+      "receiver": null,
+      "_python_call_site": [
+        19215,
+        19250
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_unknown_pair_404",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L495",
+      "receiver": null,
+      "_python_call_site": [
+        19266,
+        19307
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_link_unknown_pair_404",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L496",
+      "receiver": null,
+      "_python_call_site": [
+        19312,
+        19352
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_geodata_layers_lists_defaults",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L505",
+      "receiver": null,
+      "_python_call_site": [
+        19680,
+        19707
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_geodata_layers_lists_defaults",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L507",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        19770,
+        19785
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_vector",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L515",
+      "receiver": null,
+      "_python_call_site": [
+        20010,
+        20148
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_vector",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L521",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        20209,
+        20224
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_vector",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L522",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        20304,
+        20338
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_vector",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L522",
+      "receiver": null,
+      "_python_call_site": [
+        20304,
+        20331
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_raster",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L527",
+      "receiver": null,
+      "_python_call_site": [
+        20455,
+        20671
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_publishes_raster",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L538",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        20732,
+        20747
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_invalid_kind_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L542",
+      "receiver": null,
+      "_python_call_site": [
+        20862,
+        20983
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_invalid_kind_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L547",
+      "receiver": null,
+      "_python_call_site": [
+        20988,
+        21027
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_missing_field_422",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L551",
+      "receiver": null,
+      "_python_call_site": [
+        21106,
+        21172
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_missing_field_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L552",
+      "receiver": null,
+      "_python_call_site": [
+        21186,
+        21225
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_post_geodata_layers_missing_field_422",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L553",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        21254,
+        21275
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L558",
+      "receiver": null,
+      "_python_call_site": [
+        21412,
+        21426
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L559",
+      "receiver": null,
+      "_python_call_site": [
+        21440,
+        21454
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L561",
+      "receiver": "first",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        21509,
+        21521
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L562",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        21509,
+        21521
+      ],
+      "_python_call_site": [
+        21537,
+        21548
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L564"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L564",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        21693,
+        21727
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_is_deterministic_and_schema_valid",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L565",
+      "receiver": "second",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        21739,
+        21752
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_lat_out_of_range_422",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L569",
+      "receiver": null,
+      "_python_call_site": [
+        21885,
+        21933
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_lat_out_of_range_422",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L570",
+      "receiver": null,
+      "_python_call_site": [
+        21938,
+        21985
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_nan_query_422",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L574",
+      "receiver": null,
+      "_python_call_site": [
+        22054,
+        22101
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_nan_query_422",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L575",
+      "receiver": null,
+      "_python_call_site": [
+        22106,
+        22153
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_missing_query_parameter_422",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L579",
+      "receiver": null,
+      "_python_call_site": [
+        22236,
+        22276
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_missing_query_parameter_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L580",
+      "receiver": null,
+      "_python_call_site": [
+        22281,
+        22320
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_exact_sample_count",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L585",
+      "receiver": null,
+      "_python_call_site": [
+        22494,
+        22508
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_exact_sample_count",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L587",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        22569,
+        22584
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_exact_sample_count",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L588",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        22569,
+        22584
+      ],
+      "_python_call_site": [
+        22600,
+        22611
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_exact_sample_count",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L590"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_exact_sample_count",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L590",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        22713,
+        22733
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_samples_one_422",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L595",
+      "receiver": null,
+      "_python_call_site": [
+        22936,
+        22950
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_samples_one_422",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L596",
+      "receiver": null,
+      "_python_call_site": [
+        22955,
+        23006
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_samples_not_integer_422",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L601",
+      "receiver": null,
+      "_python_call_site": [
+        23187,
+        23201
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_samples_not_integer_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L602",
+      "receiver": null,
+      "_python_call_site": [
+        23206,
+        23245
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_missing_query_parameter_422",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L607",
+      "receiver": null,
+      "_python_call_site": [
+        23418,
+        23432
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_get_elevation_profile_missing_query_parameter_422",
+      "callee": "assert_error_detail_list",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L608",
+      "receiver": null,
+      "_python_call_site": [
+        23437,
+        23476
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_oversized_body_rejected_413",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L618",
+      "receiver": null,
+      "_python_call_site": [
+        23818,
+        23975
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_oversized_body_rejected_413",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L624",
+      "receiver": null,
+      "_python_call_site": [
+        23980,
+        24020
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_body_with_accurate_length_under_limit_accepted",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L628",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        24110,
+        24160
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_body_with_accurate_length_under_limit_accepted",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L628",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        24110,
+        24144
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_body_with_accurate_length_under_limit_accepted",
+      "callee": "VALID_SCENARIO_BODY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L628"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_body_with_accurate_length_under_limit_accepted",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L629",
+      "receiver": null,
+      "_python_call_site": [
+        24176,
+        24300
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_body_with_accurate_length_under_limit_accepted",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L636",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        24361,
+        24376
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L640",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        24487,
+        24505
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L644",
+      "receiver": null,
+      "_python_call_site": [
+        24623,
+        24642
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L645",
+      "receiver": null,
+      "_python_call_site": [
+        24654,
+        24699
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_unexpected_exception_returns_500_envelope_without_traceback_boom",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L642",
+      "receiver": null,
+      "_python_call_site": [
+        24584,
+        24606
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_openapi_document_served",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L652",
+      "receiver": null,
+      "_python_call_site": [
+        24895,
+        24920
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_openapi_document_served",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L654",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        24986,
+        25017
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_openapi_document_served",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L654",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        24986,
+        25001
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_every_yaml_operation_is_routed",
+      "callee": "APIRoute",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L685"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_latitude_longitude_boundaries_accepted_and_just_past_rejected",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L698",
+      "receiver": null,
+      "_python_call_site": [
+        26511,
+        26531
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_latitude_longitude_boundaries_accepted_and_just_past_rejected",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L699",
+      "receiver": null,
+      "_python_call_site": [
+        26549,
+        26587
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_latitude_longitude_boundaries_accepted_and_just_past_rejected",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L705",
+      "receiver": null,
+      "_python_call_site": [
+        26757,
+        26788
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_latitude_longitude_boundaries_accepted_and_just_past_rejected",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L707",
+      "receiver": "accepted",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        26849,
+        26864
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_latitude_longitude_boundaries_accepted_and_just_past_rejected",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L709",
+      "receiver": null,
+      "_python_call_site": [
+        26940,
+        27016
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_latitude_longitude_boundaries_accepted_and_just_past_rejected",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L710",
+      "receiver": null,
+      "_python_call_site": [
+        27021,
+        27069
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_infinity_request_rejected_422_never_500",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L716",
+      "receiver": null,
+      "_python_call_site": [
+        27337,
+        27357
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_infinity_request_rejected_422_never_500",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L717",
+      "receiver": null,
+      "_python_call_site": [
+        27375,
+        27413
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_infinity_request_rejected_422_never_500",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L723",
+      "receiver": null,
+      "_python_call_site": [
+        27595,
+        27626
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_infinity_request_rejected_422_never_500",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L724",
+      "receiver": null,
+      "_python_call_site": [
+        27631,
+        27658
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_odd_path_ids_answer_404_without_crashing",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L736",
+      "receiver": null,
+      "_python_call_site": [
+        28148,
+        28206
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_odd_path_ids_answer_404_without_crashing",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L736",
+      "receiver": null,
+      "_python_call_site": [
+        28161,
+        28200
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_odd_path_ids_answer_404_without_crashing",
+      "callee": "format",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L736",
+      "receiver": "template",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        28170,
+        28199
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_odd_path_ids_answer_404_without_crashing",
+      "callee": "assert_error",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L737",
+      "receiver": null,
+      "_python_call_site": [
+        28211,
+        28329
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_odd_path_ids_answer_404_without_crashing",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L738",
+      "receiver": null,
+      "_python_call_site": [
+        28233,
+        28309
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "create_scenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L746",
+      "receiver": null,
+      "_python_call_site": [
+        28581,
+        28601
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "create_simulation",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L747",
+      "receiver": null,
+      "_python_call_site": [
+        28619,
+        28657
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L748",
+      "receiver": null,
+      "_python_call_site": [
+        28672,
+        28723
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L749",
+      "receiver": null,
+      "_python_call_site": [
+        28738,
+        28773
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "create_radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L750",
+      "receiver": null,
+      "_python_call_site": [
+        28788,
+        28823
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L752",
+      "receiver": "control",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        28847,
+        28861
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L753",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        28871,
+        28900
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L753",
+      "receiver": null,
+      "_python_call_site": [
+        28871,
+        28893
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L754",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        28910,
+        28957
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L754",
+      "receiver": null,
+      "_python_call_site": [
+        28910,
+        28950
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L755",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        28967,
+        29037
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "post",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L755",
+      "receiver": null,
+      "_python_call_site": [
+        28967,
+        29030
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L756",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        29047,
+        29199
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "patch",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L756",
+      "receiver": null,
+      "_python_call_site": [
+        29047,
+        29192
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L761",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        29209,
+        29267
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L761",
+      "receiver": null,
+      "_python_call_site": [
+        29209,
+        29260
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L762",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        29277,
+        29311
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L762",
+      "receiver": null,
+      "_python_call_site": [
+        29277,
+        29304
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L763",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        29321,
+        29377
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L763",
+      "receiver": null,
+      "_python_call_site": [
+        29321,
+        29370
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L764",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        29387,
+        29519
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "get",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L764",
+      "receiver": null,
+      "_python_call_site": [
+        29387,
+        29512
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_api_test_success_response_bodies_contain_only_finite_floats",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_api.py",
+      "source_location": "L770",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        29559,
+        29595
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/api/__init__.py",
+    "$graphify-root$/tests/unit/api/conftest.py"
+  ]
+}

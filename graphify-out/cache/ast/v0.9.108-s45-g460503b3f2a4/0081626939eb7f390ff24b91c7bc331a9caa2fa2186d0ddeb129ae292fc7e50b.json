@@ -1,0 +1,353 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pacing_py",
+      "label": "test_pacing.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing",
+      "label": "TestPacing",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L17",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "label": ".test_finite_real_time_factor_actually_paces()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L18",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "label": ".test_default_unbounded_is_still_instant()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L33",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pacing_rationale_1",
+      "label": "Regression tests for a real bug found by stress-testing: WallClock's pacing\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pacing_py",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "time",
+      "_python_import_bindings": [
+        [
+          "time",
+          "time"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pacing_py",
+      "target": "$graphify-root$_services_simulation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation",
+      "_python_import_bindings": [
+        [
+          "CoreSimulationEngine",
+          "CoreSimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pacing_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "tests.unit.simulation.conftest",
+      "_python_import_bindings": [
+        [
+          "CountingEntity",
+          "CountingEntity"
+        ],
+        [
+          "StubScenario",
+          "StubScenario"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/simulation/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pacing_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing",
+      "target": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing",
+      "target": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pacing_rationale_1",
+      "target": "$graphify-root$_tests_unit_simulation_test_pacing_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L19",
+      "receiver": null,
+      "_python_call_site": [
+        729,
+        793
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "callee": "CountingEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L20",
+      "receiver": null,
+      "_python_call_site": [
+        811,
+        830
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L21",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        839,
+        901
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L21",
+      "receiver": null,
+      "_python_call_site": [
+        851,
+        900
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L22",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        910,
+        924
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "callee": "monotonic",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L24",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        939,
+        955
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L25",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        964,
+        991
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_finite_real_time_factor_actually_paces",
+      "callee": "monotonic",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L26",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1053,
+        1069
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L36",
+      "receiver": null,
+      "_python_call_site": [
+        1516,
+        1558
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "callee": "CountingEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_call_site": [
+        1576,
+        1595
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L38",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1604,
+        1669
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_call_site": [
+        1616,
+        1668
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L39",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1678,
+        1692
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "callee": "monotonic",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L41",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1707,
+        1723
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L42",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1732,
+        1759
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pacing_testpacing_test_default_unbounded_is_still_instant",
+      "callee": "monotonic",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pacing.py",
+      "source_location": "L43",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1778,
+        1794
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/simulation/__init__.py",
+    "$graphify-root$/tests/unit/simulation/conftest.py"
+  ]
+}

@@ -1,0 +1,887 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "label": "test_domain_types.py",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency",
+      "label": "TestFrequency",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_valid_construction",
+      "label": ".test_valid_construction()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_center",
+      "label": ".test_rejects_non_positive_center()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L19",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_bandwidth",
+      "label": ".test_rejects_non_positive_bandwidth()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_overlap_detection",
+      "label": ".test_overlap_detection()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L29",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition",
+      "label": "TestGeoPosition",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L37",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_valid_construction",
+      "label": ".test_valid_construction()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L38",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_default_altitude_is_zero",
+      "label": ".test_default_altitude_is_zero()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L42",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/domain/test_domain_types.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lat",
+      "label": ".test_rejects_out_of_range_lat()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L47",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lon",
+      "label": ".test_rejects_out_of_range_lon()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testenuposition",
+      "label": "TestENUPosition",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L57",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testenuposition_test_defaults_up_to_zero",
+      "label": ".test_defaults_up_to_zero()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L58",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testradio",
+      "label": "TestRadio",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L63",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "label": ".test_round_trip_construction()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_default_antenna_pattern_is_omni",
+      "label": ".test_default_antenna_pattern_is_omni()",
+      "file_type": "code",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L77",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_domain_test_domain_types_rationale_1",
+      "label": "Unit tests for libraries/domain \u2014 validation behavior only (no I/O, no plugin-\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "target": "$graphify-root$_libraries_domain_frequency_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.frequency",
+      "_python_import_bindings": [
+        [
+          "Frequency",
+          "Frequency"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/frequency.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "ENUPosition",
+          "ENUPosition"
+        ],
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Antenna",
+          "Antenna"
+        ],
+        [
+          "Radio",
+          "Radio"
+        ],
+        [
+          "Receiver",
+          "Receiver"
+        ],
+        [
+          "Transmitter",
+          "Transmitter"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_valid_construction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_center",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_bandwidth",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_overlap_detection",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_valid_construction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_default_altitude_is_zero",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lat",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lon",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lon",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testenuposition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testenuposition",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testenuposition_test_defaults_up_to_zero",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testradio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testradio",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_testradio",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_default_antenna_pattern_is_omni",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_domain_test_domain_types_rationale_1",
+      "target": "$graphify-root$_tests_unit_domain_test_domain_types_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_valid_construction",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L15",
+      "receiver": null,
+      "_python_call_site": [
+        476,
+        525
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_valid_construction",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L16",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        556,
+        587
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_valid_construction",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L17",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        618,
+        649
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_center",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L20",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        723,
+        748
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_center",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L20"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_center",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L21",
+      "receiver": null,
+      "_python_call_site": [
+        763,
+        806
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_center",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L22",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        821,
+        846
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_center",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_center",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L23",
+      "receiver": null,
+      "_python_call_site": [
+        861,
+        905
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_bandwidth",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L26",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        982,
+        1007
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_bandwidth",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_rejects_non_positive_bandwidth",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L27",
+      "receiver": null,
+      "_python_call_site": [
+        1022,
+        1066
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_overlap_detection",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L30",
+      "receiver": null,
+      "_python_call_site": [
+        1129,
+        1176
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_overlap_detection",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L31",
+      "receiver": null,
+      "_python_call_site": [
+        1190,
+        1238
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_overlap_detection",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L32",
+      "receiver": null,
+      "_python_call_site": [
+        1252,
+        1299
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_overlap_detection",
+      "callee": "overlaps",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L33",
+      "receiver": "a",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Frequency",
+      "_python_call_site": [
+        1316,
+        1329
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_overlap_detection",
+      "callee": "overlaps",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L34",
+      "receiver": "a",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Frequency",
+      "_python_call_site": [
+        1350,
+        1363
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_valid_construction",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_call_site": [
+        1453,
+        1497
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_default_altitude_is_zero",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_call_site": [
+        1597,
+        1626
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lat",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L48",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1792,
+        1817
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lat",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lat",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L49",
+      "receiver": null,
+      "_python_call_site": [
+        1832,
+        1861
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lon",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L53",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1998,
+        2023
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lon",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L53"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_rejects_out_of_range_lon",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L54",
+      "receiver": null,
+      "_python_call_site": [
+        2038,
+        2067
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testenuposition_test_defaults_up_to_zero",
+      "callee": "ENUPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L59",
+      "receiver": null,
+      "_python_call_site": [
+        2158,
+        2196
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "callee": "Antenna",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_call_site": [
+        2321,
+        2381
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "callee": "Radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L66",
+      "receiver": null,
+      "_python_call_site": [
+        2399,
+        2735
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L68",
+      "receiver": null,
+      "_python_call_site": [
+        2458,
+        2507
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "callee": "Transmitter",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L69",
+      "receiver": null,
+      "_python_call_site": [
+        2534,
+        2562
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "callee": "Receiver",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L70",
+      "receiver": null,
+      "_python_call_site": [
+        2586,
+        2639
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L72",
+      "receiver": null,
+      "_python_call_site": [
+        2693,
+        2723
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_default_antenna_pattern_is_omni",
+      "callee": "Antenna",
+      "is_member_call": false,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2937,
+        2997
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_default_antenna_pattern_is_omni",
+      "callee": "pattern",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L81",
+      "receiver": "antenna",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Antenna",
+      "_python_call_site": [
+        3140,
+        3183
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_valid_construction",
+      "callee": "upper_hz",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L17",
+      "_python_attr_read": true,
+      "receiver": "f",
+      "receiver_type": "Frequency"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testfrequency_test_valid_construction",
+      "callee": "lower_hz",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L16",
+      "_python_attr_read": true,
+      "receiver": "f",
+      "receiver_type": "Frequency"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_valid_construction",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L40",
+      "_python_attr_read": true,
+      "receiver": "p",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testgeoposition_test_default_altitude_is_zero",
+      "callee": "alt_m",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L44",
+      "_python_attr_read": true,
+      "receiver": "p",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testenuposition_test_defaults_up_to_zero",
+      "callee": "up_m",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L60",
+      "_python_attr_read": true,
+      "receiver": "p",
+      "receiver_type": "ENUPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "callee": "local_position",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L75",
+      "_python_attr_read": true,
+      "receiver": "radio",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_domain_test_domain_types_testradio_test_round_trip_construction",
+      "callee": "id",
+      "is_member_call": true,
+      "source_file": "tests/unit/domain/test_domain_types.py",
+      "source_location": "L74",
+      "_python_attr_read": true,
+      "receiver": "radio",
+      "receiver_type": "Radio"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/frequency.py",
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/domain/radio.py"
+  ]
+}

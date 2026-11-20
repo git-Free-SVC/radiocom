@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_scenario_errors_py",
+      "label": "errors.py",
+      "file_type": "code",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_errors_scenarioerror",
+      "label": "ScenarioError",
+      "file_type": "code",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "exception",
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/scenario/errors.py"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_errors_scenariofileerror",
+      "label": "ScenarioFileError",
+      "file_type": "code",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_errors_scenariovalidationerror",
+      "label": "ScenarioValidationError",
+      "file_type": "code",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_errors_scenariovalidationerror_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L22",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_errors_rationale_1",
+      "label": "Exceptions raised by the scenario engine.",
+      "file_type": "rationale",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_errors_rationale_7",
+      "label": "Base class for all scenario-engine errors.",
+      "file_type": "rationale",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L7"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_errors_rationale_11",
+      "label": "The scenario file could not be read or is not well-formed YAML/JSON.",
+      "file_type": "rationale",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_errors_rationale_15",
+      "label": "The scenario content violates the schema or a scenario-level rule. ``errors``\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L15"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_scenario_errors_py",
+      "target": "$graphify-root$_services_scenario_errors_scenarioerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_scenarioerror",
+      "target": "exception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_py",
+      "target": "$graphify-root$_services_scenario_errors_scenariofileerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_scenariofileerror",
+      "target": "$graphify-root$_services_scenario_errors_scenarioerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_py",
+      "target": "$graphify-root$_services_scenario_errors_scenariovalidationerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_scenariovalidationerror",
+      "target": "$graphify-root$_services_scenario_errors_scenarioerror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_scenariovalidationerror",
+      "target": "$graphify-root$_services_scenario_errors_scenariovalidationerror_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_rationale_1",
+      "target": "$graphify-root$_services_scenario_errors_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_rationale_7",
+      "target": "$graphify-root$_services_scenario_errors_scenarioerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_rationale_11",
+      "target": "$graphify-root$_services_scenario_errors_scenariofileerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_errors_rationale_15",
+      "target": "$graphify-root$_services_scenario_errors_scenariovalidationerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L15",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_scenario_errors_scenariovalidationerror_init",
+      "callee": "__init__",
+      "is_member_call": true,
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L26",
+      "receiver": "super",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        836,
+        909
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_errors_scenariovalidationerror_init",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "services/scenario/errors.py",
+      "source_location": "L26",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        853,
+        908
+      ]
+    }
+  ]
+}

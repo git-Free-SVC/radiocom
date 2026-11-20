@@ -1,0 +1,2369 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_py",
+      "label": "conftest.py",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "label": "HttpResponse",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L45",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_httpresponse_text",
+      "label": ".text()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L51",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_httpresponse_json",
+      "label": ".json()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L54",
+      "_py_return_type": "Any",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/conftest.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_httpresponse_header",
+      "label": ".header()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L57",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "label": "asgi_request()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L65",
+      "_py_return_type": "HttpResponse",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_asgi_request_receive",
+      "label": "receive()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L115",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_asgi_request_send",
+      "label": "send()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L122",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_request",
+      "label": "request()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L145",
+      "_py_return_type": "HttpResponse",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_get",
+      "label": "get()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L150",
+      "_py_return_type": "HttpResponse",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_post",
+      "label": "post()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L154",
+      "_py_return_type": "HttpResponse",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_patch",
+      "label": "patch()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L158",
+      "_py_return_type": "HttpResponse",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "label": "WebSocketTestClient",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L167",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L170",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "label": ".__aenter__()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L179",
+      "_py_return_type": "Self",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter_receive",
+      "label": "receive()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L197",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter_send",
+      "label": "send()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L200",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive",
+      "label": ".receive()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L212",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive_json",
+      "label": ".receive_json()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L218",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_send_text",
+      "label": ".send_text()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L223",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_disconnect",
+      "label": ".disconnect()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L226",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "label": ".__aexit__()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L229",
+      "_callable": true
+    },
+    {
+      "id": "baseexception",
+      "label": "BaseException",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/conftest.py"
+    },
+    {
+      "id": "tracebacktype",
+      "label": "TracebackType",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/conftest.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_ws_connect",
+      "label": "ws_connect()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L249",
+      "_py_return_type": "WebSocketTestClient",
+      "_callable": true
+    },
+    {
+      "id": "fixture",
+      "label": "fixture",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/api/conftest.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_deps",
+      "label": "deps()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L259",
+      "_py_fixture": "?",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_app",
+      "label": "app()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L277",
+      "_py_return_type": "Any",
+      "_py_fixture": "Any",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_seeded_app",
+      "label": "seeded_app()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L286",
+      "_py_return_type": "Any",
+      "_py_fixture": "Any",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_assert_imports_resolve_inside_repository",
+      "label": "_assert_imports_resolve_inside_repository()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L294",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "label": "assert_error()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L311",
+      "_py_return_type": "Any",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "label": "assert_error_detail_list()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L327",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_create_scenario",
+      "label": "create_scenario()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L365",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_create_simulation",
+      "label": "create_simulation()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L372",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_create_radio",
+      "label": "create_radio()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L378",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_1",
+      "label": "In-process raw-ASGI test harness for the API (task prompt \u00a79). Framework\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_75",
+      "label": "One complete HTTP round trip against the in-process app.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L75"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_146",
+      "label": "Sync wrapper: one asyncio.run per HTTP round trip.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L146"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_168",
+      "label": "Raw ASGI WebSocket client: connect / receive / send_text / disconnect.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L168"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_260",
+      "label": "Fresh, EMPTY (unseeded) ports \u2014 exact state control per test. The geodata mock\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L260"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_287",
+      "label": "create_app() defaults: two scenarios, two simulations (two radios each, one\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L287"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_295",
+      "label": "An editable `radiocom` install exists in both venvs; the sandbox/cwd must win\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L295"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_312",
+      "label": "Every error response: the exact status and the exact envelope {detail}.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L312"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_conftest_rationale_328",
+      "label": "Schema/domain-rejection shape: {\"detail\": [{loc, msg, type}, ...]}.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L328"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "asyncio",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "asyncio",
+      "_python_import_bindings": [
+        [
+          "asyncio",
+          "asyncio"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "jsonlib"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "jsonlib"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclass",
+          "dataclass"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [
+        [
+          "Path",
+          "Path"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "types",
+      "_python_import_bindings": [
+        [
+          "TracebackType",
+          "TracebackType"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "Self",
+          "Self"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_services_api_mocks_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_python_import_module": "services.api.mocks",
+      "_python_import_bindings": [
+        [
+          "FakeClock",
+          "FakeClock"
+        ],
+        [
+          "InMemoryEventBus",
+          "InMemoryEventBus"
+        ],
+        [
+          "InMemoryScenarioStore",
+          "InMemoryScenarioStore"
+        ],
+        [
+          "InMemorySimulationRegistry",
+          "InMemorySimulationRegistry"
+        ],
+        [
+          "MockGeodataProvider",
+          "MockGeodataProvider"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse_text",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse_json",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_httpresponse_json",
+      "target": "any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse_header",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_asgi_request_receive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_asgi_request_send",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_request",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_get",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_get",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_get",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_post",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_post",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_post",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_patch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_patch",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_patch",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_init",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter_receive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter_send",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L200",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L212",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L212",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive_json",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive_json",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_send_text",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_disconnect",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "target": "baseexception",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "target": "baseexception",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "target": "tracebacktype",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L229",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_ws_connect",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_ws_connect",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_ws_connect",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_deps",
+      "target": "fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L258",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_deps",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_deps",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L259",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_app",
+      "target": "fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L276",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_app",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_app",
+      "target": "any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L277",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_seeded_app",
+      "target": "fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L285",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_seeded_app",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_seeded_app",
+      "target": "any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_assert_imports_resolve_inside_repository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L294",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "target": "any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_create_scenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_create_simulation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L372",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_simulation",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L372",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_simulation",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L372",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_create_radio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L378",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_radio",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L378",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_radio",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L378",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_app",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_asgi_request_send",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_httpresponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_request",
+      "target": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_get",
+      "target": "$graphify-root$_tests_unit_api_conftest_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_post",
+      "target": "$graphify-root$_tests_unit_api_conftest_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_patch",
+      "target": "$graphify-root$_tests_unit_api_conftest_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "target": "$graphify-root$_tests_unit_api_conftest_app",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "target": "$graphify-root$_tests_unit_api_conftest_asgi_request_send",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L203",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive_json",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L219",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient_disconnect",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_ws_connect",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_app",
+      "target": "$graphify-root$_tests_unit_api_conftest_assert_imports_resolve_inside_repository",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L281",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "target": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_scenario",
+      "target": "$graphify-root$_tests_unit_api_conftest_post",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L367",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_simulation",
+      "target": "$graphify-root$_tests_unit_api_conftest_post",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_create_radio",
+      "target": "$graphify-root$_tests_unit_api_conftest_post",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_1",
+      "target": "$graphify-root$_tests_unit_api_conftest_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_75",
+      "target": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_146",
+      "target": "$graphify-root$_tests_unit_api_conftest_request",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_168",
+      "target": "$graphify-root$_tests_unit_api_conftest_websockettestclient",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L168",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_260",
+      "target": "$graphify-root$_tests_unit_api_conftest_deps",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L260",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_287",
+      "target": "$graphify-root$_tests_unit_api_conftest_seeded_app",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L287",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_295",
+      "target": "$graphify-root$_tests_unit_api_conftest_assert_imports_resolve_inside_repository",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_312",
+      "target": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L312",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_conftest_rationale_328",
+      "target": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L328",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_text",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L52",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1565,
+        1590
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_json",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L55",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1634,
+        1658
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_header",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L58",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1724,
+        1745
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_header",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L58",
+      "receiver": "name",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1724,
+        1736
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_header",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L60",
+      "receiver": "key",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1801,
+        1812
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_header",
+      "callee": "decode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L61",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1847,
+        1868
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "partition",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L76",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2229,
+        2248
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2295,
+        2330
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L78",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2295,
+        2314
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L90",
+      "receiver": "header_pairs",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2674,
+        2733
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L92",
+      "receiver": "header_pairs",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2835,
+        2904
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L92",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2875,
+        2902
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L93",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2927,
+        2950
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L94",
+      "receiver": "header_pairs",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2960,
+        3033
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L94",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2981,
+        3008
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L94",
+      "receiver": "key",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2981,
+        2992
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L94",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3010,
+        3031
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "upper",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L100",
+      "receiver": "method",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3197,
+        3211
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L103",
+      "receiver": "route_path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3287,
+        3313
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L104",
+      "receiver": "query",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3339,
+        3360
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L138",
+      "receiver": "message",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4427,
+        4453
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L139",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4466,
+        4577
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L140",
+      "receiver": "message",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4484,
+        4508
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request_receive",
+      "callee": "body_bytes",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L119"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_asgi_request_send",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L123",
+      "receiver": "sent",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3920,
+        3940
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_request",
+      "callee": "run",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L147",
+      "receiver": "asyncio",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4806,
+        4860
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_init",
+      "callee": "Queue",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L174",
+      "receiver": "asyncio",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5687,
+        5702
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_init",
+      "callee": "Queue",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L175",
+      "receiver": "asyncio",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5759,
+        5774
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "callee": "partition",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L180",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5952,
+        5976
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L187",
+      "receiver": "route_path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6203,
+        6229
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "callee": "encode",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L188",
+      "receiver": "query",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6259,
+        6280
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "callee": "create_task",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L203",
+      "receiver": "asyncio",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6736,
+        6787
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "callee": "put",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L204",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6802,
+        6851
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "callee": "wait_for",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L205",
+      "receiver": "asyncio",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6874,
+        6925
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L205",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6891,
+        6911
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter_receive",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L198",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6589,
+        6609
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aenter_send",
+      "callee": "put",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L201",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6686,
+        6713
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive",
+      "callee": "wait_for",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L216",
+      "receiver": "asyncio",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7337,
+        7392
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L216",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7354,
+        7374
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_receive_json",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L221",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7620,
+        7650
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_send_text",
+      "callee": "put",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L224",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7716,
+        7779
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_disconnect",
+      "callee": "put",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L227",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7853,
+        7919
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "callee": "done",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L237",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8183,
+        8200
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "callee": "wait_for",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L240",
+      "receiver": "asyncio",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8269,
+        8310
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "callee": "cancel",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L242",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8363,
+        8382
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_websockettestclient_aexit",
+      "callee": "AssertionError",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L243",
+      "receiver": null,
+      "_python_call_site": [
+        8401,
+        8519
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_deps",
+      "callee": "FakeClock",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L262",
+      "receiver": null,
+      "_python_call_site": [
+        9118,
+        9129
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_deps",
+      "callee": "InMemoryEventBus",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L263",
+      "receiver": null,
+      "_python_call_site": [
+        9140,
+        9158
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_deps",
+      "callee": "InMemoryScenarioStore",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L264",
+      "receiver": null,
+      "_python_call_site": [
+        9174,
+        9208
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_deps",
+      "callee": "InMemorySimulationRegistry",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L265",
+      "receiver": null,
+      "_python_call_site": [
+        9224,
+        9297
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_deps",
+      "callee": "MockGeodataProvider",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L266",
+      "receiver": null,
+      "_python_call_site": [
+        9312,
+        9333
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_app",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L280",
+      "receiver": null,
+      "_python_call_site": [
+        9600,
+        9618
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_seeded_app",
+      "callee": "create_app",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L291",
+      "receiver": null,
+      "_python_call_site": [
+        9937,
+        9949
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_imports_resolve_inside_repository",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L300",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10228,
+        10262
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_imports_resolve_inside_repository",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L300",
+      "receiver": null,
+      "_python_call_site": [
+        10228,
+        10252
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_imports_resolve_inside_repository",
+      "callee": "resolve",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L301",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10285,
+        10322
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_imports_resolve_inside_repository",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L301",
+      "receiver": null,
+      "_python_call_site": [
+        10285,
+        10312
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L314",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HttpResponse",
+      "_python_call_site": [
+        10928,
+        10943
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L315"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L316",
+      "receiver": "body",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        10928,
+        10943
+      ],
+      "_python_call_site": [
+        10999,
+        11010
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L317"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L321",
+      "receiver": "jsonlib",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11188,
+        11217
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L331"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L333"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error_detail_list",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L334",
+      "receiver": "entry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11692,
+        11704
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_create_scenario",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L369",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12924,
+        12939
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_create_simulation",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L375",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13147,
+        13162
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_create_radio",
+      "callee": "json",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L382",
+      "receiver": "response",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13433,
+        13448
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_text",
+      "callee": "body",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L52",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_json",
+      "callee": "body",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L55",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_httpresponse_header",
+      "callee": "headers",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L59",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "callee": "text",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L313",
+      "_python_attr_read": true,
+      "receiver": "response",
+      "receiver_type": "HttpResponse"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L313",
+      "_python_attr_read": true,
+      "receiver": "response",
+      "receiver_type": "HttpResponse"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_conftest_assert_error",
+      "callee": "status",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/conftest.py",
+      "source_location": "L313",
+      "_python_attr_read": true,
+      "receiver": "response",
+      "receiver_type": "HttpResponse"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/api/mocks.py"
+  ]
+}

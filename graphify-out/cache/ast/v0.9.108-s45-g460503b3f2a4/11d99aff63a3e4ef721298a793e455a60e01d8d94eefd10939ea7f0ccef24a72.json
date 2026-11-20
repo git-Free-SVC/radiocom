@@ -1,0 +1,613 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_world_benchmark_world_py",
+      "label": "benchmark_world.py",
+      "file_type": "code",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_world_benchmark_world_best_us_per_op",
+      "label": "best_us_per_op()",
+      "file_type": "code",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_world_benchmark_world_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L44",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_world_benchmark_world_rationale_1",
+      "label": "Micro-benchmark for services/world. Run from anywhere: python\u2026",
+      "file_type": "rationale",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_py",
+      "target": "importlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "importlib",
+      "_python_import_bindings": [
+        [
+          "importlib",
+          "importlib"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "sys",
+      "_python_import_bindings": [
+        [
+          "sys",
+          "sys"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_py",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "time",
+      "_python_import_bindings": [
+        [
+          "time",
+          "time"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_py",
+      "target": "collections_abc",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "collections.abc",
+      "_python_import_bindings": [
+        [
+          "Callable",
+          "Callable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [
+        [
+          "Path",
+          "Path"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_py",
+      "target": "$graphify-root$_services_world_benchmark_world_best_us_per_op",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_py",
+      "target": "$graphify-root$_services_world_benchmark_world_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_main",
+      "target": "$graphify-root$_services_world_benchmark_world_best_us_per_op",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_world_benchmark_world_rationale_1",
+      "target": "$graphify-root$_services_world_benchmark_world_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_best_us_per_op",
+      "callee": "REPEATS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_best_us_per_op",
+      "callee": "perf_counter",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L38",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1122,
+        1141
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_best_us_per_op",
+      "callee": "perf_counter",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L40",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1180,
+        1199
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L45",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1269,
+        1285
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L46",
+      "receiver": null,
+      "_python_call_site": [
+        1299,
+        1329
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L48",
+      "receiver": null,
+      "_python_call_site": [
+        1353,
+        1434
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L48",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        1365,
+        1388
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L48",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        1390,
+        1411
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L48",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        1413,
+        1433
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "ENUFrame",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L51",
+      "receiver": "_world",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1486,
+        1509
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "geo_to_ecef",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L52",
+      "receiver": "_world",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1523,
+        1544
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "to_enu_many",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L53",
+      "receiver": "frame",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ENUFrame",
+      "_python_call_site": [
+        1573,
+        1598
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "geo_to_ecef",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L56",
+      "receiver": "_world",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1691,
+        1712
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L57"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "ecef_to_geo",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L57",
+      "receiver": "_world",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1775,
+        1797
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "geo_to_enu",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L60",
+      "receiver": "_world",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1894,
+        1922
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L63"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "to_enu",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L63",
+      "receiver": "frame",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ENUFrame",
+      "_python_call_site": [
+        2011,
+        2026
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "to_enu_many",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L64",
+      "receiver": "frame",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ENUFrame",
+      "_python_call_site": [
+        2097,
+        2122
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L68"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "enu_to_geo",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L67",
+      "receiver": "_world",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2203,
+        2231
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "e",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "to_geo",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L70",
+      "receiver": "frame",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ENUFrame",
+      "_python_call_site": [
+        2318,
+        2333
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "e",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "N_POINTS",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "to_geo_many",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L71",
+      "receiver": "frame",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ENUFrame",
+      "_python_call_site": [
+        2402,
+        2425
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L74",
+      "receiver": null,
+      "_python_call_site": [
+        2475,
+        2504
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L75",
+      "receiver": null,
+      "_python_call_site": [
+        2514,
+        2543
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "FlatGeodataProvider",
+      "is_member_call": false,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L76",
+      "receiver": null,
+      "_python_call_site": [
+        2553,
+        2574
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L79",
+      "receiver": "rows",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2626,
+        2850
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "line_of_sight",
+      "is_member_call": true,
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L82",
+      "receiver": "_world",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2742,
+        2781
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_world_benchmark_world_main",
+      "callee": "s",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/world/benchmark_world.py",
+      "source_location": "L82"
+    }
+  ]
+}

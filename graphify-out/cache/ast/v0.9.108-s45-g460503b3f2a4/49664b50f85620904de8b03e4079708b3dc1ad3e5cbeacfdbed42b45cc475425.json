@@ -1,0 +1,476 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_physics_distance_py",
+      "label": "distance.py",
+      "file_type": "code",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_distance_hasgeoposition",
+      "label": "_HasGeoPosition",
+      "file_type": "code",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L30",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/physics/distance.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_distance_lat_lon",
+      "label": "_lat_lon()",
+      "file_type": "code",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "label": "haversine_distance_m()",
+      "file_type": "code",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L42",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "label": "slant_range_m()",
+      "file_type": "code",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L69",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_distance_rationale_1",
+      "label": "Distances between two :class:`~libraries.domain.position.GeoPosition` points.\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_distance_rationale_43",
+      "label": "Great-circle surface distance between ``a`` and ``b``, in metres. Formula: ``d\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L43"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_distance_rationale_70",
+      "label": "Straight-line distance between ``a`` and ``b`` including altitude, metres.\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L70"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_physics_distance_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Protocol",
+          "Protocol"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_py",
+      "target": "$graphify-root$_libraries_physics_constants_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.constants",
+      "_python_import_bindings": [
+        [
+          "EARTH_MEAN_RADIUS_M",
+          "EARTH_MEAN_RADIUS_M"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/constants.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_py",
+      "target": "$graphify-root$_libraries_physics_distance_hasgeoposition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_hasgeoposition",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_py",
+      "target": "$graphify-root$_libraries_physics_distance_lat_lon",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_lat_lon",
+      "target": "$graphify-root$_libraries_physics_distance_hasgeoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_py",
+      "target": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "target": "$graphify-root$_libraries_physics_distance_hasgeoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_py",
+      "target": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "target": "$graphify-root$_libraries_physics_distance_hasgeoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "target": "$graphify-root$_libraries_physics_distance_lat_lon",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "target": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_rationale_1",
+      "target": "$graphify-root$_libraries_physics_distance_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_rationale_43",
+      "target": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_distance_rationale_70",
+      "target": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L70",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_lat_lon",
+      "callee": "in_range",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L37",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1231,
+        1284
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_lat_lon",
+      "callee": "in_range",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L38",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1295,
+        1350
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L59",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2121,
+        2139
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L60",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2151,
+        2169
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L62",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2204,
+        2229
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "sin",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L64",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2239,
+        2259
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "cos",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L64",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2267,
+        2281
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "cos",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L64",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2284,
+        2298
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "sin",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L64",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2301,
+        2321
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "atan2",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L66",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2436,
+        2480
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L66",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2447,
+        2459
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_haversine_distance_m",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L66",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2461,
+        2479
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L83",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3131,
+        3167
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L84",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3180,
+        3216
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "callee": "finite_result",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L85",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3233,
+        3294
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "callee": "finite_result",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L86",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3306,
+        3376
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_distance_slant_range_m",
+      "callee": "hypot",
+      "is_member_call": true,
+      "source_file": "libraries/physics/distance.py",
+      "source_location": "L86",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3345,
+        3375
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/physics/constants.py"
+  ]
+}

@@ -1,0 +1,1668 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_py",
+      "label": "stress_scenario.py",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "label": "timed()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/scenario/stress_scenario.py"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_big_scenario",
+      "label": "big_scenario()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L69",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "label": "scale_tests()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L88",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "label": "hostile_inputs()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L113",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "label": "yaml_and_file_edge_cases()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L172",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases_write",
+      "label": "write()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L176",
+      "_py_return_type": "Path",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "label": "_paths()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L198",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_walk",
+      "label": "_walk()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L208",
+      "_py_return_type": "Any",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "label": "fuzz()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L214",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_main",
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L267",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_stress_scenario_rationale_1",
+      "label": "Stress / fuzz harness for services/scenario. Run from anywhere (paths are\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "copy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "copy",
+      "_python_import_bindings": [
+        [
+          "copy",
+          "copy"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "importlib",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "importlib",
+      "_python_import_bindings": [
+        [
+          "importlib",
+          "importlib"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "sys",
+      "_python_import_bindings": [
+        [
+          "sys",
+          "sys"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "tempfile",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "tempfile",
+      "_python_import_bindings": [
+        [
+          "tempfile",
+          "tempfile"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_python_import_module": "time",
+      "_python_import_bindings": [
+        [
+          "time",
+          "time"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "traceback",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "traceback",
+      "_python_import_bindings": [
+        [
+          "traceback",
+          "traceback"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "collections_abc",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "collections.abc",
+      "_python_import_bindings": [
+        [
+          "Callable",
+          "Callable"
+        ],
+        [
+          "Iterator",
+          "Iterator"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [
+        [
+          "Path",
+          "Path"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "yaml",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "yaml",
+      "_python_import_bindings": [
+        [
+          "yaml",
+          "yaml"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_big_scenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_big_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "target": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases_write",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_walk",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_walk",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_walk",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_walk",
+      "target": "any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_py",
+      "target": "$graphify-root$_services_scenario_stress_scenario_main",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "target": "$graphify-root$_services_scenario_stress_scenario_big_scenario",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "target": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "target": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "target": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases_write",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "target": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L190",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "target": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "target": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L223",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "target": "$graphify-root$_services_scenario_stress_scenario_walk",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L228",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "target": "$graphify-root$_services_scenario_stress_scenario_big_scenario",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L260",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_main",
+      "target": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_main",
+      "target": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L269",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_main",
+      "target": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_main",
+      "target": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L271",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_stress_scenario_rationale_1",
+      "target": "$graphify-root$_services_scenario_stress_scenario_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "callee": "perf_counter",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L57",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1462,
+        1481
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "callee": "splitlines",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L61",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1596,
+        1617
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L62"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "callee": "perf_counter",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L65",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1852,
+        1871
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_timed",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L66"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_big_scenario",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L70",
+      "receiver": "copy",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2024,
+        2043
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_big_scenario",
+      "callee": "BASE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L93",
+      "receiver": null,
+      "_python_call_site": [
+        2670,
+        2695
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L95",
+      "receiver": null,
+      "_python_call_site": [
+        2769,
+        2791
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L101",
+      "receiver": null,
+      "_python_call_site": [
+        2998,
+        3023
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "TemporaryDirectory",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L104",
+      "receiver": "tempfile",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3067,
+        3096
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L105",
+      "receiver": null,
+      "_python_call_site": [
+        3121,
+        3129
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "td",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L105"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L105",
+      "receiver": null,
+      "_python_call_site": [
+        3142,
+        3150
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "td",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L105"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L106",
+      "receiver": "pj",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3170,
+        3216
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L106",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3184,
+        3197
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L107",
+      "receiver": "py",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3225,
+        3275
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "safe_dump",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L107",
+      "receiver": "yaml",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3239,
+        3256
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L108",
+      "receiver": null,
+      "_python_call_site": [
+        3322,
+        3339
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L109",
+      "receiver": null,
+      "_python_call_site": [
+        3396,
+        3413
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L110",
+      "receiver": null,
+      "_python_call_site": [
+        3472,
+        3489
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_scale_tests",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L110",
+      "receiver": null,
+      "_python_call_site": [
+        3493,
+        3510
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L117",
+      "receiver": "copy",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3621,
+        3640
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "BASE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L117"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L121",
+      "receiver": null,
+      "_python_call_site": [
+        3771,
+        3797
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L125",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3861,
+        3920
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L125",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3861,
+        3877
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "BASE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L125"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L128",
+      "receiver": null,
+      "_python_call_site": [
+        4001,
+        4038
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L128",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4024,
+        4037
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "t",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L128"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L134",
+      "receiver": null,
+      "_python_call_site": [
+        4188,
+        4221
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L135",
+      "receiver": null,
+      "_python_call_site": [
+        4243,
+        4273
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L139",
+      "receiver": null,
+      "_python_call_site": [
+        4361,
+        4438
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L139",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4384,
+        4437
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L139",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4395,
+        4436
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L139",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4395,
+        4411
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "BASE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L139"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_call_site": [
+        4591,
+        4661
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L149",
+      "receiver": null,
+      "_python_call_site": [
+        4739,
+        4764
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "x",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L149"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L153",
+      "receiver": null,
+      "_python_call_site": [
+        4883,
+        4922
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "x",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L153"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L158",
+      "receiver": null,
+      "_python_call_site": [
+        5030,
+        5113
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_hostile_inputs",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L165",
+      "receiver": null,
+      "_python_call_site": [
+        5298,
+        5420
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "TemporaryDirectory",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L173",
+      "receiver": "tempfile",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5489,
+        5518
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "Path",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L174",
+      "receiver": null,
+      "_python_call_site": [
+        5541,
+        5549
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "td",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "write_bytes",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L186",
+      "receiver": "badutf",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6050,
+        6090
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L188",
+      "receiver": "folder",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6134,
+        6148
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L190",
+      "receiver": null,
+      "_python_call_site": [
+        6201,
+        6222
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L191",
+      "receiver": null,
+      "_python_call_site": [
+        6293,
+        6313
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L192",
+      "receiver": null,
+      "_python_call_site": [
+        6382,
+        6400
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L193",
+      "receiver": null,
+      "_python_call_site": [
+        6443,
+        6463
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L194",
+      "receiver": null,
+      "_python_call_site": [
+        6509,
+        6530
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases",
+      "callee": "load_scenario",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L195",
+      "receiver": null,
+      "_python_call_site": [
+        6582,
+        6603
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_yaml_and_file_edge_cases_write",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L178",
+      "receiver": "p",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5640,
+        5676
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L200"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L201",
+      "receiver": "obj",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Any",
+      "_python_call_site": [
+        6756,
+        6767
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_paths",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L203"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L215",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7117,
+        7136
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L220",
+      "receiver": "copy",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7378,
+        7397
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "BASE",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L220"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "randint",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L222",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        7496,
+        7513
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "choice",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L226",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        7675,
+        7694
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "random",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L229",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        7776,
+        7788
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L232",
+      "receiver": "copy",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7898,
+        7929
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "choice",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L232",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        7912,
+        7928
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "KeyError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L233"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "IndexError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L233"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L236",
+      "receiver": null,
+      "_python_call_site": [
+        8077,
+        8102
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "parse_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L238",
+      "receiver": null,
+      "_python_call_site": [
+        8136,
+        8158
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "AssertionError",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L243",
+      "receiver": null,
+      "_python_call_site": [
+        8330,
+        8445
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L249"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "AssertionError",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L250",
+      "receiver": null,
+      "_python_call_site": [
+        8636,
+        8687
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "print_exc",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L254",
+      "receiver": "traceback",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8784,
+        8812
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L263",
+      "receiver": null,
+      "_python_call_site": [
+        9089,
+        9114
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "validate_scenario_dict",
+      "is_member_call": false,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L263",
+      "receiver": null,
+      "_python_call_site": [
+        9118,
+        9158
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_fuzz",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L263",
+      "receiver": "copy",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        9141,
+        9157
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_py",
+      "callee": "ArithmeticError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_py",
+      "callee": "AssertionError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L41"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_py",
+      "callee": "LookupError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L42"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_py",
+      "callee": "OSError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_py",
+      "callee": "RecursionError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_py",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L45"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_py",
+      "callee": "TypeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_stress_scenario_py",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/scenario/stress_scenario.py",
+      "source_location": "L47"
+    }
+  ]
+}

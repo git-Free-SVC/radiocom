@@ -1,0 +1,346 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "label": "test_physics_quality.py",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_quality.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_quality_test_boundaries",
+      "label": "test_boundaries()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "linkquality",
+      "label": "LinkQuality",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_quality.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_quality_test_bad_inputs",
+      "label": "test_bad_inputs()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L41",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_quality_test_monotonic_and_exhaustive",
+      "label": "test_monotonic_and_exhaustive()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L46",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_quality_rationale_1",
+      "label": "link_quality classifier: boundaries, monotonicity, exhaustiveness.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "LinkQuality",
+          "LinkQuality"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.errors",
+      "_python_import_bindings": [
+        [
+          "PhysicsInputError",
+          "PhysicsInputError"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "$graphify-root$_libraries_physics_quality_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.quality",
+      "_python_import_bindings": [
+        [
+          "link_quality",
+          "link_quality"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/quality.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_test_boundaries",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_quality_test_boundaries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_test_boundaries",
+      "target": "linkquality",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_test_bad_inputs",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_quality_test_bad_inputs",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_quality_test_monotonic_and_exhaustive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_quality_rationale_1",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_test_boundaries",
+      "callee": "link_quality",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_call_site": [
+        972,
+        992
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_test_bad_inputs",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L42",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1119,
+        1151
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_test_bad_inputs",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L42"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_test_bad_inputs",
+      "callee": "link_quality",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_call_site": [
+        1161,
+        1178
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_test_monotonic_and_exhaustive",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L48",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1304,
+        1320
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_test_monotonic_and_exhaustive",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L49",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        1342,
+        1364
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_test_monotonic_and_exhaustive",
+      "callee": "link_quality",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L50",
+      "receiver": null,
+      "_python_call_site": [
+        1408,
+        1423
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_quality_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_quality.py",
+      "source_location": "L40"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/physics/errors.py",
+    "$graphify-root$/libraries/physics/quality.py"
+  ]
+}

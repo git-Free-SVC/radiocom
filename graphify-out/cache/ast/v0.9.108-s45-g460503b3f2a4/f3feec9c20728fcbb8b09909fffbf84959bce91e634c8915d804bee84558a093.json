@@ -1,0 +1,783 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "label": "test_propagation_model_contract.py",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "label": "_radio()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L20",
+      "_py_return_type": "Radio",
+      "_callable": true
+    },
+    {
+      "id": "fixture",
+      "label": "fixture",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/test_propagation_model_contract.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_sample_radios",
+      "label": "sample_radios()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L32",
+      "_py_fixture": "?",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_test_conforms_to_protocol",
+      "label": "test_conforms_to_protocol()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_test_evaluate_returns_well_formed_result",
+      "label": "test_evaluate_returns_well_formed_result()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L41",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_test_deterministic_with_seed",
+      "label": "test_deterministic_with_seed()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L50",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_test_validity_domain_declared",
+      "label": "test_validity_domain_declared()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L57",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_distance",
+      "label": "test_path_loss_grows_with_distance()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L65",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_frequency",
+      "label": "test_path_loss_grows_with_frequency()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L75",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_test_more_tx_power_more_rx_power",
+      "label": "test_more_tx_power_more_rx_power()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L87",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_propagation_model_contract_rationale_1",
+      "label": "Contract for any PropagationModel. Must pass UNMODIFIED. pytest\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "replace",
+          "replace"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_libraries_domain_frequency_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.frequency",
+      "_python_import_bindings": [
+        [
+          "Frequency",
+          "Frequency"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/frequency.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Antenna",
+          "Antenna"
+        ],
+        [
+          "Radio",
+          "Radio"
+        ],
+        [
+          "Receiver",
+          "Receiver"
+        ],
+        [
+          "Transmitter",
+          "Transmitter"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "PropagationResult",
+          "PropagationResult"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.propagation",
+      "_python_import_bindings": [
+        [
+          "PropagationModel",
+          "PropagationModel"
+        ],
+        [
+          "ValidityDomain",
+          "ValidityDomain"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/propagation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_sample_radios",
+      "target": "fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_sample_radios",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_test_conforms_to_protocol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_test_evaluate_returns_well_formed_result",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_test_deterministic_with_seed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_test_validity_domain_declared",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_distance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_frequency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_test_more_tx_power_more_rx_power",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_sample_radios",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_distance",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_frequency",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_propagation_model_contract_rationale_1",
+      "target": "$graphify-root$_tests_contract_test_propagation_model_contract_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "callee": "Radio",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L21",
+      "receiver": null,
+      "_python_call_site": [
+        662,
+        1014
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L23",
+      "receiver": null,
+      "_python_call_site": [
+        705,
+        754
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "callee": "Transmitter",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L24",
+      "receiver": null,
+      "_python_call_site": [
+        777,
+        805
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "callee": "Receiver",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L25",
+      "receiver": null,
+      "_python_call_site": [
+        825,
+        878
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "callee": "Antenna",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L26",
+      "receiver": null,
+      "_python_call_site": [
+        897,
+        957
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_radio",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L27",
+      "receiver": null,
+      "_python_call_site": [
+        977,
+        1006
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_conforms_to_protocol",
+      "callee": "PropagationModel",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L37"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_conforms_to_protocol",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_evaluate_returns_well_formed_result",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L42",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1354,
+        1384
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_evaluate_returns_well_formed_result",
+      "callee": "PropagationResult",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_evaluate_returns_well_formed_result",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L44",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1442,
+        1471
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_evaluate_returns_well_formed_result",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L45",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1507,
+        1536
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_evaluate_returns_well_formed_result",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_deterministic_with_seed",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L52",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1724,
+        1755
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_deterministic_with_seed",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L52",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1759,
+        1806
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_validity_domain_declared",
+      "callee": "validity_domain",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L58",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1921,
+        1944
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_validity_domain_declared",
+      "callee": "ValidityDomain",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L59"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_validity_domain_declared",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L62"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_distance",
+      "callee": "validity_domain",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L66",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2196,
+        2219
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_distance",
+      "callee": "skip",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L68",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2257,
+        2318
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_distance",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L70",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2360,
+        2407
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_distance",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L71",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2428,
+        2474
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_frequency",
+      "callee": "validity_domain",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L76",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2596,
+        2619
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_frequency",
+      "callee": "skip",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L78",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2657,
+        2718
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_frequency",
+      "callee": "skip",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L81",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2826,
+        2881
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_frequency",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L82",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2892,
+        2965
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_path_loss_grows_with_frequency",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L83",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2976,
+        3049
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_more_tx_power_more_rx_power",
+      "callee": "replace",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_call_site": [
+        3204,
+        3258
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_more_tx_power_more_rx_power",
+      "callee": "Transmitter",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_call_site": [
+        3228,
+        3257
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_more_tx_power_more_rx_power",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L91",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3282,
+        3316
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_propagation_model_contract_test_more_tx_power_more_rx_power",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_propagation_model_contract.py",
+      "source_location": "L92",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3341,
+        3371
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/frequency.py",
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/domain/radio.py",
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/plugin_sdk/propagation.py"
+  ]
+}

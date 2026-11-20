@@ -1,0 +1,193 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_domain_position_py",
+      "label": "position.py",
+      "file_type": "code",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_position_geoposition",
+      "label": "GeoPosition",
+      "file_type": "code",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_position_geoposition_post_init",
+      "label": ".__post_init__()",
+      "file_type": "code",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L16",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_position_enuposition",
+      "label": "ENUPosition",
+      "file_type": "code",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L24",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_position_rationale_1",
+      "label": "Position types. Pure data, zero I/O. See architecture doc \u00a713.",
+      "file_type": "rationale",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_position_rationale_10",
+      "label": "WGS84 geographic position.",
+      "file_type": "rationale",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L10"
+    },
+    {
+      "id": "$graphify-root$_libraries_domain_position_rationale_25",
+      "label": "Local East-North-Up position, meters, relative to a scenario origin. This is\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L25"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_domain_position_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclass",
+          "dataclass"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_position_py",
+      "target": "$graphify-root$_libraries_domain_position_geoposition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_position_geoposition",
+      "target": "$graphify-root$_libraries_domain_position_geoposition_post_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_position_py",
+      "target": "$graphify-root$_libraries_domain_position_enuposition",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_position_rationale_1",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_position_rationale_10",
+      "target": "$graphify-root$_libraries_domain_position_geoposition",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_domain_position_rationale_25",
+      "target": "$graphify-root$_libraries_domain_position_enuposition",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L25",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_libraries_domain_position_geoposition_post_init",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L18",
+      "receiver": null,
+      "_python_call_site": [
+        457,
+        500
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_domain_position_geoposition_post_init",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L20",
+      "receiver": null,
+      "_python_call_site": [
+        565,
+        608
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_domain_position_geoposition_post_init",
+      "callee": "lon",
+      "is_member_call": true,
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L20",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_domain_position_geoposition_post_init",
+      "callee": "lon",
+      "is_member_call": true,
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L19",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_domain_position_geoposition_post_init",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L18",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_domain_position_geoposition_post_init",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "libraries/domain/position.py",
+      "source_location": "L17",
+      "_python_attr_read": true,
+      "receiver": "self"
+    }
+  ]
+}

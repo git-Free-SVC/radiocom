@@ -1,0 +1,459 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_py",
+      "label": "test_scheduler.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler",
+      "label": "TestHeapScheduler",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "label": ".test_pops_in_time_order()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L8",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "label": ".test_seq_breaks_ties_at_equal_time()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L16",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_peek_time_does_not_consume",
+      "label": ".test_peek_time_does_not_consume()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L24",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_empty_scheduler",
+      "label": ".test_empty_scheduler()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L31",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "EventKind",
+          "EventKind"
+        ],
+        [
+          "SimulationEvent",
+          "SimulationEvent"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_py",
+      "target": "$graphify-root$_services_simulation_scheduler_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.scheduler",
+      "_python_import_bindings": [
+        [
+          "HeapScheduler",
+          "HeapScheduler"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/scheduler.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_peek_time_does_not_consume",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler",
+      "target": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_empty_scheduler",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L31",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "callee": "HeapScheduler",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L9",
+      "receiver": null,
+      "_python_call_site": [
+        251,
+        266
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L10",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        275,
+        353
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L10",
+      "receiver": null,
+      "_python_call_site": [
+        288,
+        352
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L11",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        362,
+        440
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L11",
+      "receiver": null,
+      "_python_call_site": [
+        375,
+        439
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L12",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        449,
+        527
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L12",
+      "receiver": null,
+      "_python_call_site": [
+        462,
+        526
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_pops_in_time_order",
+      "callee": "pop_next",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L13",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        545,
+        559
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "callee": "HeapScheduler",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L17",
+      "receiver": null,
+      "_python_call_site": [
+        699,
+        714
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L18",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        723,
+        801
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L18",
+      "receiver": null,
+      "_python_call_site": [
+        736,
+        800
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L19",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        810,
+        888
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L19",
+      "receiver": null,
+      "_python_call_site": [
+        823,
+        887
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L20",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        897,
+        975
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L20",
+      "receiver": null,
+      "_python_call_site": [
+        910,
+        974
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_seq_breaks_ties_at_equal_time",
+      "callee": "pop_next",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L21",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        992,
+        1006
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_peek_time_does_not_consume",
+      "callee": "HeapScheduler",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L25",
+      "receiver": null,
+      "_python_call_site": [
+        1133,
+        1148
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_peek_time_does_not_consume",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L26",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        1157,
+        1235
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_peek_time_does_not_consume",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L26",
+      "receiver": null,
+      "_python_call_site": [
+        1170,
+        1234
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_peek_time_does_not_consume",
+      "callee": "peek_time",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L27",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        1251,
+        1266
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_peek_time_does_not_consume",
+      "callee": "peek_time",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L28",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        1289,
+        1304
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_empty_scheduler",
+      "callee": "HeapScheduler",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L32",
+      "receiver": null,
+      "_python_call_site": [
+        1415,
+        1430
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_empty_scheduler",
+      "callee": "peek_time",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L33",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        1446,
+        1461
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_scheduler_testheapscheduler_test_empty_scheduler",
+      "callee": "pop_next",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_scheduler.py",
+      "source_location": "L34",
+      "receiver": "sch",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "HeapScheduler",
+      "_python_call_site": [
+        1485,
+        1499
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/simulation.py",
+    "$graphify-root$/services/simulation/scheduler.py"
+  ]
+}

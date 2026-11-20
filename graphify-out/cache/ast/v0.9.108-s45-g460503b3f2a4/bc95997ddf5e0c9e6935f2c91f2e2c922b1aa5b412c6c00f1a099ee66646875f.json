@@ -1,0 +1,987 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_api_schemas_py",
+      "label": "schemas.py",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_load_frozen_schema",
+      "label": "load_frozen_schema()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L360",
+      "_callable": true
+    },
+    {
+      "id": "path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/schemas.py"
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/schemas.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_frozen_scenario_schema",
+      "label": "_frozen_scenario_schema()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L365",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_schema_error",
+      "label": "_schema_error()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L373",
+      "_callable": true
+    },
+    {
+      "id": "validationerror",
+      "label": "ValidationError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/schemas.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_errors_to_detail",
+      "label": "_errors_to_detail()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L381",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "label": "assert_finite_request()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L385",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_validate_request",
+      "label": "validate_request()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L402",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "label": "validate_frozen_scenario()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L414",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_validate_create_scenario",
+      "label": "validate_create_scenario()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L423",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_validate_response",
+      "label": "validate_response()",
+      "file_type": "code",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L430",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_rationale_1",
+      "label": "API-declared request/response JSON Schemas + the validation helpers. Verified\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_rationale_361",
+      "label": "Read a frozen contract file with an explicit encoding (Windows/PowerShell).",
+      "file_type": "rationale",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L361"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_rationale_366",
+      "label": "Lazily loaded so `import services.api` performs no file IO at all.",
+      "file_type": "rationale",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L366"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_rationale_386",
+      "label": "Reject NaN/inf anywhere in a request body before schema validation.",
+      "file_type": "rationale",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L386"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_rationale_403",
+      "label": "API-declared request schema -> ApiError(422), FastAPI-shaped detail list.",
+      "file_type": "rationale",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L403"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_rationale_415",
+      "label": "The one real frozen request contract: scenario.schema.json (\u00a76 of the task\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L415"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_rationale_424",
+      "label": "Frozen contract first (authoritative), then the API-strict declaration.",
+      "file_type": "rationale",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L424"
+    },
+    {
+      "id": "$graphify-root$_services_api_schemas_rationale_431",
+      "label": "Declare-and-enforce: a body violating the API-declared response schema (or\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L431"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [
+        [
+          "Path",
+          "Path"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "jsonschema",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_python_import_module": "jsonschema",
+      "_python_import_bindings": [
+        [
+          "jsonschema",
+          "jsonschema"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_python_import_module": "services.api.errors",
+      "_python_import_bindings": [
+        [
+          "ApiError",
+          "ApiError"
+        ],
+        [
+          "ResponseContractError",
+          "ResponseContractError"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_serialization_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_python_import_module": "services.api.serialization",
+      "_python_import_bindings": [
+        [
+          "iter_non_finite",
+          "iter_non_finite"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/serialization.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_load_frozen_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_load_frozen_schema",
+      "target": "path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_load_frozen_schema",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L360",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_frozen_scenario_schema",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_frozen_scenario_schema",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L365",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_schema_error",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_schema_error",
+      "target": "validationerror",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_schema_error",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_errors_to_detail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L381",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_errors_to_detail",
+      "target": "validationerror",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L381",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_errors_to_detail",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L381",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L385",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L385",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_validate_request",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L402",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_request",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L402",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L414",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_validate_create_scenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L423",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_create_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L423",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_py",
+      "target": "$graphify-root$_services_api_schemas_validate_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_response",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_frozen_scenario_schema",
+      "target": "$graphify-root$_services_api_schemas_load_frozen_schema",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L369",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_errors_to_detail",
+      "target": "$graphify-root$_services_api_schemas_schema_error",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L382",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_request",
+      "target": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L404",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_request",
+      "target": "$graphify-root$_services_api_schemas_errors_to_detail",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L411",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "target": "$graphify-root$_services_api_schemas_frozen_scenario_schema",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L417",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "target": "$graphify-root$_services_api_schemas_errors_to_detail",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_create_scenario",
+      "target": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L425",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_create_scenario",
+      "target": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L426",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_create_scenario",
+      "target": "$graphify-root$_services_api_schemas_validate_request",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L427",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_validate_response",
+      "target": "$graphify-root$_services_api_schemas_schema_error",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L445",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_rationale_1",
+      "target": "$graphify-root$_services_api_schemas_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_rationale_361",
+      "target": "$graphify-root$_services_api_schemas_load_frozen_schema",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L361",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_rationale_366",
+      "target": "$graphify-root$_services_api_schemas_frozen_scenario_schema",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L366",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_rationale_386",
+      "target": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L386",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_rationale_403",
+      "target": "$graphify-root$_services_api_schemas_validate_request",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L403",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_rationale_415",
+      "target": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L415",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_rationale_424",
+      "target": "$graphify-root$_services_api_schemas_validate_create_scenario",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L424",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_schemas_rationale_431",
+      "target": "$graphify-root$_services_api_schemas_validate_response",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L431",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_load_frozen_schema",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L362",
+      "receiver": "json",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13516,
+        13560
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_load_frozen_schema",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L362",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Path",
+      "_python_call_site": [
+        13527,
+        13559
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_frozen_scenario_schema",
+      "callee": "SCENARIO_SCHEMA_PATH",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/schemas.py",
+      "source_location": "L369"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "callee": "iter_non_finite",
+      "is_member_call": false,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L387",
+      "receiver": null,
+      "_python_call_site": [
+        14397,
+        14419
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L389",
+      "receiver": null,
+      "_python_call_site": [
+        14448,
+        14823
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "callee": "split",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L393",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14538,
+        14609
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L393",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14538,
+        14598
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L393",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14538,
+        14581
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_assert_finite_request",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L393",
+      "receiver": "path",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14538,
+        14563
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_request",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L405",
+      "receiver": "_REQUEST_VALIDATORS",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15021,
+        15055
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_request",
+      "callee": "Draft7Validator",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L407",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15104,
+        15158
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_request",
+      "callee": "iter_errors",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L409",
+      "receiver": "validator",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15232,
+        15259
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_request",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L411",
+      "receiver": null,
+      "_python_call_site": [
+        15329,
+        15369
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "callee": "Draft7Validator",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L417",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        15595,
+        15648
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "callee": "iter_errors",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L418",
+      "receiver": "validator",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Draft7Validator",
+      "_python_call_site": [
+        15670,
+        15697
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_frozen_scenario",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L420",
+      "receiver": null,
+      "_python_call_site": [
+        15767,
+        15807
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_response",
+      "callee": "iter_non_finite",
+      "is_member_call": false,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L434",
+      "receiver": null,
+      "_python_call_site": [
+        16321,
+        16345
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_response",
+      "callee": "ResponseContractError",
+      "is_member_call": false,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L436",
+      "receiver": null,
+      "_python_call_site": [
+        16374,
+        16496
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_response",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L437",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16469,
+        16483
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_response",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L439",
+      "receiver": "_RESPONSE_VALIDATORS",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16514,
+        16549
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_response",
+      "callee": "Draft7Validator",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L441",
+      "receiver": "jsonschema",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16598,
+        16653
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_response",
+      "callee": "iter_errors",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L443",
+      "receiver": "validator",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16728,
+        16758
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_response",
+      "callee": "ResponseContractError",
+      "is_member_call": false,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L446",
+      "receiver": null,
+      "_python_call_site": [
+        16870,
+        17046
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_validate_response",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L448",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16983,
+        17005
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_schema_error",
+      "callee": "validator",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L377",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_schema_error",
+      "callee": "message",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L376",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_schemas_schema_error",
+      "callee": "absolute_path",
+      "is_member_call": true,
+      "source_file": "services/api/schemas.py",
+      "source_location": "L375",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/api/errors.py",
+    "$graphify-root$/services/api/serialization.py"
+  ]
+}

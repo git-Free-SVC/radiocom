@@ -1,0 +1,613 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pause_resume_py",
+      "label": "test_pause_resume.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume",
+      "label": "TestPauseResume",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "label": ".test_pause_mid_run_then_resume_matches_unpaused_run()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L10",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "label": ".test_state_queryable_while_paused()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_resume_without_start_raises",
+      "label": ".test_resume_without_start_raises()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_step_without_start_raises",
+      "label": ".test_step_without_start_raises()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L43",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pause_resume_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pause_resume_py",
+      "target": "$graphify-root$_services_simulation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation",
+      "_python_import_bindings": [
+        [
+          "CoreSimulationEngine",
+          "CoreSimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pause_resume_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "tests.unit.simulation.conftest",
+      "_python_import_bindings": [
+        [
+          "CountingEntity",
+          "CountingEntity"
+        ],
+        [
+          "StubScenario",
+          "StubScenario"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/simulation/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pause_resume_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume",
+      "target": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume",
+      "target": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume",
+      "target": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_resume_without_start_raises",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume",
+      "target": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_step_without_start_raises",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L43",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L11",
+      "receiver": null,
+      "_python_call_site": [
+        295,
+        336
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "CountingEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L12",
+      "receiver": null,
+      "_python_call_site": [
+        356,
+        375
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L13",
+      "receiver": "engine_a",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        384,
+        445
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L13",
+      "receiver": null,
+      "_python_call_site": [
+        398,
+        444
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L14",
+      "receiver": "engine_a",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        454,
+        470
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L15",
+      "receiver": "engine_a",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        479,
+        508
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L17",
+      "receiver": null,
+      "_python_call_site": [
+        529,
+        570
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "CountingEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L18",
+      "receiver": null,
+      "_python_call_site": [
+        590,
+        640
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L19",
+      "receiver": "engine_b",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        649,
+        710
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L19",
+      "receiver": null,
+      "_python_call_site": [
+        663,
+        709
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L20",
+      "receiver": "engine_b",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        719,
+        735
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L21",
+      "receiver": "engine_b",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        744,
+        773
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "resume",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L23",
+      "receiver": "engine_b",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        881,
+        898
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L24",
+      "receiver": "engine_b",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        907,
+        936
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L29",
+      "receiver": null,
+      "_python_call_site": [
+        1088,
+        1129
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "callee": "CountingEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L30",
+      "receiver": null,
+      "_python_call_site": [
+        1147,
+        1195
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L31",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1204,
+        1261
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L31",
+      "receiver": null,
+      "_python_call_site": [
+        1216,
+        1260
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L32",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1270,
+        1284
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L33",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1293,
+        1320
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_resume_without_start_raises",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_call_site": [
+        1510,
+        1532
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_resume_without_start_raises",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L39",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1541,
+        1592
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_resume_without_start_raises",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_call_site": [
+        1553,
+        1591
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_resume_without_start_raises",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L40",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1606,
+        1633
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_resume_without_start_raises",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L40"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_resume_without_start_raises",
+      "callee": "resume",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L41",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1647,
+        1662
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_step_without_start_raises",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L44",
+      "receiver": null,
+      "_python_call_site": [
+        1735,
+        1757
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_step_without_start_raises",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L45",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1766,
+        1817
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_step_without_start_raises",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L45",
+      "receiver": null,
+      "_python_call_site": [
+        1778,
+        1816
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_step_without_start_raises",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L46",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1831,
+        1858
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_step_without_start_raises",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_step_without_start_raises",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L47",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1872,
+        1899
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "ticks",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L26",
+      "_python_attr_read": true,
+      "receiver": "entity_b",
+      "receiver_type": "CountingEntity"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "ticks",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L26",
+      "_python_attr_read": true,
+      "receiver": "entity_a",
+      "receiver_type": "CountingEntity"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_pause_mid_run_then_resume_matches_unpaused_run",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L22",
+      "_python_attr_read": true,
+      "receiver": "engine_b",
+      "receiver_type": "CoreSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_pause_resume_testpauseresume_test_state_queryable_while_paused",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_pause_resume.py",
+      "source_location": "L35",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "CoreSimulationEngine"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/simulation/__init__.py",
+    "$graphify-root$/tests/unit/simulation/conftest.py"
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_fakes_bpsk_codec_py",
+      "label": "bpsk_codec.py",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec",
+      "label": "BpskCodec",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_modulate",
+      "label": ".modulate()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/bpsk_codec.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_demodulate",
+      "label": ".demodulate()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L17",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_ber",
+      "label": ".ber()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L20",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_occupied_bandwidth_hz",
+      "label": ".occupied_bandwidth_hz()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L23",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_bpsk_codec_rationale_1",
+      "label": "Reference WaveformCodec: BPSK, 1 sample/symbol, theoretical BER.",
+      "file_type": "rationale",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_py",
+      "target": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec",
+      "target": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_modulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec",
+      "target": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_demodulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec",
+      "target": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_ber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec",
+      "target": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_occupied_bandwidth_hz",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_bpsk_codec_rationale_1",
+      "target": "$graphify-root$_tests_contract_fakes_bpsk_codec_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_modulate",
+      "callee": "astype",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L15",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        291,
+        356
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_modulate",
+      "callee": "asarray",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L15",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        298,
+        327
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_modulate",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L15"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_demodulate",
+      "callee": "astype",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L18",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        452,
+        486
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_demodulate",
+      "callee": "real",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L18",
+      "receiver": "np",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        453,
+        464
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_ber",
+      "callee": "erfc",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L21",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        553,
+        595
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_ber",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L21",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        563,
+        594
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_bpsk_codec_bpskcodec_occupied_bandwidth_hz",
+      "callee": "rolloff",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/bpsk_codec.py",
+      "source_location": "L24",
+      "_python_attr_read": true,
+      "receiver": "self"
+    }
+  ]
+}

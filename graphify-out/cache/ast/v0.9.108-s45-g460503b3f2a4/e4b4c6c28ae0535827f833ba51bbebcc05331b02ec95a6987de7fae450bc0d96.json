@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_world_init_py",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "services/world/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_world_init_rationale_1",
+      "label": "World Engine: WGS84 <-> ECEF <-> ENU transforms and a terrain LOS stub. Pure\u2026",
+      "file_type": "rationale",
+      "source_file": "services/world/__init__.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_world_init_py",
+      "target": "$graphify-root$_services_world_enu_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/__init__.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/world/enu.py"
+    },
+    {
+      "source": "$graphify-root$_services_world_init_py",
+      "target": "$graphify-root$_services_world_geodesy_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/__init__.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/world/geodesy.py"
+    },
+    {
+      "source": "$graphify-root$_services_world_init_py",
+      "target": "$graphify-root$_services_world_los_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/__init__.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "target_file": "$graphify-root$/services/world/los.py"
+    },
+    {
+      "source": "$graphify-root$_services_world_init_rationale_1",
+      "target": "$graphify-root$_services_world_init_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/world/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/services/world/enu.py",
+    "$graphify-root$/services/world/geodesy.py",
+    "$graphify-root$/services/world/los.py"
+  ]
+}

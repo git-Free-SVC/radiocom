@@ -1,0 +1,3101 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "label": "test_propagation_free_space.py",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "label": "make_radio()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L34",
+      "_py_return_type": "Radio",
+      "_callable": true
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/propagation/test_propagation_free_space.py"
+    },
+    {
+      "id": "fixture",
+      "label": "fixture",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/propagation/test_propagation_free_space.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_pair",
+      "label": "pair()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L57",
+      "_py_fixture": "?",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_conforms_to_protocol_and_name",
+      "label": "test_conforms_to_protocol_and_name()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L65",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_validity_domain_values_and_corners",
+      "label": "test_validity_domain_values_and_corners()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L71",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "label": "test_reference_case()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L85",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_result_fields_exact",
+      "label": "test_result_fields_exact()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L95",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "label": "test_cable_loss_and_gain_flow_through()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L108",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_uses_rx_gain_not_tx_gain_twice",
+      "label": "test_uses_rx_gain_not_tx_gain_twice()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L120",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_deterministic_repeat_bit_identical",
+      "label": "test_deterministic_repeat_bit_identical()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L128",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/propagation/test_propagation_free_space.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_independent_of_seed",
+      "label": "test_independent_of_seed()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L136",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "label": "test_threads_identical_and_inputs_unchanged()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L141",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_swapping_symmetric_radios_same_path_loss",
+      "label": "test_swapping_symmetric_radios_same_path_loss()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L151",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_coincident_radios_clamped_to_min_distance",
+      "label": "test_coincident_radios_clamped_to_min_distance()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L158",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_same_latlon_different_altitude_uses_altitude",
+      "label": "test_same_latlon_different_altitude_uses_altitude()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L166",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "label": "test_clamp_boundary_continuous_and_monotonic()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L173",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_near_field_floor_returns_zero_not_negative",
+      "label": "test_near_field_floor_returns_zero_not_negative()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L186",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_frequency_mismatch_uses_tx_frequency_no_error",
+      "label": "test_frequency_mismatch_uses_tx_frequency_no_error()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L196",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_path_loss_independent_of_antenna_height_mvp",
+      "label": "test_path_loss_independent_of_antenna_height_mvp()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L202",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_far_distances_and_frequency_extremes_finite",
+      "label": "test_far_distances_and_frequency_extremes_finite()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L208",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_power",
+      "label": "test_bad_power()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L217",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "label": "test_nonfinite_frequency_defense_in_depth()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L224",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_may_reject_nonfinite_frequency_itself",
+      "label": "test_foundation_may_reject_nonfinite_frequency_itself()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L239",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "label": "with_position()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L249",
+      "_py_return_type": "Radio",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "label": "test_bad_position()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L273",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "label": "test_foundation_or_model_rejects_bad_position()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L286",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "label": "test_bad_gain_and_cable()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L300",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "label": "test_fuzz_random_radios_never_crash_or_emit_nonfinite()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L311",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite_val",
+      "label": "val()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L327",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_performance_100k_evaluations",
+      "label": "test_performance_100k_evaluations()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L356",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_1",
+      "label": "FreeSpaceModel: contract-level behaviour, fields, determinism, hostile radios.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_225",
+      "label": "The model must reject a non-finite frequency even if the foundation type let it\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L225"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_240",
+      "label": "Either outcome is acceptable: the foundation rejects it, or the model does.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L240"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_250",
+      "label": "Return ``radio`` with a position that bypasses ``GeoPosition`` validation. The\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L250"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_289",
+      "label": "Either outcome is fine: GeoPosition refuses it, or the model raises\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L289"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "dataclasses",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclasses",
+          "dataclasses"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "time",
+      "_python_import_bindings": [
+        [
+          "time",
+          "time"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "concurrent_futures",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "concurrent.futures",
+      "_python_import_bindings": [
+        [
+          "ThreadPoolExecutor",
+          "ThreadPoolExecutor"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "types",
+      "_python_import_bindings": [
+        [
+          "SimpleNamespace",
+          "SimpleNamespace"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_domain_frequency_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.frequency",
+      "_python_import_bindings": [
+        [
+          "Frequency",
+          "Frequency"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/frequency.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Antenna",
+          "Antenna"
+        ],
+        [
+          "Radio",
+          "Radio"
+        ],
+        [
+          "Receiver",
+          "Receiver"
+        ],
+        [
+          "Transmitter",
+          "Transmitter"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "PropagationResult",
+          "PropagationResult"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_physics_constants_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.constants",
+      "_python_import_bindings": [
+        [
+          "MIN_DISTANCE_M",
+          "MIN_DISTANCE_M"
+        ],
+        [
+          "SPEED_OF_LIGHT_M_S",
+          "SPEED_OF_LIGHT_M_S"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/constants.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_physics_distance_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.distance",
+      "_python_import_bindings": [
+        [
+          "haversine_distance_m",
+          "haversine_distance_m"
+        ],
+        [
+          "slant_range_m",
+          "slant_range_m"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/distance.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.errors",
+      "_python_import_bindings": [
+        [
+          "PhysicsInputError",
+          "PhysicsInputError"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_physics_propagation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.propagation",
+      "_python_import_bindings": [
+        [
+          "free_space_path_loss_db",
+          "free_space_path_loss_db"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/propagation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.propagation",
+      "_python_import_bindings": [
+        [
+          "PropagationModel",
+          "PropagationModel"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/propagation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_services_propagation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_python_import_module": "services.propagation",
+      "_python_import_bindings": [
+        [
+          "FreeSpaceModel",
+          "FreeSpaceModel"
+        ],
+        [
+          "FreeSpaceValidityDomain",
+          "FreeSpaceValidityDomain"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/propagation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "target": "radio",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_pair",
+      "target": "fixture",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_pair",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_pair",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_conforms_to_protocol_and_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_validity_domain_values_and_corners",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_result_fields_exact",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_result_fields_exact",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_uses_rx_gain_not_tx_gain_twice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_uses_rx_gain_not_tx_gain_twice",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_deterministic_repeat_bit_identical",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_deterministic_repeat_bit_identical",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_independent_of_seed",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_independent_of_seed",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_independent_of_seed",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_swapping_symmetric_radios_same_path_loss",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_coincident_radios_clamped_to_min_distance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L158",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_same_latlon_different_altitude_uses_altitude",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_near_field_floor_returns_zero_not_negative",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_frequency_mismatch_uses_tx_frequency_no_error",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_frequency_mismatch_uses_tx_frequency_no_error",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_path_loss_independent_of_antenna_height_mvp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_path_loss_independent_of_antenna_height_mvp",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_far_distances_and_frequency_extremes_finite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_power",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L216",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_power",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_power",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L217",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L223",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_may_reject_nonfinite_frequency_itself",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L238",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_may_reject_nonfinite_frequency_itself",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "target": "radio",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "target": "radio",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L261",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L273",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L282",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L299",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L300",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite_val",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L327",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_performance_100k_evaluations",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L356",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_performance_100k_evaluations",
+      "target": "radio",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L356",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_pair",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_uses_rx_gain_not_tx_gain_twice",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_swapping_symmetric_radios_same_path_loss",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_coincident_radios_clamped_to_min_distance",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_same_latlon_different_altitude_uses_altitude",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_near_field_floor_returns_zero_not_negative",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_frequency_mismatch_uses_tx_frequency_no_error",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_far_distances_and_frequency_extremes_finite",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_power",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L232",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_may_reject_nonfinite_frequency_itself",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L242",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L275",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L292",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L303",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite_val",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L334",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_1",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_225",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_240",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_may_reject_nonfinite_frequency_itself",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L240",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_250",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L250",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_rationale_289",
+      "target": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L289",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "callee": "Radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L46",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1355,
+        1718
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L48",
+      "receiver": null,
+      "_python_call_site": [
+        1396,
+        1446
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "callee": "Transmitter",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L49",
+      "receiver": null,
+      "_python_call_site": [
+        1468,
+        1523
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "callee": "Receiver",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L50",
+      "receiver": null,
+      "_python_call_site": [
+        1542,
+        1595
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L51",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1613,
+        1652
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "callee": "ANT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L51"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_make_radio",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L52",
+      "receiver": null,
+      "_python_call_site": [
+        1671,
+        1711
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_conforms_to_protocol_and_name",
+      "callee": "model",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_conforms_to_protocol_and_name",
+      "callee": "PropagationModel",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_validity_domain_values_and_corners",
+      "callee": "validity_domain",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L72",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        2165,
+        2188
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_validity_domain_values_and_corners",
+      "callee": "FreeSpaceValidityDomain",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L73"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_validity_domain_values_and_corners",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L79",
+      "receiver": null,
+      "_python_call_site": [
+        2505,
+        2534
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_validity_domain_values_and_corners",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L80",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2559,
+        2605
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L87",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        2824,
+        2846
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L88",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2876,
+        2906
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L89",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2936,
+        2967
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        2976,
+        3015
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L91",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3032,
+        3064
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L92",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3094,
+        3155
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_reference_case",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L92",
+      "receiver": null,
+      "_python_call_site": [
+        3108,
+        3143
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_result_fields_exact",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L97",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        3249,
+        3271
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_result_fields_exact",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L98",
+      "receiver": null,
+      "_python_call_site": [
+        3280,
+        3326
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_result_fields_exact",
+      "callee": "PropagationResult",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L99"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_result_fields_exact",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L100",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3395,
+        3443
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_result_fields_exact",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L101",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3468,
+        3504
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L110",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        3729,
+        3751
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L111",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        3764,
+        3814
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L112",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3868,
+        3896
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L114",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        3962,
+        4010
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L115",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4066,
+        4095
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L116",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        4109,
+        4160
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_cable_loss_and_gain_flow_through",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L117",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4215,
+        4244
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_uses_rx_gain_not_tx_gain_twice",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L123",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        4403,
+        4450
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_uses_rx_gain_not_tx_gain_twice",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L124",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        4462,
+        4487
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_uses_rx_gain_not_tx_gain_twice",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L124",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4524,
+        4543
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_deterministic_repeat_bit_identical",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L130",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        4733,
+        4755
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_deterministic_repeat_bit_identical",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L132",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        4797,
+        4819
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_independent_of_seed",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L138",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        5005,
+        5038
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_independent_of_seed",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L138",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        5042,
+        5064
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "callee": "astuple",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L143",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5185,
+        5208
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "callee": "astuple",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L143",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5210,
+        5233
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L144",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        5250,
+        5272
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "callee": "ThreadPoolExecutor",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_call_site": [
+        5282,
+        5315
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "callee": "map",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L146",
+      "receiver": "pool",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ThreadPoolExecutor",
+      "_python_call_site": [
+        5348,
+        5403
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L146",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        5367,
+        5389
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "callee": "astuple",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L148",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5464,
+        5487
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_threads_identical_and_inputs_unchanged",
+      "callee": "astuple",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L148",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5489,
+        5512
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_swapping_symmetric_radios_same_path_loss",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L154",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        5710,
+        5730
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_swapping_symmetric_radios_same_path_loss",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L154",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        5747,
+        5767
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_coincident_radios_clamped_to_min_distance",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L160",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        5975,
+        5995
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_coincident_radios_clamped_to_min_distance",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L161",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6025,
+        6088
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_coincident_radios_clamped_to_min_distance",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L161",
+      "receiver": null,
+      "_python_call_site": [
+        6039,
+        6087
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_coincident_radios_clamped_to_min_distance",
+      "callee": "MIN_DISTANCE_M",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L161"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_coincident_radios_clamped_to_min_distance",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L163",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6128,
+        6157
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_same_latlon_different_altitude_uses_altitude",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L168",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        6289,
+        6309
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_same_latlon_different_altitude_uses_altitude",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L169",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6339,
+        6404
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_same_latlon_different_altitude_uses_altitude",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L169",
+      "receiver": null,
+      "_python_call_site": [
+        6353,
+        6393
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_same_latlon_different_altitude_uses_altitude",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L170",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6429,
+        6482
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "callee": "nextafter",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L174",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6557,
+        6592
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "callee": "MIN_DISTANCE_M",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "callee": "nextafter",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L175",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6605,
+        6640
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "callee": "MIN_DISTANCE_M",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L175"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L178",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        6688,
+        6732
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_clamp_boundary_continuous_and_monotonic",
+      "callee": "MIN_DISTANCE_M",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L179"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_near_field_floor_returns_zero_not_negative",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L190",
+      "receiver": null,
+      "_python_call_site": [
+        7199,
+        7232
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_near_field_floor_returns_zero_not_negative",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L191",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        7247,
+        7269
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_near_field_floor_returns_zero_not_negative",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L193",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7314,
+        7343
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_frequency_mismatch_uses_tx_frequency_no_error",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L199",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        7525,
+        7553
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_frequency_mismatch_uses_tx_frequency_no_error",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L199",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        7557,
+        7604
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_path_loss_independent_of_antenna_height_mvp",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L204",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7725,
+        7805
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_path_loss_independent_of_antenna_height_mvp",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L204",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7757,
+        7804
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_path_loss_independent_of_antenna_height_mvp",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L205",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        7817,
+        7841
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_path_loss_independent_of_antenna_height_mvp",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L205",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        7845,
+        7867
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_far_distances_and_frequency_extremes_finite",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L211",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        8058,
+        8080
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_far_distances_and_frequency_extremes_finite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L212",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8096,
+        8112
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_power",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L219",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        8420,
+        8472
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_power",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L219"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_power",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L220",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        8482,
+        8533
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "callee": "__setattr__",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L233",
+      "receiver": "object",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        9094,
+        9143
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L234",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        9153,
+        9207
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L234"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_nonfinite_frequency_defense_in_depth",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L235",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        9217,
+        9239
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_may_reject_nonfinite_frequency_itself",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L245",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        9602,
+        9656
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_may_reject_nonfinite_frequency_itself",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L245"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_may_reject_nonfinite_frequency_itself",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L246",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        9666,
+        9713
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L256",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10176,
+        10202
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "callee": "__setattr__",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L257",
+      "receiver": "object",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10260,
+        10344
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_with_position",
+      "callee": "SimpleNamespace",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L257",
+      "receiver": null,
+      "_python_call_site": [
+        10299,
+        10343
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L276",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10812,
+        10844
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L276"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L277",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        10854,
+        10877
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L278",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        10887,
+        10919
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L278"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_position",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L279",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        10929,
+        10952
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L293"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "callee": "TypeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L293"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L295",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        11465,
+        11497
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L295"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_foundation_or_model_rejects_bad_position",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L296",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        11507,
+        11529
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L302",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        11700,
+        11732
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L302"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L303",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        11742,
+        11788
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L304",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        11798,
+        11830
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L304"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L305",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        11840,
+        11897
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L306",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        11907,
+        11939
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L306"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_bad_gain_and_cable",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L307",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        11949,
+        11999
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L312",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        12159,
+        12175
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L319"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L320"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L346",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        13094,
+        13147
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "callee": "choice",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L346",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        13122,
+        13146
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L351",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        13262,
+        13278
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite_val",
+      "callee": "choice",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L328",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12433,
+        12453
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite_val",
+      "callee": "specials",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L328"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite_val",
+      "callee": "random",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L328",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12457,
+        12469
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_fuzz_random_radios_never_crash_or_emit_nonfinite_val",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L328",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        12482,
+        12501
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_performance_100k_evaluations",
+      "callee": "perf_counter",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L359",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        13564,
+        13583
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_performance_100k_evaluations",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L361",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_module_instance": true,
+      "_python_call_site": [
+        13615,
+        13637
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_test_performance_100k_evaluations",
+      "callee": "perf_counter",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L362",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        13652,
+        13671
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L216"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L216"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L223"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L223"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L238"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L238"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L267"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L268"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L269"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L270"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L284"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L284"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L299"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_propagation_free_space_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/propagation/test_propagation_free_space.py",
+      "source_location": "L299"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/frequency.py",
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/domain/radio.py",
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/physics/constants.py",
+    "$graphify-root$/libraries/physics/distance.py",
+    "$graphify-root$/libraries/physics/errors.py",
+    "$graphify-root$/libraries/physics/propagation.py",
+    "$graphify-root$/libraries/plugin_sdk/propagation.py",
+    "$graphify-root$/services/propagation/__init__.py"
+  ]
+}

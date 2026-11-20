@@ -1,0 +1,273 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "label": "propagation.py",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel",
+      "label": "PropagationModel",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/propagation.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel_validity_domain",
+      "label": ".validity_domain()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L23",
+      "_py_return_type": "ValidityDomain",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel_evaluate",
+      "label": ".evaluate()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L28",
+      "_py_return_type": "PropagationResult",
+      "_callable": true
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/propagation.py"
+    },
+    {
+      "id": "propagationresult",
+      "label": "PropagationResult",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/propagation.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_validitydomain",
+      "label": "ValidityDomain",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L44",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_rationale_1",
+      "label": "PropagationModel interface. Frozen after Wave 0 \u2014 see docs/adr/ADR-000.\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_rationale_14",
+      "label": "One propagation model (FreeSpace, TwoRay, Hata, ITM, RayTracing...).\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_rationale_24",
+      "label": "Frequency/distance/terrain ranges this model is valid for. The RF Core uses\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L24"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_propagation_rationale_35",
+      "label": "Compute path loss and channel effects between tx and rx. seed: if provided, any\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L35"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Protocol",
+          "Protocol"
+        ],
+        [
+          "runtime_checkable",
+          "runtime_checkable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Radio",
+          "Radio"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "PropagationResult",
+          "PropagationResult"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel_validity_domain",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel_evaluate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel_evaluate",
+      "target": "radio",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel_evaluate",
+      "target": "propagationresult",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_validitydomain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_validitydomain",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_rationale_1",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_rationale_14",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_rationale_24",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel_validity_domain",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_propagation_rationale_35",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_propagationmodel_evaluate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/propagation.py",
+      "source_location": "L35",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/radio.py",
+    "$graphify-root$/libraries/domain/rf_results.py"
+  ]
+}

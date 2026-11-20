@@ -1,0 +1,643 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_py",
+      "label": "test_entity_failure_isolation.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity",
+      "label": "_FlakyEntity",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L17",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity_on_tick",
+      "label": ".on_tick()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L22",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity",
+      "label": "_NormalEntity",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L28",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L29",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity_on_tick",
+      "label": ".on_tick()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L33",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation",
+      "label": "TestEntityFailureIsolation",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L37",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "label": ".test_one_failing_entity_does_not_skip_others_in_same_tick()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L38",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "label": ".test_failure_raises_exceptiongroup_not_silently_swallowed()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L54",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "label": ".test_scheduler_not_left_empty_after_a_failure()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L70",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "label": ".test_simulation_continues_advancing_after_a_failure()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L87",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_rationale_1",
+      "label": "Regression tests for a real bug found by stress-testing: an entity's on_tick()\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_py",
+      "target": "$graphify-root$_services_simulation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation",
+      "_python_import_bindings": [
+        [
+          "CoreSimulationEngine",
+          "CoreSimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "tests.unit.simulation.conftest",
+      "_python_import_bindings": [
+        [
+          "StubScenario",
+          "StubScenario"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/simulation/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity_on_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity_on_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_rationale_1",
+      "target": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_flakyentity_on_tick",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L25",
+      "receiver": null,
+      "_python_call_site": [
+        1019,
+        1085
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_normalentity_on_tick",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L34",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1281,
+        1303
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L41",
+      "receiver": null,
+      "_python_call_site": [
+        1580,
+        1621
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L42",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1630,
+        1702
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L42",
+      "receiver": null,
+      "_python_call_site": [
+        1642,
+        1701
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L43",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1711,
+        1725
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_one_failing_entity_does_not_skip_others_in_same_tick",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L46",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1752,
+        1780
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L56",
+      "receiver": null,
+      "_python_call_site": [
+        2115,
+        2156
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L57",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        2165,
+        2229
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L57",
+      "receiver": null,
+      "_python_call_site": [
+        2177,
+        2228
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L58",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        2238,
+        2252
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L62",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        2301,
+        2328
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_failure_raises_exceptiongroup_not_silently_swallowed",
+      "callee": "eg",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "assignment",
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L64"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L72",
+      "receiver": null,
+      "_python_call_site": [
+        2668,
+        2709
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L73",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        2718,
+        2782
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L73",
+      "receiver": null,
+      "_python_call_site": [
+        2730,
+        2781
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L74",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        2791,
+        2805
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L77",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        2832,
+        2859
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_call_site": [
+        3307,
+        3348
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L90",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        3357,
+        3421
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        3369,
+        3420
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L91",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        3430,
+        3444
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L94",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        3471,
+        3499
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L98",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        3557,
+        3585
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_scheduler_not_left_empty_after_a_failure",
+      "callee": "_scheduler",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L81",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "CoreSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_entity_failure_isolation_testentityfailureisolation_test_simulation_continues_advancing_after_a_failure",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_entity_failure_isolation.py",
+      "source_location": "L99",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "CoreSimulationEngine"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/simulation/__init__.py",
+    "$graphify-root$/tests/unit/simulation/conftest.py"
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_simulation_state_py",
+      "label": "state.py",
+      "file_type": "code",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_state_inmemorysimulationstate",
+      "label": "InMemorySimulationState",
+      "file_type": "code",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L28",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "simulationstate",
+      "label": "SimulationState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/state.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_state_inmemorysimulationstate_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L29",
+      "_callable": true
+    },
+    {
+      "id": "simulationclock",
+      "label": "SimulationClock",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/state.py"
+    },
+    {
+      "id": "simulationentity",
+      "label": "SimulationEntity",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/state.py"
+    },
+    {
+      "id": "random",
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/state.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_state_inmemorysimulationstate_rng_state",
+      "label": ".rng_state()",
+      "file_type": "code",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L42",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_state_inmemorysimulationstate_checkpoint",
+      "label": ".checkpoint()",
+      "file_type": "code",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L49",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "label": ".restore()",
+      "file_type": "code",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L61",
+      "_py_return_type": "InMemorySimulationState",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_state_rationale_1",
+      "label": "Concrete SimulationState (architecture doc \u00a714 \u00a75.5). KNOWN LIMITATION,\u2026",
+      "file_type": "rationale",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_simulation_state_py",
+      "target": "pickle",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "pickle",
+      "_python_import_bindings": [
+        [
+          "pickle",
+          "pickle"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "SimulationClock",
+          "SimulationClock"
+        ],
+        [
+          "SimulationEntity",
+          "SimulationEntity"
+        ],
+        [
+          "SimulationState",
+          "SimulationState"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_py",
+      "target": "$graphify-root$_services_simulation_clock_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.clock",
+      "_python_import_bindings": [
+        [
+          "WallClock",
+          "WallClock"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/clock.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_py",
+      "target": "$graphify-root$_services_simulation_state_inmemorysimulationstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate",
+      "target": "simulationstate",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate",
+      "target": "$graphify-root$_services_simulation_state_inmemorysimulationstate_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate_init",
+      "target": "simulationclock",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate_init",
+      "target": "simulationentity",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate_init",
+      "target": "random",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate_init",
+      "target": "random",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate",
+      "target": "$graphify-root$_services_simulation_state_inmemorysimulationstate_rng_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate",
+      "target": "$graphify-root$_services_simulation_state_inmemorysimulationstate_checkpoint",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_inmemorysimulationstate",
+      "target": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_state_rationale_1",
+      "target": "$graphify-root$_services_simulation_state_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/state.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_rng_state",
+      "callee": "getstate",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L44",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "Random",
+      "_python_call_site": [
+        1628,
+        1653
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_rng_state",
+      "callee": "getstate",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L45",
+      "receiver": "r",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1685,
+        1697
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_rng_state",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L45",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1712,
+        1737
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_rng_state",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L47",
+      "receiver": "pickle",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1765,
+        1786
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_checkpoint",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L53",
+      "receiver": "pickle",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1978,
+        2006
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_checkpoint",
+      "callee": "keys",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L55",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2058,
+        2078
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_checkpoint",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L58",
+      "receiver": "pickle",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2168,
+        2189
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L62",
+      "receiver": "pickle",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2290,
+        2308
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "callee": "WallClock",
+      "is_member_call": false,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L64",
+      "receiver": null,
+      "_python_call_site": [
+        2326,
+        2381
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "callee": "advance_to",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L65",
+      "receiver": "clock",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "WallClock",
+      "_python_call_site": [
+        2390,
+        2424
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L67",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2445,
+        2460
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "callee": "setstate",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L68",
+      "receiver": "root_rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2469,
+        2510
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L71",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2593,
+        2627
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L72",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2645,
+        2660
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_restore",
+      "callee": "setstate",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L73",
+      "receiver": "r",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2673,
+        2694
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_checkpoint",
+      "callee": "rng_state",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L53",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_checkpoint",
+      "callee": "real_time_factor",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L52",
+      "_python_attr_read": true,
+      "receiver": "self.clock",
+      "_python_self_attr_type": "SimulationClock"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_state_inmemorysimulationstate_checkpoint",
+      "callee": "now_s",
+      "is_member_call": true,
+      "source_file": "services/simulation/state.py",
+      "source_location": "L51",
+      "_python_attr_read": true,
+      "receiver": "self.clock",
+      "_python_self_attr_type": "SimulationClock"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/simulation.py",
+    "$graphify-root$/services/simulation/clock.py"
+  ]
+}

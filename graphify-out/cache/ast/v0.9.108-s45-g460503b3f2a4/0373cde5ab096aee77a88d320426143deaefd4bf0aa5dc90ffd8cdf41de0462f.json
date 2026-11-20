@@ -1,0 +1,510 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "label": "free_space_reference.py",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_free_space_reference_domain",
+      "label": "_Domain",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "label": "_distance_m()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L23",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel",
+      "label": "FreeSpaceReferenceModel",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L32",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_validity_domain",
+      "label": ".validity_domain()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L35",
+      "_py_return_type": "ValidityDomain",
+      "_callable": true
+    },
+    {
+      "id": "validitydomain",
+      "label": "ValidityDomain",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/free_space_reference.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "label": ".evaluate()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L38",
+      "_py_return_type": "PropagationResult",
+      "_callable": true
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/free_space_reference.py"
+    },
+    {
+      "id": "propagationresult",
+      "label": "PropagationResult",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/free_space_reference.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_free_space_reference_rationale_1",
+      "label": "Reference PropagationModel: free-space path loss (Friis). Distance-aware, so it\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Radio",
+          "Radio"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "PropagationResult",
+          "PropagationResult"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_propagation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.propagation",
+      "_python_import_bindings": [
+        [
+          "ValidityDomain",
+          "ValidityDomain"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/propagation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "target": "$graphify-root$_tests_contract_fakes_free_space_reference_domain",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "target": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "target": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel",
+      "target": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_validity_domain",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_validity_domain",
+      "target": "validitydomain",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel",
+      "target": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "target": "radio",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "target": "propagationresult",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_validity_domain",
+      "target": "$graphify-root$_tests_contract_fakes_free_space_reference_domain",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "target": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_free_space_reference_rationale_1",
+      "target": "$graphify-root$_tests_contract_fakes_free_space_reference_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L25",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        605,
+        624
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L25",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        626,
+        645
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L26",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        668,
+        695
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "sin",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L27",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        704,
+        720
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "cos",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L27",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        728,
+        740
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "cos",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L27",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        743,
+        755
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "sin",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L27",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        758,
+        774
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "asin",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L28",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        801,
+        824
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "sqrt",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L28",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        811,
+        823
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_distance_m",
+      "callee": "hypot",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L29",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        836,
+        873
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L41",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1244,
+        1280
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L42",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1303,
+        1347
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "PropagationResult",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L44",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1467,
+        1548
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "antenna",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L43",
+      "_python_attr_read": true,
+      "receiver": "rx",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "antenna",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L43",
+      "_python_attr_read": true,
+      "receiver": "tx",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "transmitter",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L42",
+      "_python_attr_read": true,
+      "receiver": "tx",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "transmitter",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L42",
+      "_python_attr_read": true,
+      "receiver": "tx",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "frequency",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L40",
+      "_python_attr_read": true,
+      "receiver": "tx",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "position",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L39",
+      "_python_attr_read": true,
+      "receiver": "rx",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_free_space_reference_freespacereferencemodel_evaluate",
+      "callee": "position",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/free_space_reference.py",
+      "source_location": "L39",
+      "_python_attr_read": true,
+      "receiver": "tx",
+      "receiver_type": "Radio"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/radio.py",
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/plugin_sdk/propagation.py"
+  ]
+}

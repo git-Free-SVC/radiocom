@@ -1,0 +1,311 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_determinism_py",
+      "label": "test_determinism.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "label": "_run()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L10",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism",
+      "label": "TestDeterminism",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_same_seed_produces_identical_draws",
+      "label": ".test_same_seed_produces_identical_draws()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L20",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_different_seed_produces_different_draws",
+      "label": ".test_different_seed_produces_different_draws()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L23",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_entity_seed_derivation_is_order_independent",
+      "label": ".test_entity_seed_derivation_is_order_independent()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L26",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_determinism_rationale_1",
+      "label": "The single most important test in this package \u2014 architecture doc \u00a724's\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_py",
+      "target": "$graphify-root$_services_simulation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation",
+      "_python_import_bindings": [
+        [
+          "CoreSimulationEngine",
+          "CoreSimulationEngine"
+        ],
+        [
+          "derive_entity_seed",
+          "derive_entity_seed"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "tests.unit.simulation.conftest",
+      "_python_import_bindings": [
+        [
+          "RngEntity",
+          "RngEntity"
+        ],
+        [
+          "StubScenario",
+          "StubScenario"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/simulation/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism",
+      "target": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_same_seed_produces_identical_draws",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism",
+      "target": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_different_seed_produces_different_draws",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism",
+      "target": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_entity_seed_derivation_is_order_independent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_same_seed_produces_identical_draws",
+      "target": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_different_seed_produces_different_draws",
+      "target": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_determinism_rationale_1",
+      "target": "$graphify-root$_tests_unit_simulation_test_determinism_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L11",
+      "receiver": null,
+      "_python_call_site": [
+        389,
+        430
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "callee": "RngEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L12",
+      "receiver": null,
+      "_python_call_site": [
+        447,
+        469
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L13",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        502,
+        572
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L13",
+      "receiver": null,
+      "_python_call_site": [
+        514,
+        571
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L14",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        577,
+        591
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_run",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L15",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        596,
+        624
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_entity_seed_derivation_is_order_independent",
+      "callee": "derive_entity_seed",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L29",
+      "receiver": null,
+      "_python_call_site": [
+        1153,
+        1180
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_entity_seed_derivation_is_order_independent",
+      "callee": "derive_entity_seed",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L30",
+      "receiver": null,
+      "_python_call_site": [
+        1194,
+        1221
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_entity_seed_derivation_is_order_independent",
+      "callee": "derive_entity_seed",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L31",
+      "receiver": null,
+      "_python_call_site": [
+        1237,
+        1264
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_determinism_testdeterminism_test_entity_seed_derivation_is_order_independent",
+      "callee": "derive_entity_seed",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_determinism.py",
+      "source_location": "L32",
+      "receiver": null,
+      "_python_call_site": [
+        1286,
+        1313
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/simulation/__init__.py",
+    "$graphify-root$/tests/unit/simulation/conftest.py"
+  ]
+}

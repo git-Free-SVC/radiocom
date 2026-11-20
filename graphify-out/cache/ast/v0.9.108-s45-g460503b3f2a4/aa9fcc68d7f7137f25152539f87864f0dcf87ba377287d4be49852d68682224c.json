@@ -1,0 +1,1451 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_scenario_validation_py",
+      "label": "validation.py",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_validator",
+      "label": "_validator()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L29",
+      "_py_return_type": "Draft7Validator",
+      "_callable": true
+    },
+    {
+      "id": "draft7validator",
+      "label": "Draft7Validator",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/scenario/validation.py"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_format_path",
+      "label": "format_path()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L34",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/scenario/validation.py"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_json_type_name",
+      "label": "_json_type_name()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L45",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_quoted",
+      "label": "_quoted()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L63",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_describe",
+      "label": "_describe()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L67",
+      "_callable": true
+    },
+    {
+      "id": "validationerror",
+      "label": "ValidationError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/scenario/validation.py"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_sort_key",
+      "label": "_sort_key()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L89",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_schema_errors",
+      "label": "_schema_errors()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L93",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_depth_errors",
+      "label": "_depth_errors()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "label": "_non_finite_errors()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L124",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_extension_errors",
+      "label": "_extension_errors()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L141",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "label": "validate_scenario_dict()",
+      "file_type": "code",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L186",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_rationale_1",
+      "label": "Schema validation with precise, path-prefixed error messages.",
+      "file_type": "rationale",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_rationale_35",
+      "label": "``['scenario', 'nodes', 1, 'position']`` -> ``scenario.nodes[1].position``.",
+      "file_type": "rationale",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L35"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_rationale_104",
+      "label": "Return one error if ``data`` nests deeper than ``MAX_NESTING_DEPTH``.\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L104"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_rationale_125",
+      "label": "Reject NaN/Infinity anywhere (JSON forbids them; YAML ``.nan``/``.inf`` and\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L125"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_rationale_142",
+      "label": "Checks for the two non-schema conventions (scenario_version, radios). Only\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L142"
+    },
+    {
+      "id": "$graphify-root$_services_scenario_validation_rationale_187",
+      "label": "Validate a raw scenario dict. Returns all errors; an empty list = valid. Runs\u2026",
+      "file_type": "rationale",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L187"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "collections_abc",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "collections.abc",
+      "_python_import_bindings": [
+        [
+          "Iterable",
+          "Iterable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "functools",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "functools",
+      "_python_import_bindings": [
+        [
+          "lru_cache",
+          "lru_cache"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "pathlib",
+      "_python_import_bindings": [
+        [
+          "Path",
+          "Path"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "jsonschema",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "jsonschema",
+      "_python_import_bindings": [
+        [
+          "Draft7Validator",
+          "Draft7Validator"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "jsonschema_exceptions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "jsonschema.exceptions",
+      "_python_import_bindings": [
+        [
+          "ValidationError",
+          "ValidationError"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_validator",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_validator",
+      "target": "draft7validator",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_format_path",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_format_path",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_json_type_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_json_type_name",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_quoted",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_quoted",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_describe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_describe",
+      "target": "validationerror",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_sort_key",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_sort_key",
+      "target": "validationerror",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_sort_key",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_schema_errors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_schema_errors",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_depth_errors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_depth_errors",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_extension_errors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_extension_errors",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L141",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_py",
+      "target": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L186",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_describe",
+      "target": "$graphify-root$_services_scenario_validation_quoted",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_describe",
+      "target": "$graphify-root$_services_scenario_validation_json_type_name",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_schema_errors",
+      "target": "$graphify-root$_services_scenario_validation_sort_key",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_schema_errors",
+      "target": "$graphify-root$_services_scenario_validation_validator",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_schema_errors",
+      "target": "$graphify-root$_services_scenario_validation_format_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_schema_errors",
+      "target": "$graphify-root$_services_scenario_validation_describe",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_depth_errors",
+      "target": "$graphify-root$_services_scenario_validation_format_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "target": "$graphify-root$_services_scenario_validation_format_path",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_extension_errors",
+      "target": "$graphify-root$_services_scenario_validation_json_type_name",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_extension_errors",
+      "target": "$graphify-root$_services_scenario_validation_quoted",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L181",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "target": "$graphify-root$_services_scenario_validation_depth_errors",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L192",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "target": "$graphify-root$_services_scenario_validation_schema_errors",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "target": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "target": "$graphify-root$_services_scenario_validation_extension_errors",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L198",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_rationale_1",
+      "target": "$graphify-root$_services_scenario_validation_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_rationale_35",
+      "target": "$graphify-root$_services_scenario_validation_format_path",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_rationale_104",
+      "target": "$graphify-root$_services_scenario_validation_depth_errors",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_rationale_125",
+      "target": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L125",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_rationale_142",
+      "target": "$graphify-root$_services_scenario_validation_extension_errors",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L142",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_scenario_validation_rationale_187",
+      "target": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L187",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_validator",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L30",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        915,
+        966
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_validator",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L30",
+      "receiver": "SCHEMA_PATH",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        926,
+        965
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_validator",
+      "callee": "Draft7Validator",
+      "is_member_call": false,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L31",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        978,
+        1001
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_format_path",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_json_type_name",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_json_type_name",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L50"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_json_type_name",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L52"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_json_type_name",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_json_type_name",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_json_type_name",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_quoted",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L64",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1840,
+        1874
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L70"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L78"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L84",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2741,
+        2762
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L84"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_sort_key",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L90"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_schema_errors",
+      "callee": "iter_errors",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L94",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3142,
+        3172
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_schema_errors",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L99",
+      "receiver": "messages",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3400,
+        3420
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_depth_errors",
+      "callee": "pop",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L110",
+      "receiver": "stack",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3727,
+        3738
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_depth_errors",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L111"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_depth_errors",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L112",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3827,
+        3840
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_depth_errors",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L113"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_depth_errors",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L120",
+      "receiver": "stack",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4193,
+        4215
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "pop",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L131",
+      "receiver": "stack",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4622,
+        4633
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L132"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L132",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4678,
+        4698
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L133",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4712,
+        4787
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L135",
+      "receiver": "stack",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4838,
+        4893
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L135",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4879,
+        4892
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L136"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_non_finite_errors",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L137",
+      "receiver": "stack",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4944,
+        5002
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L152"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L152"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L153",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5527,
+        5610
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L159"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L160",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5794,
+        5875
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L162",
+      "receiver": "radios",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5926,
+        5940
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L163"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L164",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5992,
+        6063
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L165"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L166",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6123,
+        6249
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L170",
+      "receiver": "scenario",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6263,
+        6284
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L171"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L174",
+      "receiver": "node",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6465,
+        6482
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L177",
+      "receiver": "node",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6624,
+        6647
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_extension_errors",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L178",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6664,
+        6925
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L196",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7398,
+        7437
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L197"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L197"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L197",
+      "receiver": "data",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Any",
+      "_python_call_site": [
+        7483,
+        7503
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_validate_scenario_dict",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L198",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        7520,
+        7558
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "message",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L86",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "instance",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L85",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "validator_value",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L83",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "validator_value",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L81",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "instance",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L79",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "instance",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L78",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "validator_value",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L76",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "instance",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L75",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "validator_value",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L71",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "instance",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L70",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "instance",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L70",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_describe",
+      "callee": "validator",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L68",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_scenario_validation_sort_key",
+      "callee": "absolute_path",
+      "is_member_call": true,
+      "source_file": "services/scenario/validation.py",
+      "source_location": "L90",
+      "_python_attr_read": true,
+      "receiver": "error",
+      "receiver_type": "ValidationError"
+    }
+  ]
+}

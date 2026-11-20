@@ -1,0 +1,317 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_api_ws_contract_py",
+      "label": "ws_contract.py",
+      "file_type": "code",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_ws_contract_telemetry_topic",
+      "label": "telemetry_topic()",
+      "file_type": "code",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L123",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ws_contract_make_message",
+      "label": "make_message()",
+      "file_type": "code",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L127",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/ws_contract.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_ws_contract_build_telemetry_snapshot",
+      "label": "build_telemetry_snapshot()",
+      "file_type": "code",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L132",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ws_contract_spectrum_snapshot",
+      "label": "spectrum_snapshot()",
+      "file_type": "code",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L144",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_ws_contract_rationale_1",
+      "label": "The API-local WebSocket contract \u2014 single source of envelope, topics, channels\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_ws_contract_rationale_128",
+      "label": "The one envelope constructor \u2014 every outbound WS message goes through it.",
+      "file_type": "rationale",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L128"
+    },
+    {
+      "id": "$graphify-root$_services_api_ws_contract_rationale_135",
+      "label": "Initial state: exactly one snapshot payload per telemetry channel. Each link\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L135"
+    },
+    {
+      "id": "$graphify-root$_services_api_ws_contract_rationale_145",
+      "label": "Current occupancy frame: the last spectrum event published on the bus, or the\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L145"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_api_ws_contract_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_py",
+      "target": "$graphify-root$_services_api_schemas_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_python_import_module": "services.api.schemas",
+      "_python_import_bindings": [
+        [
+          "LINK_SCHEMA",
+          "LINK_SCHEMA"
+        ],
+        [
+          "RADIO_SCHEMA",
+          "RADIO_SCHEMA"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/schemas.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_py",
+      "target": "$graphify-root$_services_api_ws_contract_telemetry_topic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L123",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_py",
+      "target": "$graphify-root$_services_api_ws_contract_make_message",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_make_message",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_make_message",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_py",
+      "target": "$graphify-root$_services_api_ws_contract_build_telemetry_snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_build_telemetry_snapshot",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_py",
+      "target": "$graphify-root$_services_api_ws_contract_spectrum_snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_spectrum_snapshot",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_rationale_1",
+      "target": "$graphify-root$_services_api_ws_contract_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_rationale_128",
+      "target": "$graphify-root$_services_api_ws_contract_make_message",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_rationale_135",
+      "target": "$graphify-root$_services_api_ws_contract_build_telemetry_snapshot",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_ws_contract_rationale_145",
+      "target": "$graphify-root$_services_api_ws_contract_spectrum_snapshot",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L145",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_api_ws_contract_telemetry_topic",
+      "callee": "format",
+      "is_member_call": true,
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L124",
+      "receiver": "TELEMETRY_TOPIC_TEMPLATE",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4887,
+        4947
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_ws_contract_spectrum_snapshot",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L147"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_ws_contract_spectrum_snapshot",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L147"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_ws_contract_spectrum_snapshot",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L147",
+      "receiver": "last_payload",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5949,
+        5973
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_ws_contract_spectrum_snapshot",
+      "callee": "SPECTRUM_EMPTY_SNAPSHOT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L149"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_ws_contract_py",
+      "callee": "RADIO_SCHEMA",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L97"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_ws_contract_py",
+      "callee": "RADIO_SCHEMA",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L104"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_ws_contract_py",
+      "callee": "LINK_SCHEMA",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/ws_contract.py",
+      "source_location": "L119"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/api/schemas.py"
+  ]
+}

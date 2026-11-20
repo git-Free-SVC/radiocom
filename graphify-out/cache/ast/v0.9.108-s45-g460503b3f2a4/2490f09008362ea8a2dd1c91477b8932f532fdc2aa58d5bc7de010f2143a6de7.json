@@ -1,0 +1,2337 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "label": "test_physics_link_budget.py",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "label": "test_watts_to_dbm_known()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L24",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_known",
+      "label": "test_dbm_to_watts_known()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L31",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "label": "test_round_trips()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_link_budget.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_bad",
+      "label": "test_watts_to_dbm_bad()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L47",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_denormal_ok",
+      "label": "test_watts_to_dbm_denormal_ok()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_bad_or_out_of_range",
+      "label": "test_dbm_to_watts_bad_or_out_of_range()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L57",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "label": "test_reference_chain_from_architecture()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L62",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_received_power_all_terms",
+      "label": "test_received_power_all_terms()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L73",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_noise_floor_known",
+      "label": "test_noise_floor_known()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L77",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "label": "test_identities_random()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "label": "test_eb_n0()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L104",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "label": "test_bandwidth_and_rate_bad()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "label": "test_every_db_argument_rejects_nonfinite()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L122",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_overflowing_sum_raises_not_inf",
+      "label": "test_overflowing_sum_raises_not_inf()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L140",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_very_large_gain_still_finite",
+      "label": "test_very_large_gain_still_finite()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L147",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "label": "_budget()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L152",
+      "_py_return_type": "LinkBudgetInput",
+      "_callable": true
+    },
+    {
+      "id": "linkbudgetinput",
+      "label": "LinkBudgetInput",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_link_budget.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "label": "test_compute_link_budget_reference()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L166",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_quality_transitions",
+      "label": "test_compute_link_budget_quality_transitions()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L178",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_model_agnostic_mock_loss",
+      "label": "test_compute_link_budget_model_agnostic_mock_loss()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L184",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_rejects_bad_bandwidth",
+      "label": "test_compute_link_budget_rejects_bad_bandwidth()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L193",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_rationale_1",
+      "label": "Link-budget math: reference chain, identities, round trips, hostile inputs.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_rationale_63",
+      "label": "10 W (40 dBm), 2.15 dBi both ends, 10 km @ 145.5 MHz, 12.5 kHz, NF 5 dB.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L63"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_link_budget_rationale_185",
+      "label": "Any model's path loss (here: fixed mock values) flows through consistently.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L185"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "LinkBudgetInput",
+          "LinkBudgetInput"
+        ],
+        [
+          "LinkQuality",
+          "LinkQuality"
+        ],
+        [
+          "LinkState",
+          "LinkState"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.errors",
+      "_python_import_bindings": [
+        [
+          "PhysicsInputError",
+          "PhysicsInputError"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.link_budget",
+      "_python_import_bindings": [
+        [
+          "compute_link_budget",
+          "compute_link_budget"
+        ],
+        [
+          "dbm_to_watts",
+          "dbm_to_watts"
+        ],
+        [
+          "eb_n0_db",
+          "eb_n0_db"
+        ],
+        [
+          "link_margin_db",
+          "link_margin_db"
+        ],
+        [
+          "noise_floor_dbm",
+          "noise_floor_dbm"
+        ],
+        [
+          "received_power_dbm",
+          "received_power_dbm"
+        ],
+        [
+          "snr_db",
+          "snr_db"
+        ],
+        [
+          "watts_to_dbm",
+          "watts_to_dbm"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/link_budget.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_known",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_bad",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_bad",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_denormal_ok",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_bad_or_out_of_range",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_bad_or_out_of_range",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_received_power_all_terms",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_noise_floor_known",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_overflowing_sum_raises_not_inf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_very_large_gain_still_finite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "target": "linkbudgetinput",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_quality_transitions",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_model_agnostic_mock_loss",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_rejects_bad_bandwidth",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_quality_transitions",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_model_agnostic_mock_loss",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_rejects_bad_bandwidth",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L195",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_rationale_1",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_rationale_63",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_link_budget_rationale_185",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_model_agnostic_mock_loss",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L185",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L25",
+      "receiver": null,
+      "_python_call_site": [
+        546,
+        563
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L25",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        567,
+        597
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L26",
+      "receiver": null,
+      "_python_call_site": [
+        609,
+        627
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L26",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        631,
+        661
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L27",
+      "receiver": null,
+      "_python_call_site": [
+        673,
+        692
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L27",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        696,
+        725
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L28",
+      "receiver": null,
+      "_python_call_site": [
+        737,
+        756
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L28",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        760,
+        790
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_known",
+      "callee": "dbm_to_watts",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L32",
+      "receiver": null,
+      "_python_call_site": [
+        843,
+        861
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L32",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        865,
+        894
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_known",
+      "callee": "dbm_to_watts",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L33",
+      "receiver": null,
+      "_python_call_site": [
+        906,
+        923
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L33",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        927,
+        957
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_known",
+      "callee": "dbm_to_watts",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L34",
+      "receiver": null,
+      "_python_call_site": [
+        969,
+        989
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L34",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        993,
+        1039
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L38",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1084,
+        1100
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L40",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        1149,
+        1169
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "dbm_to_watts",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L41",
+      "receiver": null,
+      "_python_call_site": [
+        1185,
+        1214
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L41",
+      "receiver": null,
+      "_python_call_site": [
+        1198,
+        1213
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L41",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1218,
+        1244
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L42",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        1259,
+        1281
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_call_site": [
+        1297,
+        1328
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "dbm_to_watts",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L43",
+      "receiver": null,
+      "_python_call_site": [
+        1310,
+        1327
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_round_trips",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L43",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1332,
+        1360
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_bad",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L48",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1507,
+        1559
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_bad",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_bad",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L49",
+      "receiver": null,
+      "_python_call_site": [
+        1569,
+        1586
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_denormal_ok",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L53",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1671,
+        1706
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_watts_to_dbm_denormal_ok",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        1685,
+        1705
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_bad_or_out_of_range",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L58",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1859,
+        1891
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_bad_or_out_of_range",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L58"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_dbm_to_watts_bad_or_out_of_range",
+      "callee": "dbm_to_watts",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L59",
+      "receiver": null,
+      "_python_call_site": [
+        1901,
+        1918
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "callee": "received_power_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_call_site": [
+        2084,
+        2124
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L66",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2142,
+        2173
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "callee": "noise_floor_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L67",
+      "receiver": null,
+      "_python_call_site": [
+        2182,
+        2212
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L68",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2229,
+        2261
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "callee": "snr_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L69",
+      "receiver": null,
+      "_python_call_site": [
+        2273,
+        2286
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L69",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2290,
+        2320
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "callee": "link_margin_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L70",
+      "receiver": null,
+      "_python_call_site": [
+        2332,
+        2358
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_reference_chain_from_architecture",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L70",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2362,
+        2392
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_received_power_all_terms",
+      "callee": "received_power_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L74",
+      "receiver": null,
+      "_python_call_site": [
+        2451,
+        2504
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_received_power_all_terms",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L74",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2508,
+        2528
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_noise_floor_known",
+      "callee": "noise_floor_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2580,
+        2600
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_noise_floor_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L78",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2604,
+        2625
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_noise_floor_known",
+      "callee": "noise_floor_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L79",
+      "receiver": null,
+      "_python_call_site": [
+        2637,
+        2662
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_noise_floor_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L79",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2666,
+        2687
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_noise_floor_known",
+      "callee": "noise_floor_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L80",
+      "receiver": null,
+      "_python_call_site": [
+        2699,
+        2724
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_noise_floor_known",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L80",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2728,
+        2749
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L84",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2800,
+        2816
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L86",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2866,
+        2886
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L86",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2888,
+        2908
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L86",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2910,
+        2930
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L87",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2947,
+        2967
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L87",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2969,
+        2987
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L88",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        3011,
+        3033
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L88",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        3035,
+        3053
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L88",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        3063,
+        3080
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "received_power_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_call_site": [
+        3094,
+        3128
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "noise_floor_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        3141,
+        3164
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "link_margin_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L92",
+      "receiver": null,
+      "_python_call_site": [
+        3231,
+        3255
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L92",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3259,
+        3294
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "snr_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L93",
+      "receiver": null,
+      "_python_call_site": [
+        3310,
+        3323
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L93",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3327,
+        3359
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "received_power_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L96",
+      "receiver": null,
+      "_python_call_site": [
+        3551,
+        3596
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L97",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3628,
+        3654
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "link_margin_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L98",
+      "receiver": null,
+      "_python_call_site": [
+        3674,
+        3698
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "link_margin_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L98",
+      "receiver": null,
+      "_python_call_site": [
+        3701,
+        3726
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L98",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3730,
+        3786
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "received_power_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L101",
+      "receiver": null,
+      "_python_call_site": [
+        3807,
+        3845
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_identities_random",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L101",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3849,
+        3875
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "callee": "eb_n0_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L105",
+      "receiver": null,
+      "_python_call_site": [
+        3915,
+        3949
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L105",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3953,
+        3972
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "callee": "eb_n0_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L106",
+      "receiver": null,
+      "_python_call_site": [
+        3999,
+        4032
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L106",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4036,
+        4055
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "callee": "eb_n0_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L107",
+      "receiver": null,
+      "_python_call_site": [
+        4067,
+        4100
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L107",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4104,
+        4122
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L108",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4134,
+        4177
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_eb_n0",
+      "callee": "eb_n0_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L108",
+      "receiver": null,
+      "_python_call_site": [
+        4148,
+        4176
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L113",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4307,
+        4361
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L113"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "noise_floor_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L114",
+      "receiver": null,
+      "_python_call_site": [
+        4371,
+        4391
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L115",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4401,
+        4455
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L115"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "eb_n0_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L116",
+      "receiver": null,
+      "_python_call_site": [
+        4465,
+        4488
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L117",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4498,
+        4551
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L117"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_bandwidth_and_rate_bad",
+      "callee": "eb_n0_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L118",
+      "receiver": null,
+      "_python_call_site": [
+        4561,
+        4584
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L126",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4805,
+        4837
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L126"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "received_power_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L127",
+      "receiver": null,
+      "_python_call_site": [
+        4851,
+        4876
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L128",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4886,
+        4918
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L128"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "noise_floor_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L129",
+      "receiver": null,
+      "_python_call_site": [
+        4928,
+        4953
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L130",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4963,
+        4995
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L130"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "snr_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L131",
+      "receiver": null,
+      "_python_call_site": [
+        5005,
+        5021
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L132",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5031,
+        5063
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L132"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "snr_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L133",
+      "receiver": null,
+      "_python_call_site": [
+        5073,
+        5089
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L134",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5099,
+        5131
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "link_margin_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L135",
+      "receiver": null,
+      "_python_call_site": [
+        5141,
+        5165
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L136",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5175,
+        5207
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L136"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_every_db_argument_rejects_nonfinite",
+      "callee": "link_margin_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L137",
+      "receiver": null,
+      "_python_call_site": [
+        5217,
+        5241
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_overflowing_sum_raises_not_inf",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L141",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5304,
+        5360
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_overflowing_sum_raises_not_inf",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L141"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_overflowing_sum_raises_not_inf",
+      "callee": "received_power_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L142",
+      "receiver": null,
+      "_python_call_site": [
+        5370,
+        5414
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_overflowing_sum_raises_not_inf",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L143",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5424,
+        5469
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_overflowing_sum_raises_not_inf",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L143"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_overflowing_sum_raises_not_inf",
+      "callee": "snr_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L144",
+      "receiver": null,
+      "_python_call_site": [
+        5479,
+        5500
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_very_large_gain_still_finite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L148",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5563,
+        5619
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_very_large_gain_still_finite",
+      "callee": "received_power_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L148",
+      "receiver": null,
+      "_python_call_site": [
+        5577,
+        5618
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "callee": "update",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L162",
+      "receiver": "base",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5990,
+        6005
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "callee": "kw",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L162"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_budget",
+      "callee": "LinkBudgetInput",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L163",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        6017,
+        6040
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "callee": "compute_link_budget",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L167",
+      "receiver": null,
+      "_python_call_site": [
+        6101,
+        6131
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L168",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6161,
+        6192
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L169",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6225,
+        6257
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L170",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6281,
+        6311
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L171",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6338,
+        6368
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "callee": "to_link_state",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L173",
+      "receiver": "r",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6420,
+        6437
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_reference",
+      "callee": "LinkState",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L174"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_quality_transitions",
+      "callee": "compute_link_budget",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L179",
+      "receiver": null,
+      "_python_call_site": [
+        6647,
+        6695
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_quality_transitions",
+      "callee": "compute_link_budget",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L181",
+      "receiver": null,
+      "_python_call_site": [
+        6795,
+        6849
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_model_agnostic_mock_loss",
+      "callee": "compute_link_budget",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L187",
+      "receiver": null,
+      "_python_call_site": [
+        7092,
+        7139
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_model_agnostic_mock_loss",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L188",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7173,
+        7216
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_model_agnostic_mock_loss",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L189",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7247,
+        7295
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_model_agnostic_mock_loss",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L190",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7323,
+        7383
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_rejects_bad_bandwidth",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L194",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7457,
+        7489
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_rejects_bad_bandwidth",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L194"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_test_compute_link_budget_rejects_bad_bandwidth",
+      "callee": "compute_link_budget",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L195",
+      "receiver": null,
+      "_python_call_site": [
+        7499,
+        7545
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L46"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L56"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L111"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L111"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L121"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_link_budget_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_link_budget.py",
+      "source_location": "L121"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/physics/errors.py",
+    "$graphify-root$/libraries/physics/link_budget.py"
+  ]
+}

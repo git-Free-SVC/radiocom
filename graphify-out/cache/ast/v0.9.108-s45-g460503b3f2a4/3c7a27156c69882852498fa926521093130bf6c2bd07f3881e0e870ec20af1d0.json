@@ -1,0 +1,347 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_tick_precision_py",
+      "label": "test_tick_precision.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity",
+      "label": "_SilentEntity",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L15",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity_on_tick",
+      "label": ".on_tick()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L19",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision",
+      "label": "TestTickPrecision",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "label": ".test_long_run_clock_lands_on_exact_value()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L24",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_entity_receives_correct_tick_count",
+      "label": ".test_entity_receives_correct_tick_count()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_tick_precision_rationale_1",
+      "label": "Regression test for a real bug found by stress-testing: scheduling each tick as\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_py",
+      "target": "$graphify-root$_services_simulation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation",
+      "_python_import_bindings": [
+        [
+          "CoreSimulationEngine",
+          "CoreSimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "tests.unit.simulation.conftest",
+      "_python_import_bindings": [
+        [
+          "StubScenario",
+          "StubScenario"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/simulation/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity_on_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_entity_receives_correct_tick_count",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_entity_receives_correct_tick_count",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_silententity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_tick_precision_rationale_1",
+      "target": "$graphify-root$_tests_unit_simulation_test_tick_precision_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L26",
+      "receiver": null,
+      "_python_call_site": [
+        911,
+        953
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L27",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        962,
+        1027
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L27",
+      "receiver": null,
+      "_python_call_site": [
+        974,
+        1026
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L28",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1036,
+        1050
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L29",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1059,
+        1089
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_entity_receives_correct_tick_count",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_call_site": [
+        1424,
+        1466
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_entity_receives_correct_tick_count",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L39",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1475,
+        1540
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_entity_receives_correct_tick_count",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_call_site": [
+        1487,
+        1539
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_entity_receives_correct_tick_count",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L40",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1549,
+        1563
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_entity_receives_correct_tick_count",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L41",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1572,
+        1602
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L33",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "CoreSimulationEngine"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_tick_precision_testtickprecision_test_long_run_clock_lands_on_exact_value",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_tick_precision.py",
+      "source_location": "L31",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "CoreSimulationEngine"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/simulation/__init__.py",
+    "$graphify-root$/tests/unit/simulation/conftest.py"
+  ]
+}

@@ -1,0 +1,941 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_api_serialization_py",
+      "label": "serialization.py",
+      "file_type": "code",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "label": "datetime_to_iso()",
+      "file_type": "code",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L24",
+      "_callable": true
+    },
+    {
+      "id": "datetime",
+      "label": "datetime",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/serialization.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "label": "iter_non_finite()",
+      "file_type": "code",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/serialization.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_to_payload",
+      "label": "to_payload()",
+      "file_type": "code",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L54",
+      "_py_return_type": "Any",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_radio_to_payload",
+      "label": "radio_to_payload()",
+      "file_type": "code",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L86",
+      "_callable": true
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/serialization.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_position_payload",
+      "label": "position_payload()",
+      "file_type": "code",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L104",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_link_to_payload",
+      "label": "link_to_payload()",
+      "file_type": "code",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L109",
+      "_callable": true
+    },
+    {
+      "id": "linkstate",
+      "label": "LinkState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/serialization.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_rationale_1",
+      "label": "The single payload conversion layer: frozen domain types -> JSON-safe data.\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_rationale_25",
+      "label": "ISO-8601 UTC; naive datetimes are assumed UTC and end with a Z suffix.",
+      "file_type": "rationale",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L25"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_rationale_36",
+      "label": "Return the dotted paths of every NaN/inf float inside a JSON-like value.\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L36"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_rationale_55",
+      "label": "Recursively convert a domain object / JSON-like value to JSON-safe data. Non-\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_rationale_87",
+      "label": "Wire shape for a radio (API-declared: openapi.yaml has no schemas). Key order\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L87"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_rationale_105",
+      "label": "Map-channel event: {id, lat, lon, alt_m} derived from a radio's position.",
+      "file_type": "rationale",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L105"
+    },
+    {
+      "id": "$graphify-root$_services_api_serialization_rationale_110",
+      "label": "Mirror of libraries/protocols/events/link_state_changed.schema.json keys.",
+      "file_type": "rationale",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L110"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "dataclasses",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclasses",
+          "dataclasses"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "datetime",
+      "_python_import_bindings": [
+        [
+          "UTC",
+          "UTC"
+        ],
+        [
+          "datetime",
+          "datetime"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "enum",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "enum",
+      "_python_import_bindings": [
+        [
+          "Enum",
+          "Enum"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Radio",
+          "Radio"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "LinkState",
+          "LinkState"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_services_api_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "services.api.errors",
+      "_python_import_bindings": [
+        [
+          "ResponseContractError",
+          "ResponseContractError"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "target": "datetime",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_services_api_serialization_to_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_to_payload",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_to_payload",
+      "target": "any",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_services_api_serialization_radio_to_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_radio_to_payload",
+      "target": "radio",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_radio_to_payload",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_services_api_serialization_position_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_position_payload",
+      "target": "radio",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_position_payload",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L104",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_py",
+      "target": "$graphify-root$_services_api_serialization_link_to_payload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_link_to_payload",
+      "target": "linkstate",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_link_to_payload",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "target": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_to_payload",
+      "target": "$graphify-root$_services_api_serialization_to_payload",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_to_payload",
+      "target": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_radio_to_payload",
+      "target": "$graphify-root$_services_api_serialization_to_payload",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_position_payload",
+      "target": "$graphify-root$_services_api_serialization_to_payload",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_link_to_payload",
+      "target": "$graphify-root$_services_api_serialization_to_payload",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_rationale_1",
+      "target": "$graphify-root$_services_api_serialization_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_rationale_25",
+      "target": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_rationale_36",
+      "target": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_rationale_55",
+      "target": "$graphify-root$_services_api_serialization_to_payload",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_rationale_87",
+      "target": "$graphify-root$_services_api_serialization_radio_to_payload",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_rationale_105",
+      "target": "$graphify-root$_services_api_serialization_position_payload",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_serialization_rationale_110",
+      "target": "$graphify-root$_services_api_serialization_link_to_payload",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L110",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "callee": "replace",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L27",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        926,
+        951
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "callee": "UTC",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "callee": "astimezone",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L28",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        964,
+        985
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "callee": "UTC",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L28"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "callee": "isoformat",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L29",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        997,
+        1014
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_datetime_to_iso",
+      "callee": "endswith",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L30",
+      "receiver": "text",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1022,
+        1045
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L43"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L43",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1545,
+        1565
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L44",
+      "receiver": "found",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1575,
+        1593
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L45"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L46",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Any",
+      "_python_call_site": [
+        1653,
+        1666
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L47",
+      "receiver": "found",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1680,
+        1732
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "tuple",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L48"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_iter_non_finite",
+      "callee": "extend",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L50",
+      "receiver": "found",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1833,
+        1888
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L61"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L63"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L64",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2388,
+        2408
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "ResponseContractError",
+      "is_member_call": false,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_call_site": [
+        2428,
+        2501
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "Enum",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "datetime",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L69"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "is_dataclass",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L71",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2675,
+        2706
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "type",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L71"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "fields",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L73",
+      "receiver": "dataclasses",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2797,
+        2822
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "tuple",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L79"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "dict",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/serialization.py",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L82",
+      "receiver": "value",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Any",
+      "_python_call_site": [
+        3238,
+        3251
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "ResponseContractError",
+      "is_member_call": false,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L83",
+      "receiver": null,
+      "_python_call_site": [
+        3263,
+        3342
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_to_payload",
+      "callee": "value",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L68",
+      "_python_attr_read": true,
+      "receiver": "value",
+      "receiver_type": "Any"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_position_payload",
+      "callee": "position",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L106",
+      "_python_attr_read": true,
+      "receiver": "radio",
+      "receiver_type": "Radio"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_serialization_position_payload",
+      "callee": "id",
+      "is_member_call": true,
+      "source_file": "services/api/serialization.py",
+      "source_location": "L106",
+      "_python_attr_read": true,
+      "receiver": "radio",
+      "receiver_type": "Radio"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/radio.py",
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/services/api/errors.py"
+  ]
+}

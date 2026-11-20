@@ -1,0 +1,155 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_test_sdk_frozen_py",
+      "label": "test_sdk_frozen.py",
+      "file_type": "code",
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_sdk_frozen_test_public_surface_matches_frozen_snapshot",
+      "label": "test_public_surface_matches_frozen_snapshot()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L11",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_sdk_frozen_rationale_1",
+      "label": "Freeze gate: fails on ANY change to a public SDK/domain signature. Intentional\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_test_sdk_frozen_py",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "json",
+      "_python_import_bindings": [
+        [
+          "json",
+          "json"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_sdk_frozen_py",
+      "target": "$graphify-root$_tests_contract_snapshot_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "tests.contract._snapshot",
+      "_python_import_bindings": [
+        [
+          "SNAPSHOT",
+          "SNAPSHOT"
+        ],
+        [
+          "build",
+          "build"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/contract/_snapshot.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_sdk_frozen_py",
+      "target": "$graphify-root$_tests_contract_test_sdk_frozen_test_public_surface_matches_frozen_snapshot",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_sdk_frozen_rationale_1",
+      "target": "$graphify-root$_tests_contract_test_sdk_frozen_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_sdk_frozen_test_public_surface_matches_frozen_snapshot",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L12",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        335,
+        367
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_sdk_frozen_test_public_surface_matches_frozen_snapshot",
+      "callee": "read_text",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L12",
+      "receiver": "SNAPSHOT",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        346,
+        366
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_sdk_frozen_test_public_surface_matches_frozen_snapshot",
+      "callee": "loads",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L13",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        382,
+        413
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_sdk_frozen_test_public_surface_matches_frozen_snapshot",
+      "callee": "dumps",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L13",
+      "receiver": "json",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        393,
+        412
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_sdk_frozen_test_public_surface_matches_frozen_snapshot",
+      "callee": "build",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_sdk_frozen.py",
+      "source_location": "L13",
+      "receiver": null,
+      "_python_call_site": [
+        404,
+        411
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/tests/contract/_snapshot.py"
+  ]
+}

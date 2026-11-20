@@ -1,0 +1,335 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_physics_validate_py",
+      "label": "_validate.py",
+      "file_type": "code",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_finite",
+      "label": "finite()",
+      "file_type": "code",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L10",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_positive",
+      "label": "positive()",
+      "file_type": "code",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L20",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_in_range",
+      "label": "in_range()",
+      "file_type": "code",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_finite_result",
+      "label": "finite_result()",
+      "file_type": "code",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_rationale_1",
+      "label": "Private argument validators shared by the physics modules.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_rationale_11",
+      "label": "Return ``value`` as a float if it is a finite real number, else raise.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L11"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_rationale_21",
+      "label": "Return ``value`` if it is finite and strictly positive, else raise.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_rationale_29",
+      "label": "Return ``value`` if finite and within ``[low, high]``, else raise.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L29"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_validate_rationale_37",
+      "label": "Guard an *output*: raise instead of returning NaN/inf.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L37"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_physics_validate_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.errors",
+      "_python_import_bindings": [
+        [
+          "PhysicsInputError",
+          "PhysicsInputError"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_py",
+      "target": "$graphify-root$_libraries_physics_validate_finite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_py",
+      "target": "$graphify-root$_libraries_physics_validate_positive",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_py",
+      "target": "$graphify-root$_libraries_physics_validate_in_range",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_py",
+      "target": "$graphify-root$_libraries_physics_validate_finite_result",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_positive",
+      "target": "$graphify-root$_libraries_physics_validate_finite",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_in_range",
+      "target": "$graphify-root$_libraries_physics_validate_finite",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_rationale_1",
+      "target": "$graphify-root$_libraries_physics_validate_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_rationale_11",
+      "target": "$graphify-root$_libraries_physics_validate_finite",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_rationale_21",
+      "target": "$graphify-root$_libraries_physics_validate_positive",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_rationale_29",
+      "target": "$graphify-root$_libraries_physics_validate_in_range",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_validate_rationale_37",
+      "target": "$graphify-root$_libraries_physics_validate_finite_result",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L37",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_finite",
+      "callee": "bool",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_finite",
+      "callee": "int",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_finite",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_finite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L13",
+      "receiver": null,
+      "_python_call_site": [
+        384,
+        449
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_finite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L15",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        487,
+        508
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_finite",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L16",
+      "receiver": null,
+      "_python_call_site": [
+        524,
+        582
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_positive",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L24",
+      "receiver": null,
+      "_python_call_site": [
+        798,
+        853
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_in_range",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L32",
+      "receiver": null,
+      "_python_call_site": [
+        1105,
+        1179
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_finite_result",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L38",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1329,
+        1349
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_validate_finite_result",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/_validate.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_call_site": [
+        1365,
+        1448
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/physics/errors.py"
+  ]
+}

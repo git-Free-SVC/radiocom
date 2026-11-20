@@ -1,0 +1,683 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "label": "test_stress_free_space.py",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "label": "_radio()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L15",
+      "_py_return_type": "Radio",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "label": "test_concurrent_shared_radio_calls_are_deterministic()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L26",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_evaluate_performance_100000_calls_under_five_seconds",
+      "label": "test_evaluate_performance_100000_calls_under_five_seconds()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_rx_bandwidth_does_not_change_propagation_received_power",
+      "label": "test_rx_bandwidth_does_not_change_propagation_received_power()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L49",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "label": "test_zero_transmit_power_rejects_with_named_error()",
+      "file_type": "code",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L61",
+      "_callable": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "concurrent_futures",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_python_import_module": "concurrent.futures",
+      "_python_import_bindings": [
+        [
+          "concurrent.futures",
+          "concurrent"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "time",
+      "_python_import_bindings": [
+        [
+          "time",
+          "time"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "replace",
+          "replace"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_libraries_domain_frequency_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.frequency",
+      "_python_import_bindings": [
+        [
+          "Frequency",
+          "Frequency"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/frequency.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Antenna",
+          "Antenna"
+        ],
+        [
+          "Radio",
+          "Radio"
+        ],
+        [
+          "Receiver",
+          "Receiver"
+        ],
+        [
+          "Transmitter",
+          "Transmitter"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.errors",
+      "_python_import_bindings": [
+        [
+          "PhysicsInputError",
+          "PhysicsInputError"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_services_propagation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "services.propagation",
+      "_python_import_bindings": [
+        [
+          "FreeSpaceModel",
+          "FreeSpaceModel"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/propagation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_evaluate_performance_100000_calls_under_five_seconds",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_rx_bandwidth_does_not_change_propagation_received_power",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_py",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_evaluate_performance_100000_calls_under_five_seconds",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_rx_bandwidth_does_not_change_propagation_received_power",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "target": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L62",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "callee": "Radio",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L16",
+      "receiver": null,
+      "_python_call_site": [
+        514,
+        873
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L18",
+      "receiver": null,
+      "_python_call_site": [
+        557,
+        613
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "callee": "Transmitter",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L19",
+      "receiver": null,
+      "_python_call_site": [
+        636,
+        664
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "callee": "Receiver",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L20",
+      "receiver": null,
+      "_python_call_site": [
+        684,
+        737
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "callee": "Antenna",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L21",
+      "receiver": null,
+      "_python_call_site": [
+        756,
+        816
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_radio",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L22",
+      "receiver": null,
+      "_python_call_site": [
+        836,
+        865
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "callee": "FreeSpaceModel",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L27",
+      "receiver": null,
+      "_python_call_site": [
+        960,
+        976
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L29",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_call_site": [
+        1047,
+        1069
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "callee": "ThreadPoolExecutor",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L30",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1080,
+        1132
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "callee": "map",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L31",
+      "receiver": "executor",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "ThreadPoolExecutor",
+      "_python_call_site": [
+        1170,
+        1230
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L31",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_call_site": [
+        1193,
+        1215
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L33",
+      "receiver": null,
+      "_python_call_site": [
+        1317,
+        1347
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_concurrent_shared_radio_calls_are_deterministic",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L34",
+      "receiver": null,
+      "_python_call_site": [
+        1375,
+        1406
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_evaluate_performance_100000_calls_under_five_seconds",
+      "callee": "FreeSpaceModel",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L38",
+      "receiver": null,
+      "_python_call_site": [
+        1498,
+        1514
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_evaluate_performance_100000_calls_under_five_seconds",
+      "callee": "perf_counter",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L40",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1582,
+        1601
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_evaluate_performance_100000_calls_under_five_seconds",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L42",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_call_site": [
+        1650,
+        1672
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_evaluate_performance_100000_calls_under_five_seconds",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L43",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1689,
+        1723
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_evaluate_performance_100000_calls_under_five_seconds",
+      "callee": "perf_counter",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L44",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1739,
+        1758
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_rx_bandwidth_does_not_change_propagation_received_power",
+      "callee": "FreeSpaceModel",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L51",
+      "receiver": null,
+      "_python_call_site": [
+        1967,
+        1983
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_rx_bandwidth_does_not_change_propagation_received_power",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L52",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_call_site": [
+        2000,
+        2022
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_rx_bandwidth_does_not_change_propagation_received_power",
+      "callee": "replace",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L54",
+      "receiver": null,
+      "_python_call_site": [
+        2085,
+        2213
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_rx_bandwidth_does_not_change_propagation_received_power",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L56",
+      "receiver": null,
+      "_python_call_site": [
+        2134,
+        2201
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_rx_bandwidth_does_not_change_propagation_received_power",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L58",
+      "receiver": "model",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FreeSpaceModel",
+      "_python_call_site": [
+        2230,
+        2260
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "callee": "replace",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L63",
+      "receiver": null,
+      "_python_call_site": [
+        2443,
+        2495
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "callee": "Transmitter",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L63",
+      "receiver": null,
+      "_python_call_site": [
+        2467,
+        2494
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "callee": "evaluate",
+      "is_member_call": true,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2515,
+        2558
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "callee": "FreeSpaceModel",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_call_site": [
+        2515,
+        2531
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L67"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_propagation_test_stress_free_space_test_zero_transmit_power_rejects_with_named_error",
+      "callee": "AssertionError",
+      "is_member_call": false,
+      "source_file": "tests/unit/propagation/test_stress_free_space.py",
+      "source_location": "L69",
+      "receiver": null,
+      "_python_call_site": [
+        2664,
+        2718
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/frequency.py",
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/domain/radio.py",
+    "$graphify-root$/libraries/physics/errors.py",
+    "$graphify-root$/services/propagation/__init__.py"
+  ]
+}

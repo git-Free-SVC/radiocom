@@ -1,0 +1,713 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "label": "test_geodata_provider_contract.py",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_conforms_to_protocol",
+      "label": "test_conforms_to_protocol()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L17",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_at_returns_float",
+      "label": "test_elevation_at_returns_float()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L21",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_length_and_type",
+      "label": "test_elevation_profile_length_and_type()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "label": "test_elevation_profile_endpoints_match_point_queries()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L30",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/test_geodata_provider_contract.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_rejects_too_few_samples",
+      "label": "test_elevation_profile_rejects_too_few_samples()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_raster_returns_layer_ref",
+      "label": "test_publish_raster_returns_layer_ref()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L42",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_vector_returns_layer_ref",
+      "label": "test_publish_vector_returns_layer_ref()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L47",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_features_in_returns_list",
+      "label": "test_features_in_returns_list()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_tile_url_is_nonempty_string",
+      "label": "test_tile_url_is_nonempty_string()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L57",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_set_style_returns_none",
+      "label": "test_set_style_returns_none()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L63",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_geodata_provider_contract_rationale_1",
+      "label": "Contract for any GeodataProvider (fake or GeoServer-backed geodata-api). pytest\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.geodata",
+      "_python_import_bindings": [
+        [
+          "BBox",
+          "BBox"
+        ],
+        [
+          "GeodataProvider",
+          "GeodataProvider"
+        ],
+        [
+          "GeoJSONFile",
+          "GeoJSONFile"
+        ],
+        [
+          "LayerRef",
+          "LayerRef"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/geodata.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_conforms_to_protocol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_at_returns_float",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_length_and_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_rejects_too_few_samples",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_rejects_too_few_samples",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_raster_returns_layer_ref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_vector_returns_layer_ref",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_features_in_returns_list",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_tile_url_is_nonempty_string",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_set_style_returns_none",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_geodata_provider_contract_rationale_1",
+      "target": "$graphify-root$_tests_contract_test_geodata_provider_contract_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_conforms_to_protocol",
+      "callee": "GeodataProvider",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L18"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_at_returns_float",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_at_returns_float",
+      "callee": "elevation_at",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L22",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        609,
+        633
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_at_returns_float",
+      "callee": "A",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L22"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_length_and_type",
+      "callee": "elevation_profile",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L26",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        710,
+        754
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_length_and_type",
+      "callee": "A",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_length_and_type",
+      "callee": "B",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L26"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_length_and_type",
+      "callee": "float",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L27"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "elevation_profile",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L31",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        903,
+        946
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "A",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "B",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L31"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L32",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        967,
+        1015
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "elevation_at",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L32",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        981,
+        1005
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "A",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L32"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L33",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1037,
+        1085
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "elevation_at",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L33",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1051,
+        1075
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_endpoints_match_point_queries",
+      "callee": "B",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L33"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_rejects_too_few_samples",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L38",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1209,
+        1234
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_rejects_too_few_samples",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L38"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_rejects_too_few_samples",
+      "callee": "elevation_profile",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L39",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1245,
+        1288
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_rejects_too_few_samples",
+      "callee": "A",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_elevation_profile_rejects_too_few_samples",
+      "callee": "B",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L39"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_raster_returns_layer_ref",
+      "callee": "publish_raster",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L43",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1358,
+        1411
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_raster_returns_layer_ref",
+      "callee": "LayerRef",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L44"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_vector_returns_layer_ref",
+      "callee": "publish_vector",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L48",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1566,
+        1633
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_vector_returns_layer_ref",
+      "callee": "GeoJSONFile",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L48",
+      "receiver": null,
+      "_python_call_site": [
+        1599,
+        1632
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_publish_vector_returns_layer_ref",
+      "callee": "LayerRef",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L49"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_features_in_returns_list",
+      "callee": "publish_vector",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L53",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1782,
+        1849
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_features_in_returns_list",
+      "callee": "GeoJSONFile",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        1815,
+        1848
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_features_in_returns_list",
+      "callee": "list",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L54"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_features_in_returns_list",
+      "callee": "features_in",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L54",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1873,
+        1926
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_features_in_returns_list",
+      "callee": "BBox",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L54",
+      "receiver": null,
+      "_python_call_site": [
+        1899,
+        1925
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_tile_url_is_nonempty_string",
+      "callee": "publish_raster",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L58",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1998,
+        2051
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_tile_url_is_nonempty_string",
+      "callee": "tile_url",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L59",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2063,
+        2085
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_tile_url_is_nonempty_string",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L60"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_set_style_returns_none",
+      "callee": "publish_raster",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L64",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2186,
+        2239
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_geodata_provider_contract_test_set_style_returns_none",
+      "callee": "set_style",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_geodata_provider_contract.py",
+      "source_location": "L65",
+      "receiver": "provider",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2252,
+        2303
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/plugin_sdk/geodata.py"
+  ]
+}

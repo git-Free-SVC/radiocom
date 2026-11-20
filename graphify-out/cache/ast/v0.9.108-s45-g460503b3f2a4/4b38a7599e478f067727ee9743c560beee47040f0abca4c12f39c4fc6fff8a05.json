@@ -1,0 +1,335 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "label": "test_physics_stress_sweep.py",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_logspace",
+      "label": "_logspace()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L14",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_distance_x_frequency_50k_points",
+      "label": "test_sweep_distance_x_frequency_50k_points()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L18",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_stress_sweep.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "label": "test_sweep_link_budget_grid_invariants()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_rationale_1",
+      "label": "Dense sweeps: every invariant on every grid point, no NaN/inf anywhere.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "LinkBudgetInput",
+          "LinkBudgetInput"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.link_budget",
+      "_python_import_bindings": [
+        [
+          "compute_link_budget",
+          "compute_link_budget"
+        ],
+        [
+          "noise_floor_dbm",
+          "noise_floor_dbm"
+        ],
+        [
+          "watts_to_dbm",
+          "watts_to_dbm"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/link_budget.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "target": "$graphify-root$_libraries_physics_path_loss_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.path_loss",
+      "_python_import_bindings": [
+        [
+          "free_space_path_loss_db",
+          "free_space_path_loss_db"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/path_loss.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_logspace",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_distance_x_frequency_50k_points",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_distance_x_frequency_50k_points",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_logspace",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_logspace",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_rationale_1",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_distance_x_frequency_50k_points",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L24",
+      "receiver": null,
+      "_python_call_site": [
+        781,
+        810
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_distance_x_frequency_50k_points",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L25",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        846,
+        862
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "callee": "LinkBudgetInput",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L39",
+      "receiver": null,
+      "_python_call_site": [
+        1422,
+        1744
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "callee": "watts_to_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L40",
+      "receiver": null,
+      "_python_call_site": [
+        1472,
+        1493
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "callee": "compute_link_budget",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L48",
+      "receiver": null,
+      "_python_call_site": [
+        1765,
+        1787
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L50",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1836,
+        1852
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L53",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1994,
+        2059
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "callee": "noise_floor_dbm",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L53",
+      "receiver": null,
+      "_python_call_site": [
+        2025,
+        2048
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_stress_sweep_test_sweep_link_budget_grid_invariants",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_stress_sweep.py",
+      "source_location": "L54",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2098,
+        2145
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/physics/link_budget.py",
+    "$graphify-root$/libraries/physics/path_loss.py"
+  ]
+}

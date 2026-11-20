@@ -1,0 +1,672 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "label": "test_event_bus_contract.py",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_conforms_to_protocol",
+      "label": "test_conforms_to_protocol()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L11",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivers_payload_to_subscriber",
+      "label": "test_delivers_payload_to_subscriber()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L15",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_topics_are_isolated",
+      "label": "test_topics_are_isolated()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L22",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivery_in_subscription_order",
+      "label": "test_delivery_in_subscription_order()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L29",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_stops_delivery",
+      "label": "test_unsubscribe_stops_delivery()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L37",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_unknown_is_noop",
+      "label": "test_unsubscribe_unknown_is_noop()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L45",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_publish_without_subscribers_is_ok",
+      "label": "test_publish_without_subscribers_is_ok()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L49",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_duplicate_subscribe_is_idempotent",
+      "label": "test_duplicate_subscribe_is_idempotent()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L53",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others",
+      "label": "test_failing_handler_does_not_break_publisher_or_others()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L62",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others_boom",
+      "label": "boom()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L65",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "label": "test_unsubscribe_during_publish_is_safe()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L74",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe_once",
+      "label": "once()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L77",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_event_bus_contract_rationale_1",
+      "label": "Contract for any EventBus (behavioural rules: see plugin_sdk/event_bus.py).\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.event_bus",
+      "_python_import_bindings": [
+        [
+          "EventBus",
+          "EventBus"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_conforms_to_protocol",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivers_payload_to_subscriber",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_topics_are_isolated",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivery_in_subscription_order",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_stops_delivery",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_unknown_is_noop",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_publish_without_subscribers_is_ok",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_duplicate_subscribe_is_idempotent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others_boom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe_once",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others_boom",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe_once",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_event_bus_contract_rationale_1",
+      "target": "$graphify-root$_tests_contract_test_event_bus_contract_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_conforms_to_protocol",
+      "callee": "EventBus",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L12"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivers_payload_to_subscriber",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L17",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        408,
+        438
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivers_payload_to_subscriber",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L18",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        444,
+        470
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_topics_are_isolated",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L24",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        560,
+        591
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_topics_are_isolated",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L25",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        597,
+        624
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivery_in_subscription_order",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L31",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        719,
+        764
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivery_in_subscription_order",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L31",
+      "receiver": "order",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        748,
+        763
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivery_in_subscription_order",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L32",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        770,
+        815
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivery_in_subscription_order",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L32",
+      "receiver": "order",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        799,
+        814
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_delivery_in_subscription_order",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L33",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        821,
+        841
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_stops_delivery",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L39",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        936,
+        966
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_stops_delivery",
+      "callee": "unsubscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L40",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        972,
+        1004
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_stops_delivery",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L41",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1010,
+        1030
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_unknown_is_noop",
+      "callee": "unsubscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L46",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1106,
+        1146
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_publish_without_subscribers_is_ok",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L50",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1206,
+        1231
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_duplicate_subscribe_is_idempotent",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L56",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1325,
+        1346
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_duplicate_subscribe_is_idempotent",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L57",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1352,
+        1373
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_duplicate_subscribe_is_idempotent",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L58",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1379,
+        1399
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L68",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1581,
+        1605
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L69",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1611,
+        1641
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L70",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1647,
+        1677
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_failing_handler_does_not_break_publisher_or_others_boom",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L66",
+      "receiver": null,
+      "_python_call_site": [
+        1546,
+        1573
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L81",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1894,
+        1918
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "callee": "subscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L82",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1924,
+        1975
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L82",
+      "receiver": "calls",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1953,
+        1974
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L83",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1981,
+        2001
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L84",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2007,
+        2027
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe_once",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L78",
+      "receiver": "calls",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1830,
+        1850
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_event_bus_contract_test_unsubscribe_during_publish_is_safe_once",
+      "callee": "unsubscribe",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_event_bus_contract.py",
+      "source_location": "L79",
+      "receiver": "bus",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1860,
+        1886
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+  ]
+}

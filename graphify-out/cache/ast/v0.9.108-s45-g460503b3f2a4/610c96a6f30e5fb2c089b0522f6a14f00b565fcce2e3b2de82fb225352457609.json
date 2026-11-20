@@ -1,0 +1,1153 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_py",
+      "label": "test_engine_concurrency.py",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity",
+      "label": "_SlowEntity",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L22",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity_on_tick",
+      "label": ".on_tick()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L33",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency",
+      "label": "TestEngineConcurrency",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "label": ".test_pause_from_separate_thread_stops_running_step()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L39",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "label": ".test_concurrent_step_calls_fail_fast()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L53",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast_run_step",
+      "label": "run_step()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L61",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "label": ".test_reset_from_another_thread_waits_instead_of_corrupting()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L80",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting_do_reset",
+      "label": "do_reset()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L93",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "label": ".test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L113",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock_init",
+      "label": "__init__()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L133",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock_on_tick",
+      "label": "on_tick()",
+      "file_type": "code",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L137",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_rationale_1",
+      "label": "Regression tests for the engine's concurrency contract, established by stress-\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_rationale_23",
+      "label": "A deliberate per-tick delay so a background step() call stays in-flight long\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L23"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_rationale_114",
+      "label": "An entity calling engine.reset() from its OWN on_tick() \u2014 the SAME thread\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L114"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_py",
+      "target": "threading",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_python_import_module": "threading",
+      "_python_import_bindings": [
+        [
+          "threading",
+          "threading"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_py",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "time",
+      "_python_import_bindings": [
+        [
+          "time",
+          "time"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_py",
+      "target": "$graphify-root$_services_simulation_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation",
+      "_python_import_bindings": [
+        [
+          "CoreSimulationEngine",
+          "CoreSimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_py",
+      "target": "$graphify-root$_tests_unit_simulation_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_python_import_module": "tests.unit.simulation.conftest",
+      "_python_import_bindings": [
+        [
+          "StubScenario",
+          "StubScenario"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/simulation/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity_on_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_py",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast_run_step",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting_do_reset",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock_init",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock_on_tick",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast_run_step",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting_do_reset",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L101",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_rationale_1",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_rationale_23",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_rationale_114",
+      "target": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L114",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_slowentity_on_tick",
+      "callee": "sleep",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L35",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1491,
+        1516
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L40",
+      "receiver": null,
+      "_python_call_site": [
+        1639,
+        1681
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L42",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1724,
+        1792
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L42",
+      "receiver": null,
+      "_python_call_site": [
+        1736,
+        1791
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L43",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1801,
+        1815
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "Thread",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L45",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1829,
+        1892
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L45",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1861,
+        1891
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L46",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        1901,
+        1910
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "sleep",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L47",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1919,
+        1935
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "pause",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L48",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        1944,
+        1958
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L49",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        1967,
+        1986
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_pause_from_separate_thread_stops_running_step",
+      "callee": "is_alive",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L51",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        2007,
+        2019
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L54",
+      "receiver": null,
+      "_python_call_site": [
+        2161,
+        2203
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L56",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        2246,
+        2317
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L56",
+      "receiver": null,
+      "_python_call_site": [
+        2258,
+        2316
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L57",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        2326,
+        2340
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "Thread",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L67",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2557,
+        2590
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "Thread",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L68",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2604,
+        2637
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L69",
+      "receiver": "t1",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        2646,
+        2656
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "sleep",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L70",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2665,
+        2681
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L71",
+      "receiver": "t2",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        2730,
+        2740
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L72",
+      "receiver": "t1",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        2749,
+        2769
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L73",
+      "receiver": "t2",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        2778,
+        2798
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast_run_step",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L63",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2439,
+        2466
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast_run_step",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L65",
+      "receiver": "errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2521,
+        2542
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_concurrent_step_calls_fail_fast_run_step",
+      "callee": "e",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L65"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L81",
+      "receiver": null,
+      "_python_call_site": [
+        3073,
+        3115
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L83",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        3158,
+        3226
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L83",
+      "receiver": null,
+      "_python_call_site": [
+        3170,
+        3225
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L84",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        3235,
+        3249
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "Thread",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L86",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3273,
+        3333
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L86",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        3305,
+        3332
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L87",
+      "receiver": "step_thread",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        3342,
+        3361
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "sleep",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L88",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3370,
+        3386
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "Event",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L90",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3442,
+        3459
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "Thread",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L101",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3752,
+        3785
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L102",
+      "receiver": "reset_thread",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        3794,
+        3814
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "wait",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L103",
+      "receiver": "reset_done",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Event",
+      "_python_call_site": [
+        3835,
+        3863
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L104",
+      "receiver": "step_thread",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        3872,
+        3901
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting_do_reset",
+      "callee": "reset",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L95",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3569,
+        3583
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting_do_reset",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L97",
+      "receiver": "reset_errors",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3651,
+        3673
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting_do_reset",
+      "callee": "e",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L97"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting_do_reset",
+      "callee": "set",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L99",
+      "receiver": "reset_done",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3711,
+        3727
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "CoreSimulationEngine",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L143",
+      "receiver": null,
+      "_python_call_site": [
+        5954,
+        5995
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "ReentrantResetEntity",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L144",
+      "receiver": null,
+      "_python_call_site": [
+        6013,
+        6046
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L145",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        6055,
+        6129
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "StubScenario",
+      "is_member_call": false,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_call_site": [
+        6067,
+        6128
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L146",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        6138,
+        6152
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "Thread",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L148",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        6166,
+        6239
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L148",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "CoreSimulationEngine",
+      "_python_call_site": [
+        6198,
+        6225
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L149",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        6248,
+        6257
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "join",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L150",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        6266,
+        6285
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "is_alive",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L152",
+      "receiver": "t",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Thread",
+      "_python_call_site": [
+        6306,
+        6318
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock",
+      "callee": "lower",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L157",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        6577,
+        6591
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock_on_tick",
+      "callee": "reset",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L139",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5836,
+        5856
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock_on_tick",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L141",
+      "receiver": "caught",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5919,
+        5935
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reentrant_reset_from_within_on_tick_fails_loud_not_deadlock_on_tick",
+      "callee": "e",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L141"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_simulation_test_engine_concurrency_testengineconcurrency_test_reset_from_another_thread_waits_instead_of_corrupting",
+      "callee": "state",
+      "is_member_call": true,
+      "source_file": "tests/unit/simulation/test_engine_concurrency.py",
+      "source_location": "L108",
+      "_python_attr_read": true,
+      "receiver": "engine",
+      "receiver_type": "CoreSimulationEngine"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/services/simulation/__init__.py",
+    "$graphify-root$/tests/unit/simulation/conftest.py"
+  ]
+}

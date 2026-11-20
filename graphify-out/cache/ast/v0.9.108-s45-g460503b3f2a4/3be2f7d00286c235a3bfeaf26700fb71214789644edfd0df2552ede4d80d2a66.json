@@ -1,0 +1,1144 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_py",
+      "label": "link_budget.py",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult",
+      "label": "LinkBudgetResult",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L34",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult_to_link_state",
+      "label": ".to_link_state()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L43",
+      "_py_return_type": "LinkState",
+      "_callable": true
+    },
+    {
+      "id": "linkstate",
+      "label": "LinkState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/physics/link_budget.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_watts_to_dbm",
+      "label": "watts_to_dbm()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L48",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_dbm_to_watts",
+      "label": "dbm_to_watts()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L54",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "label": "received_power_dbm()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L69",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_noise_floor_dbm",
+      "label": "noise_floor_dbm()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L93",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_snr_db",
+      "label": "snr_db()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L102",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_link_margin_db",
+      "label": "link_margin_db()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L111",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "label": "eb_n0_db()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L120",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "label": "compute_link_budget()",
+      "file_type": "code",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L132",
+      "_py_return_type": "LinkBudgetResult",
+      "_callable": true
+    },
+    {
+      "id": "linkbudgetinput",
+      "label": "LinkBudgetInput",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/physics/link_budget.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_1",
+      "label": "Link-budget math (architecture doc \u00a79). Pure functions, no I/O. Pr(dBm) = Pt +\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_35",
+      "label": "Outputs of :func:`compute_link_budget`, all in dB / dBm.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L35"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_44",
+      "label": "Project onto the frozen ``LinkState`` domain type.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L44"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_49",
+      "label": "``dBm = 10*log10(P_W) + 30``. Requires finite ``power_watt > 0``.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L49"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_55",
+      "label": "``P_W = 10**((dBm - 30) / 10)``. Raises ``PhysicsInputError`` if the result\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_79",
+      "label": "``Pr = Pt + Gt + Gr - PL - Lcable - Lpol - Latm - Lshadow`` (dBm).",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L79"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_94",
+      "label": "``N = -174 + 10*log10(bandwidth_hz) + NF`` (dBm).",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L94"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_103",
+      "label": "``SNR = Pr - N`` (dB).",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L103"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_112",
+      "label": "``margin = Pr - sensitivity`` (dB). Positive means the link closes.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L112"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_121",
+      "label": "``Eb/N0 = SNR + 10*log10(bandwidth_hz / bit_rate_hz)`` (dB). Computed as a\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L121"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_link_budget_rationale_133",
+      "label": "Evaluate the full \u00a79 chain for one :class:`LinkBudgetInput`.",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L133"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclass",
+          "dataclass"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "LinkBudgetInput",
+          "LinkBudgetInput"
+        ],
+        [
+          "LinkQuality",
+          "LinkQuality"
+        ],
+        [
+          "LinkState",
+          "LinkState"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_constants_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.constants",
+      "_python_import_bindings": [
+        [
+          "THERMAL_NOISE_DBM_PER_HZ",
+          "THERMAL_NOISE_DBM_PER_HZ"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/constants.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.errors",
+      "_python_import_bindings": [
+        [
+          "PhysicsInputError",
+          "PhysicsInputError"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_quality_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.quality",
+      "_python_import_bindings": [
+        [
+          "link_quality",
+          "link_quality"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/quality.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult",
+      "target": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult_to_link_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult_to_link_state",
+      "target": "linkstate",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_watts_to_dbm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_dbm_to_watts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_noise_floor_dbm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L93",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_snr_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L102",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_link_margin_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L111",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_py",
+      "target": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "target": "linkbudgetinput",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "target": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L132",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "target": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "target": "$graphify-root$_libraries_physics_link_budget_noise_floor_dbm",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "target": "$graphify-root$_libraries_physics_link_budget_snr_db",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "target": "$graphify-root$_libraries_physics_link_budget_link_margin_db",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L146",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "target": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_1",
+      "target": "$graphify-root$_libraries_physics_link_budget_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_35",
+      "target": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_44",
+      "target": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult_to_link_state",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_49",
+      "target": "$graphify-root$_libraries_physics_link_budget_watts_to_dbm",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_55",
+      "target": "$graphify-root$_libraries_physics_link_budget_dbm_to_watts",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_79",
+      "target": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_94",
+      "target": "$graphify-root$_libraries_physics_link_budget_noise_floor_dbm",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_103",
+      "target": "$graphify-root$_libraries_physics_link_budget_snr_db",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_112",
+      "target": "$graphify-root$_libraries_physics_link_budget_link_margin_db",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_121",
+      "target": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_link_budget_rationale_133",
+      "target": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L133",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult_to_link_state",
+      "callee": "LinkState",
+      "is_member_call": false,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L45",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1474,
+        1551
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_watts_to_dbm",
+      "callee": "positive",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L50",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1684,
+        1728
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_watts_to_dbm",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L51",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1747,
+        1760
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_dbm_to_watts",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L59",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1959,
+        1999
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_dbm_to_watts",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L63",
+      "receiver": null,
+      "_python_call_site": [
+        2110,
+        2178
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_dbm_to_watts",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L64",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2215,
+        2235
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_dbm_to_watts",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_call_site": [
+        2251,
+        2331
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L81",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2721,
+        2767
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L82",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2778,
+        2822
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L83",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2833,
+        2877
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L84",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2888,
+        2934
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L85",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2945,
+        2993
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L86",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3004,
+        3066
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L87",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3077,
+        3137
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L88",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3148,
+        3194
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_received_power_dbm",
+      "callee": "finite_result",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L90",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3212,
+        3257
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_noise_floor_dbm",
+      "callee": "positive",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L95",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3410,
+        3458
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_noise_floor_dbm",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L96",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3468,
+        3520
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_noise_floor_dbm",
+      "callee": "finite_result",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L97",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3532,
+        3639
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_noise_floor_dbm",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L98",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3614,
+        3628
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_snr_db",
+      "callee": "finite_result",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L104",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3753,
+        3918
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_snr_db",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L106",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3801,
+        3847
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_snr_db",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L107",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3858,
+        3911
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_link_margin_db",
+      "callee": "finite_result",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L113",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4084,
+        4256
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_link_margin_db",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L115",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4140,
+        4186
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_link_margin_db",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L116",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4197,
+        4249
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "callee": "finite",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L126",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4583,
+        4618
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "callee": "positive",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L127",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4628,
+        4676
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "callee": "positive",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L128",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4688,
+        4734
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "callee": "finite_result",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L129",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4746,
+        4833
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L129",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4792,
+        4806
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_eb_n0_db",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L129",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4816,
+        4832
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "link_quality",
+      "is_member_call": false,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L152",
+      "receiver": null,
+      "_python_call_site": [
+        5563,
+        5583
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult_to_link_state",
+      "callee": "quality",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L45",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult_to_link_state",
+      "callee": "margin_db",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L45",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_linkbudgetresult_to_link_state",
+      "callee": "snr_db",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L45",
+      "_python_attr_read": true,
+      "receiver": "self"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "sensitivity_dbm",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L146",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "noise_figure_db",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L144",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "bandwidth_hz",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L144",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "shadowing_db",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L142",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "atmospheric_loss_db",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L141",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "polarization_loss_db",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L140",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "cable_loss_db",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L139",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "path_loss_db",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L138",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "rx_gain_dbi",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L137",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "tx_gain_dbi",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L136",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_link_budget_compute_link_budget",
+      "callee": "tx_power_dbm",
+      "is_member_call": true,
+      "source_file": "libraries/physics/link_budget.py",
+      "source_location": "L135",
+      "_python_attr_read": true,
+      "receiver": "budget",
+      "receiver_type": "LinkBudgetInput"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/physics/constants.py",
+    "$graphify-root$/libraries/physics/errors.py",
+    "$graphify-root$/libraries/physics/quality.py"
+  ]
+}

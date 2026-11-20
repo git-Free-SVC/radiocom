@@ -1,0 +1,875 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_api_errors_py",
+      "label": "errors.py",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_apierror",
+      "label": "ApiError",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L31",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "exception",
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_apierror_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L34",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_responsecontracterror",
+      "label": "ResponseContractError",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L40",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_responsecontracterror_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L43",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_error_response",
+      "label": "error_response()",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L47",
+      "_py_return_type": "JSONResponse",
+      "_callable": true
+    },
+    {
+      "id": "jsonresponse",
+      "label": "JSONResponse",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_api_error_handler",
+      "label": "api_error_handler()",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L52",
+      "_py_return_type": "Response",
+      "_callable": true
+    },
+    {
+      "id": "request",
+      "label": "Request",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "id": "response",
+      "label": "Response",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_request_validation_handler",
+      "label": "request_validation_handler()",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L56",
+      "_py_return_type": "Response",
+      "_callable": true
+    },
+    {
+      "id": "requestvalidationerror",
+      "label": "RequestValidationError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_value_error_handler",
+      "label": "value_error_handler()",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L71",
+      "_py_return_type": "Response",
+      "_callable": true
+    },
+    {
+      "id": "valueerror",
+      "label": "ValueError",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_internal_error_handler",
+      "label": "internal_error_handler()",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L77",
+      "_py_return_type": "Response",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "label": "install_exception_handlers()",
+      "file_type": "code",
+      "source_file": "services/api/errors.py",
+      "source_location": "L82",
+      "_callable": true
+    },
+    {
+      "id": "fastapi",
+      "label": "FastAPI",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_rationale_1",
+      "label": "API-local error types and FastAPI exception handlers. The frozen openapi.yaml\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/errors.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_rationale_32",
+      "label": "A deliberate API error carrying its HTTP status and envelope detail.",
+      "file_type": "rationale",
+      "source_file": "services/api/errors.py",
+      "source_location": "L32"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_rationale_41",
+      "label": "The server produced a body that violates an API-declared schema -> 500.",
+      "file_type": "rationale",
+      "source_file": "services/api/errors.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_rationale_48",
+      "label": "The single error envelope: exactly the key set {detail}.",
+      "file_type": "rationale",
+      "source_file": "services/api/errors.py",
+      "source_location": "L48"
+    },
+    {
+      "id": "$graphify-root$_services_api_errors_rationale_83",
+      "label": "Attach the uniform error envelope to every error path.",
+      "file_type": "rationale",
+      "source_file": "services/api/errors.py",
+      "source_location": "L83"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "fastapi",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_python_import_module": "fastapi",
+      "_python_import_bindings": [
+        [
+          "FastAPI",
+          "FastAPI"
+        ],
+        [
+          "Request",
+          "Request"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "fastapi_exceptions",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_python_import_module": "fastapi.exceptions",
+      "_python_import_bindings": [
+        [
+          "RequestValidationError",
+          "RequestValidationError"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "fastapi_responses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_python_import_module": "fastapi.responses",
+      "_python_import_bindings": [
+        [
+          "JSONResponse",
+          "JSONResponse"
+        ],
+        [
+          "Response",
+          "Response"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "$graphify-root$_services_api_errors_apierror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_apierror",
+      "target": "exception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_apierror",
+      "target": "$graphify-root$_services_api_errors_apierror_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_apierror_init",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "$graphify-root$_services_api_errors_responsecontracterror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_responsecontracterror",
+      "target": "$graphify-root$_services_api_errors_apierror",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_responsecontracterror",
+      "target": "$graphify-root$_services_api_errors_responsecontracterror_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "$graphify-root$_services_api_errors_error_response",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_error_response",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_error_response",
+      "target": "jsonresponse",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "$graphify-root$_services_api_errors_api_error_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_api_error_handler",
+      "target": "request",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_api_error_handler",
+      "target": "$graphify-root$_services_api_errors_apierror",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_api_error_handler",
+      "target": "response",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "$graphify-root$_services_api_errors_request_validation_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_request_validation_handler",
+      "target": "request",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_request_validation_handler",
+      "target": "requestvalidationerror",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_request_validation_handler",
+      "target": "response",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "$graphify-root$_services_api_errors_value_error_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_value_error_handler",
+      "target": "request",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_value_error_handler",
+      "target": "valueerror",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_value_error_handler",
+      "target": "response",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "$graphify-root$_services_api_errors_internal_error_handler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_internal_error_handler",
+      "target": "request",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_internal_error_handler",
+      "target": "exception",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_internal_error_handler",
+      "target": "response",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_py",
+      "target": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "target": "fastapi",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_responsecontracterror_init",
+      "target": "$graphify-root$_services_api_errors_apierror_init",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_api_error_handler",
+      "target": "$graphify-root$_services_api_errors_error_response",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_request_validation_handler",
+      "target": "$graphify-root$_services_api_errors_error_response",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_value_error_handler",
+      "target": "$graphify-root$_services_api_errors_error_response",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_internal_error_handler",
+      "target": "$graphify-root$_services_api_errors_error_response",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "target": "$graphify-root$_services_api_errors_api_error_handler",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "services/api/errors.py",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "target": "$graphify-root$_services_api_errors_request_validation_handler",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "services/api/errors.py",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "target": "$graphify-root$_services_api_errors_value_error_handler",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "services/api/errors.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "target": "$graphify-root$_services_api_errors_internal_error_handler",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "services/api/errors.py",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_rationale_1",
+      "target": "$graphify-root$_services_api_errors_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_rationale_32",
+      "target": "$graphify-root$_services_api_errors_apierror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_rationale_41",
+      "target": "$graphify-root$_services_api_errors_responsecontracterror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_rationale_48",
+      "target": "$graphify-root$_services_api_errors_error_response",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_errors_rationale_83",
+      "target": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/errors.py",
+      "source_location": "L83",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_apierror_init",
+      "callee": "__init__",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L35",
+      "receiver": "super",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1484,
+        1552
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_apierror_init",
+      "callee": "str",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/errors.py",
+      "source_location": "L35"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_error_response",
+      "callee": "JSONResponse",
+      "is_member_call": false,
+      "source_file": "services/api/errors.py",
+      "source_location": "L49",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1975,
+        2040
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_request_validation_handler",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L62",
+      "receiver": "entry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2585,
+        2605
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_request_validation_handler",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L63",
+      "receiver": "entry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2631,
+        2651
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_request_validation_handler",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L64",
+      "receiver": "entry",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2678,
+        2699
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_request_validation_handler",
+      "callee": "errors",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L66",
+      "receiver": "exc",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "RequestValidationError",
+      "_python_call_site": [
+        2733,
+        2745
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "callee": "add_exception_handler",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L84",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        3382,
+        3436
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "callee": "add_exception_handler",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L85",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        3441,
+        3518
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "callee": "RequestValidationError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/errors.py",
+      "source_location": "L85"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "callee": "add_exception_handler",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L86",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        3523,
+        3581
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/errors.py",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "callee": "add_exception_handler",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L87",
+      "receiver": "app",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "FastAPI",
+      "_python_call_site": [
+        3586,
+        3646
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_install_exception_handlers",
+      "callee": "Exception",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/errors.py",
+      "source_location": "L87"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_api_error_handler",
+      "callee": "detail",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L53",
+      "_python_attr_read": true,
+      "receiver": "exc",
+      "receiver_type": "ApiError"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_errors_api_error_handler",
+      "callee": "status_code",
+      "is_member_call": true,
+      "source_file": "services/api/errors.py",
+      "source_location": "L53",
+      "_python_attr_read": true,
+      "receiver": "exc",
+      "receiver_type": "ApiError"
+    }
+  ]
+}

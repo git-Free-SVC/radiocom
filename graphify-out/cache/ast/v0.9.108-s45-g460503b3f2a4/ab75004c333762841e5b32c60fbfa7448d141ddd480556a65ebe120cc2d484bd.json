@@ -1,0 +1,305 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_simulation_clock_py",
+      "label": "clock.py",
+      "file_type": "code",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_wallclock",
+      "label": "WallClock",
+      "file_type": "code",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L19",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "simulationclock",
+      "label": "SimulationClock",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/simulation/clock.py"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_wallclock_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L24",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_wallclock_now_s",
+      "label": ".now_s()",
+      "file_type": "code",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L32",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_wallclock_advance_to",
+      "label": ".advance_to()",
+      "file_type": "code",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_wallclock_real_time_factor",
+      "label": ".real_time_factor()",
+      "file_type": "code",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L41",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_wallclock_sleep_until_paced",
+      "label": ".sleep_until_paced()",
+      "file_type": "code",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L44",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_rationale_1",
+      "label": "Concrete SimulationClock (architecture doc \u00a714). Design choice (not fixed by\u2026",
+      "file_type": "rationale",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_rationale_20",
+      "label": "Satisfies the SimulationClock Protocol structurally (duck-typed \u2014\u2026",
+      "file_type": "rationale",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L20"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_clock_rationale_45",
+      "label": "Block until wall-clock has caught up to `event_time_s` at the configured\u2026",
+      "file_type": "rationale",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L45"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_simulation_clock_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_py",
+      "target": "time",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "time",
+      "_python_import_bindings": [
+        [
+          "time",
+          "time"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "SimulationClock",
+          "SimulationClock"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_py",
+      "target": "$graphify-root$_services_simulation_clock_wallclock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_wallclock",
+      "target": "simulationclock",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_wallclock",
+      "target": "$graphify-root$_services_simulation_clock_wallclock_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_wallclock",
+      "target": "$graphify-root$_services_simulation_clock_wallclock_now_s",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_wallclock",
+      "target": "$graphify-root$_services_simulation_clock_wallclock_advance_to",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_wallclock",
+      "target": "$graphify-root$_services_simulation_clock_wallclock_real_time_factor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_wallclock",
+      "target": "$graphify-root$_services_simulation_clock_wallclock_sleep_until_paced",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_rationale_1",
+      "target": "$graphify-root$_services_simulation_clock_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_rationale_20",
+      "target": "$graphify-root$_services_simulation_clock_wallclock",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_simulation_clock_rationale_45",
+      "target": "$graphify-root$_services_simulation_clock_wallclock_sleep_until_paced",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L45",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_simulation_clock_wallclock_init",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L26",
+      "receiver": null,
+      "_python_call_site": [
+        966,
+        1038
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_clock_wallclock_advance_to",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L37",
+      "receiver": null,
+      "_python_call_site": [
+        1365,
+        1440
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_clock_wallclock_sleep_until_paced",
+      "callee": "isinf",
+      "is_member_call": true,
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L47",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1781,
+        1815
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_clock_wallclock_sleep_until_paced",
+      "callee": "monotonic",
+      "is_member_call": true,
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L49",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1855,
+        1871
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_simulation_clock_wallclock_sleep_until_paced",
+      "callee": "sleep",
+      "is_member_call": true,
+      "source_file": "services/simulation/clock.py",
+      "source_location": "L55",
+      "receiver": "time",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2156,
+        2173
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/simulation.py"
+  ]
+}

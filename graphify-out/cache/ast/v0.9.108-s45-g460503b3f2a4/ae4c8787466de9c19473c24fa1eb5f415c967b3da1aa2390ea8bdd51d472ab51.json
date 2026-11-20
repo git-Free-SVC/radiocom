@@ -1,0 +1,191 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "label": "event_bus.py",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus",
+      "label": "EventBus",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L22",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_publish",
+      "label": ".publish()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L23",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_subscribe",
+      "label": ".subscribe()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "handler",
+      "label": "Handler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_unsubscribe",
+      "label": ".unsubscribe()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L27",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_event_bus_rationale_1",
+      "label": "EventBus interface. Frozen after Wave 0 \u2014 see docs/adr/ADR-000. MVP\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "Callable",
+          "Callable"
+        ],
+        [
+          "Protocol",
+          "Protocol"
+        ],
+        [
+          "runtime_checkable",
+          "runtime_checkable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_publish",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_publish",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_subscribe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_subscribe",
+      "target": "handler",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_unsubscribe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_eventbus_unsubscribe",
+      "target": "handler",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_event_bus_rationale_1",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/event_bus.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

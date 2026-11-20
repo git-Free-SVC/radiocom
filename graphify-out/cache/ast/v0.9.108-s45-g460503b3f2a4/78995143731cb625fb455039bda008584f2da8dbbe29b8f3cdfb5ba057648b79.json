@@ -1,0 +1,1162 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "label": "test_physics_path_loss.py",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_golden_points_count",
+      "label": "test_golden_points_count()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L44",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_path_loss.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_golden_values",
+      "label": "test_golden_values()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L49",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_spec_reference_case_10km_145_5mhz",
+      "label": "test_spec_reference_case_10km_145_5mhz()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L53",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_consistent_with_exact_friis",
+      "label": "test_consistent_with_exact_friis()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L59",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "label": "test_max_error_vs_high_precision_reference()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L65",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "label": "test_6db_per_distance_doubling_and_20db_per_decade()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L83",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "label": "test_monotonic_in_distance_and_frequency()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L95",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_symmetric_in_distance_frequency_swap",
+      "label": "test_symmetric_in_distance_frequency_swap()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L105",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_distances_stay_finite",
+      "label": "test_extreme_finite_distances_stay_finite()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L113",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_frequencies_stay_finite",
+      "label": "test_extreme_finite_frequencies_stay_finite()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L119",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_distance_raises",
+      "label": "test_bad_distance_raises()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L127",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_frequency_raises",
+      "label": "test_bad_frequency_raises()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L133",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_non_numeric_raises",
+      "label": "test_non_numeric_raises()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L139",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_near_field_raw_value_can_be_negative",
+      "label": "test_near_field_raw_value_can_be_negative()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L144",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_rationale_1",
+      "label": "Free-space path loss: golden values, invariants, hostile inputs, accuracy.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_path_loss_rationale_66",
+      "label": "Report the max error of the double-precision log10 form vs Decimal.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L66"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "decimal",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "decimal",
+      "_python_import_bindings": [
+        [
+          "Decimal",
+          "Decimal"
+        ],
+        [
+          "getcontext",
+          "getcontext"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_libraries_physics_constants_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.constants",
+      "_python_import_bindings": [
+        [
+          "SPEED_OF_LIGHT_M_S",
+          "SPEED_OF_LIGHT_M_S"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/constants.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.errors",
+      "_python_import_bindings": [
+        [
+          "PhysicsInputError",
+          "PhysicsInputError"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_libraries_physics_path_loss_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.path_loss",
+      "_python_import_bindings": [
+        [
+          "free_space_path_loss_db",
+          "free_space_path_loss_db"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/path_loss.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_golden_points_count",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_golden_values",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_golden_values",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_spec_reference_case_10km_145_5mhz",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_consistent_with_exact_friis",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_consistent_with_exact_friis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_symmetric_in_distance_frequency_swap",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_distances_stay_finite",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_distances_stay_finite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_frequencies_stay_finite",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_frequencies_stay_finite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_distance_raises",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_distance_raises",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_frequency_raises",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_frequency_raises",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_non_numeric_raises",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L138",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_non_numeric_raises",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_near_field_raw_value_can_be_negative",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_rationale_1",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_path_loss_rationale_66",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L66",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_golden_points_count",
+      "callee": "GOLDEN",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L45"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_golden_values",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L50",
+      "receiver": null,
+      "_python_call_site": [
+        1468,
+        1497
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_golden_values",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L50",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1501,
+        1534
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_spec_reference_case_10km_145_5mhz",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L55",
+      "receiver": null,
+      "_python_call_site": [
+        1674,
+        1716
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_spec_reference_case_10km_145_5mhz",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L55",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1720,
+        1752
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_consistent_with_exact_friis",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L61",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1975,
+        2029
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_consistent_with_exact_friis",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L62",
+      "receiver": null,
+      "_python_call_site": [
+        2041,
+        2070
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_consistent_with_exact_friis",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L62",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2074,
+        2105
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "callee": "getcontext",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L67",
+      "receiver": null,
+      "_python_call_site": [
+        2248,
+        2260
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L68",
+      "receiver": "random",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2281,
+        2304
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L71",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2367,
+        2385
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L72",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2406,
+        2424
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L74",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2458,
+        2485
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L75",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2505,
+        2542
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_max_error_vs_high_precision_reference",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L78",
+      "receiver": null,
+      "_python_call_site": [
+        2615,
+        2644
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L84",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2812,
+        2828
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L86",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2877,
+        2895
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L87",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2916,
+        2934
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L88",
+      "receiver": null,
+      "_python_call_site": [
+        2950,
+        2979
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_call_site": [
+        2995,
+        3028
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L89",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3039,
+        3070
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_call_site": [
+        3086,
+        3120
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L90",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3131,
+        3160
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L91",
+      "receiver": null,
+      "_python_call_site": [
+        3176,
+        3209
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L91",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3220,
+        3251
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L92",
+      "receiver": null,
+      "_python_call_site": [
+        3267,
+        3301
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_6db_per_distance_doubling_and_20db_per_decade",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L92",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3312,
+        3341
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L96",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3410,
+        3426
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L98",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        3475,
+        3493
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L99",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        3514,
+        3532
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L100",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        3551,
+        3573
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L101",
+      "receiver": null,
+      "_python_call_site": [
+        3589,
+        3622
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L101",
+      "receiver": null,
+      "_python_call_site": [
+        3625,
+        3654
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L102",
+      "receiver": null,
+      "_python_call_site": [
+        3670,
+        3703
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_monotonic_in_distance_and_frequency",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L102",
+      "receiver": null,
+      "_python_call_site": [
+        3706,
+        3735
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_symmetric_in_distance_frequency_swap",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L107",
+      "receiver": null,
+      "_python_call_site": [
+        3889,
+        3928
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_symmetric_in_distance_frequency_swap",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L107",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3932,
+        4011
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_symmetric_in_distance_frequency_swap",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L108",
+      "receiver": null,
+      "_python_call_site": [
+        3955,
+        3994
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_distances_stay_finite",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L114",
+      "receiver": null,
+      "_python_call_site": [
+        4170,
+        4201
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_distances_stay_finite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L115",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4213,
+        4233
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_frequencies_stay_finite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L120",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4381,
+        4430
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_extreme_finite_frequencies_stay_finite",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L120",
+      "receiver": null,
+      "_python_call_site": [
+        4395,
+        4429
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_distance_raises",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L128",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4595,
+        4647
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_distance_raises",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L128"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_distance_raises",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L129",
+      "receiver": null,
+      "_python_call_site": [
+        4657,
+        4690
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_frequency_raises",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L134",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4790,
+        4844
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_frequency_raises",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_bad_frequency_raises",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L135",
+      "receiver": null,
+      "_python_call_site": [
+        4854,
+        4890
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_non_numeric_raises",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L140",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5011,
+        5043
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_non_numeric_raises",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L140"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_non_numeric_raises",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L141",
+      "receiver": null,
+      "_python_call_site": [
+        5053,
+        5086
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_test_near_field_raw_value_can_be_negative",
+      "callee": "free_space_path_loss_db",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L146",
+      "receiver": null,
+      "_python_call_site": [
+        5259,
+        5292
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L123"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_path_loss_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_path_loss.py",
+      "source_location": "L123"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/physics/constants.py",
+    "$graphify-root$/libraries/physics/errors.py",
+    "$graphify-root$/libraries/physics/path_loss.py"
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_api_test_import_side_effect_py",
+      "label": "test_import_side_effect.py",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "label": "test_import_services_api_has_no_side_effects()",
+      "file_type": "code",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L84",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_api_test_import_side_effect_rationale_1",
+      "label": "Import-time purity (task prompt \u00a79): importing services.api must not bind a\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_api_test_import_side_effect_py",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "os",
+      "_python_import_bindings": [
+        [
+          "os",
+          "os"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_import_side_effect_py",
+      "target": "subprocess",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "subprocess",
+      "_python_import_bindings": [
+        [
+          "subprocess",
+          "subprocess"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_import_side_effect_py",
+      "target": "sys",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "sys",
+      "_python_import_bindings": [
+        [
+          "sys",
+          "sys"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_import_side_effect_py",
+      "target": "$graphify-root$_tests_unit_api_conftest_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "conftest",
+      "_python_import_bindings": [
+        [
+          "REPOSITORY_ROOT",
+          "REPOSITORY_ROOT"
+        ]
+      ],
+      "target_file": "$graphify-root$/tests/unit/api/conftest.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_import_side_effect_py",
+      "target": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_api_test_import_side_effect_rationale_1",
+      "target": "$graphify-root$_tests_unit_api_test_import_side_effect_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L86",
+      "receiver": "script",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2713,
+        2763
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "PROBE_PROGRAM",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L89",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2793,
+        2819
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L90",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2843,
+        2875
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L91",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2893,
+        2919
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L92",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2936,
+        2961
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "REPOSITORY_ROOT",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L93"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "run",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L98",
+      "receiver": "subprocess",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3131,
+        3351
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "executable",
+      "is_member_call": true,
+      "receiver": "sys",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L99"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_api_test_import_side_effect_test_import_services_api_has_no_side_effects",
+      "callee": "iterdir",
+      "is_member_call": true,
+      "source_file": "tests/unit/api/test_import_side_effect.py",
+      "source_location": "L113",
+      "receiver": "tmp_path",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3678,
+        3696
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/tests/unit/api/conftest.py"
+  ]
+}

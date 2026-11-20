@@ -1,0 +1,824 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "label": "simulation.py",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock",
+      "label": "SimulationClock",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock_now_s",
+      "label": ".now_s()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L18",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock_advance_to",
+      "label": ".advance_to()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L22",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock_real_time_factor",
+      "label": ".real_time_factor()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L25",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_eventkind",
+      "label": "EventKind",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L30",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "str",
+      "label": "str",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "id": "enum",
+      "label": "Enum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationevent",
+      "label": "SimulationEvent",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L38",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationentity",
+      "label": "SimulationEntity",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L46",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationentity_on_tick",
+      "label": ".on_tick()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L51",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate",
+      "label": "SimulationState",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L54",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate_checkpoint",
+      "label": ".checkpoint()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L62",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate_restore",
+      "label": ".restore()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L65",
+      "_py_return_type": "SimulationState",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscenario",
+      "label": "SimulationScenario",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L68",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler",
+      "label": "SimulationScheduler",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L76",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "abc",
+      "label": "ABC",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler_schedule",
+      "label": ".schedule()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L80",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler_pop_next",
+      "label": ".pop_next()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L83",
+      "_py_return_type": "SimulationEvent",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler_peek_time",
+      "label": ".peek_time()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L86",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "label": "SimulationEngine",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L89",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_load",
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L100",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_start",
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_pause",
+      "label": ".pause()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L106",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_resume",
+      "label": ".resume()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L109",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L112",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_step",
+      "label": ".step()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L115",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_state",
+      "label": ".state()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L124",
+      "_py_return_type": "SimulationState",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_1",
+      "label": "Simulation Core interfaces. Frozen after Wave 0 \u2014 see docs/adr/ADR-000. Real\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_15",
+      "label": "Owns simulated time and its relation to wall-clock time.",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L15"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_19",
+      "label": "Current simulation time, seconds since scenario start.",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L19"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_26",
+      "label": "1.0 = real-time pacing, >1 = accelerated, None = unbounded.",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L26"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_47",
+      "label": "Anything with identity and lifecycle in the sim (a Radio, a jammer...).",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L47"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_55",
+      "label": "Snapshot of all entities + clock + RNG state, sufficient to checkpoint and\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L55"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_69",
+      "label": "Validated, loaded scenario ready to run (post scenario-engine parsing).",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L69"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_77",
+      "label": "Priority-queue event scheduler. Concrete impl in services/simulation.",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L77"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_90",
+      "label": "Top-level orchestrator. Owns clock + scheduler + state, drives the run loop,\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L90"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_116",
+      "label": "Run until max_time_s or the event queue is drained. Events are processed in\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L116"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "abc",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "abc",
+      "_python_import_bindings": [
+        [
+          "ABC",
+          "ABC"
+        ],
+        [
+          "abstractmethod",
+          "abstractmethod"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclass",
+          "dataclass"
+        ],
+        [
+          "field",
+          "field"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "enum",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "enum",
+      "_python_import_bindings": [
+        [
+          "Enum",
+          "Enum"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ],
+        [
+          "Protocol",
+          "Protocol"
+        ],
+        [
+          "runtime_checkable",
+          "runtime_checkable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock_now_s",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock_advance_to",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock_real_time_factor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_eventkind",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_eventkind",
+      "target": "str",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_eventkind",
+      "target": "enum",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationevent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationentity",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationentity",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationentity_on_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate_checkpoint",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate_restore",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscenario",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler",
+      "target": "abc",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler_schedule",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler_schedule",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationevent",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler_pop_next",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler_pop_next",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationevent",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler_peek_time",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "target": "abc",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L89",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_load",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_load",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscenario",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_start",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_pause",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L106",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_resume",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_step",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_state",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_1",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_15",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_19",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock_now_s",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_26",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationclock_real_time_factor",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_47",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationentity",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_55",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationstate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_69",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscenario",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_77",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationscheduler",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_90",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_simulation_rationale_116",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_simulationengine_step",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/simulation.py",
+      "source_location": "L116",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

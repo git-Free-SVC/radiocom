@@ -1,0 +1,775 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_py",
+      "label": "test_freeze_rules.py",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_surf",
+      "label": "_surf()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L12",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_identical_is_none",
+      "label": "test_identical_is_none()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L26",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_removed_or_changed_is_major",
+      "label": "test_removed_or_changed_is_major()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L30",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_new_function_is_minor",
+      "label": "test_new_function_is_minor()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L42",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_new_protocol_method_is_major",
+      "label": "test_new_protocol_method_is_major()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L48",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_new_method_on_plain_class_is_minor",
+      "label": "test_new_method_on_plain_class_is_minor()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L55",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/test_freeze_rules.py"
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_bump_ok",
+      "label": "test_bump_ok()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L76",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_adr_rule",
+      "label": "test_adr_rule()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L80",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "label": "test_write_enforces_all_rules()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L88",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_test_history_check_flags_hand_edited_snapshots",
+      "label": "test_history_check_flags_hand_edited_snapshots()",
+      "file_type": "code",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L115",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_test_freeze_rules_rationale_1",
+      "label": "Unit tests for the freeze tooling itself (rules, not the SDK).",
+      "file_type": "rationale",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "copy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "copy",
+      "_python_import_bindings": [
+        [
+          "copy",
+          "copy"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tools_init_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "tools",
+      "_python_import_bindings": [
+        [
+          "sdk_freeze",
+          "F"
+        ]
+      ],
+      "target_file": "$graphify-root$/tools/__init__.py"
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_surf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_identical_is_none",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_removed_or_changed_is_major",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_new_function_is_minor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_new_protocol_method_is_major",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_new_method_on_plain_class_is_minor",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_test_bump_ok",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_bump_ok",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_adr_rule",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_py",
+      "target": "$graphify-root$_tests_test_freeze_rules_test_history_check_flags_hand_edited_snapshots",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_test_identical_is_none",
+      "target": "$graphify-root$_tests_test_freeze_rules_surf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_test_removed_or_changed_is_major",
+      "target": "$graphify-root$_tests_test_freeze_rules_surf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_test_new_function_is_minor",
+      "target": "$graphify-root$_tests_test_freeze_rules_surf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_test_new_protocol_method_is_major",
+      "target": "$graphify-root$_tests_test_freeze_rules_surf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_test_new_method_on_plain_class_is_minor",
+      "target": "$graphify-root$_tests_test_freeze_rules_surf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "target": "$graphify-root$_tests_test_freeze_rules_surf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_test_history_check_flags_hand_edited_snapshots",
+      "target": "$graphify-root$_tests_test_freeze_rules_surf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_test_freeze_rules_rationale_1",
+      "target": "$graphify-root$_tests_test_freeze_rules_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_surf",
+      "callee": "update",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L14",
+      "receiver": "proto",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        296,
+        318
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_identical_is_none",
+      "callee": "classify",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L27",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        582,
+        610
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_removed_or_changed_is_major",
+      "callee": "classify",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L33",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        741,
+        765
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_removed_or_changed_is_major",
+      "callee": "classify",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L36",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        871,
+        895
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_removed_or_changed_is_major",
+      "callee": "classify",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L39",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        987,
+        1011
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_new_function_is_minor",
+      "callee": "classify",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L45",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1148,
+        1172
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_new_protocol_method_is_major",
+      "callee": "classify",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L51",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1355,
+        1379
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_new_method_on_plain_class_is_minor",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L58",
+      "receiver": "copy",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1624,
+        1642
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_new_method_on_plain_class_is_minor",
+      "callee": "classify",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L60",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1728,
+        1748
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_bump_ok",
+      "callee": "bump_ok",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L77",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2225,
+        2251
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_adr_rule",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L81",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2293,
+        2365
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_adr_rule",
+      "callee": "find_accepted_adr",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L82",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2377,
+        2415
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_adr_rule",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L83",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2428,
+        2500
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_adr_rule",
+      "callee": "find_accepted_adr",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L84",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2512,
+        2550
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_adr_rule",
+      "callee": "find_accepted_adr",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L85",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2562,
+        2600
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "mkdir",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L90",
+      "receiver": "adrs",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2711,
+        2723
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_snapshot",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L93",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2802,
+        2866
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L95",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2877,
+        2924
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_snapshot",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L96",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        2934,
+        2998
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L98",
+      "receiver": "copy",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3031,
+        3050
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L100",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3108,
+        3158
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_snapshot",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L101",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3168,
+        3214
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L102",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3231,
+        3299
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L103",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3309,
+        3354
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_snapshot",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L104",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3364,
+        3410
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L105",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3433,
+        3501
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "exists",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L106",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3513,
+        3568
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_snapshot",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L106",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3513,
+        3559
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "deepcopy",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L108",
+      "receiver": "copy",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3589,
+        3609
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_text",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L110",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3652,
+        3720
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L111",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3730,
+        3775
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_write_enforces_all_rules",
+      "callee": "write_snapshot",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L112",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3785,
+        3832
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_test_freeze_rules_test_history_check_flags_hand_edited_snapshots",
+      "callee": "check_history",
+      "is_member_call": true,
+      "source_file": "tests/test_freeze_rules.py",
+      "source_location": "L119",
+      "receiver": "F",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4063,
+        4104
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/tools/__init__.py"
+  ]
+}

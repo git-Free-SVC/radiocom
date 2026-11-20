@@ -1,0 +1,301 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_py",
+      "label": "waveform.py",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec",
+      "label": "WaveformCodec",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "protocol",
+      "label": "Protocol",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/waveform.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_modulate",
+      "label": ".modulate()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L20",
+      "_callable": true
+    },
+    {
+      "id": "ndarray",
+      "label": "ndarray",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/libraries/plugin_sdk/waveform.py"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_demodulate",
+      "label": ".demodulate()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L26",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_ber",
+      "label": ".ber()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L30",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_occupied_bandwidth_hz",
+      "label": ".occupied_bandwidth_hz()",
+      "file_type": "code",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_1",
+      "label": "WaveformCodec interface. Frozen after Wave 0 \u2014 see docs/adr/ADR-000.\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_14",
+      "label": "One modulation scheme. Two fidelity modes share this interface: analytical\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L14"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_21",
+      "label": "bits (0/1 array) -> complex baseband IQ samples. Sample-level mode only;\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L21"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_27",
+      "label": "complex baseband IQ samples -> recovered bits (0/1 array).",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L27"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_31",
+      "label": "Theoretical/analytical bit error rate at a given Eb/N0. Always implemented \u2014\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L31"
+    },
+    {
+      "id": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_36",
+      "label": "Occupied bandwidth for a given symbol rate (e.g. Carson's rule for FM,\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L36"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Protocol",
+          "Protocol"
+        ],
+        [
+          "runtime_checkable",
+          "runtime_checkable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_py",
+      "target": "numpy",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "numpy",
+      "_python_import_bindings": [
+        [
+          "numpy",
+          "np"
+        ]
+      ],
+      "_python_import_module_binding": true,
+      "local_alias": "np"
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec",
+      "target": "protocol",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_modulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_modulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_demodulate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_demodulate",
+      "target": "ndarray",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_ber",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_occupied_bandwidth_hz",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_1",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_14",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_21",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_modulate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_27",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_demodulate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_31",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_ber",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_plugin_sdk_waveform_rationale_36",
+      "target": "$graphify-root$_libraries_plugin_sdk_waveform_waveformcodec_occupied_bandwidth_hz",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/plugin_sdk/waveform.py",
+      "source_location": "L36",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

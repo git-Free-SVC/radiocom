@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_physics_constants_py",
+      "label": "constants.py",
+      "file_type": "code",
+      "source_file": "libraries/physics/constants.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_constants_rationale_1",
+      "label": "Physical and model constants used by ``libraries.physics``. All values are\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/constants.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_physics_constants_rationale_1",
+      "target": "$graphify-root$_libraries_physics_constants_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/constants.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": []
+}

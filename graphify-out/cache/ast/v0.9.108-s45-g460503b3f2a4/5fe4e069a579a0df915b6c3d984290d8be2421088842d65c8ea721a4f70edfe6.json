@@ -1,0 +1,3693 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_api_mocks_py",
+      "label": "mocks.py",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_fakeclock",
+      "label": "FakeClock",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L83",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_fakeclock_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L86",
+      "_callable": true
+    },
+    {
+      "id": "datetime",
+      "label": "datetime",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_fakeclock_now",
+      "label": ".now()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L91",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "label": "InMemoryEventBus",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L98",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryeventbus_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L108",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryeventbus_publish",
+      "label": ".publish()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L114",
+      "_callable": true
+    },
+    {
+      "id": "any",
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscribe",
+      "label": ".subscribe()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L124",
+      "_callable": true
+    },
+    {
+      "id": "handler",
+      "label": "Handler",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryeventbus_unsubscribe",
+      "label": ".unsubscribe()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L130",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscription_count",
+      "label": ".subscription_count()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L139",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscriptions_on",
+      "label": ".subscriptions_on()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L143",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryeventbus_last_payload",
+      "label": ".last_payload()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L147",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationclock",
+      "label": "_MockSimulationClock",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L152",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationclock_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L156",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationclock_now_s",
+      "label": ".now_s()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L160",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationclock_advance_to",
+      "label": ".advance_to()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L163",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationclock_real_time_factor",
+      "label": ".real_time_factor()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L167",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationstate",
+      "label": "MockSimulationState",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L171",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationstate_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L174",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationstate_checkpoint",
+      "label": ".checkpoint()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L179",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationstate_restore",
+      "label": ".restore()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L183",
+      "_py_return_type": "MockSimulationState",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "label": "MockSimulationEngine",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L187",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "simulationengine",
+      "label": "SimulationEngine",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L199",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "label": "._record()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L208",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_require",
+      "label": "._require()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L213",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_load",
+      "label": ".load()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L218",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_start",
+      "label": ".start()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L225",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_pause",
+      "label": ".pause()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L231",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_resume",
+      "label": ".resume()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L237",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_reset",
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L243",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_step",
+      "label": ".step()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L251",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mocksimulationengine_state",
+      "label": ".state()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L261",
+      "_py_return_type": "SimulationState",
+      "_py_property": true,
+      "_callable": true
+    },
+    {
+      "id": "simulationstate",
+      "label": "SimulationState",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_build_radio",
+      "label": "build_radio()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L268",
+      "_py_return_type": "Radio",
+      "_callable": true
+    },
+    {
+      "id": "radio",
+      "label": "Radio",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "label": "InMemoryScenarioStore",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L315",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryscenariostore_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L318",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryscenariostore_next_id",
+      "label": "._next_id()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L325",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_default_scenarios",
+      "label": ".seed_default_scenarios()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L329",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryscenariostore_list_scenarios",
+      "label": ".list_scenarios()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L364",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryscenariostore_create_scenario",
+      "label": ".create_scenario()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L370",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryscenariostore_get_scenario",
+      "label": ".get_scenario()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L381",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_records",
+      "label": ".seed_records()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L386",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "label": "InMemorySimulationRegistry",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L391",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L396",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "label": "._seed_from()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L420",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create",
+      "label": ".create()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L430",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create_on_call",
+      "label": "on_call()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L435",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get",
+      "label": ".get()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L444",
+      "_py_return_type": "SimulationEngine",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_exists",
+      "label": ".exists()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L447",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_status",
+      "label": ".status()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L450",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_scenario_id",
+      "label": ".scenario_id()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L456",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "label": ".add_radio()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L463",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "label": "._maybe_link()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L491",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "label": ".update_radio()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L510",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_radios",
+      "label": ".radios()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L533",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get_link",
+      "label": ".get_link()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L544",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_links",
+      "label": ".links()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L551",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "label": "MockGeodataProvider",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L561",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L564",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_list_layers",
+      "label": ".list_layers()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L573",
+      "_callable": true
+    },
+    {
+      "id": "layerref",
+      "label": "LayerRef",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_raster",
+      "label": ".publish_raster()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L577",
+      "_py_return_type": "LayerRef",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_vector",
+      "label": ".publish_vector()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L584",
+      "_py_return_type": "LayerRef",
+      "_callable": true
+    },
+    {
+      "id": "postgistable",
+      "label": "PostGISTable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "geojsonfile",
+      "label": "GeoJSONFile",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_set_style",
+      "label": ".set_style()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L591",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "label": ".elevation_at()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L595",
+      "_callable": true
+    },
+    {
+      "id": "geoposition",
+      "label": "GeoPosition",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_profile",
+      "label": ".elevation_profile()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L603",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_features_in",
+      "label": ".features_in()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L610",
+      "_callable": true
+    },
+    {
+      "id": "feature",
+      "label": "Feature",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/services/api/mocks.py"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_mockgeodataprovider_tile_url",
+      "label": ".tile_url()",
+      "file_type": "code",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L614",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_1",
+      "label": "Deterministic in-memory doubles for every port (Wave-1 mocks). Rules enforced\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_84",
+      "label": "ClockPort: fixed origin, +1 s per now() call, lock-guarded.",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L84"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_99",
+      "label": "Frozen EventBus contract (libraries/plugin_sdk/event_bus.py docstring):\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L99"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_153",
+      "label": "Minimal SimulationClock for MockSimulationState (state() is not routed; it\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L153"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_172",
+      "label": "SimulationState-shaped snapshot (not part of any routed payload).",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L172"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_188",
+      "label": "The frozen lifecycle, implemented literally (plugin_sdk/simulation.py): (new)\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L188"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_269",
+      "label": "Construct frozen domain types from a schema-validated body. Frequency and\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L269"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_316",
+      "label": "ScenarioPort: counter ids scn_000N, injected clock for created_at.",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L316"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_330",
+      "label": "Two fixture scenarios (idempotence is the caller's responsibility; create_app()\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L330"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_392",
+      "label": "SimulationRegistryPort + CorePort in one object (create_app takes the five\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L392"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_421",
+      "label": "Two scenarios -> two simulations, two radios each, one link each.",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L421"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_492",
+      "label": "Exactly one deterministic link: created when the simulation reaches exactly two\u2026",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L492"
+    },
+    {
+      "id": "$graphify-root$_services_api_mocks_rationale_562",
+      "label": "GeodataPort double: deterministic pure-math elevation, no GeoServer.",
+      "file_type": "rationale",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L562"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "threading",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "threading",
+      "_python_import_bindings": [
+        [
+          "threading",
+          "threading"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "collections_abc",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_python_import_module": "collections.abc",
+      "_python_import_bindings": [
+        [
+          "Callable",
+          "Callable"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_python_import_module": "datetime",
+      "_python_import_bindings": [
+        [
+          "UTC",
+          "UTC"
+        ],
+        [
+          "datetime",
+          "datetime"
+        ],
+        [
+          "timedelta",
+          "timedelta"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_python_import_module": "typing",
+      "_python_import_bindings": [
+        [
+          "Any",
+          "Any"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_libraries_domain_frequency_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.frequency",
+      "_python_import_bindings": [
+        [
+          "Frequency",
+          "Frequency"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/frequency.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_libraries_domain_radio_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.radio",
+      "_python_import_bindings": [
+        [
+          "Antenna",
+          "Antenna"
+        ],
+        [
+          "Radio",
+          "Radio"
+        ],
+        [
+          "Receiver",
+          "Receiver"
+        ],
+        [
+          "Transmitter",
+          "Transmitter"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/radio.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_libraries_domain_rf_results_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.rf_results",
+      "_python_import_bindings": [
+        [
+          "LinkQuality",
+          "LinkQuality"
+        ],
+        [
+          "LinkState",
+          "LinkState"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/rf_results.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_event_bus_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.event_bus",
+      "_python_import_bindings": [
+        [
+          "Handler",
+          "Handler"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/event_bus.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.geodata",
+      "_python_import_bindings": [
+        [
+          "Feature",
+          "Feature"
+        ],
+        [
+          "GeoJSONFile",
+          "GeoJSONFile"
+        ],
+        [
+          "LayerRef",
+          "LayerRef"
+        ],
+        [
+          "PostGISTable",
+          "PostGISTable"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/geodata.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "SimulationEngine",
+          "SimulationEngine"
+        ],
+        [
+          "SimulationState",
+          "SimulationState"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_python_import_module": "services.api.errors",
+      "_python_import_bindings": [
+        [
+          "ApiError",
+          "ApiError"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/errors.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_serialization_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_python_import_module": "services.api.serialization",
+      "_python_import_bindings": [
+        [
+          "datetime_to_iso",
+          "datetime_to_iso"
+        ],
+        [
+          "link_to_payload",
+          "link_to_payload"
+        ],
+        [
+          "position_payload",
+          "position_payload"
+        ],
+        [
+          "radio_to_payload",
+          "radio_to_payload"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/serialization.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_ws_contract_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_python_import_module": "services.api.ws_contract",
+      "_python_import_bindings": [
+        [
+          "CHANNEL_LINK",
+          "CHANNEL_LINK"
+        ],
+        [
+          "CHANNEL_MAP",
+          "CHANNEL_MAP"
+        ],
+        [
+          "CHANNEL_RADIO",
+          "CHANNEL_RADIO"
+        ],
+        [
+          "telemetry_topic",
+          "telemetry_topic"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/api/ws_contract.py"
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_fakeclock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_fakeclock",
+      "target": "$graphify-root$_services_api_mocks_fakeclock_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_fakeclock_init",
+      "target": "datetime",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L86",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_fakeclock",
+      "target": "$graphify-root$_services_api_mocks_fakeclock_now",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_fakeclock_now",
+      "target": "datetime",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus_publish",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus_publish",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscribe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscribe",
+      "target": "handler",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus_unsubscribe",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus_unsubscribe",
+      "target": "handler",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L130",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscription_count",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscriptions_on",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus_last_payload",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryeventbus_last_payload",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L147",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationclock",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L152",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationclock",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationclock_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L156",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationclock",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationclock_now_s",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationclock",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationclock_advance_to",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L163",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationclock",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationclock_real_time_factor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationstate",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationstate_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L174",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationstate",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationstate_checkpoint",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationstate",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationstate_restore",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationstate_restore",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationstate",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "simulationengine",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L187",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L199",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_require",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L213",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_load",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_load",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_start",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_pause",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_resume",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L237",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_reset",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L243",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_step",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L251",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_state",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_state",
+      "target": "simulationstate",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_build_radio",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_build_radio",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_build_radio",
+      "target": "radio",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L268",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L315",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L318",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_init",
+      "target": "$graphify-root$_services_api_mocks_fakeclock",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L318",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_next_id",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_default_scenarios",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_default_scenarios",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_list_scenarios",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L364",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_list_scenarios",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L364",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_create_scenario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L370",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_create_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L370",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_get_scenario",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L381",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_get_scenario",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L381",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_records",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L386",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_records",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L386",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L391",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_init",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_init",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_init",
+      "target": "$graphify-root$_services_api_mocks_fakeclock",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L420",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L430",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create_on_call",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L435",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L444",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get",
+      "target": "simulationengine",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L444",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_exists",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L447",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_status",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L450",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_scenario_id",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L456",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L463",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L463",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L491",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L510",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L510",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_radios",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L533",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_radios",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L533",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get_link",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L544",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get_link",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L544",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_links",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L551",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_links",
+      "target": "any",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L551",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_py",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L561",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L564",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_list_layers",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L573",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_list_layers",
+      "target": "layerref",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L573",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_raster",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L577",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_raster",
+      "target": "layerref",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L577",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_vector",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L584",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_vector",
+      "target": "postgistable",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L584",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_vector",
+      "target": "geojsonfile",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L584",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_vector",
+      "target": "layerref",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L584",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_set_style",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L591",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_set_style",
+      "target": "layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L591",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L595",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L595",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_profile",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L603",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_profile",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L603",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_features_in",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L610",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_features_in",
+      "target": "layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L610",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_features_in",
+      "target": "any",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L610",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_features_in",
+      "target": "feature",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L610",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_tile_url",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L614",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_tile_url",
+      "target": "layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L614",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationstate_init",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationclock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L175",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_load",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L220",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_load",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L221",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_start",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L227",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_start",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L228",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_pause",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L233",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_pause",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L234",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_resume",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L239",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_resume",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L240",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_reset",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L245",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_step",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L253",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_step",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine_require",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mocksimulationengine_state",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationstate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_init",
+      "target": "$graphify-root$_services_api_mocks_fakeclock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L320",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_default_scenarios",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_next_id",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L337",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemoryscenariostore_create_scenario",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_next_id",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L373",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_init",
+      "target": "$graphify-root$_services_api_mocks_fakeclock",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L404",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_init",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L417",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L423",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L427",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L438",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create_on_call",
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L438",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "target": "$graphify-root$_services_api_mocks_build_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L469",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L473",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "target": "$graphify-root$_services_api_mocks_build_radio",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L522",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_profile",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L606",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_1",
+      "target": "$graphify-root$_services_api_mocks_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_84",
+      "target": "$graphify-root$_services_api_mocks_fakeclock",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L84",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_99",
+      "target": "$graphify-root$_services_api_mocks_inmemoryeventbus",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L99",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_153",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationclock",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_172",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationstate",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_188",
+      "target": "$graphify-root$_services_api_mocks_mocksimulationengine",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L188",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_269",
+      "target": "$graphify-root$_services_api_mocks_build_radio",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L269",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_316",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L316",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_330",
+      "target": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_default_scenarios",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L330",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_392",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_421",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L421",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_492",
+      "target": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L492",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_services_api_mocks_rationale_562",
+      "target": "$graphify-root$_services_api_mocks_mockgeodataprovider",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L562",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_fakeclock_init",
+      "callee": "timedelta",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L88",
+      "receiver": null,
+      "_python_call_site": [
+        3503,
+        3528
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_fakeclock_init",
+      "callee": "Lock",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L89",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3550,
+        3566
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_init",
+      "callee": "RLock",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L109",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4293,
+        4310
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_publish",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L116",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4602,
+        4636
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_publish",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L122",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4941,
+        4972
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_publish",
+      "callee": "exc",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L122"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscribe",
+      "callee": "setdefault",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L126",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5085,
+        5126
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscribe",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L128",
+      "receiver": "handlers",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        5085,
+        5126
+      ],
+      "_python_call_site": [
+        5183,
+        5207
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_unsubscribe",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L132",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5322,
+        5356
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_unsubscribe",
+      "callee": "remove",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L134",
+      "receiver": "handlers",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        5322,
+        5356
+      ],
+      "_python_call_site": [
+        5409,
+        5433
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_unsubscribe",
+      "callee": "pop",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L136",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5479,
+        5515
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscription_count",
+      "callee": "values",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L141",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5718,
+        5746
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_subscriptions_on",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L145",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5848,
+        5882
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryeventbus_last_payload",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L149",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        5994,
+        6024
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mocksimulationengine_init",
+      "callee": "Lock",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L205",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        7941,
+        7957
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L209",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8092,
+        8117
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mocksimulationengine_record",
+      "callee": "_on_call",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L211",
+      "receiver": "self",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        8168,
+        8189
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mocksimulationengine_require",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L215",
+      "receiver": null,
+      "_python_call_site": [
+        8303,
+        8361
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mocksimulationengine_reset",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L247",
+      "receiver": null,
+      "_python_call_site": [
+        9319,
+        9363
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mocksimulationengine_step",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L257",
+      "receiver": null,
+      "_python_call_site": [
+        9712,
+        9782
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mocksimulationengine_state",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L264",
+      "receiver": null,
+      "_python_call_site": [
+        9967,
+        10004
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "Frequency",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L277",
+      "receiver": null,
+      "_python_call_site": [
+        10560,
+        10690
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "Transmitter",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L282",
+      "receiver": null,
+      "_python_call_site": [
+        10752,
+        10901
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L284",
+      "receiver": "transmitter_body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        10851,
+        10893
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "Receiver",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L287",
+      "receiver": null,
+      "_python_call_site": [
+        10954,
+        11099
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "Antenna",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L292",
+      "receiver": null,
+      "_python_call_site": [
+        11149,
+        11467
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L296",
+      "receiver": "antenna_body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11339,
+        11383
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L300",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        11520,
+        11674
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L303",
+      "receiver": "position_body",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        11635,
+        11666
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_build_radio",
+      "callee": "Radio",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L305",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        11686,
+        11860
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryscenariostore_init",
+      "callee": "RLock",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L319",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        12058,
+        12075
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_default_scenarios",
+      "callee": "datetime_to_iso",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L357",
+      "receiver": null,
+      "_python_call_site": [
+        13645,
+        13679
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_default_scenarios",
+      "callee": "now",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L357",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13661,
+        13678
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryscenariostore_seed_default_scenarios",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L360",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        13768,
+        13800
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryscenariostore_create_scenario",
+      "callee": "datetime_to_iso",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L375",
+      "receiver": null,
+      "_python_call_site": [
+        14394,
+        14428
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryscenariostore_create_scenario",
+      "callee": "now",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L375",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14410,
+        14427
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryscenariostore_create_scenario",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L378",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14505,
+        14537
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemoryscenariostore_get_scenario",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L383",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        14680,
+        14710
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_init",
+      "callee": "Lock",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L403",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        15413,
+        15429
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "callee": "seed_records",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L422",
+      "receiver": "scenario_store",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "InMemoryScenarioStore",
+      "_python_call_site": [
+        16377,
+        16406
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_seed_from",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L425",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        16524,
+        16543
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_create_on_call",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L436",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        17062,
+        17112
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L445",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        17469,
+        17501
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_status",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L451",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        17666,
+        17698
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_status",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L453",
+      "receiver": null,
+      "_python_call_site": [
+        17744,
+        17798
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_scenario_id",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L457",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        17905,
+        17942
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_scenario_id",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L459",
+      "receiver": null,
+      "_python_call_site": [
+        17993,
+        18047
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "ApiError",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L465",
+      "receiver": null,
+      "_python_call_site": [
+        18307,
+        18361
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L472",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        18664,
+        18728
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "setdefault",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L472",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        18664,
+        18711
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "radio_to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L474",
+      "receiver": null,
+      "_python_call_site": [
+        18806,
+        18844
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "telemetry_topic",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L475",
+      "receiver": null,
+      "_python_call_site": [
+        18861,
+        18891
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L476",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "InMemoryEventBus",
+      "_python_call_site": [
+        18900,
+        18969
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "CHANNEL_RADIO",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L476"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L477",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "InMemoryEventBus",
+      "_python_call_site": [
+        18978,
+        19061
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "CHANNEL_MAP",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L477"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "position_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L477",
+      "receiver": null,
+      "_python_call_site": [
+        19036,
+        19059
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L480",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "InMemoryEventBus",
+      "_python_call_site": [
+        19158,
+        19455
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "CHANNEL_LINK",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L483"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_add_radio",
+      "callee": "link_to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L484",
+      "receiver": null,
+      "_python_call_site": [
+        19291,
+        19421
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "callee": "SEED_LINK_TIME_S",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L505"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "callee": "LinkState",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L500",
+      "receiver": null,
+      "_python_call_site": [
+        19931,
+        20099
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "callee": "SEED_LINK_SNR_DB",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L501"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "callee": "SEED_LINK_MARGIN_DB",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L502"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "callee": "LinkQuality",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L503",
+      "receiver": null,
+      "_python_call_site": [
+        20054,
+        20084
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "callee": "SEED_LINK_QUALITY",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L503"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_maybe_link",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L507",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        20159,
+        20202
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L511",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        20330,
+        20356
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "radio_to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L515",
+      "receiver": null,
+      "_python_call_site": [
+        20470,
+        20516
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "radio_to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L526",
+      "receiver": null,
+      "_python_call_site": [
+        21080,
+        21120
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "telemetry_topic",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L527",
+      "receiver": null,
+      "_python_call_site": [
+        21137,
+        21167
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L528",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "InMemoryEventBus",
+      "_python_call_site": [
+        21176,
+        21245
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "CHANNEL_RADIO",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L528"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "publish",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L530",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_self_attr_type": "InMemoryEventBus",
+      "_python_call_site": [
+        21287,
+        21372
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "CHANNEL_MAP",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "services/api/mocks.py",
+      "source_location": "L530"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_update_radio",
+      "callee": "position_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L530",
+      "receiver": null,
+      "_python_call_site": [
+        21345,
+        21370
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_radios",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L535",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        21513,
+        21553
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_radios",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L538",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        21650,
+        21676
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_radios",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L540",
+      "receiver": "payloads",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        21727,
+        21780
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_radios",
+      "callee": "radio_to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L540",
+      "receiver": null,
+      "_python_call_site": [
+        21743,
+        21779
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get_link",
+      "callee": "items",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L546",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        22019,
+        22038
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_get_link",
+      "callee": "link_to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L548",
+      "receiver": null,
+      "_python_call_site": [
+        22123,
+        22187
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_links",
+      "callee": "get",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L553",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        22323,
+        22362
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_links",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L557",
+      "receiver": "payloads",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        22483,
+        22566
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_inmemorysimulationregistry_links",
+      "callee": "link_to_payload",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L557",
+      "receiver": null,
+      "_python_call_site": [
+        22499,
+        22565
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_init",
+      "callee": "Lock",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L565",
+      "receiver": "threading",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        22753,
+        22769
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_init",
+      "callee": "LayerRef",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L567",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        22823,
+        22867
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_init",
+      "callee": "LayerRef",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L568",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        22881,
+        22929
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_raster",
+      "callee": "LayerRef",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L579",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        23363,
+        23397
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_raster",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L581",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        23435,
+        23461
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_vector",
+      "callee": "LayerRef",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L586",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        23608,
+        23642
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_publish_vector",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L588",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        23680,
+        23706
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "callee": "sin",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L597",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        23953,
+        23984
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L597",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        23962,
+        23983
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "callee": "cos",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L598",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        24006,
+        24037
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L598",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        24015,
+        24036
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_profile",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L605",
+      "receiver": null,
+      "_python_call_site": [
+        24225,
+        24275
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_set_style",
+      "callee": "name",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L593",
+      "_python_attr_read": true,
+      "receiver": "layer",
+      "receiver_type": "LayerRef"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "callee": "alt_m",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L599",
+      "_python_attr_read": true,
+      "receiver": "pos",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "callee": "lon",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L598",
+      "_python_attr_read": true,
+      "receiver": "pos",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_elevation_at",
+      "callee": "lat",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L597",
+      "_python_attr_read": true,
+      "receiver": "pos",
+      "receiver_type": "GeoPosition"
+    },
+    {
+      "caller_nid": "$graphify-root$_services_api_mocks_mockgeodataprovider_tile_url",
+      "callee": "name",
+      "is_member_call": true,
+      "source_file": "services/api/mocks.py",
+      "source_location": "L616",
+      "_python_attr_read": true,
+      "receiver": "layer",
+      "receiver_type": "LayerRef"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/frequency.py",
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/domain/radio.py",
+    "$graphify-root$/libraries/domain/rf_results.py",
+    "$graphify-root$/libraries/plugin_sdk/event_bus.py",
+    "$graphify-root$/libraries/plugin_sdk/geodata.py",
+    "$graphify-root$/libraries/plugin_sdk/simulation.py",
+    "$graphify-root$/services/api/errors.py",
+    "$graphify-root$/services/api/serialization.py",
+    "$graphify-root$/services/api/ws_contract.py"
+  ]
+}

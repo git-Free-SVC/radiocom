@@ -1,0 +1,1294 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "label": "test_simulation_contract.py",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_recordingentity",
+      "label": "RecordingEntity",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L21",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_recordingentity_on_tick",
+      "label": ".on_tick()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_scenario",
+      "label": "Scenario",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L30",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "label": "_running()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_is_abc_impl",
+      "label": "test_scheduler_is_abc_impl()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L44",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_empty",
+      "label": "test_scheduler_empty()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L48",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_orders_by_time_then_seq",
+      "label": "test_scheduler_orders_by_time_then_seq()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L52",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_engine_is_abc_impl",
+      "label": "test_engine_is_abc_impl()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_state_before_load_raises",
+      "label": "test_state_before_load_raises()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L68",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/test_simulation_contract.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_operations_before_load_raise",
+      "label": "test_operations_before_load_raise()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L74",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "label": "test_illegal_transitions_raise()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L79",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_state_exposes_clock_entities_rng",
+      "label": "test_state_exposes_clock_entities_rng()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L97",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_step_advances_clock_to_max_time",
+      "label": "test_step_advances_clock_to_max_time()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L107",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_step_into_past_raises",
+      "label": "test_step_into_past_raises()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L113",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_entity_ticks_are_ordered_and_bounded",
+      "label": "test_entity_ticks_are_ordered_and_bounded()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L120",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_step_none_drains_queue_and_terminates",
+      "label": "test_step_none_drains_queue_and_terminates()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L128",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_reset_returns_to_time_zero",
+      "label": "test_reset_returns_to_time_zero()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L133",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_run_and_checkpoint",
+      "label": "_run_and_checkpoint()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L143",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_same_seed_same_checkpoint",
+      "label": "test_same_seed_same_checkpoint()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L149",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_test_checkpoint_roundtrip",
+      "label": "test_checkpoint_roundtrip()",
+      "file_type": "code",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L154",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_test_simulation_contract_rationale_1",
+      "label": "Contract for SimulationEngine + SimulationScheduler. pytest\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "dataclasses",
+      "_python_import_bindings": [
+        [
+          "dataclass",
+          "dataclass"
+        ],
+        [
+          "field",
+          "field"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_simulation_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.simulation",
+      "_python_import_bindings": [
+        [
+          "EventKind",
+          "EventKind"
+        ],
+        [
+          "SimulationEngine",
+          "SimulationEngine"
+        ],
+        [
+          "SimulationEvent",
+          "SimulationEvent"
+        ],
+        [
+          "SimulationScheduler",
+          "SimulationScheduler"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/simulation.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_recordingentity",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_recordingentity",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_recordingentity_on_tick",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_scenario",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_is_abc_impl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_empty",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_orders_by_time_then_seq",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_engine_is_abc_impl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_state_before_load_raises",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L68",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_operations_before_load_raise",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_operations_before_load_raise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_state_exposes_clock_entities_rng",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_step_advances_clock_to_max_time",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_step_into_past_raises",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L113",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_entity_ticks_are_ordered_and_bounded",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_step_none_drains_queue_and_terminates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_reset_returns_to_time_zero",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_run_and_checkpoint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_same_seed_same_checkpoint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_test_checkpoint_roundtrip",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_scenario",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_scenario",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_state_exposes_clock_entities_rng",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_step_advances_clock_to_max_time",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_step_into_past_raises",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_entity_ticks_are_ordered_and_bounded",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_step_none_drains_queue_and_terminates",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_reset_returns_to_time_zero",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L134",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_run_and_checkpoint",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_same_seed_same_checkpoint",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_run_and_checkpoint",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_test_checkpoint_roundtrip",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_test_simulation_contract_rationale_1",
+      "target": "$graphify-root$_tests_contract_test_simulation_contract_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_recordingentity_on_tick",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L26",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        566,
+        588
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L38",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        832,
+        847
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_running",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L39",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        853,
+        867
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_is_abc_impl",
+      "callee": "SimulationScheduler",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L45"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_empty",
+      "callee": "pop_next",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L49",
+      "receiver": "scheduler",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1087,
+        1107
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_empty",
+      "callee": "peek_time",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L49",
+      "receiver": "scheduler",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1120,
+        1141
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_orders_by_time_then_seq",
+      "callee": "schedule",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L55",
+      "receiver": "scheduler",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1311,
+        1355
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_orders_by_time_then_seq",
+      "callee": "SimulationEvent",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L55",
+      "receiver": null,
+      "_python_call_site": [
+        1330,
+        1354
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_orders_by_time_then_seq",
+      "callee": "peek_time",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L56",
+      "receiver": "scheduler",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1368,
+        1389
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_orders_by_time_then_seq",
+      "callee": "pop_next",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L58",
+      "receiver": "scheduler",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        1430,
+        1450
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_scheduler_orders_by_time_then_seq",
+      "callee": "append",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L59",
+      "receiver": "order",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1474,
+        1505
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_engine_is_abc_impl",
+      "callee": "SimulationEngine",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L65"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_state_before_load_raises",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L69",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1771,
+        1798
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_state_before_load_raises",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L69"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_operations_before_load_raise",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L75",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1967,
+        1994
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_operations_before_load_raise",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L75"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_operations_before_load_raise",
+      "callee": "getattr(engine, op)",
+      "is_member_call": false,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L76",
+      "receiver": null,
+      "_python_call_site": [
+        2005,
+        2026
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "load",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L80",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2081,
+        2104
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L81",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2115,
+        2142
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L81"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "pause",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L82",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2153,
+        2167
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L83",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2197,
+        2224
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L83"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L84",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2235,
+        2251
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L85",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2275,
+        2289
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L86",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2300,
+        2327
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L86"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L87",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2338,
+        2352
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L88",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2382,
+        2409
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L88"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "resume",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L89",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2420,
+        2435
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "pause",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L90",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2455,
+        2469
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L91",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2480,
+        2507
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "RuntimeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L91"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L92",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2518,
+        2534
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "resume",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L93",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2558,
+        2573
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_illegal_transitions_raise",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L94",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        2579,
+        2595
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_state_exposes_clock_entities_rng",
+      "callee": "bytes",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L103"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_step_advances_clock_to_max_time",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L109",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3020,
+        3047
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_step_into_past_raises",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L115",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3164,
+        3180
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_step_into_past_raises",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L116",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3191,
+        3216
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_step_into_past_raises",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L116"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_step_into_past_raises",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L117",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3227,
+        3243
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_entity_ticks_are_ordered_and_bounded",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L122",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3336,
+        3352
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_step_none_drains_queue_and_terminates",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L130",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3571,
+        3588
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_reset_returns_to_time_zero",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L135",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3681,
+        3697
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_reset_returns_to_time_zero",
+      "callee": "reset",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L136",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3703,
+        3717
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_reset_returns_to_time_zero",
+      "callee": "start",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L138",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3767,
+        3781
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_reset_returns_to_time_zero",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L139",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        3787,
+        3803
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_run_and_checkpoint",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L145",
+      "receiver": "engine_cls_instance",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        3991,
+        4021
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_run_and_checkpoint",
+      "callee": "checkpoint",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L146",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4034,
+        4072
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_same_seed_same_checkpoint",
+      "callee": "getfixturevalue",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L150",
+      "receiver": "request",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        4139,
+        4172
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_checkpoint_roundtrip",
+      "callee": "step",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L156",
+      "receiver": "engine",
+      "_python_receiver_shadowed": true,
+      "_python_fixture_param": true,
+      "_python_call_site": [
+        4320,
+        4336
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_checkpoint_roundtrip",
+      "callee": "checkpoint",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L158",
+      "receiver": "st",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4372,
+        4387
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_checkpoint_roundtrip",
+      "callee": "restore",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L159",
+      "receiver": null,
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        4404,
+        4426
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_test_checkpoint_roundtrip",
+      "callee": "checkpoint",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L161",
+      "receiver": "restored",
+      "_python_receiver_shadowed": true,
+      "_python_receiver_factory": [
+        4404,
+        4426
+      ],
+      "_python_call_site": [
+        4490,
+        4511
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_test_simulation_contract_recordingentity_on_tick",
+      "callee": "ticks",
+      "is_member_call": true,
+      "source_file": "tests/contract/test_simulation_contract.py",
+      "source_location": "L26",
+      "_python_attr_read": true,
+      "receiver": "self"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/plugin_sdk/simulation.py"
+  ]
+}

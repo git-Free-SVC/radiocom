@@ -1,0 +1,1876 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "label": "test_physics_distance.py",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "label": "P()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L21",
+      "_py_return_type": "GeoPosition",
+      "_callable": true
+    },
+    {
+      "id": "geoposition",
+      "label": "GeoPosition",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_distance.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_raw",
+      "label": "raw()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L25",
+      "_py_return_type": "SimpleNamespace",
+      "_callable": true
+    },
+    {
+      "id": "simplenamespace",
+      "label": "SimpleNamespace",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_distance.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_contract_fixture_distance",
+      "label": "test_contract_fixture_distance()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L35",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_identical_points_zero",
+      "label": "test_identical_points_zero()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L40",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_one_degree_latitude",
+      "label": "test_one_degree_latitude()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L44",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_longitude_shrinks_with_cos_lat",
+      "label": "test_longitude_shrinks_with_cos_lat()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L50",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antipodal_is_half_circumference_no_nan",
+      "label": "test_antipodal_is_half_circumference_no_nan()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L56",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antimeridian_crossing",
+      "label": "test_antimeridian_crossing()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L64",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_poles_independent_of_longitude",
+      "label": "test_poles_independent_of_longitude()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L69",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "label": "_rand_point()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L75",
+      "_py_return_type": "GeoPosition",
+      "_callable": true
+    },
+    {
+      "id": "random",
+      "label": "Random",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_distance.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "label": "test_symmetry_and_triangle_inequality()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L79",
+      "_callable": true
+    },
+    {
+      "id": "parametrize",
+      "label": "parametrize",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/unit/physics/test_physics_distance.py"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "label": "test_bad_latitude()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L90",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_longitude",
+      "label": "test_bad_longitude()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L98",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_non_numeric_coordinate",
+      "label": "test_non_numeric_coordinate()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L103",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_equals_haversine_at_equal_altitude",
+      "label": "test_slant_equals_haversine_at_equal_altitude()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L109",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_pythagoras",
+      "label": "test_slant_pythagoras()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L114",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_same_latlon_different_altitude_is_not_degenerate",
+      "label": "test_slant_same_latlon_different_altitude_is_not_degenerate()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L120",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "label": "test_slant_symmetric_and_ge_surface()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L124",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_bad_altitude",
+      "label": "test_slant_bad_altitude()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L133",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_altitude_difference_overflow",
+      "label": "test_slant_altitude_difference_overflow()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L138",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_huge_altitude_still_finite",
+      "label": "test_slant_huge_altitude_still_finite()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L143",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "label": "test_foundation_or_physics_rejects_bad_coordinates()",
+      "file_type": "code",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L150",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_rationale_1",
+      "label": "Haversine surface distance and slant range.",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_rationale_26",
+      "label": "A position-like object that bypasses ``GeoPosition`` validation. The\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L26"
+    },
+    {
+      "id": "$graphify-root$_tests_unit_physics_test_physics_distance_rationale_151",
+      "label": "Whoever validates first wins: the foundation type, or this module. Never a\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L151"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "random",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "random",
+      "_python_import_bindings": [
+        [
+          "random",
+          "random"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "types",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "types",
+      "_python_import_bindings": [
+        [
+          "SimpleNamespace",
+          "SimpleNamespace"
+        ]
+      ]
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "pytest",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_python_import_module": "pytest",
+      "_python_import_bindings": [
+        [
+          "pytest",
+          "pytest"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_libraries_physics_constants_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.constants",
+      "_python_import_bindings": [
+        [
+          "EARTH_MEAN_RADIUS_M",
+          "EARTH_MEAN_RADIUS_M"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/constants.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_libraries_physics_distance_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.distance",
+      "_python_import_bindings": [
+        [
+          "haversine_distance_m",
+          "haversine_distance_m"
+        ],
+        [
+          "slant_range_m",
+          "slant_range_m"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/distance.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_libraries_physics_errors_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.errors",
+      "_python_import_bindings": [
+        [
+          "PhysicsInputError",
+          "PhysicsInputError"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/errors.py"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_raw",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_raw",
+      "target": "simplenamespace",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_contract_fixture_distance",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_identical_points_zero",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_one_degree_latitude",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_longitude_shrinks_with_cos_lat",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antipodal_is_half_circumference_no_nan",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antimeridian_crossing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_poles_independent_of_longitude",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "target": "random",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L90",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_longitude",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_longitude",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L98",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_non_numeric_coordinate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_equals_haversine_at_equal_altitude",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L109",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_pythagoras",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_same_latlon_different_altitude_is_not_degenerate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L120",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L124",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_bad_altitude",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L132",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_bad_altitude",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_altitude_difference_overflow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L138",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_huge_altitude_still_finite",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "target": "parametrize",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "context": "decorator"
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_contract_fixture_distance",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_identical_points_zero",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_one_degree_latitude",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_longitude_shrinks_with_cos_lat",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antipodal_is_half_circumference_no_nan",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antimeridian_crossing",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_poles_independent_of_longitude",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_raw",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L92",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_longitude",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_raw",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L100",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_non_numeric_coordinate",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_raw",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_equals_haversine_at_equal_altitude",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L110",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_pythagoras",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_same_latlon_different_altitude_is_not_degenerate",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L121",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_bad_altitude",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L135",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_altitude_difference_overflow",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_huge_altitude_still_finite",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L144",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L153",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_rationale_1",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_rationale_26",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_raw",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_unit_physics_test_physics_distance_rationale_151",
+      "target": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L151",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_p",
+      "callee": "GeoPosition",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L22",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        600,
+        640
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_raw",
+      "callee": "SimpleNamespace",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L32",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        1059,
+        1103
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_contract_fixture_distance",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L36",
+      "receiver": null,
+      "_python_call_site": [
+        1160,
+        1209
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_contract_fixture_distance",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L37",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1226,
+        1258
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_identical_points_zero",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L41",
+      "receiver": null,
+      "_python_call_site": [
+        1314,
+        1364
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_one_degree_latitude",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L45",
+      "receiver": null,
+      "_python_call_site": [
+        1422,
+        1468
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_one_degree_latitude",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L46",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1485,
+        1518
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_one_degree_latitude",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L47",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1535,
+        1573
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_one_degree_latitude",
+      "callee": "ONE_DEGREE_M",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L47"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_longitude_shrinks_with_cos_lat",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L52",
+      "receiver": null,
+      "_python_call_site": [
+        1679,
+        1725
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_longitude_shrinks_with_cos_lat",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L53",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1746,
+        1813
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_longitude_shrinks_with_cos_lat",
+      "callee": "cos",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L53",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1775,
+        1802
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_longitude_shrinks_with_cos_lat",
+      "callee": "radians",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L53",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1784,
+        1801
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antipodal_is_half_circumference_no_nan",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L57",
+      "receiver": null,
+      "_python_call_site": [
+        1883,
+        1931
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antipodal_is_half_circumference_no_nan",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L58",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1948,
+        2003
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antipodal_is_half_circumference_no_nan",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L59",
+      "receiver": null,
+      "_python_call_site": [
+        2013,
+        2066
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antipodal_is_half_circumference_no_nan",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L60",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2078,
+        2095
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antipodal_is_half_circumference_no_nan",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L61",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2113,
+        2167
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antimeridian_crossing",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L65",
+      "receiver": null,
+      "_python_call_site": [
+        2220,
+        2271
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antimeridian_crossing",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L66",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2288,
+        2325
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_antimeridian_crossing",
+      "callee": "ONE_DEGREE_M",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L66"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_poles_independent_of_longitude",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L70",
+      "receiver": null,
+      "_python_call_site": [
+        2390,
+        2440
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_poles_independent_of_longitude",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L70",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2444,
+        2472
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_poles_independent_of_longitude",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L71",
+      "receiver": null,
+      "_python_call_site": [
+        2481,
+        2531
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_poles_independent_of_longitude",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L72",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2548,
+        2603
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L76",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2671,
+        2691
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L76",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2693,
+        2715
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_rand_point",
+      "callee": "uniform",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L76",
+      "receiver": "rng",
+      "_python_receiver_shadowed": true,
+      "receiver_type": "Random",
+      "_python_call_site": [
+        2717,
+        2742
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L80",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2809,
+        2825
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L83",
+      "receiver": null,
+      "_python_call_site": [
+        2938,
+        2964
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L84",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        2986,
+        3037
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L84",
+      "receiver": null,
+      "_python_call_site": [
+        3000,
+        3026
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L86",
+      "receiver": null,
+      "_python_call_site": [
+        3124,
+        3150
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_symmetry_and_triangle_inequality",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L86",
+      "receiver": null,
+      "_python_call_site": [
+        3153,
+        3179
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L91",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3331,
+        3376
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L91"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L92",
+      "receiver": null,
+      "_python_call_site": [
+        3386,
+        3436
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L93",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3446,
+        3491
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L93"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_latitude",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L94",
+      "receiver": null,
+      "_python_call_site": [
+        3501,
+        3551
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_longitude",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L99",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3697,
+        3742
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_longitude",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L99"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_bad_longitude",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L100",
+      "receiver": null,
+      "_python_call_site": [
+        3752,
+        3802
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_non_numeric_coordinate",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L104",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        3857,
+        3889
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_non_numeric_coordinate",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L104"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_non_numeric_coordinate",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L105",
+      "receiver": null,
+      "_python_call_site": [
+        3899,
+        3949
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_equals_haversine_at_equal_altitude",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L111",
+      "receiver": null,
+      "_python_call_site": [
+        4154,
+        4173
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_equals_haversine_at_equal_altitude",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L111",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4177,
+        4228
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_equals_haversine_at_equal_altitude",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L111",
+      "receiver": null,
+      "_python_call_site": [
+        4191,
+        4217
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_pythagoras",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L116",
+      "receiver": null,
+      "_python_call_site": [
+        4328,
+        4354
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_pythagoras",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L117",
+      "receiver": null,
+      "_python_call_site": [
+        4366,
+        4385
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_pythagoras",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L117",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4389,
+        4436
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_pythagoras",
+      "callee": "hypot",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L117",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4403,
+        4424
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_same_latlon_different_altitude_is_not_degenerate",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L121",
+      "receiver": null,
+      "_python_call_site": [
+        4525,
+        4581
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_same_latlon_different_altitude_is_not_degenerate",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L121",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4585,
+        4606
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "callee": "Random",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L125",
+      "receiver": "random",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4670,
+        4686
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L128",
+      "receiver": null,
+      "_python_call_site": [
+        4780,
+        4799
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "callee": "approx",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L128",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        4803,
+        4858
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L128",
+      "receiver": null,
+      "_python_call_site": [
+        4817,
+        4836
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L129",
+      "receiver": null,
+      "_python_call_site": [
+        4874,
+        4893
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_symmetric_and_ge_surface",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L129",
+      "receiver": null,
+      "_python_call_site": [
+        4897,
+        4923
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_bad_altitude",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L134",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5056,
+        5103
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_bad_altitude",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L134"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_bad_altitude",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L135",
+      "receiver": null,
+      "_python_call_site": [
+        5113,
+        5162
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_altitude_difference_overflow",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L139",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5229,
+        5261
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_altitude_difference_overflow",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L139"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_altitude_difference_overflow",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L140",
+      "receiver": null,
+      "_python_call_site": [
+        5271,
+        5325
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_huge_altitude_still_finite",
+      "callee": "isfinite",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L144",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5392,
+        5458
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_slant_huge_altitude_still_finite",
+      "callee": "slant_range_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L144",
+      "receiver": null,
+      "_python_call_site": [
+        5406,
+        5457
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L154"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "callee": "TypeError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L154"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "callee": "raises",
+      "is_member_call": true,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L156",
+      "receiver": "pytest",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        5903,
+        5935
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "callee": "PhysicsInputError",
+      "is_member_call": false,
+      "indirect": true,
+      "context": "argument",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L156"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_test_foundation_or_physics_rejects_bad_coordinates",
+      "callee": "haversine_distance_m",
+      "is_member_call": false,
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L157",
+      "receiver": null,
+      "_python_call_site": [
+        5945,
+        5983
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L89"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L97"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L97"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L132"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L132"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "callee": "nan",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L148"
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_unit_physics_test_physics_distance_py",
+      "callee": "inf",
+      "is_member_call": true,
+      "receiver": "math",
+      "indirect": true,
+      "context": "collection",
+      "source_file": "tests/unit/physics/test_physics_distance.py",
+      "source_location": "L148"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/physics/constants.py",
+    "$graphify-root$/libraries/physics/distance.py",
+    "$graphify-root$/libraries/physics/errors.py"
+  ]
+}

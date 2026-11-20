@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_services_simulation_init_py",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "services/simulation/__init__.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_services_simulation_init_rationale_1",
+      "label": "Simulation Core (architecture doc \u00a714). Public surface for other subsystems to\u2026",
+      "file_type": "rationale",
+      "source_file": "services/simulation/__init__.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_services_simulation_init_py",
+      "target": "$graphify-root$_services_simulation_clock_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/__init__.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.clock",
+      "_python_import_bindings": [
+        [
+          "WallClock",
+          "WallClock"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/clock.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_init_py",
+      "target": "$graphify-root$_services_simulation_determinism_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/__init__.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.determinism",
+      "_python_import_bindings": [
+        [
+          "derive_entity_seed",
+          "derive_entity_seed"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/determinism.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_init_py",
+      "target": "$graphify-root$_services_simulation_engine_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/__init__.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.engine",
+      "_python_import_bindings": [
+        [
+          "CoreSimulationEngine",
+          "CoreSimulationEngine"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/engine.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_init_py",
+      "target": "$graphify-root$_services_simulation_scheduler_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/__init__.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.scheduler",
+      "_python_import_bindings": [
+        [
+          "HeapScheduler",
+          "HeapScheduler"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/scheduler.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_init_py",
+      "target": "$graphify-root$_services_simulation_state_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/__init__.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "services.simulation.state",
+      "_python_import_bindings": [
+        [
+          "InMemorySimulationState",
+          "InMemorySimulationState"
+        ]
+      ],
+      "target_file": "$graphify-root$/services/simulation/state.py"
+    },
+    {
+      "source": "$graphify-root$_services_simulation_init_rationale_1",
+      "target": "$graphify-root$_services_simulation_init_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "services/simulation/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [],
+  "_cached_target_files": [
+    "$graphify-root$/services/simulation/clock.py",
+    "$graphify-root$/services/simulation/determinism.py",
+    "$graphify-root$/services/simulation/engine.py",
+    "$graphify-root$/services/simulation/scheduler.py",
+    "$graphify-root$/services/simulation/state.py"
+  ]
+}

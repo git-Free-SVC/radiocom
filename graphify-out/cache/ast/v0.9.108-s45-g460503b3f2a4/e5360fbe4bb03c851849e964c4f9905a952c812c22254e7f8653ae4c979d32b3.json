@@ -1,0 +1,168 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_libraries_physics_path_loss_py",
+      "label": "path_loss.py",
+      "file_type": "code",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_path_loss_free_space_path_loss_db",
+      "label": "free_space_path_loss_db()",
+      "file_type": "code",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L29",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_path_loss_rationale_1",
+      "label": "Free-space path loss (Friis), in the log domain. ``FSPL(dB) = 20*log10(d_km) +\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_libraries_physics_path_loss_rationale_30",
+      "label": "Free-space path loss in dB for ``distance_m`` metres at ``frequency_hz`` Hz.\u2026",
+      "file_type": "rationale",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L30"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_libraries_physics_path_loss_py",
+      "target": "math",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_python_import_module": "math",
+      "_python_import_bindings": [
+        [
+          "math",
+          "math"
+        ]
+      ],
+      "_python_import_module_binding": true
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_path_loss_py",
+      "target": "$graphify-root$_libraries_physics_constants_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_python_import_module": "libraries.physics.constants",
+      "_python_import_bindings": [
+        [
+          "FSPL_CONSTANT_DB",
+          "FSPL_CONSTANT_DB"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/physics/constants.py"
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_path_loss_py",
+      "target": "$graphify-root$_libraries_physics_path_loss_free_space_path_loss_db",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_path_loss_rationale_1",
+      "target": "$graphify-root$_libraries_physics_path_loss_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_libraries_physics_path_loss_rationale_30",
+      "target": "$graphify-root$_libraries_physics_path_loss_free_space_path_loss_db",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L30",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_path_loss_free_space_path_loss_db",
+      "callee": "positive",
+      "is_member_call": true,
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L43",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1618,
+        1662
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_path_loss_free_space_path_loss_db",
+      "callee": "positive",
+      "is_member_call": true,
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L44",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1671,
+        1719
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_path_loss_free_space_path_loss_db",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L45",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1738,
+        1751
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_path_loss_free_space_path_loss_db",
+      "callee": "log10",
+      "is_member_call": true,
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L45",
+      "receiver": "math",
+      "_python_receiver_shadowed": false,
+      "_python_call_site": [
+        1761,
+        1774
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_libraries_physics_path_loss_free_space_path_loss_db",
+      "callee": "finite_result",
+      "is_member_call": true,
+      "source_file": "libraries/physics/path_loss.py",
+      "source_location": "L46",
+      "receiver": "_validate",
+      "_python_receiver_shadowed": true,
+      "_python_call_site": [
+        1823,
+        1876
+      ]
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/physics/constants.py"
+  ]
+}

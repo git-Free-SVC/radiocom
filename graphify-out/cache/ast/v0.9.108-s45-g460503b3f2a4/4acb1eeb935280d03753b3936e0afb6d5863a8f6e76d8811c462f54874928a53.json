@@ -1,0 +1,405 @@
+{
+  "nodes": [
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_py",
+      "label": "flat_geodata_provider.py",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "label": "FlatGeodataProvider",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L12",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_publish_raster",
+      "label": ".publish_raster()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L15",
+      "_py_return_type": "LayerRef",
+      "_callable": true
+    },
+    {
+      "id": "layerref",
+      "label": "LayerRef",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/flat_geodata_provider.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_publish_vector",
+      "label": ".publish_vector()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L20",
+      "_py_return_type": "LayerRef",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_set_style",
+      "label": ".set_style()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L25",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_elevation_at",
+      "label": ".elevation_at()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L28",
+      "_callable": true
+    },
+    {
+      "id": "geoposition",
+      "label": "GeoPosition",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/flat_geodata_provider.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_elevation_profile",
+      "label": ".elevation_profile()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L31",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_features_in",
+      "label": ".features_in()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L36",
+      "_callable": true
+    },
+    {
+      "id": "bbox",
+      "label": "BBox",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/flat_geodata_provider.py"
+    },
+    {
+      "id": "feature",
+      "label": "Feature",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "origin_file": "$graphify-root$/tests/contract/fakes/flat_geodata_provider.py"
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_tile_url",
+      "label": ".tile_url()",
+      "file_type": "code",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L39",
+      "_callable": true
+    },
+    {
+      "id": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_rationale_1",
+      "label": "Flat-earth fake GeodataProvider: zero elevation everywhere, no real GeoServer\u2026",
+      "file_type": "rationale",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L1"
+    }
+  ],
+  "edges": [
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_py",
+      "target": "$graphify-root$_libraries_domain_position_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_python_import_module": "libraries.domain.position",
+      "_python_import_bindings": [
+        [
+          "GeoPosition",
+          "GeoPosition"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/domain/position.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_py",
+      "target": "$graphify-root$_libraries_plugin_sdk_geodata_py",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_python_import_module": "libraries.plugin_sdk.geodata",
+      "_python_import_bindings": [
+        [
+          "BBox",
+          "BBox"
+        ],
+        [
+          "Feature",
+          "Feature"
+        ],
+        [
+          "LayerRef",
+          "LayerRef"
+        ]
+      ],
+      "target_file": "$graphify-root$/libraries/plugin_sdk/geodata.py"
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_py",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_publish_raster",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_publish_raster",
+      "target": "layerref",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_publish_vector",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_publish_vector",
+      "target": "layerref",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_set_style",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_set_style",
+      "target": "layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_elevation_at",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_elevation_at",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_elevation_profile",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_elevation_profile",
+      "target": "geoposition",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_features_in",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_features_in",
+      "target": "layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_features_in",
+      "target": "bbox",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_features_in",
+      "target": "feature",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_tile_url",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_tile_url",
+      "target": "layerref",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_rationale_1",
+      "target": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_py",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "raw_calls": [
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_publish_raster",
+      "callee": "LayerRef",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L16",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        570,
+        604
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_publish_vector",
+      "callee": "LayerRef",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L21",
+      "receiver": null,
+      "via_stub": true,
+      "_python_call_site": [
+        733,
+        767
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_elevation_profile",
+      "callee": "ValueError",
+      "is_member_call": false,
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L33",
+      "receiver": null,
+      "_python_call_site": [
+        1115,
+        1149
+      ]
+    },
+    {
+      "caller_nid": "$graphify-root$_tests_contract_fakes_flat_geodata_provider_flatgeodataprovider_tile_url",
+      "callee": "name",
+      "is_member_call": true,
+      "source_file": "tests/contract/fakes/flat_geodata_provider.py",
+      "source_location": "L40",
+      "_python_attr_read": true,
+      "receiver": "layer",
+      "receiver_type": "LayerRef"
+    }
+  ],
+  "_cached_target_files": [
+    "$graphify-root$/libraries/domain/position.py",
+    "$graphify-root$/libraries/plugin_sdk/geodata.py"
+  ]
+}
